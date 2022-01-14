@@ -1,4 +1,16 @@
 {
+  "showFrontmatter": false,
+  "foldHeading": true,
+  "useTab": false,
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "⚙️ Meta/📎 Attachments",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "🌱 Seedbox",
+  "promptDelete": false,
   "legacyEditor": false,
-  "livePreview": true
+  "livePreview": false,
+  "spellcheck": true,
+  "spellcheckLanguages": [
+    "en-US"
+  ]
 }
