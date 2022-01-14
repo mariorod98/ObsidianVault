@@ -1,0 +1,131 @@
+{
+  "main": {
+    "id": "475b28919684fb71",
+    "type": "split",
+    "children": [
+      {
+        "id": "ef32fd97e10bac65",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "🌱 Seedbox/UE4 What is lighting mobility.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f4f7d84631792911",
+    "type": "split",
+    "children": [
+      {
+        "id": "27c2c8282529dc71",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a7879565e24c8282",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "7ff002483c84604b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#state/forest",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8b3176fb3188ed82",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c6fae3238912b838",
+    "type": "split",
+    "children": [
+      {
+        "id": "4040bf7e065163eb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "587ca32253515d73",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "🌱 Seedbox/UE4 What is lighting mobility.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "342dd2e8a71e61ff",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a073ccdc66b48422",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "🌱 Seedbox/UE4 What is lighting mobility.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 284.1428527832031
+  },
+  "active": "ef32fd97e10bac65",
+  "lastOpenFiles": [
+    "🌱 Seedbox/UE4 What is lighting mobility.md",
+    "🌱 Seedbox/What is a draw call.md",
+    "🌱 Seedbox/UE4 Shortcuts.md",
+    "🌱 Seedbox/UE4 Editor information.md",
+    "🌱 Seedbox/UE4 Base Classes.md",
+    "🌱 Seedbox/Rendering path.md",
+    "🌱 Seedbox/Types of lighting in UE4.md",
+    "🌱 Seedbox/What is referred rendering.md",
+    "🌳 The Forest/A component is an Object that actors can attach to themselves.md",
+    "🌳 The Forest/Virtual Camera.md"
+  ]
+}
