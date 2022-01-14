@@ -9,7 +9,19 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "🌱 Seedbox/UE4 What is lighting mobility.md",
+            "file": "⚙️ Meta/Obsidian plugins.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "4af3946c1ead3b9f",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "🌳 The Forest/The geometry pipeline transform vertices form model space to clipping space.md",
             "mode": "preview",
             "source": true
           }
@@ -77,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🌱 Seedbox/UE4 What is lighting mobility.md",
+                "file": "🌳 The Forest/The geometry pipeline transform vertices form model space to clipping space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,8 +117,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🌱 Seedbox/UE4 What is lighting mobility.md"
+                "file": "🌳 The Forest/The geometry pipeline transform vertices form model space to clipping space.md"
               }
+            }
+          },
+          {
+            "id": "1b5094b50b2e9227",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
             }
           }
         ]
@@ -115,17 +135,17 @@
     "direction": "horizontal",
     "width": 284.1428527832031
   },
-  "active": "ef32fd97e10bac65",
+  "active": "4af3946c1ead3b9f",
   "lastOpenFiles": [
-    "🌱 Seedbox/UE4 What is lighting mobility.md",
-    "🌱 Seedbox/What is a draw call.md",
-    "🌱 Seedbox/UE4 Shortcuts.md",
-    "🌱 Seedbox/UE4 Editor information.md",
-    "🌱 Seedbox/UE4 Base Classes.md",
-    "🌱 Seedbox/Rendering path.md",
-    "🌱 Seedbox/Types of lighting in UE4.md",
-    "🌱 Seedbox/What is referred rendering.md",
+    "🌳 The Forest/The geometry pipeline transform vertices form model space to clipping space.md",
+    "🌳 The Forest/A graphic pipeline is used to create a 2D representation from a 3D scene.md",
     "🌳 The Forest/A component is an Object that actors can attach to themselves.md",
-    "🌳 The Forest/Virtual Camera.md"
+    "🌳 The Forest/⚙️Unreal Engine 4.md",
+    "⚙️ Meta/Obsidian plugins.md",
+    "🌱 Seedbox/What is referred rendering.md",
+    "🌱 Seedbox/What is dithering.md",
+    "🌱 Seedbox/UE4 Editor information.md",
+    "🌱 Seedbox/Types of lighting in UE4.md",
+    "🌱 Seedbox/Rendering path.md"
   ]
 }
