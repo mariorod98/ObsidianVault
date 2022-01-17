@@ -33,3 +33,7 @@ Pointers to 2D arrays are barely used because you can't use them as a parameter 
 char m[w \* h]; // declaration
 m[x + y \* w];  // access
 ```
+
+---
+Planted: 2022-01-16
+Last tended: 2022-01-16

@@ -10,3 +10,6 @@ A Component is a special type of [[Object]] that [[Actors]] can attach to themse
 - **Scene Components** (class ```USceneComponent```, inherits from  ```UActorComponent```) supports location-based behaviors that do not require geometric representation. For example, cameras, audio, physical forces, etc.
 - **Primitive Components** (class ```UPrimitiveComponent```, a child of ```USceneComponent```) are Scene Components with geometric representation, either for rendering or collision purposes. For example, meshes, sprites, particle systems, etc.
 
+---
+Planted: 2022-01-16
+Last tended: 2022-01-16

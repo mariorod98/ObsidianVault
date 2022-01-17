@@ -9,3 +9,6 @@ It is composed of:
 - A [[frustum]] that determines the area of the world that will be painted in the final image.
 
 
+---
+Planted: 2022-01-16
+Last tended: 2022-01-16

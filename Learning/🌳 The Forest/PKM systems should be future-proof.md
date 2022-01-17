@@ -1,5 +1,5 @@
 ---
-tags: state/bud on/pkm
+tags: state/bud on/ not_owned
 ---
 
 [[🗃️ PKM]]
@@ -14,4 +14,8 @@ Ways of achieving this:
 - **Backing up** on the cloud so there is no data loss.
 - Maintaining **independence** from the actual tool or app used.
     - Use of standard features and formats, like Markdown, WikiLinks, etc.
-    - Favoring [[Open-source software]] whenever posible.
+    - Favoring [[Open-source software]] whenever posible
+
+---
+Planted: 2022-01-16
+Last tended: 2022-01-16

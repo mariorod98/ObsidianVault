@@ -1,5 +1,5 @@
 ---
-tags: state/forest on/pkm
+tags: state/forest on/pkm not_owned
 ---
 
 [[🗃️ PKM]]
@@ -18,3 +18,7 @@ Some of the advantages of this type of notes include:
 - Enabling forming new ideas and find connections by serendipity, since they are densely linked.
 
 I first learned of this concept from [Andy's Working Notes](https://notes.andymatuschak.org/Evergreen_notes).
+
+---
+Planted: 2022-01-16
+Last tended: 2022-01-16

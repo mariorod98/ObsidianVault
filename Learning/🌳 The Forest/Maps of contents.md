@@ -1,5 +1,5 @@
 ---
-tags: state/bud on/pkm
+tags: state/bud on/pkm not_owned
 alias: ["MOC", "MOCs"]
 ---
 
@@ -17,3 +17,6 @@ I first learned of this concept from [[Milo, Nick|Nick Milo]]. See [[Milo, Nick 
 
 Related: [[🗺️ Map of maps]], which contains the MOCs of [[🪴 Tending this Garden|🪴 This Garden]].
  
+---
+Planted: 2022-01-16
+Last tended: 2022-01-16

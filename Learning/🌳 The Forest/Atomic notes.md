@@ -1,5 +1,5 @@
 ---
-tags: state/forest on/pkm
+tags: state/forest on/pkm not_owned
 ---
 
 [[Evergreen notes]]
@@ -13,3 +13,7 @@ The main advantage of these notes is that when we encounter the same ideas from 
 Even if we keep [[Literature notes]] for the books, courses, etc. we want to annotate, we should eventually extract the bits of information that are relevant to us in [[Evergreen notes]] (which should be atomic).
 
 I first learned of this concept when researching about [[Zettlekasten]], since it's one of its pillars.
+
+---
+Planted: 2022-01-16
+Last tended: 2022-01-16

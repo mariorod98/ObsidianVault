@@ -1,5 +1,5 @@
 ---
-tags: meta/collection on/pkm
+tags: meta/collection on/pkm not_owned
 ---
 
 # List of digital gardeners
@@ -10,3 +10,6 @@ Some cool [[Digital garden|Digital gardens]] I found online:
 - [Fork My Brain](https://notes.nicolevanderhoeven.com) on software development, D&D, [[🗃️ PKM]], etc.
 - [Gwern Branwen](https://www.gwern.net) on tech, AI, science, philosophy, etc.
 
+---
+Planted: 2022-01-16
+Last tended: 2022-01-16

@@ -10,3 +10,7 @@ The geometry pipeline corresponds to the geometry stage of the [[A graphic pipel
 
   
 ![[geometry_pipeline.png]]
+
+---
+Planted: 2022-01-16
+Last tended: 2022-01-16

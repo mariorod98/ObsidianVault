@@ -29,3 +29,7 @@ The graphic pipeline has three main stages: Application, Geometry and Rasterizat
 - Before calculating the color, it must [[What is rasterization | rasterize]] the primitives in order to obtain the pixels that are affected by that primitive.
 - Each pixel is treated independently.
 - In this stage, the user can use [[pixel shaders]] (also called fragment shaders) to modify the pixel color.
+
+---
+Planted: 2022-01-16
+Last tended: 2022-01-16

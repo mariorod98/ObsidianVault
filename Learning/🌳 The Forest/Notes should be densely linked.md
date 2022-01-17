@@ -1,5 +1,5 @@
 ---
-tags: state/forest on/pkm
+tags: state/forest on/pkm not_owned
 ---
 
 [[Evergreen notes]]
@@ -12,4 +12,8 @@ Why?
 
 - When we link a note to another, we build a relationship between them. This help us both **navigate** our [[Digital garden]] and create **new ideas**.
 - We are reinforcing the presence of [[Atomic notes]], because it's easier to link this way.
+
+---
+Planted: 2022-01-16
+Last tended: 2022-01-16
 

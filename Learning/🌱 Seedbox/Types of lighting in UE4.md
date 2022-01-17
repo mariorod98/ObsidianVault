@@ -13,3 +13,7 @@ tags: state/seedling on/ue4
 
 - The **Sky light** captures the distant parts of the level and applies that to the scene as a light. 
 - https://www.youtube.com/watch?v=BGoaPyfZlYg
+
+---
+Planted: 2022-01-10
+Last tended: 2022-01-10

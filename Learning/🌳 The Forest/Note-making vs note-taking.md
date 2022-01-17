@@ -1,5 +1,5 @@
 ---
-tags: state/bud on/pkm
+tags: state/bud on/pkm not_owned
 ---
 
 [[Evergreen notes]]
@@ -13,3 +13,7 @@ Note-taking is capturing something we read or heard.
 ==**Note making** is about analyzing, combining multiple sources, synthesizing, making connections and forming insights.== It's a creative activity.
 
 Making notes boosts our learning and helps us think better.
+
+---
+Planted: 2022-01-16
+Last tended: 2022-01-16
