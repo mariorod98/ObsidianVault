@@ -1,0 +1,18 @@
+# Obsidian Hotkeys
+- Add template to current note: ```Alt + E```.
+- Create new note:  ```Ctrl + N```.
+- Create new note in pane: ```Ctrl + Shift + N```.
+- Delete current note: ```Ctrl + DEL```.
+- Delete paragraph: ```Ctrl + D```.
+- Focus on left pane: ```Ctrl + <-```.
+- Focus on right pane: ```Ctrl + ->```.
+- Follow link under cursor: ```Alt + Enter```.
+- Insert Markdown link: ```Ctrl + K```.
+- Navigate back: ```Ctrl + Alt + <-```.
+- Navigate forward: ```Ctrl + Alt + ->```.
+- Open command line: ```Ctrl + P```.
+- Open Graph View: ```Ctrl + G```.
+- Open local Graph View: ```Ctrl + Shift + G```.
+- Quick switcher: ```Ctrl + O```.
+- Toggle comment: ```Ctrl + /```.
+- Toggle Reading view: ```Ctrl + E```.
