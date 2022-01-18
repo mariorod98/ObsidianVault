@@ -87,3 +87,58 @@ The shifter is a flexible operand that can adopt the following values:
 ---
 Planted: 2022-01-18
 Last tended: 2022-01-18
+
+
+
+@ int Biggest (int a, int b);
+@ a - r0
+@ b - r1
+@ se almacenan hasta 4 parámetros en registo, el resto se almacenan en la pila
+@ return -r0
+@ si devuelvo una estructura (como un vertice), la x la pondria en r0 y el resto en pila
+
+@ etiqueta, mismo nombre que la función original
+@ en cpp el nombre de las funciones cambian
+@ la etiqueta .global indica que esta funcion se puede ver por todo el programa
+@ es necesario especificarla porque se llama en otro archivo
+.global Biggest
+
+@Biggest:
+@    mov     r2,r0           @ res = a
+@    cmp     r1,r0           @ compara b y a
+@    ble     biggest_done    @ if(r1 <= r0), jump
+@    mov     r2,r1           @ res = b
+@biggest_done:
+@    mov     r0, r2          @ almacenar res en r0 para devolverlo
+@    bx lr                   @ return
+
+@Biggest:
+@    cmp     r1,r0           @ compara b y a
+@    movgt   r0,r1           @ res = b
+@    bx lr                   @ return
+
+Biggest:
+    cmp     r1,r0           @ compara b y a
+    movgt   r0,r1           @ res = b
+    bx lr                   @ return
+
+@ int Smallest (int a, int b);
+@ a - r0
+@ b - r1
+
+.global Smallest
+
+@Smallest:
+@    mov     r2,r0           @ res = a
+@    cmp     r1,r0           @ compara b y a
+@    bge     lowest_done     @ if(r1 >= r0), jump
+@    mov     r2,r1           @ res = b
+@lowest_done:
+@    mov     r0, r2          @ almacenar res en r0 para devolverlo
+@    bx lr                   @ return
+
+Smallest:
+    cmp     r1,r0           @ compara b y a
+    movlt   r0,r1           @ res = b
+    bx lr                   @ return
+
