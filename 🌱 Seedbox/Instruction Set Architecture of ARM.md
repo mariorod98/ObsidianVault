@@ -3,15 +3,16 @@ tags: state/seedling
 ---
 
 # ARM Assembler [[ISA]]
-RISC CPUs, in general, are *LOAD/STORE* architectures. This means that all the instructions can be grouped in two categories:
+RISC CPU's, in general, are *LOAD/STORE* architectures. This means that all the instructions can be grouped in three categories (with some exceptions depending on the CPU):
 - The **operational instructions** use registers to perform an operation and store the result in another register.
 - The **load/store instructions** read data from memory and store it in a register or write data from a register to memory.
+- The **flow control instructions**.
 
 ## Instruction format
 All the instructions have the following format:
 ```inst{cond}{suf} rd, {rn,} shifter```
 
-## Instructions
+## Operational instructions
 Operational instructions with three operands (include ```rn```):
 - ```add``` -> "+". ```add r1, r2, #33``` -> r1 = r2 + 33.
 - ```sub``` -> "-". ```sub r1, r2, #33``` -> r1 = r2 - 33.
@@ -30,7 +31,9 @@ Operational instructions with two operands (do not include ```rn```):
 Operational instructions that do not admit the shifter operand:
 -```mul``` -> "\*". ```mul r0, r1, r2```-> r0 = r1 \* r2.
 
+## LOAD/STORE instructions
 
+## Flow control instructions
 Comparisons:
 To compare two values, we use ```cmp``` and ```cmn```. These operations act as an ```add``` and ```sub```, respectively. The difference is that the latter store the result in a register and updates the corresponding flags, while the former discards the result and only updates the corresponding flags. The flags are stored in the [[Registers in ARM Assembler]].
 - ```cmp r1, #33```-> r1 + 33 and update flags.
@@ -38,6 +41,7 @@ To compare two values, we use ```cmp``` and ```cmn```. These operations act as a
 
 Comparisons can have a conditional suffix but it is not recommended.
 
+--```b```.
 ## Conditionals
 All instructions can have a conditional suffix attached that determines whether the instruction will be executed or not. This conditions relies on the results of the previous operation.
 
