@@ -1,5 +1,5 @@
 ---
-tags: state/seedling
+tags: state/seedling on/assembler on/cpp
 ---
 
 # C++ to Assembler

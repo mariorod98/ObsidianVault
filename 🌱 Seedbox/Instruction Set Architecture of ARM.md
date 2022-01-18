@@ -1,5 +1,5 @@
 ---
-tags: state/seedling
+tags: state/seedling on/assembler
 ---
 
 # ARM Assembler [[ISA]]

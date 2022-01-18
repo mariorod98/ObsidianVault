@@ -1,5 +1,5 @@
 ---
-tags: meta/moc on/c
+tags: meta/moc on/c on/cpp
 alias: [🖥️ C/C++]
 ---
 
