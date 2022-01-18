@@ -1,5 +1,5 @@
 ---
-tags: state/seedling
+tags: state/seedlingn
 ---
 
 # Monetization in idle games
