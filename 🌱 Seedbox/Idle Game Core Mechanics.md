@@ -1,5 +1,5 @@
 ---
-tags: state/seedling on/gameDesign/idleGames
+tags: state/seedling on/gameDesign on/idleGames
 ---
 # Idle Game Core Mechanics
 - **Progress without interaction.** You can keep the game idle for a while and you will be making ==slow but constant progress==.

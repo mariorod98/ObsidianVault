@@ -1,11 +1,7 @@
 ---
-<<<<<<< HEAD
-tags: state/seedlingn
-=======
-tags: state/seedling on/gameDesign/idleGames
->>>>>>> f1cddfe2c6b191c2b28012d828df2566f27aa919
+tags: state/seedling on/idleGames
 ---
-# Monetization in idle games
+# [[Monetization]] in idle games
 - **Cash infusion**. Give instant resources.
     - Based on the resource generation at the moment.
     - Using a **Time warp** that moves the game a set amount of time. Giving the player the resources the would have earned in that time and substracting that time to the game cooldowns.
