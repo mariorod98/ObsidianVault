@@ -1,0 +1,140 @@
+{
+  "main": {
+    "id": "3d3995c5006465fd",
+    "type": "split",
+    "children": [
+      {
+        "id": "ed57ce9a66101827",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "🌱 Seedbox/UE4 Optimization tips.md",
+            "mode": "source",
+            "source": true
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "00d64c5abfd110be",
+    "type": "split",
+    "children": [
+      {
+        "id": "1b6b14325dbd182d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5d27db58027c1718",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "ea9f501a6a536656",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "76dd133cd510028a",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d349bd91b5cbe04d",
+    "type": "split",
+    "children": [
+      {
+        "id": "1b1719483d1c0bdb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "091d8f716ab16b96",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "🌱 Seedbox/UE4 Optimization tips.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3eafa6ac2ee99cf1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e9240be14873ab76",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "🌱 Seedbox/UE4 Optimization tips.md"
+              }
+            }
+          },
+          {
+            "id": "9420f553e435bca1",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "ed57ce9a66101827",
+  "lastOpenFiles": [
+    "🌱 Seedbox/UE4 Optimization tips.md",
+    "🌱 Seedbox/What are the pillars of level design.md",
+    "🌳 The Forest/A component is an Object that actors can attach to themselves.md",
+    "🌱 Seedbox/Idle Game - PVG.md",
+    "🌱 Seedbox/Monetization in idle games.md",
+    "🌱 Seedbox/UE4 Base Classes.md",
+    "🌱 Seedbox/UE4 Editor information.md",
+    "🌱 Seedbox/What is a draw call.md",
+    "🌱 Seedbox/What is forward rendering.md",
+    "🌱 Seedbox/What is referred rendering.md"
+  ]
+}

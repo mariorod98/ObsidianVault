@@ -23,4 +23,4 @@ tags: state/seedling on/gameDesign/idleGames
 ![[idle_games_bumpy_progress_mechanic.png]]
 ---
 Planted: 2022-01-17
-Last tended: Monday 17th January 2022 12:07:22
+Last tended: 2022-01-17

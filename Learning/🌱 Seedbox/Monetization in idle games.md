@@ -1,7 +1,10 @@
 ---
+<<<<<<< HEAD
 tags: state/seedlingn
+=======
+tags: state/seedling on/gameDesign/idleGames
+>>>>>>> f1cddfe2c6b191c2b28012d828df2566f27aa919
 ---
-
 # Monetization in idle games
 - **Cash infusion**. Give instant resources.
     - Based on the resource generation at the moment.
@@ -15,4 +18,4 @@ tags: state/seedlingn
 - **Opt-in ads**. Ask the player to watch an add for an instant reward: short burst of cash, small bit of premium currency, brief powerful boost, medium-length small boost.
 ---
 Planted: 2022-01-17
-Last tended: Monday 17th January 2022 13:18:38
+Last tended: 2022-01-17
