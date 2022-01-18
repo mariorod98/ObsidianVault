@@ -11,7 +11,7 @@ a = *p; <-> a = p[0]; -> RD
 ```
 
 ## Pointer arithmetic
-Pointers can only be added or substracted. When you add/substract a value ```a``` to a pointer, you are adding/substracting ```a``` times the size of the object reserved in the pointer.
+Pointers can only be added or subtracted. When you add/subtract a value ```a``` to a pointer, you are adding/subtracting ```a``` times the size of the object reserved in the pointer.
 
 ```
 short* p = (...) 1000000; \\ size of short = 2
@@ -19,7 +19,7 @@ p++;    \\ p = 1000000 + sizeof(short) -> p = 1000002;
 p += 2; \\ 1000000 + 2 * sizeof(short) -> p = 1000004;
 ```
 ## Pointers and arrays
-An array contains a special pointer that points to the first direction of the array ([0]). This pointer cannot be modified in any way, either by adding/substracting or by assigning a new value to the pointer. The only use of this pointer is by [[dereferencing]] it.
+An array contains a special pointer that points to the first direction of the array ([0]). This pointer cannot be modified in any way, either by adding/subtracting or by assigning a new value to the pointer. The only use of this pointer is by [[dereferencing]] it.
 ```
 short ar[100]; 
 short* p;

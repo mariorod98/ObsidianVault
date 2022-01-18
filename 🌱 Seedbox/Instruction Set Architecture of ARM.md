@@ -11,7 +11,7 @@ RISC CPUs, in general, are *LOAD/STORE* architectures. This means that all the i
 All the instructions have the following format:
 ```inst{cond}{suf} rd, {rn,} shifter```
 
-### Instructions
+## Instructions
 Operational instructions with three operands (include ```rn```):
 - ```add``` -> "+". ```add r1, r2, #33``` -> r1 = r2 + 33.
 - ```sub``` -> "-". ```sub r1, r2, #33``` -> r1 = r2 - 33.
@@ -23,20 +23,18 @@ Operational instructions with three operands (include ```rn```):
 - ```adc``` -> "+" with carry.
 - ```sbc``` -> "-" with carry.
 
-Instructions with two operands (do not include ```rn```):
+Operational instructions with two operands (do not include ```rn```):
 - ```mov``` -> "=". ```mov r1, r2``` -> r1 = r2.
 - ```mvn``` -> "~" (not). ```mvn r1, r2``` -> r1 = ~r2.
 
 Comparisons:
-To compare two values, we use ```cmp``` and ```cmn```. These operations act as an ```add``` and ```sub```, respectively. The difference is that the latter store the result in a register and updates the corresponding flags, while the former discards the result and only updates the corresponding flags. The flags are stored in the [[Registers in ARM]].
+To compare two values, we use ```cmp``` and ```cmn```. These operations act as an ```add``` and ```sub```, respectively. The difference is that the latter store the result in a register and updates the corresponding flags, while the former discards the result and only updates the corresponding flags. The flags are stored in the [[Registers in ARM Assembler]].
 - ```cmp r1, #33```-> r1 + 33 and update flags.
 - ```cmn r1, #33``` -> r1 - 33 and update flags.  
 
 Comparisons can have a conditional suffix but it is not recommended.
 
-
-
-### Conditionals
+## Conditionals
 All instructions can have a conditional suffix attached that determines whether the instruction will be executed or not. This conditions relies on the results of the previous operation.
 
 - ```eq``` -> equals.
@@ -61,13 +59,13 @@ Examples:
 ```cmp r1, #0```-> compare r1 to 0 and update flags.
 ```movle r1, #0``` -> if r1 < 0 then r1 = 0.
 
-### Suffix
+## Suffix
 The second suffix of the operation can be ```s``` to compare the result with 0.
 
 ```subs r4, r5, r6``` -> r4 = r5 - r6;
 ```movlt r5, r4``` -> if(r4 < 0){r5 = r4};
 
-### Shifter
+## Shifter
 The shifter is a flexible operand that can adopt the following values:
 - A register. ```add r0, r1, r2```.
 - A constant in:
