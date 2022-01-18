@@ -27,6 +27,10 @@ Operational instructions with two operands (do not include ```rn```):
 - ```mov``` -> "=". ```mov r1, r2``` -> r1 = r2.
 - ```mvn``` -> "~" (not). ```mvn r1, r2``` -> r1 = ~r2.
 
+Operational instructions that do not admit the shifter operand:
+-```mul``` -> "\*". ```mul r0, r1, r2```-> r0 = r1 \* r2.
+
+
 Comparisons:
 To compare two values, we use ```cmp``` and ```cmn```. These operations act as an ```add``` and ```sub```, respectively. The difference is that the latter store the result in a register and updates the corresponding flags, while the former discards the result and only updates the corresponding flags. The flags are stored in the [[Registers in ARM Assembler]].
 - ```cmp r1, #33```-> r1 + 33 and update flags.
