@@ -1,5 +1,5 @@
 ---
-tags: state/seedling on/pkm not_owned
+tags: state/bud on/pkm not_owned
 ---
 
 [[🗃️ PKM]]
