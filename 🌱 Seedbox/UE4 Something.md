@@ -13,7 +13,7 @@ Si no vamos a usar el tick, es mejor borrarlo.
 En el constructor vamos a inciializar la memoria de los componentes y especificar la jerarquia de estos.
 
 El constructor es delicado. Cuando lo toquemos, hay que:
-1. Cerrarlo todo.
+1. Cerrar el editor.
 2. Borrar las dlls.
 3. Modificar el constructor.
 4. Abrir el proyecto otra vez
