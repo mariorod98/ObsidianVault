@@ -11,7 +11,12 @@ En 2D se utiliza el cross product entre dos vectores del polígono y se observa 
 En 3D se determina si el plano está mirando hacia el interior del objeto o hacia el exterior.
 
 Además del backface culling, existe el **frontface culling** (No pinta la cara frontal) y el **double sided** (pinta ambas caras).
-- **Fillrate**
+
+**Fillrate**
+
+
+**Alpha Blending** es una técnica que mezcla dos píxeles mediante un LERP y un valor alpha.
+
 ---
 Planted: 2022-01-19
 Last tended: 2022-01-19
