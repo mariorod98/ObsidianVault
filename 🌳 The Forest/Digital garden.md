@@ -1,5 +1,5 @@
 ---
-tags: state/forest on/pkm not_owned
+tags: state/forest on/pkm notOwned
 ---
 
 [[🗃️ PKM]]

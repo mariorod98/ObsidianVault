@@ -6,9 +6,9 @@ tags: state/bud on/gameDesign on/idleGames
     - This prompts **celebratory moments**. Every time you check in after idle time, the game greets you with info about how much you have progress while being away.
     - The longer you are away, the more you have accomplished, therefore the player doesn't feel punished for idling.
 - **Profitable quick check-ins**. The player must be compelled to check in the game routinely to buy upgrades and make huge advances. -> Great for mobile patterns.
-- **Rapid growth of costs and rewards**. Leads to increased sense of progress, psychologically fun and satisfying. It counterbalances offline play -> time loses value without interaction.
+- **A rapid growth of costs and rewards leads to increased sense of progress**, that is psychologically fun and satisfying. It counterbalances offline play -> time loses value without interaction.
     - The rewards growth should start bigger than the costs growth but grow slower. The game will reach a point where the player will have to reset to keep playing.
-- **Tons of goals and achievements** that provide moments of joy spread out through the experience. 
+- **Give the player tons of goals and achievements** that provide moments of joy spread out through the experience. 
     - They allow for moment-to-moment optimization and (temporarily) meaningful choices (min-maxing). E.g.: what upgrade to get next?
 - **Core loop: log in, spend all cash, log out and return in a few hours**.
 - **New Game+/Prestige levels**. The player can choose to reset the game to get a boost to the next playthrough. 

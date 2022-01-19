@@ -1,5 +1,5 @@
 ---
-tags: sources/website on/pkm
+tags: sources/website on/pkm notOwned
 alias: 2020 🕸️ On the process of making MOCs
 published_on: 2020-06-02
 ---

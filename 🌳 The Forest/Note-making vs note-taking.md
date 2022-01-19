@@ -1,5 +1,5 @@
 ---
-tags: state/bud on/pkm not_owned
+tags: state/bud on/pkm notOwned
 ---
 
 [[Evergreen notes]]

@@ -1,5 +1,5 @@
 ---
-tags: state/bud on/ not_owned
+tags: state/bud on/ notOwned
 ---
 
 [[🗃️ PKM]]

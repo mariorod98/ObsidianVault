@@ -1,5 +1,5 @@
 ---
-tags: meta/collection on/pkm not_owned
+tags: meta/collection on/pkm notOwned
 ---
 
 # List of digital gardeners
