@@ -1,6 +1,6 @@
 ---
-tags: state/bud on/pkm not_owned
-alias: ["MOC", "MOCs"]
+tags: state/bud on/pkm notOwned
+alias: [ "MOC", "MOCs" ]
 ---
 
 [[🗃️ PKM]]

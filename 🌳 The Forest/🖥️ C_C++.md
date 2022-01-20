@@ -11,6 +11,7 @@ C++ is an extension of C that provides object-oriented functionalities.[[⚙️U
 
 Some important concepts are:
 - [[A pointer is a reference to a memory address]]
+- [[How the compiler translates C++ to Assembler]]
 
 ## Resources, tools, people, etc.
 

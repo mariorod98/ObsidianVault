@@ -1,5 +1,5 @@
 ---
-tags: state/pending source/article
+tags: state/pending sources/article
 published_on: 1945-09-??
 ---
 

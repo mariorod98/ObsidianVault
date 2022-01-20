@@ -1,5 +1,5 @@
 ---
-tags: state/seedling source/person on/art
+tags: state/seedling sources/person on/art
 ---
 # Caspar David Friedrich
 Caspar David Friedrich was a 19th-century German Romantic landscape painter. He is considered the most important German painter of his generation.

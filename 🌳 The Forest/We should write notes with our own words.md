@@ -1,5 +1,5 @@
 ---
-tags: state/bud not_owned
+tags: state/bud notOwned
 ---
 
 [[Evergreen notes]]

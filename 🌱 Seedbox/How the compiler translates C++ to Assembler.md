@@ -2,7 +2,7 @@
 tags: state/seedling on/assembler on/cpp
 ---
 
-# C++ to Assembler
+# How the compiler translates C++ to Assembler
 Para realziar operqaciones aritmeticas, utilizar el int (tamaño de palabra del procesador) será mas eficiente. Si realizamos operaciones artimeticas sobre un short o un chart, el procesador debe hacer operaciones extra.
 
     unsigned char a = 254; 
