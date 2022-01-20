@@ -4,7 +4,7 @@ alias: [graphic pipeline]
 ---
 
 # What is a graphic pipeline?
-A graphic pipeline is a sequence of steps used to create a 2D raster representation of a 3D scene. The pipeline's input includes the vertices, materials and cameras of the scene and it produces an array of RGB pixels that will be shown in a screen.
+A graphic pipeline is a sequence of steps used to create a 2D raster representation of a [[3D scene]]. The pipeline's input includes the vertices, materials and cameras of the scene and it produces an array of RGB pixels that will be shown in a screen.
 
 The GP process is as follows:
 1. Apply transformations to the vertices.
