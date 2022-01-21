@@ -12,5 +12,6 @@
   "spellcheck": true,
   "spellcheckLanguages": [
     "en-US"
-  ]
+  ],
+  "fileSortOrder": "byCreatedTime"
 }
