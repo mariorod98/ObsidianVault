@@ -44,10 +44,46 @@ All the instructions have the following format:
 
 Some considerations to take into account:
 - ==clz only admits conditional suffixes==.
-- == In the first ARM CPUs, mul couldn't repeat the same register in rd and rn ==.
+- In the first ARM CPUs, mul couldnt repeat the same register in rd and rn.
     - ```mul r0, r0, r1``` is illegal.
     - ```mul r0, r1, r0``` is legal.
 ### LOAD/STORE instructions
+The general LOAD/STORE instruction format is:
+```inst{cond} rd, [address]```
+
+| Instruction | Operation | Type |
+|:---:|---|---|
+|```ldrb```|Reads a byte (8 bits)|unsigned char|
+|```ldrsb```|Reads a byte (8 bits) and carry the sign|signed char|
+|```ldrh```|Reads a halfword (16 bits)|unsigned short|
+|```ldrsh```|Reads a halfword (16 bits) and carry the sign|signed short|
+|```ldr```|Reads a word (32 bits)|unsigned/signed int and pointer|
+|```strb```|Writes a byte (8 bits)|unsigned/signed char|
+|```strh```|Writes a halfword (16 bits)|unsigned/signed short|
+|```str```|Writes a word (32 bits)|unsigned/signed int and pointer|
+
+There are several ways to specify an address (addressing modes):
+
+| Instruction | Operation |
+|:---:|---|---|
+|```[reg.]```|\*ptr|
+|```[reg.], #num```|\*ptr += num|
+|```[reg., #num. offset]```|\*ptr  + offset|
+|```[reg., reg.]```|\*ptr + x|
+|```[reg., reg., lsl #num]```|\*ptr + (x << num)|
+|```[reg., reg., lsr #num]```|\*ptr + (x >> num) (unsigned)|
+|```[reg., reg., asr #num]```|\*ptr + (x >> num) (signed)|
+
+Examples:
+```
+    ldr r4,[r5]              @ r5 = *r0
+    ldr r2,[r1, r3, lsl #2]  @ r2 = r1[r3 << 2] r3 is multiplied by 4 because it is an int pointer (4 bytes)
+    ldrb r2,[r1,r3]          @ r2 = r1[r3], there is no need to multiply because it is a byte.
+    ldr r0,[r3],#4           @ r0 = *r3++, because it is an int, you have to add 4 bytes
+    str r0,[r1]              @ *r1 = r0
+    strb r3,[r6,#5]           @ r6[5] = r3, r6 is a char pointer
+    str r3,[r6,#5]            @ r6[5] = r3, r6 is a int pointer
+```
 
 ### Flow control instructions
 **Comparisons**
