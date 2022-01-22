@@ -8,6 +8,7 @@ tags: state/seedling
 - [ ] Make a new recipe each week.
 - [ ] Try to exercise weekly.
 - [ ] Learn to learn and to store information.
+- [ ] Learn about grid worlds and procedural grid generation.
 ---
 Planted: 2022-01-22
-Last tended: 2022-01-22
+Last tended: 2022-01-23

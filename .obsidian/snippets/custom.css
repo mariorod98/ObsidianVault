@@ -2,3 +2,10 @@ b, strong {
   font-weight: 600;
   color: var(--text-error);
 }
+
+
+/* Center tables on the page */
+.markdown-preview-view table {
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -11,7 +11,7 @@ a = *p; <-> a = p[0]; -> RD
 ```
 
 ## Pointer arithmetic
-Pointers can only be added or subtracted. When you add/subtract a value ```a``` to a pointer, you are adding/subtracting ```a``` times the size of the object reserved in the pointer.
+Pointers can only be added or subtracted. When you add/subtract a value `a` to a pointer, you are adding/subtracting `a` times the size of the object reserved in the pointer.
 
 ```
 short* p = (...) 1000000; \\ size of short = 2
