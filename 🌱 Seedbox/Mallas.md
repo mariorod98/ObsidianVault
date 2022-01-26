@@ -18,3 +18,6 @@ Formatos para representar mallas.
 ![[triangle_strip.png]]
 
 ![[triangle_fan.png]]
+
+00000000 00000000 00000000 11111111 
+11111111 00000000 00000000 00000000 
