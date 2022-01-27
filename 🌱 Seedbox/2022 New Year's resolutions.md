@@ -9,6 +9,7 @@ tags: state/seedling
 - [ ] Try to exercise weekly.
 - [ ] Learn to learn and to store information.
 - [ ] Learn about grid worlds and procedural grid generation.
+- [ ] Organize all my photos and erase them from the phone.
 ---
 Planted: 2022-01-22
-Last tended: 2022-01-23
+Last tended: 2022-01-27
