@@ -14,6 +14,9 @@ Collision enabled:
 - Physics only: solo hit
 - Collision enabled: raycast, overlap y hit.
 
+FActorBeginOverlap
+FActorEndOverlap
+
 Object type:
 ---
 Planted: 2022-01-31
