@@ -76,15 +76,27 @@ There are several ways to specify an address (addressing modes):
 
 Examples:
 ```
-    ldr r4,[r5]              @ r5 = *r0
-    ldr r2,[r1, r3, lsl #2]  @ r2 = r1[r3 << 2] r3 is multiplied by 4 because it is an int pointer (4 bytes)
-    ldrb r2,[r1,r3]          @ r2 = r1[r3], there is no need to multiply because it is a byte.
-    ldr r0,[r3],#4           @ r0 = *r3++, because it is an int, you have to add 4 bytes
-    str r0,[r1]              @ *r1 = r0
+    ldr r4,[r5]               @ r4 = *r5
+    ldr r2,[r1, r3, lsl #2]   @ r2 = r1[r3 << 2] r3 is multiplied by 4 because it is an int pointer (4 bytes)
+    ldrb r2,[r1,r3]           @ r2 = r1[r3], there is no need to multiply because it is a byte.
+    ldr r0,[r3],#4            @ r0 = *r3++, because it is an int, you have to add 4 bytes
+    str r0,[r1]               @ *r1 = r0
     strb r3,[r6,#5]           @ r6[5] = r3, r6 is a char pointer
     str r3,[r6,#5]            @ r6[5] = r3, r6 is a int pointer
 ```
 
+
+**Common pitfall**
+All the LOAD/STORE instructions support conditional suffixes. But, ==LOAD/STORE instructions that do not operate a full word have the conditional in between the instruction==.
+```
+    ldreq  r4,[r5] @ r4 = *r5
+    ldreqh r4,[r5] @ r4 = *r5
+    ldreqb r4,[r5] @ r4 = *r5
+
+    strgt  r4,[r5] @ r4 = *r5
+    strgth r4,[r5] @ r4 = *r5
+    strgtb r4,[r5] @ r4 = *r5
+```
 ### Flow control instructions
 **Comparisons**
 In the ARM architecture, there is a special register, the [[Registers in ARM Assembler|Status Register]], that stores the logical results of operations. These results are written when executing comparisons and are read when a conditional suffix is present.
@@ -159,7 +171,7 @@ Examples:
 `movlt r0,r1` -> if r1 < r0, then r0 = r1
 
 ### Suffix
-The second suffix of the operation can be `s` to compare the result with 0.
+In arithmetic operations, the second suffix of the operation can be `s` to compare the result with 0.
 
 `subs r4, r5, r6` -> r4 = r5 - r6;
 `movlt r5, r4` -> if(r4 < 0){r5 = r4};
@@ -175,61 +187,21 @@ The shifter is a flexible operand that can adopt the following values:
     - Shift to the right (signed). `mov r0, r1, asr #3` -> r0 = r1  >> 3.
     - Shift to the left. `mov r0, r1, lsl #3` -> r0 = r1 << 3.
 
+
+### Interesting functions
+**Abs function*
+```
+if(a < 0)
+    a = -a
+
+    cmp   r0,#0            @ if a < 0
+    sublt r0,r0,r0,lsl #1  @ a = a - 2 * a
+
+@ Other approximation
+    cmp   r0,#0     @ if a < 0
+    rsblt r0,r0,#0  @ a = 0 - a
+
+```
 ---
 Planted: 2022-01-18
-Last tended: 2022-01-22
-
-
-
-@ int Biggest (int a, int b);
-@ a - r0
-@ b - r1
-@ se almacenan hasta 4 parámetros en registo, el resto se almacenan en la pila
-@ return -r0
-@ si devuelvo una estructura (como un vertice), la x la pondria en r0 y el resto en pila
-
-@ etiqueta, mismo nombre que la función original
-@ en cpp el nombre de las funciones cambian
-@ la etiqueta .global indica que esta funcion se puede ver por todo el programa
-@ es necesario especificarla porque se llama en otro archivo
-.global Biggest
-
-@Biggest:
-@    mov     r2,r0           @ res = a
-@    cmp     r1,r0           @ compara b y a
-@    ble     biggest_done    @ if(r1 <= r0), jump
-@    mov     r2,r1           @ res = b
-@biggest_done:
-@    mov     r0, r2          @ almacenar res en r0 para devolverlo
-@    bx lr                   @ return
-
-@Biggest:
-@    cmp     r1,r0           @ compara b y a
-@    movgt   r0,r1           @ res = b
-@    bx lr                   @ return
-
-Biggest:
-    cmp     r1,r0           @ compara b y a
-    movgt   r0,r1           @ res = b
-    bx lr                   @ return
-
-@ int Smallest (int a, int b);
-@ a - r0
-@ b - r1
-
-.global Smallest
-
-@Smallest:
-@    mov     r2,r0           @ res = a
-@    cmp     r1,r0           @ compara b y a
-@    bge     lowest_done     @ if(r1 >= r0), jump
-@    mov     r2,r1           @ res = b
-@lowest_done:
-@    mov     r0, r2          @ almacenar res en r0 para devolverlo
-@    bx lr                   @ return
-
-Smallest:
-    cmp     r1,r0           @ compara b y a
-    movlt   r0,r1           @ res = b
-    bx lr                   @ return
-
+Last tended: 2022-02-01
