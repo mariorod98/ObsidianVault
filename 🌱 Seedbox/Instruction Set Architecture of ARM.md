@@ -170,7 +170,7 @@ The shifter is a flexible operand that can adopt the following values:
 - A constant in:
     - decimal. `add r0, r1, #10`.
     - hexadecimal. `add r0, r1, #0xF`.
-- A register with [[bit shifting]].
+- A register with [[Bit Shifting]].
     - Shift to the right (unsigned). `mov r0, r1, lsr #3` -> r0 = r1  >> 3.
     - Shift to the right (signed). `mov r0, r1, asr #3` -> r0 = r1  >> 3.
     - Shift to the left. `mov r0, r1, lsl #3` -> r0 = r1 << 3.

@@ -4,7 +4,7 @@ tags: state/seedling
 
 # UE4 Collisions
 
-Las colisiones son componentes
+In UE4, collisions and ray casting are handled through the _Collision Responses_ and _Trace Responses_.
 
 Cualquier componente que hereda de primitive tiene un apartado para las colisiones.
 
