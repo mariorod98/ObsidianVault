@@ -16,6 +16,12 @@ tags: state/seedling
         - DLCs. Es importante tener un season pass para obtener rentabilidad de los dlcs cuanto antes. Los DLCs son baratos de producir una vez hecho el juego.
         - Lootboxes. Contenido aleatorio del juego. Más rentables que el DLC. Suelen generar controversia. (Mirar qué es caja de skinner).
 
+## Como mejorar las ventas
+- Ajuste de precios.
+    - Ofertas temporales.
+    - Bajadas permanentes.
+    - Bundles.
+- Sacar nuevo contenido.
 
 ---
 Planted: 2022-01-21
