@@ -1,3 +1,12 @@
-f12 te lleva a la definicion de una funcion, clase, etc
-smart pointer?
-hacerse camara fps heredando de camara
+---
+tags: state/seedling
+---
+
+# Shortcuts VisualStudio
+| Shortcut | Action |
+|:---:|---|
+|F12|Jump to definition|
+
+---
+Planted: 2022-02-02
+Last tended: 2022-02-07
