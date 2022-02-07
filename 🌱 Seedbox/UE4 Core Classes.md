@@ -38,4 +38,4 @@ There are four main class types that you derive from for the majority of gamepla
 - UStructs are not deleted by the garbage collector. If you create dynamic instances, you must manage their life cycle.
 ---
 Planted: 2022-01-10
-Last tended: 2022-01-10
+Last tended: 2022-02-07
