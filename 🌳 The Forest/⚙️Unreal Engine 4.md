@@ -9,7 +9,7 @@ Unreal Engine is a videogames engine created by Epic Games. It uses [[🖥️ C_
 Some important concepts are:
 - [[A component is an Object that actors can attach to themselves]]
 - [[UE4 Shortcuts]]
-- [[UE4 Base Classes]]
+- [[UE4 Core Classes]]
 
 ## Resources, tools, people, etc.
 
