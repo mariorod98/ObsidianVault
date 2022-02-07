@@ -1,5 +1,5 @@
 ---
-tags: state/seedling
+tags: state/seedling on/ue4
 ---
 
 # UE4 Collisions
@@ -8,12 +8,34 @@ UE4 handles collisions at a [[A component is an Object that actors can attach to
 The collision primitive can be set in the inspector of the component and the collision parameters appear in the Details inspector in the section _Collision_.
 
 ## Collision properties
-## Collision responses
-In UE4, collisions and ray casting are handled through the _Collision Responses_ and _Trace Responses_. There are three types of responses an object can have:
+### Collision responses
+In UE4, collisions and ray casting are handled through the _Collision Responses_ and _Trace Responses_. These responses define how a physics body should interact with all of the objects and traces. The even dispatched by the response (hit or overlap) depends on two parameters: the type of response generated and the type of object that generates the response.
+
+There are three types of responses an object can have:
 - Block is used for objects that will block movement of incoming objects, they will _collide_. This response generates a Hit event.
 - Overlap is used for objects that can be penetrated by incoming objects. This response generates a BeginOverlap and EndOverlap events.
-- Ignore.
-## Collision presets
+- Ignore the interaction.
+
+When two Physic Objects collide, one of these responses will be generated. If both objects have different responses, the most restrictive one will be taken into account. The restriction order is: Ignore->Overlap->Block.
+
+For example, if a object with Block responses collides with an object with Overlap responses, then an Overlap response will be generated. Likewise, an interaction with an Overlap or Block object with an Ignore object will never generate a response.
+
+The type of traces and objects that generate a response are:
+- Trace Types.
+    - Visibility. General visibility testing channel.
+    - Camera. Usually used when tracing from the camera to something.
+- [[Object Types]].
+    - WorldStatic.
+    - WorldDynamic.
+    - Pawn. 
+    - Vehicle.
+    - Destructible.
+### Collision enabled
+- No collision: No detecta ni raycast, ni overlap ni hit.
+- Query only: solo raycast y overlap, no hit.
+- Physics only: solo hit
+- Collision enabled: raycast, overlap y hit.
+### Collision presets
 The collision presets are a set of predefined responses that can be selected for a specific actor or class. There are several basic collision presets, but the user can specify custom presets in the Project Settings. The default collision presets are:
 
 | Preset | Description |
@@ -42,16 +64,11 @@ The collision presets are a set of predefined responses that can be selected for
 
 Cualquier componente que hereda de primitive tiene un apartado para las colisiones.
 
-Collision enabled:
-- No collision: No detecta ni raycast, ni overlap ni hit.
-- Query only: solo raycast y overlap, no hit.
-- Physics only: solo hit
-- Collision enabled: raycast, overlap y hit.
+
 
 FActorBeginOverlap
 FActorEndOverlap
 
-Object type:
 ---
 Planted: 2022-01-31
 Last tended: 2022-02-02
