@@ -1,0 +1,3 @@
+- ¿Como puedo saber si el input está siendo presionado? Ahora mismo solo detecto cuando se presiona, pero no si en este frame está siendo presionado.
+- ¿Cómo puedo hacer que el trace del ratón colisione con todos los objetos a la vista pero que solo actualice la posicion si el objeto colisionado es del tipo "suelo"?
+- Para tener un control similar al pillars of eternity, ¿debería ser la cámara el pawn y luego que el controller mueva al character seleccionado?
