@@ -6,6 +6,7 @@ tags: state/seedling
 | Shortcut | Action |
 |:---:|---|
 |F12|Jump to definition|
+|Ctrl+.|Create function implementation in cpp file|
 
 ---
 Planted: 2022-02-02
