@@ -31,9 +31,10 @@ The type of traces and objects that generate a response are:
     - Vehicle.
     - Destructible.
 ### Collision enabled
-- No collision: No detecta ni raycast, ni overlap ni hit.
-- Query only: solo raycast y overlap, no hit.
-- Physics only: solo hit
+This option determines the types of collision that this actor has enabled. It is used to optimize how many types of collision the engine must perform on the actor. There are four different options:
+- No collision: Doesn't detect any collisions. It is the most efficient.
+- Query only: Only detects raycast, sweep and overlap. Does not detect hit events.
+- Physics only: 
 - Collision enabled: raycast, overlap y hit.
 ### Collision presets
 The collision presets are a set of predefined responses that can be selected for a specific actor or class. There are several basic collision presets, but the user can specify custom presets in the Project Settings. The default collision presets are:
@@ -71,4 +72,4 @@ FActorEndOverlap
 
 ---
 Planted: 2022-01-31
-Last tended: 2022-02-02
+Last tended: 2022-02-07
