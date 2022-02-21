@@ -9,7 +9,7 @@ The collision primitive can be set in the inspector of the component and the col
 
 ## Collision properties
 ### Collision responses
-In UE4, collisions and ray casting are handled through the _Collision Responses_ and _Trace Responses_. These responses define how a physics body should interact with all of the objects and traces. The even dispatched by the response (hit or overlap) depends on two parameters: the type of response generated and the type of object that generates the response.
+In UE4, collisions and ray casting are handled through the _Collision Responses_ and _Trace Responses_. These responses define how a physics body should interact with all of the objects and traces. The event dispatched by the response (hit or overlap) depends on two parameters: the type of response generated and the type of object that generates the response.
 
 There are three types of responses an object can have:
 - Block is used for objects that will block movement of incoming objects, they will _collide_. This response generates a Hit event.
@@ -34,7 +34,7 @@ The type of traces and objects that generate a response are:
 This option determines the types of collision that this actor has enabled. It is used to optimize how many types of collision the engine must perform on the actor. There are four different options:
 - No collision: Doesn't detect any collisions. It is the most efficient.
 - Query only: Only detects raycast, sweep and overlap. Does not detect hit events.
-- Physics only: 
+- Physics only: Only detects hit events.
 - Collision enabled: raycast, overlap y hit.
 ### Collision presets
 The collision presets are a set of predefined responses that can be selected for a specific actor or class. There are several basic collision presets, but the user can specify custom presets in the Project Settings. The default collision presets are:
