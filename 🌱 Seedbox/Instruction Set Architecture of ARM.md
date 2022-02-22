@@ -67,7 +67,7 @@ There are several ways to specify an address (addressing modes):
 | Instruction | Operation |
 |:---:|---|---|
 |`[reg.]`|\*ptr|
-|`[reg.], #num`|\*ptr += num|
+|`[reg.], #num`|\*ptr += num OR \*ptr++|
 |`[reg., #num. offset]`|\*ptr  + offset|
 |`[reg., reg.]`|\*ptr + x|
 |`[reg., reg., lsl #num]`|\*ptr + (x << num)|
