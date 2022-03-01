@@ -81,6 +81,10 @@ bool ReactToTrigger_Implementation();
 
 ```
 **BlueprintNativeEvent Interface Functions**
+```
+IReactToTriggerInterface::Execute_ReactToTrigger(instigatorActor, other params);
+
+```
 
 ### Determining if a class implements an interface
 Any of the following functions will check if a class implements an interface:
