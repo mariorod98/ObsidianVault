@@ -57,15 +57,30 @@ bool ATrap::ReactToTrigger()
 To make a blueprint callable interface function, you must provide a [[UE4 Macros|UFUNCTION specifier]] with the **BlueprintCallable** specifier. You must also use either the BlueprintImplementableEvent or BlueprintNativeEvent specifiers and ==the function must not be virtual==.
 
 - Functions using BlueprintCallable can be called in C++ or Blueprint using a reference to an object that implements the interface.
-- Functions using BlueprintImplementableEvent can not be overridden in C++, but can be override in any Blueprint class that implements or inherits the interface.
-- Functions using BlueprintNativeEvent can be implemented in C++ by overriding a function with the same name, but with the suffix *_Implementation* added to the end. This specifier also allows implementations to be override in Blueprint.
 - If the function is void, the blueprint will consider it an event. To avoid this, you can make the function return a bool.
+
+- Functions using BlueprintImplementableEvent can not be overridden in C++, but can be override in any Blueprint class that implements or inherits the interface.
 ```
 public:
 /**A version of React To Trigger that can be implemented in Blueprint only. */
 UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, Category=Trigger Reaction)
 bool ReactToTrigger();
 ```
+- Functions using BlueprintNativeEvent can be implemented in C++ by overriding a function with the same name, but with the suffix *_Implementation* added to the end. This specifier also allows implementations to be overridden in Blueprint.
+```
+public:
+/**A version of React To Trigger that can be implemented in Blueprint only. */
+UFUNCTION(BlueprintCallable, BlueprintNativeEvent, Category=Trigger Reaction)
+bool ReactToTrigger();
+bool ReactToTrigger_Implementation();
+```
+
+### Execute a method from the interface
+**C++ Only Interface Functions**
+```
+
+```
+**BlueprintNativeEvent Interface Functions**
 
 ### Determining if a class implements an interface
 Any of the following functions will check if a class implements an interface:
