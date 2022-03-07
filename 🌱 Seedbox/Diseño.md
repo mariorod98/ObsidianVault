@@ -1,3 +1,0 @@
-                                                                                                                   # Universal RP
----
-Trail renderer
