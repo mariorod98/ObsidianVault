@@ -9,7 +9,7 @@ Dos partes diferenciadas:
 ## Bindeo
 Se usa la funcion AddDynamic
 
-
+ 
 
 
 ---
