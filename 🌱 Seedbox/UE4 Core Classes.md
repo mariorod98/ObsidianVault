@@ -36,6 +36,13 @@ There are four main class types that you derive from for the majority of gamepla
 - A UStruct is a specialized version of a C++ struct and is used as a collection of related data.
 - UStructs do not require extending any class. When declaring a C++ struct, just add the macro `USTRUCT()`.
 - UStructs are not deleted by the garbage collector. If you create dynamic instances, you must manage their life cycle.
+## UGameInstance
+- This class is used to create singleton classes in UE4.
+
+## USaveGame
+
+## ALevelScriptActor
+
 ---
 Planted: 2022-01-10
-Last tended: 2022-02-07
+Last tended: 2022-03-21
