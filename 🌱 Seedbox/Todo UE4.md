@@ -1,4 +1,4 @@
     - Añadir nota indicando como crear componentes por código
-    - Terimnar nota de interfaces
+    - Terminar nota de interfaces
     - Terminar nota de eventos
     - Terminar nota de traces
