@@ -9,7 +9,7 @@ The geometry pipeline corresponds to the geometry stage of the [[A graphic pipel
 3. Finally, all the vertices inside the view space must be confined into the [[clipping space]]. To do this, the pipeline has to **transform vertices in view space to clipping space** applying the [[projection matrix]].
 
   
-![[geometry_pipeline.png]]
+![[3d_tranform_pipeline.png]]
 
 ---
 Planted: 2022-01-16
