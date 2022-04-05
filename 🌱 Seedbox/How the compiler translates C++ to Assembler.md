@@ -16,7 +16,10 @@ Como el unsigned char son 8 bits y el registro son 32, al realizarse una operaci
 
 
 
-Si una función es static, es privada al fichero. El compilador hará inline esa función
+Si una función es static, es privada al fichero. El compilador hará inline esa función, por lo que en ensamblador no existirá la función como tal, sino que la incluirá en todas las llamadas a la misma.
+
+Para debugear la función más fácilmente en ensamblador, se debe hacer pública (quitar el static) para evitar el inline. Si sigue haciedno inlining, se puede llevar la función a otro fichero
+Para asegurarte de que el compilador hace inline correctamente, es mejor poner la función como static y definirlas en orden de llamada.
 
 
 ---
