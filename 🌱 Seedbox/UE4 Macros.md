@@ -16,6 +16,8 @@ tags: state/seedling
     - EditAnywhere: Indicates that this property can be edited by property windows, on archetypes and instances.
     - EditDefaultsOnly: Indicates that this property can be edited by property windows, but only on archetypes.
     - EditInstanceOnly: Indicates that this property can be edited by property windows, but only on instances, not on archetypes.
+    - BlueprintAssignable.
+    - BlueprintAuthorityOnly.
 - **UFUNCTION( )**: Enables a class method of a UCLASS or a USTRUCT to be used as a [[UFUNCTION]]. The UFUNCTION specifiers are:
     - BlueprintCallable: This function can be called from Blueprints.
 - **UENUM( )**: Used to tell Unreal to generate reflection data for an enum.
