@@ -16,7 +16,6 @@ tags: bookReport
 - Ecología
 - Religiones, economía y politica
 - El Elegido
-- 
 
 ### Me ha gustado...
 - La intriga política de la primera parte.
