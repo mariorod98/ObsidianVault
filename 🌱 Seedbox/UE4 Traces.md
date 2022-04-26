@@ -20,7 +20,7 @@ When tracing, you can choose to return:
 - **Single**. Returns the hit result of the first element detected by the trace.
 - **Multi**. Returns the hit result of all the elements detected by the trace
 
-When using ==Multi Trace by channel==, the trace will return ==all Overlaps up to and including the first Block==.
+==When using Multi Trace by channel, the trace will return all Overlaps up to and including the first Block==.
 
 **Traces by shape.**
 The base trace is a *Line Trace*, but this might not be enough in some instances. For example, when creating a vision cone for an enemy. In this instance, you can use a *shape trace*. There are three shape traces: *Sphere Trace*, *Capsule Trace* and *Box Trace*.
