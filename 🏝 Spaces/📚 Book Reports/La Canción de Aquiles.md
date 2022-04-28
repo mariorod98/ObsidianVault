@@ -18,5 +18,11 @@ tags: bookReport
 - Amor.
 
 ### Me ha gustado...
-
+- Que Patroclo sea el narrador y vivir la Ilíada desde su punto de vista.
+- La fidelidad de la obra respecto a la historia original.
+- La intimidad con la que se tratan Patroclo y Aquiles.
+- Absolutamente todo desde el inicio hasta la guerra de Troya.
 ### No me ha gustado...
+- Que Aquiles cambie tan bruscamente de personalidad.
+- Que la parte en la que se quedan con Quirón sea tan corta.
+- 
