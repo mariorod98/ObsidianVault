@@ -25,4 +25,3 @@ tags: bookReport
 ### No me ha gustado...
 - Que Aquiles cambie tan bruscamente de personalidad.
 - Que la parte en la que se quedan con Quirón sea tan corta.
-- 

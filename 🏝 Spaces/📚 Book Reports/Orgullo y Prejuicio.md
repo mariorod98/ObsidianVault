@@ -20,6 +20,5 @@ tags: bookReport
 ### Me ha gustado...
 - La representación de la vida cotidiana de las clases altas inglesas.
 - El uso de de la ironía y el humor.
-- El capítulo
 ### No me ha gustado...
 - 
