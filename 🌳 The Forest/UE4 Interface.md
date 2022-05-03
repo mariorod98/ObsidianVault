@@ -1,5 +1,5 @@
 ---
-tags: state/seedling on/ue4/interface
+tags: state/bud on/ue4/interface
 ---
 
 # UE4 Interface
@@ -32,7 +32,7 @@ public:
 virtual bool Pick();
 ```
 
-You can then provide a default implementation in the interface's cpp.
+You must then provide a default implementation in the interface's cpp.
 ```
 bool IPickable::Pick()
 {
@@ -78,9 +78,8 @@ bool Pick_Implementation();
 
 ### Execute a method from the interface
 **C++ Only Interface Functions**
-```
+To execute a C++ Only method, just call the implemented method.
 
-```
 **BlueprintNativeEvent Interface Functions**
 ```
 IPickable::Execute_Pick(instigatorActor, other params);
