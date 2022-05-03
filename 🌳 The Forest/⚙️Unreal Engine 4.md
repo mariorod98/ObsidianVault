@@ -10,6 +10,9 @@ Some important concepts are:
 - [[A component is an Object that actors can attach to themselves]]
 - [[UE4 Shortcuts]]
 - [[UE4 Core Classes]]
+- [[UE4 Traces]]
+- [[UE4 Interfaces]]
+- [[UE4 Delegates and events]]
 
 ## Resources, tools, people, etc.
 

@@ -30,12 +30,14 @@ The type of traces and objects that generate a response are:
     - Pawn. 
     - Vehicle.
     - Destructible.
+    
 ### Collision enabled
 This option determines the types of collision that this actor has enabled. It is used to optimize how many types of collision the engine must perform on the actor. There are four different options:
 - No collision: Doesn't detect any collisions. It is the most efficient.
 - Query only: Only detects raycast, sweep and overlap. Does not detect hit events.
 - Physics only: Only detects hit events.
 - Collision enabled: raycast, overlap y hit.
+
 ### Collision presets
 The collision presets are a set of predefined responses that can be selected for a specific actor or class. There are several basic collision presets, but the user can specify custom presets in the Project Settings. The default collision presets are:
 

@@ -1,5 +1,5 @@
 ---
-tags: state/seedling on/ue4/traces
+tags: state/bud on/ue4/traces
 ---
 
 # UE4 Traces
@@ -63,6 +63,33 @@ Depending on the type of trace that we want to use, we will call a specific func
 if(GetWorld()->LineTraceSingleByChannel(HitResult, StartTrace, EndTrace, ECC_WorldStatic, TraceParams)) {
     ...
 }
+```
+
+## Examples
+```
+// Returns the hit with the first element collided
+GetWorld()->LineTraceSingleByChannel(HitResult, StartTrace, EndTrace, TraceChannel, TraceParams);
+
+// Returns the hit of all the elements collided
+GetWorld()->LineTraceMultiByChannel(OutHits, StartTrace, EndTrace, TraceChannel, TraceParams, ResponseParams);
+
+// Sweeps a shape and returns if a hit is found
+GetWorld()->SweepTestByChannel(Start, End, Rotation, TraceChannel, CollisionShape, QueryParams);
+
+// Sweeps a shape and returns all the overlaps until the first blocking hit (included). After the first hit, no test will be done
+GetWorld()->SweepMultiByProfile(OutHits, Start, End, Rotation, ProfileName, CollisionShape, QueryParams);
+
+// Test the collision of a shape and returns if any blocking or overlappin shape is found
+GetWorld()->OverlapAnyTestByChannel(Position, Rotation, TraceChannel, CollisionShape, QueryParams, ResponseParams);
+
+// Test the collision of a shape and determine the set of components that it overlaps
+GetWorld()->OverlapMultiByProfile(OutOverlaps, Position, Rotation, ProfileName, CollisionShape, QueryParams);
+
+// Sweep the geometry of the supplied component and determine the set of components that it hits
+GetWorld()->ComponentSweepMulti(OutHits, PrimComp, Start, End, rotation, QueryParams);
+
+// Test the collision of the supplied component using a specific channel and determine the set of components that it overlaps
+GetWorld()->ComponentOverlapMultiByChannel(OutOverlaps, PrimComp, Position, Rotation, TraceChannel, QueryParams, ObjectQueryParams);
 ```
 
 ---
