@@ -15,7 +15,7 @@ The second class is the one that will be inherited by other classes and where we
 To inherit an interface, the class must inherit from the *I-prefixed* class:
 ```
 UCLASS(Blueprintable, Category="MyGame")
-class ATrap : public AActor, public IReactToTriggerInterface
+class ATrap : public AActor, public IPickable
 {
     GENERATED_BODY()
 
@@ -29,12 +29,12 @@ public:
 You can declare virtual C++ functions without the [[UE4 Macros|UFUNCTION specifier]]. These functions must be virtual so that you can override them in classes that implement your interface.
 ```
 public:
-virtual bool ReactToTrigger();
+virtual bool Pick();
 ```
 
 You can then provide a default implementation in the interface's cpp.
 ```
-bool IReactToTriggerInterface::ReactToTrigger()
+bool IPickable::Pick()
 {
     return false;
 }
@@ -42,13 +42,14 @@ bool IReactToTriggerInterface::ReactToTrigger()
 
 To implement the interface in an Actor class, you can create and implement an override specific to that class:
 ```
-ATrap.h
+Pickup.h
 public:
-virtual bool ReactToTrigger() override;
+virtual bool Pick() override;
 
-ATrap.cpp
-bool ATrap::ReactToTrigger()
+Pickup.cpp
+bool Pickup::Pick()
 {
+    ...
     return false;
 }
 ```
@@ -62,17 +63,17 @@ To make a blueprint callable interface function, you must provide a [[UE4 Macros
 - Functions using BlueprintImplementableEvent can not be overridden in C++, but can be override in any Blueprint class that implements or inherits the interface.
 ```
 public:
-/**A version of React To Trigger that can be implemented in Blueprint only. */
-UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, Category=Trigger Reaction)
-bool ReactToTrigger();
+/**A version of Pick that can be implemented in Blueprint only. */
+UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, Category=Pick Interface)
+bool Pick();
 ```
 - Functions using BlueprintNativeEvent can be implemented in C++ by overriding a function with the same name, but with the suffix *_Implementation* added to the end. This specifier also allows implementations to be overridden in Blueprint.
 ```
 public:
-/**A version of React To Trigger that can be implemented in Blueprint only. */
-UFUNCTION(BlueprintCallable, BlueprintNativeEvent, Category=Trigger Reaction)
-bool ReactToTrigger();
-bool ReactToTrigger_Implementation();
+/**A version of Pick that can be implemented in Blueprint and C++. */
+UFUNCTION(BlueprintCallable, BlueprintNativeEvent, Category=Pick Interface)
+bool Pick();
+bool Pick_Implementation();
 ```
 
 ### Execute a method from the interface
@@ -82,28 +83,30 @@ bool ReactToTrigger_Implementation();
 ```
 **BlueprintNativeEvent Interface Functions**
 ```
-IReactToTriggerInterface::Execute_ReactToTrigger(instigatorActor, other params);
-
+IPickable::Execute_Pick(instigatorActor, other params);
 ```
 
 ### Determining if a class implements an interface
 Any of the following functions will check if a class implements an interface:
 ```
-bool bIsImplemented = OriginalObject->GetClass()->ImplementsInterface(UReactToTriggerInterface::StaticClass()); // bIsImplemented will be true if OriginalObject implements UReactToTriggerInterface.
+bool bIsImplemented = OriginalObject->GetClass()->ImplementsInterface(UPickable::StaticClass()); // bIsImplemented will be true if OriginalObject implements UPickable.
 
-bIsImplemented = OriginalObject->Implements<UReactToTriggerInterface>(); // bIsImplemented will be true if OriginalObject implements UReactToTriggerInterfacce.
+bIsImplemented = OriginalObject->Implements<UPickable>(); // bIsImplemented will be true if OriginalObject implements UPickable.
 
-IReactToTriggerInterface* ReactingObjectA = Cast<IReactToTriggerInterface>(OriginalObject); // ReactingObject will be non-null if OriginalObject implements UReactToTriggerInterface.
+IPickable* ReactingObjectA = Cast<IPickable>(OriginalObject); // ReactingObject will be non-null if OriginalObject implements IPickable.
 ```
 
 ### Casting to other Unreal Types
 UE4 casting system supports casting from one interface to another, or from an interface to an Unreal type.
 ```
-IReactToTriggerInterface* ReactingObject = Cast<IReactToTriggerInterface>(OriginalObject); // ReactingObject will be non-null if the interface is implemented.
+// Casting an object to an interface
+IPickable* MyInterface = Cast<IPickable>(OriginalObject); // ReactingObject will be non-null if the interface is implemented.
 
-ISomeOtherInterface* DifferentInterface = Cast<ISomeOtherInterface>(ReactingObject); // DifferentInterface will be non-null if ReactingObject is non-null and also implements ISomeOtherInterface.
+// Casting an interface to another interface
+ISomeOtherInterface* DifferentInterface = Cast<ISomeOtherInterface>(MyInterface); // DifferentInterface will be non-null if MyInterface is non-null and also implements ISomeOtherInterface.
 
-AActor* Actor = Cast<AActor>(ReactingObject); // Actor will be non-null if ReactingObject is non-null and OriginalObject is an AActor or AActor-derived class.
+// Casting an interface to an object
+AClass* Actor = Cast<AActor>(MyInterface); // Actor will be non-null if MyInterface is non-null and OriginalObject is an AClass or AClass-derived class.
 ```
 
 ### Implement interface via blueprint

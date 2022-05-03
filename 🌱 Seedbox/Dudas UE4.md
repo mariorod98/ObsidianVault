@@ -5,8 +5,10 @@
 ## Traces
 ¿Qué diferencia hay entre las traces segun su forma? Especialmente sweep.
 
+## Interfaces
+Como llamar a una interfaz que solo es de cpp
 
-# Zelda
+## Zelda
 Como asignar un bp a una variable de c++ por blueprint (projectile)
 Como meter el menu en el juego
 Como bindear los widget con el inventory component
