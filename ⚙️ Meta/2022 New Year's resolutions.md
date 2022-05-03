@@ -10,6 +10,7 @@ tags: state/seedling
 - [ ] Learn to learn and to store information.
 - [ ] Learn about grid worlds and procedural grid generation.
 - [ ] Organize all my photos and erase them from the phone.
+- [ ] Reset the computer memory
 ---
 Planted: 2022-01-22
 Last tended: 2022-01-27
