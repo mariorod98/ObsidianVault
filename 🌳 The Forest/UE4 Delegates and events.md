@@ -13,7 +13,7 @@ tags: state/bud on/ue4/events
 - **Dynamic delegates** can be serialized and their functions can be found by name. ==They are slower than regular delegates.== They can be single and multicast.
 
 ### Declaring delegates
-To create a delegate, you must use one of the MACROS that UE4 defines to create the signature. The macro will depend on the type of delegate, the number of parameters and whether it returns a value or not.
+To create a delegate, you must use one of the MACROS that UE4 defines to create the signature. The macro will depend on the type of delegate, the number of parameters and whether it returns a value or not. ==Delegates are declared in the broadcaster class==
 ```
 // Single delegate
 DECLARE_DELEGATE...
