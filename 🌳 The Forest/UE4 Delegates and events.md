@@ -14,7 +14,7 @@ tags: state/bud on/ue4/events
 
 ### Declaring delegates
 To create a delegate, you must use one of the MACROS that UE4 defines to create the signature. The macro will depend on the type of delegate, the number of parameters and whether it returns a value or not. ==Delegates are declared in the broadcaster class==
-```
+```cpp
 // Single delegate
 DECLARE_DELEGATE...
 // Multicast delegate
@@ -34,13 +34,13 @@ DECLARE_..._DELEGATE_RetVal_<Num>Params(RetVal Type, DelegateName, ParamType1, P
 ```
 
 UDelegates support the same specifiers as UFunctions, but you must use UDELEGATE() instead of UFUNCTION. Usually, the delegate name starts with the letter F.
-```
+```cpp
 UDELEGATE(BlueprintAuthorityOnly)
 DECLARE_DYNAMIC_DELEGATE(FMyDelegate)
 ```
 
 After defining the signature, you can create the delegate as an attribute of the class, with the same return value and parameters specified in the macro. The attribute must have the UPROPERTY specifier.
-```
+```cpp
 DELCARE_DELEGATE_OneParam(FOnHit, AActor*, actor)
 ...
 UPROPERTY(BlueprintAssignable, Category="Delegates")
@@ -51,31 +51,31 @@ FOnHit OnPlayerHit;
 Once you have created a delegate, you must bind the functions you want the call once the delegate is executed. The binding function depends on the type of delegate created.
 
 **Single delegates**
-```
+```cpp
 DelegateName.Bind(Instigator, Function);
 OnPlayerHit.Bind(this, Player::OnHit);
 ```
 
 **Multicast delegates**
-```
+```cpp
 DelegateName.Add(Instigator, Function);
 OnPlayerHit.Add(this, Player::OnHit);
 ```
 
 **Single dynamic delegates**
-```
+```cpp
 DelegateName.BindDynamic(Instigator, Function);
 OnPlayerHit.BindDynamic(this, Player::OnHit);
 ```
 
 **Multicast dynamic delegates**
-```
+```cpp
 DelegateName.AddDynamic(Instigator, Function);
 OnPlayerHit.AddDynamic(this, Player::OnHit);
 ```
 
 To check if a delegate has bound objects, you can use the following methods:
-```
+```cpp
 OnPlayerHit.IsBound(); // returns true if ANY object is bound
 OnPlayerHit.Contains(this, "methodName") // only for multicast events
 ```
@@ -86,7 +86,7 @@ When executing a delegate, all the functions bound to it will be called.  There 
 
 **Single delegates**
 ==It is crucial to check if the single delegate is bound before executing it.== Otherwise, if a single delegate has no bindings and is called, an assertion will be triggered.
-```
+```cpp
 if(OnPlayerHit.IsBound()) {
     OnPlayerHit.Execute(param1, param2,...);
 }
@@ -97,7 +97,7 @@ OnPlayerHit.ExecuteIfBound(param1, param2,...);
 
 **Multicast delegates**
 Multicast delegates are safe to execute, even if nothing is bound. The execution order of the bound functions is not defined. It may not be in the order the functions were added.
-```
+```cpp
 OnPlayerHit.Broadcast(param1, param2,...);
 ```
 
@@ -105,16 +105,16 @@ OnPlayerHit.Broadcast(param1, param2,...);
 It is important to unbind a function from a delegate when the object that contains the function is going to be destroyed. 
 
 **Single delegates**
-```
+```cpp
 OnPlayerHit.Unbind();
 ```
 **Multicast delegates**
-```
+```cpp
 OnPlayerHit.Remove(instigator, "FunctionName");
 OnPlayerHit.RemoveAll();
 ```
 **Single and multicast dynamic delegates**
-```
+```cpp
 OnPlayerHit.RemoveDynamic(instigator, "FunctionName");
 ```
 
@@ -126,7 +126,7 @@ Events share the same methods as multicast delegates, so all the steps to create
 ### Declaring events
 Events are declared using almost the same syntax as multicast delegates, but with a different MACRO name. The first parameter of the macro is the class which will own the event, and thus the only class that will be able to call  ``Broadcast``.
 
-```
+```cpp
 DECLARE_EVENT(OwningType, EventName)
 DECLARE_EVENET_OneParam(OwningType, EventName, Param1Type, Param1Name)
 DECLARE_EVENT_<Num>Params(OwningType, EventName, Param1Type, Param1Name,...)

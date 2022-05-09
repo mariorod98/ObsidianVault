@@ -49,7 +49,7 @@ The *FHitResult* is the structure that stores all the information about a collis
 
 ## Calling a trace
 First we need to create the FCollisionQueryParams and the FHitResult structures.
-```
+```cpp
 FCollisionQueryParams TraceParams(FName(TEXT("CheckSlopes")), false);
 TraceParams.bReturnPhysicalMaterial = false;
 TraceParams.bTraceComplex = false;
@@ -59,14 +59,14 @@ FHitResult HitResult;
 ```
 
 Depending on the type of trace that we want to use, we will call a specific function. All the traces functions belong to the UWorld class, to access them you must use *GetWorld()*. Moreover, all traces return a bool determining if there was a hit or not.
-```
+```cpp
 if(GetWorld()->LineTraceSingleByChannel(HitResult, StartTrace, EndTrace, ECC_WorldStatic, TraceParams)) {
     ...
 }
 ```
 
 ## Examples
-```
+```cpp
 // Returns the hit with the first element collided
 GetWorld()->LineTraceSingleByChannel(HitResult, StartTrace, EndTrace, TraceChannel, TraceParams);
 

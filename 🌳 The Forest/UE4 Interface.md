@@ -13,7 +13,7 @@ The second class is the one that will be inherited by other classes and where we
 
 ### Inheritance
 To inherit an interface, the class must inherit from the *I-prefixed* class:
-```
+```cpp
 UCLASS(Blueprintable, Category="MyGame")
 class ATrap : public AActor, public IPickable
 {
@@ -27,13 +27,13 @@ public:
 ### Function Declaration
 **C++ Only Interface Functions**
 You can declare virtual C++ functions without the [[UE4 Macros|UFUNCTION specifier]]. These functions must be virtual so that you can override them in classes that implement your interface.
-```
+```cpp
 public:
 virtual bool Pick();
 ```
 
 You must then provide a default implementation in the interface's cpp.
-```
+```cpp
 bool IPickable::Pick()
 {
     return false;
@@ -41,7 +41,7 @@ bool IPickable::Pick()
 ```
 
 To implement the interface in an Actor class, you can create and implement an override specific to that class:
-```
+```cpp
 Pickup.h
 public:
 virtual bool Pick() override;
@@ -61,14 +61,14 @@ To make a blueprint callable interface function, you must provide a [[UE4 Macros
 - If the function is void, the blueprint will consider it an event. To avoid this, you can make the function return a bool.
 
 - Functions using BlueprintImplementableEvent can not be overridden in C++, but can be override in any Blueprint class that implements or inherits the interface.
-```
+```cpp
 public:
 /**A version of Pick that can be implemented in Blueprint only. */
 UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, Category=Pick Interface)
 bool Pick();
 ```
 - Functions using BlueprintNativeEvent can be implemented in C++ by overriding a function with the same name, but with the suffix *_Implementation* added to the end. This specifier also allows implementations to be overridden in Blueprint.
-```
+```cpp
 public:
 /**A version of Pick that can be implemented in Blueprint and C++. */
 UFUNCTION(BlueprintCallable, BlueprintNativeEvent, Category=Pick Interface)
@@ -81,23 +81,23 @@ bool Pick_Implementation();
 To execute a C++ Only method, just call the implemented method.
 
 **BlueprintNativeEvent Interface Functions**
-```
+```cpp
 IPickable::Execute_Pick(instigatorActor, other params);
 ```
 
 ### Determining if a class implements an interface
 Any of the following functions will check if a class implements an interface:
-```
+```cpp
 bool bIsImplemented = OriginalObject->GetClass()->ImplementsInterface(UPickable::StaticClass()); // bIsImplemented will be true if OriginalObject implements UPickable.
 
-bIsImplemented = OriginalObject->Implements<UPickable>(); // bIsImplemented will be true if OriginalObject implements UPickable.
+bool Implemented = OriginalObject->Implements<UPickable>(); // bIsImplemented will be true if OriginalObject implements UPickable.
 
 IPickable* ReactingObjectA = Cast<IPickable>(OriginalObject); // ReactingObject will be non-null if OriginalObject implements IPickable.
 ```
 
 ### Casting to other Unreal Types
 UE4 casting system supports casting from one interface to another, or from an interface to an Unreal type.
-```
+```cpp
 // Casting an object to an interface
 IPickable* MyInterface = Cast<IPickable>(OriginalObject); // ReactingObject will be non-null if the interface is implemented.
 
