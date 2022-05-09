@@ -16,6 +16,8 @@ tags: state/seedling on/ue4
 - Contiene un HUD
 - 
 
+UCustomGameInstance* GI = Cast<UCustomGameInstance>(UGameplayStatics::GetGameInstance(GetWorld()));
+
 ---
 Planted: 2022-02-14
 Last tended: 2022-02-14
