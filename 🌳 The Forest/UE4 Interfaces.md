@@ -2,7 +2,7 @@
 tags: state/bud on/ue4/interface
 ---
 
-# UE4 Interface
+# UE4 Interfaces
 C++ does not support interfaces. In order to implement them, UE4 uses a special class, **UInterface**, that simulates an interface. Custom interfaces in UE4 are composed of two distinct classes: a *UClassName* that inherits from UInterface, and a *IClassName* that doesn't inherit from anything. 
 
 The first class is used by UE4 for [[the reflection system]]. It must be preceded by the [[UE4 Macros|UINTERFACE macro]]. This macro may have the following specifiers:

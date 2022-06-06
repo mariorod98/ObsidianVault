@@ -12,7 +12,7 @@ The GP process is as follows:
 3. Obtain the RGB value of each pixel.
 
 # What are the stages of a graphic pipeline?
-The graphic pipeline has three main stages: Application, Geometry and Rasterization. The last two stages are involved in [[What is a draw call | draw calls]].
+The graphic pipeline has three main stages: Application, Geometry and Rasterization. The last two stages are involved in [[A draw call is a call from the game engine to draw a primitive | draw calls]].
 
 ## Application
 - It is done in the CPU.
