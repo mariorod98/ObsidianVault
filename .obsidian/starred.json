@@ -2,8 +2,48 @@
   "items": [
     {
       "type": "file",
-      "title": "🌸 I am here",
-      "path": "🌸 I am here.md"
+      "title": "000 Index",
+      "path": "Spaces/LYT Kit/+Home.md"
+    },
+    {
+      "type": "file",
+      "title": "•LYT Home",
+      "path": "Spaces/LYT Nick Stuff/•LYT Home.md"
+    },
+    {
+      "type": "file",
+      "title": "Template for Files",
+      "path": "zKit/• Resources/Templates/Template for Files.md"
+    },
+    {
+      "type": "file",
+      "title": "Flight School Arrival",
+      "path": "Flight School Arrival.md"
+    },
+    {
+      "type": "file",
+      "title": "Flight School Hanger",
+      "path": "Flight School Hangar.md"
+    },
+    {
+      "type": "file",
+      "title": "Flight School Checklist",
+      "path": "Flight School Checklist.md"
+    },
+    {
+      "type": "file",
+      "title": "Flight School Map",
+      "path": "Flight School Map.md"
+    },
+    {
+      "type": "file",
+      "title": "Knowledge and memory TK",
+      "path": "10 Unsorted/Knowledge and memory MOC.md"
+    },
+    {
+      "type": "file",
+      "title": "Brain Navigation",
+      "path": "Bins/Excalidraw/Brain Navigation.md"
     }
   ]
 }

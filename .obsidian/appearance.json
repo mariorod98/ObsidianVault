@@ -1,8 +1,11 @@
 {
-  "baseFontSize": 16,
-  "cssTheme": "Clair de Lune",
-  "theme": "obsidian",
+  "cssTheme": "LYT Mode",
+  "translucency": false,
+  "baseFontSize": 17,
   "enabledCssSnippets": [
-    "custom"
-  ]
+    "file-explorer-no-line-wrap"
+  ],
+  "textFontFamily": "",
+  "interfaceFontFamily": "",
+  "theme": "obsidian"
 }

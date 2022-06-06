@@ -19,7 +19,7 @@ tags: state/bud on/gameDesign on/idleGames
     - Gives a great sense of progress, you buy the early upgrades almost instantly once you reset.
 - **Regular updates**. Simple design and code allows for rapid iteration to balance or add features & content. For an adult game to succeed, it has to be regularly updated with new content.
 - Smooth and expectable progress is boring and lacks surprise. **Make progress unexpected by making the progress growth *bumpy*** by altering the growth curve.
-    - When prestiging, the bumpy progress will make different areas where the reward growth is zigzaging between being above and below the cost progress.
+	- When prestiging, the bumpy progress will make different areas where the reward growth is zigzaging between being above and below the cost progress.
 ![[idle_games_bumpy_progress_mechanic.png]]
 ---
 Planted: 2022-01-17
