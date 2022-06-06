@@ -1,9 +1,10 @@
 [
-  "cm-editor-syntax-highlight-obsidian",
   "table-editor-obsidian",
   "obsidian-emoji-toolbar",
   "templater-obsidian",
   "calendar",
   "tag-wrangler",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-code-block-enhancer",
+  "cm-editor-syntax-highlight-obsidian"
 ]

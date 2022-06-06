@@ -1,8 +1,8 @@
 {
   "excludeLangs": [
-    "todoist"
+    ""
   ],
-  "showLangName": false,
+  "showLangName": true,
   "showLineNumber": true,
   "useContextMenu": false
 }
