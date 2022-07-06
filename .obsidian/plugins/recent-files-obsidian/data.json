@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "C++ virtual",
+      "path": "🌱 Seedbox/C++ virtual.md"
+    },
+    {
+      "basename": "Texture mipmap",
+      "path": "🌱 Seedbox/Texture mipmap.md"
+    },
+    {
+      "basename": "Padding",
+      "path": "🌱 Seedbox/Padding.md"
+    },
+    {
+      "basename": "Shortcuts VisualStudio",
+      "path": "🌱 Seedbox/Shortcuts VisualStudio.md"
+    },
+    {
+      "basename": "Premium monetization",
+      "path": "🌱 Seedbox/Premium monetization.md"
+    },
+    {
+      "basename": "3D scene",
+      "path": "🌱 Seedbox/3D scene.md"
+    },
+    {
+      "basename": "Mallas",
+      "path": "🌱 Seedbox/Mallas.md"
+    },
+    {
+      "basename": "UE4 Optimization tips",
+      "path": "🌱 Seedbox/UE4 Optimization tips.md"
+    },
+    {
       "basename": "Términos gráfica",
       "path": "🌱 Seedbox/Términos gráfica.md"
     },
@@ -79,10 +111,6 @@
     {
       "basename": "Idle Game Core Mechanics",
       "path": "🌳 The Forest/Idle Game Core Mechanics.md"
-    },
-    {
-      "basename": "3D scene",
-      "path": "🌱 Seedbox/3D scene.md"
     },
     {
       "basename": "Obsidian plugins",
@@ -171,34 +199,6 @@
     {
       "basename": "Thought Collisions",
       "path": "Cards/Thought Collisions.md"
-    },
-    {
-      "basename": "We chronically underestimate how long something takes",
-      "path": "Cards/We chronically underestimate how long something takes.md"
-    },
-    {
-      "basename": "Zettelkasten and LYT Frameworks",
-      "path": "Cards/Zettelkasten and LYT Frameworks.md"
-    },
-    {
-      "basename": "You are what you eat",
-      "path": "Cards/You are what you eat.md"
-    },
-    {
-      "basename": "Yin and Yang",
-      "path": "Cards/Yin and Yang.md"
-    },
-    {
-      "basename": "Wu wei",
-      "path": "Cards/Wu wei.md"
-    },
-    {
-      "basename": "Writing down daily goals in the morning is an important habit",
-      "path": "Cards/Writing down daily goals in the morning is an important habit.md"
-    },
-    {
-      "basename": "Words I've used to describe important habits",
-      "path": "Cards/Words I've used to describe important habits.md"
     }
   ],
   "omittedPaths": [],
