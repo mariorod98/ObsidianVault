@@ -1,8 +1,9 @@
 up: [[⚙️Unreal Engine 4]]
 tags: #state/bud #on/ue4
 
-# UE4 Traces
-Traces are a method of getting collision feedback on a specific area. They are defined by a starting point, an ending point and an area that traverses both points.
+# Traces are a method of getting collision feedback on a specific area.
+ 
+They are defined by a starting point, an ending point and an area that traverses both points.
 
 In order to get collision information, traces use the physics and collision system of UE4. Therefore, only the objects that are correctly configured will be detected by the trace. In other words, they must have either Query or Collisions enabled.
 

@@ -1,6 +1,5 @@
 tags: #state/bud #on/assembler
 
-
 # ARM Assembler [[ISA]]
 ==RISC CPU's==, in general, ==are *LOAD/STORE* architectures==. This means that all the instructions can be grouped in three categories (with some exceptions depending on the CPU):
 - The **operational instructions** use registers to perform an operation and store the result in another register.
@@ -117,7 +116,7 @@ Jump:
     add r0, r1, r2
 ```
 **Jump with return**
-The instruction `bl` is used to jump to a subroutine. When executing this instruction, the following instruction is stored in the [[Registers in ARM Assembler|Link Register]]. It is the [[C_C++|C]] equivalent to calling a function.
+The instruction `bl` is used to jump to a subroutine. When executing this instruction, the following instruction is stored in the [[Registers in ARM Assembler|Link Register]]. It is the [[🖥️ C_C++|C]] equivalent to calling a function.
 ```
     bl Squared
     add r0, r0, #1
