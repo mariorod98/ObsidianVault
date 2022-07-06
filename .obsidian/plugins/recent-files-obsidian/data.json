@@ -1,20 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "UE4 Control binding",
-      "path": "🌱 Seedbox/UE4 Control binding.md"
+      "basename": "C++ volatile",
+      "path": "🌱 Seedbox/C++ volatile.md"
+    },
+    {
+      "basename": "How the compiler translates C++ to Assembler",
+      "path": "🌱 Seedbox/How the compiler translates C++ to Assembler.md"
     },
     {
       "basename": "UE4 GameMode",
       "path": "🌱 Seedbox/UE4 GameMode.md"
     },
     {
-      "basename": "UE4 DUDAS",
-      "path": "🌱 Seedbox/UE4 DUDAS.md"
+      "basename": "2022 New Year's resolutions",
+      "path": "⚙️ Meta/2022 New Year's resolutions.md"
+    },
+    {
+      "basename": "Bullet journal dimensions",
+      "path": "⚙️ Meta/Bullet journal dimensions.md"
+    },
+    {
+      "basename": "Things to do this summer",
+      "path": "⚙️ Meta/Things to do this summer.md"
     },
     {
       "basename": "UE4 Binding input to actors",
       "path": "🌱 Seedbox/UE4 Binding input to actors.md"
+    },
+    {
+      "basename": "UE4 Control binding",
+      "path": "🌱 Seedbox/UE4 Control binding.md"
+    },
+    {
+      "basename": "UE4 DUDAS",
+      "path": "🌱 Seedbox/UE4 DUDAS.md"
     },
     {
       "basename": "TODO LIST",
@@ -179,26 +199,6 @@
     {
       "basename": "What are higher-order notes",
       "path": "Cards/What are higher-order notes.md"
-    },
-    {
-      "basename": "Vulnerability",
-      "path": "Cards/Vulnerability.md"
-    },
-    {
-      "basename": "Using the thesaurus to generate ideas",
-      "path": "Cards/Using the thesaurus to generate ideas.md"
-    },
-    {
-      "basename": "Use it or Lose it",
-      "path": "Cards/Use it or Lose it.md"
-    },
-    {
-      "basename": "Understanding the habit cycle and habitual cues",
-      "path": "Cards/Understanding the habit cycle and habitual cues.md"
-    },
-    {
-      "basename": "Truffle hunters need to keep perspective, so do parachutists",
-      "path": "Cards/Truffle hunters need to keep perspective, so do parachutists.md"
     }
   ],
   "omittedPaths": [],
