@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Volatile is a keyword used to tell the compiler to avoid aggressive optimization involving that variable.",
-      "path": "🌳 The Forest/Volatile is a keyword used to tell the compiler to avoid aggressive optimization involving that variable..md"
+      "basename": "C_C++",
+      "path": "🌱 Seedbox/C_C++.md"
     },
     {
       "basename": "🖥️ C_C++",
       "path": "🌳 The Forest/🖥️ C_C++.md"
+    },
+    {
+      "basename": "Volatile is a keyword used to avoid aggressive optimization.",
+      "path": "🌳 The Forest/Volatile is a keyword used to avoid aggressive optimization..md"
     },
     {
       "basename": "UE4 Optimization tips",
@@ -195,10 +199,6 @@
     {
       "basename": "Types of lighting in UE4",
       "path": "🌱 Seedbox/Types of lighting in UE4.md"
-    },
-    {
-      "basename": "Texture mipmap",
-      "path": "🌱 Seedbox/Texture mipmap.md"
     }
   ],
   "omittedPaths": [],
