@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "New seedling",
+      "path": "⚙️ Meta/📐 Templates/New seedling.md"
+    },
+    {
       "basename": "C++ virtual",
       "path": "🌱 Seedbox/C++ virtual.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Thinking",
       "path": "Atlas/MOCs/Thinking.md"
-    },
-    {
-      "basename": "Thought Collisions",
-      "path": "Cards/Thought Collisions.md"
     }
   ],
   "omittedPaths": [],
