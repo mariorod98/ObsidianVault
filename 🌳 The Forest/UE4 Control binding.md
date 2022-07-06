@@ -1,6 +1,5 @@
----
-tags: state/bud on/ue4
----
+up: [[⚙️Unreal Engine 4]]
+tags: #state/bud #on/ue4
 
 # UE4 Input binding
 Input can be binded to the [[PlayerController]] or to a specific [[Actor]]. To be able to process input, the actor must have an active **UInputComponent**. Every [[Actor]] has an Input Component, but it is not initialized. However, the [[PlayerController]] has the component initialized.

@@ -1,8 +1,5 @@
----
-tags: state/forest on/pkm notOwned
----
-
-[[Evergreen notes]]
+up: [[Evergreen notes]]
+tags: #state/forest #on/pkm #notOwned
 
 # Notes should be densely linked
 

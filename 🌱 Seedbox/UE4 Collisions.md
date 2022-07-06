@@ -1,6 +1,5 @@
----
-tags: state/seedling on/ue4
----
+up: [[⚙️Unreal Engine 4]]
+tags: #state/seedling #on/ue4
 
 # UE4 Collisions
 UE4 handles collisions at a [[A component is an Object that actors can attach to themselves|Component]] level. All the components derived from __UPrimitiveComponent__ have collision properties (UBoxComponent, UStaticMeshComponent, USkeletalMeshComponent, etc).

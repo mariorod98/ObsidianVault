@@ -1,8 +1,4 @@
----
-alias: Plugins
----
-
-[[🪴 Tending this Garden]]
+up: [[🪴 Tending this Garden]]
 
 # Obsidian plugins
 

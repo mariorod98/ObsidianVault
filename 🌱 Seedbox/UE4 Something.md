@@ -1,6 +1,5 @@
----
-tags: state/seedling
----
+up: [[⚙️Unreal Engine 4]]
+tags: #state/seedling #on/ue4
 
 # UE4 Something
 CoreMinimal.h - clases minimas del motor

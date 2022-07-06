@@ -1,6 +1,5 @@
----
-tags: state/seedling
----
+up:
+tags: #state/seedling
 
 # Wave Function Collapse Algorithm
 https://www.youtube.com/watch?v=2SuvO4Gi7uY&ab_channel=MartinDonald

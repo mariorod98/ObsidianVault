@@ -1,6 +1,5 @@
----
-tags: meta/moc
----
+tags: #meta/moc
+
 
 # 🗺️ Map of maps
 

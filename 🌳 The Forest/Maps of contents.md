@@ -1,9 +1,5 @@
----
-tags: state/bud on/pkm notOwned
-alias: [ "MOC", "MOCs" ]
----
-
-[[🗃️ PKM]]
+up: [[🗃️ PKM]]
+tags: #state/bud #on/pkm #notOwned
 
 # Maps of contents
 

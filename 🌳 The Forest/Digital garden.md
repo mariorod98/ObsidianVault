@@ -1,8 +1,6 @@
----
-tags: state/forest on/pkm notOwned
----
+up: [[🗃️ PKM]]
+tags: #state/forest #on/pkm #notOwned
 
-[[🗃️ PKM]]
 
 # Digital garden
 

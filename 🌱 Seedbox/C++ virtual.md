@@ -1,6 +1,6 @@
----
-tags: state/seedling
----
+up:: [[🖥️ C_C++]]
+tags:: #state/seedling #on/cpp
+
 
 # C++ virtual
 

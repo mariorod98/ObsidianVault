@@ -1,6 +1,5 @@
----
-tags: state/seedling on/ue4
----
+up: [[⚙️Unreal Engine 4]]
+tags: #state/seedling #on/ue4
 
 # UE4 Core Classes
 There are four main class types that you derive from for the majority of gameplay classes. New classes that do not derivate from these core classes can be developed, but they will not participate in the features that are built into the engine.

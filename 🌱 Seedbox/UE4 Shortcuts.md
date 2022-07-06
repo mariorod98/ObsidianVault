@@ -1,6 +1,5 @@
----
-tags: state/seedling on/ue4
----
+up: [[⚙️Unreal Engine 4]]
+tags: #state/seedling #on/ue4
 
 # Shortcuts
 - Si tengo un objeto seleccionado, la tecla F lo centra en la escena.

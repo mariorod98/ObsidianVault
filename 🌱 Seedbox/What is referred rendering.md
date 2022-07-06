@@ -1,8 +1,5 @@
----
-tags: state/seedling on/graphics
-alias: [referred rendering]
----
-
+up:
+tags: #state/seedling #on/graphics
 # What is referred rendering?
 
 ---

@@ -1,6 +1,5 @@
----
-tags: state/bud on/assembler
----
+tags: #state/bud #on/assembler
+
 # Registers in ARM
  The [[ARM Assembler]] has 16 **General-purpose registers (R0-R15)**. In [[🖥️ C_C++|C programs]], the processor will try to map local variables to registers if they are available. Otherwise, the variables will be stored in the stack. There are three special register that are used by the processor. Modifying these special registers is not recommended:
 - R13: **Stack Pointer (SP)**. This register is used in C programs to point to the end of the program stack.

@@ -1,6 +1,5 @@
----
-tags: state/seedling
----
+up::
+tags:: #state/seedling
 
 # Texture mipmap
 

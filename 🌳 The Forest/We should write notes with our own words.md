@@ -1,8 +1,5 @@
----
-tags: state/bud notOwned
----
-
-[[Evergreen notes]]
+up: [[Evergreen notes]]
+tags: #state/bud #notOwned
 
 # We should write notes with our own words
 

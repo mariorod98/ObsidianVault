@@ -1,6 +1,5 @@
----
-tags: state/bud on/assembler
----
+tags: #state/bud #on/assembler
+
 
 # ARM Assembler [[ISA]]
 ==RISC CPU's==, in general, ==are *LOAD/STORE* architectures==. This means that all the instructions can be grouped in three categories (with some exceptions depending on the CPU):

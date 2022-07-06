@@ -1,7 +1,5 @@
----
-up:
-tags: state/seedling
----
+up::
+tags:: #state/seedling
 
 # <% tp.file.title %>
 

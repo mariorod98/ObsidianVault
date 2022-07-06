@@ -1,8 +1,5 @@
----
-tags: state/bud on/ notOwned
----
-
-[[🗃️ PKM]]
+up: [[🗃️ PKM]]
+tags: #state/bud #on/pkm  #notOwned
 
 # PKM systems should be future-proof
 

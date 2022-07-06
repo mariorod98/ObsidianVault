@@ -1,4 +1,4 @@
-[[🪴 Tending this Garden]]
+up: [[🪴 Tending this Garden]]
 
 # Tag taxonomy
 

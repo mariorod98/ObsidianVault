@@ -1,6 +1,6 @@
----
-tags: meta/moc on/graphics
----
+up: [[🗺️ Map of maps]]
+tags: #meta/moc #on/graphics
+
 
 # 🌈 Graphics Programming
 

@@ -1,6 +1,5 @@
----
-tags: state/seedling
----
+up: [[⚙️Unreal Engine 4]]
+tags: #state/seedling #on/ue4
 
 # UE4 Macros
 - **UCLASS( )**: Used to tell Unreal to generate reflection data for a class. The class must derive from [[UE4 Core Classes#UObject|UObject]]. The UCLASS specifiers are:

@@ -1,6 +1,5 @@
----
-tags: state/seedling
----
+up:
+tags: #state/seedling 
 
 # Términos gráfica
 **Backface culling** es una técnica para evitar pintar las caras opuestas a las que se ven en cámara. Pues si una cara se ve en cámara, su opuesta nunca se verá.

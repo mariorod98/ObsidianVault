@@ -1,6 +1,5 @@
----
-tags: state/bud
----
+up: [[⚙️Unreal Engine 4]]
+tags: state/bud #on/ue4
 
 # UE4 Timer
 Timers are a useful tool to perform an action once (or repeatedly) at specified intervals. They can be used to set actions to happen on a delay or over a period of time. Timers can also be used to remove some burden from the Ticks.

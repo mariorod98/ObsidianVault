@@ -1,204 +1,204 @@
 {
   "recentFiles": [
     {
-      "basename": "New seedling",
-      "path": "⚙️ Meta/📐 Templates/New seedling.md"
+      "basename": "Volatile is a keyword used to tell the compiler to avoid aggressive optimization involving that variable.",
+      "path": "🌳 The Forest/Volatile is a keyword used to tell the compiler to avoid aggressive optimization involving that variable..md"
     },
     {
-      "basename": "C++ virtual",
-      "path": "🌱 Seedbox/C++ virtual.md"
-    },
-    {
-      "basename": "Texture mipmap",
-      "path": "🌱 Seedbox/Texture mipmap.md"
-    },
-    {
-      "basename": "Padding",
-      "path": "🌱 Seedbox/Padding.md"
-    },
-    {
-      "basename": "Shortcuts VisualStudio",
-      "path": "🌱 Seedbox/Shortcuts VisualStudio.md"
-    },
-    {
-      "basename": "Premium monetization",
-      "path": "🌱 Seedbox/Premium monetization.md"
-    },
-    {
-      "basename": "3D scene",
-      "path": "🌱 Seedbox/3D scene.md"
-    },
-    {
-      "basename": "Mallas",
-      "path": "🌱 Seedbox/Mallas.md"
+      "basename": "🖥️ C_C++",
+      "path": "🌳 The Forest/🖥️ C_C++.md"
     },
     {
       "basename": "UE4 Optimization tips",
       "path": "🌱 Seedbox/UE4 Optimization tips.md"
     },
     {
-      "basename": "Términos gráfica",
-      "path": "🌱 Seedbox/Términos gráfica.md"
-    },
-    {
-      "basename": "Rendering path",
-      "path": "🌱 Seedbox/Rendering path.md"
-    },
-    {
-      "basename": "What is referred rendering",
-      "path": "🌱 Seedbox/What is referred rendering.md"
-    },
-    {
-      "basename": "Types of lighting in UE4",
-      "path": "🌱 Seedbox/Types of lighting in UE4.md"
-    },
-    {
-      "basename": "What is forward rendering",
-      "path": "🌱 Seedbox/What is forward rendering.md"
-    },
-    {
-      "basename": "UE4 DUDAS",
-      "path": "🌱 Seedbox/UE4 DUDAS.md"
-    },
-    {
-      "basename": "UE4 GameInstance",
-      "path": "🌱 Seedbox/UE4 GameInstance.md"
+      "basename": "UE4 Something",
+      "path": "🌱 Seedbox/UE4 Something.md"
     },
     {
       "basename": "Wave Function Collapse Algorithm",
       "path": "🌱 Seedbox/Wave Function Collapse Algorithm.md"
     },
     {
-      "basename": "How the compiler translates C++ to Assembler",
-      "path": "🌱 Seedbox/How the compiler translates C++ to Assembler.md"
+      "basename": "What is forward rendering",
+      "path": "🌱 Seedbox/What is forward rendering.md"
     },
     {
-      "basename": "UE4 Control binding",
-      "path": "🌳 The Forest/UE4 Control binding.md"
-    },
-    {
-      "basename": "In App Purchases (IAPs)",
-      "path": "🌱 Seedbox/In App Purchases (IAPs).md"
-    },
-    {
-      "basename": "UE4 Collisions",
-      "path": "🌱 Seedbox/UE4 Collisions.md"
-    },
-    {
-      "basename": "C++ volatile",
-      "path": "🌳 The Forest/C++ volatile.md"
-    },
-    {
-      "basename": "UE4 GameMode",
-      "path": "🌱 Seedbox/UE4 GameMode.md"
-    },
-    {
-      "basename": "2022 New Year's resolutions",
-      "path": "⚙️ Meta/2022 New Year's resolutions.md"
-    },
-    {
-      "basename": "Bullet journal dimensions",
-      "path": "⚙️ Meta/Bullet journal dimensions.md"
-    },
-    {
-      "basename": "Things to do this summer",
-      "path": "⚙️ Meta/Things to do this summer.md"
-    },
-    {
-      "basename": "UE4 Binding input to actors",
-      "path": "🌱 Seedbox/UE4 Binding input to actors.md"
-    },
-    {
-      "basename": "TODO LIST",
-      "path": "⚙️ Meta/TODO LIST.md"
-    },
-    {
-      "basename": "Idle Game Core Mechanics",
-      "path": "🌳 The Forest/Idle Game Core Mechanics.md"
-    },
-    {
-      "basename": "Obsidian plugins",
-      "path": "⚙️ Meta/Obsidian plugins.md"
-    },
-    {
-      "basename": "Digital garden",
-      "path": "🌳 The Forest/Digital garden.md"
-    },
-    {
-      "basename": "Tag taxonomy",
-      "path": "⚙️ Meta/Tag taxonomy.md"
-    },
-    {
-      "basename": "UE4 Interfaces",
-      "path": "🌳 The Forest/UE4 Interfaces.md"
+      "basename": "What is referred rendering",
+      "path": "🌱 Seedbox/What is referred rendering.md"
     },
     {
       "basename": "⚙️Unreal Engine 4",
       "path": "🌳 The Forest/⚙️Unreal Engine 4.md"
     },
     {
+      "basename": "🌈 Graphics Programming",
+      "path": "🌳 The Forest/🌈 Graphics Programming.md"
+    },
+    {
+      "basename": "🎮 Game Design",
+      "path": "🌳 The Forest/🎮 Game Design.md"
+    },
+    {
+      "basename": "🗃️ PKM",
+      "path": "🌳 The Forest/🗃️ PKM.md"
+    },
+    {
+      "basename": "A component is an Object that actors can attach to themselves",
+      "path": "🌳 The Forest/A component is an Object that actors can attach to themselves.md"
+    },
+    {
+      "basename": "A draw call is a call from the game engine to draw a primitive",
+      "path": "🌳 The Forest/A draw call is a call from the game engine to draw a primitive.md"
+    },
+    {
+      "basename": "A graphic pipeline is used to create a 2D representation from a 3D scene",
+      "path": "🌳 The Forest/A graphic pipeline is used to create a 2D representation from a 3D scene.md"
+    },
+    {
+      "basename": "A pointer is a reference to a memory address",
+      "path": "🌳 The Forest/A pointer is a reference to a memory address.md"
+    },
+    {
+      "basename": "Atomic notes",
+      "path": "🌳 The Forest/Atomic notes.md"
+    },
+    {
+      "basename": "Bit Shifting",
+      "path": "🌳 The Forest/Bit Shifting.md"
+    },
+    {
+      "basename": "Digital garden",
+      "path": "🌳 The Forest/Digital garden.md"
+    },
+    {
+      "basename": "Evergreen notes",
+      "path": "🌳 The Forest/Evergreen notes.md"
+    },
+    {
+      "basename": "How to get and use good external feedback",
+      "path": "🌳 The Forest/How to get and use good external feedback.md"
+    },
+    {
+      "basename": "Instruction Set Architecture of ARM",
+      "path": "🌳 The Forest/Instruction Set Architecture of ARM.md"
+    },
+    {
+      "basename": "List of digital gardeners",
+      "path": "🌳 The Forest/List of digital gardeners.md"
+    },
+    {
+      "basename": "Literature notes",
+      "path": "🌳 The Forest/Literature notes.md"
+    },
+    {
+      "basename": "Maps of contents",
+      "path": "🌳 The Forest/Maps of contents.md"
+    },
+    {
+      "basename": "Note-making vs note-taking",
+      "path": "🌳 The Forest/Note-making vs note-taking.md"
+    },
+    {
+      "basename": "Notes should be densely linked",
+      "path": "🌳 The Forest/Notes should be densely linked.md"
+    },
+    {
+      "basename": "PKM systems should be future-proof",
+      "path": "🌳 The Forest/PKM systems should be future-proof.md"
+    },
+    {
+      "basename": "Registers in ARM Assembler",
+      "path": "🌳 The Forest/Registers in ARM Assembler.md"
+    },
+    {
+      "basename": "The geometry pipeline transform vertices form model space to clipping space",
+      "path": "🌳 The Forest/The geometry pipeline transform vertices form model space to clipping space.md"
+    },
+    {
+      "basename": "UE4 Control binding",
+      "path": "🌳 The Forest/UE4 Control binding.md"
+    },
+    {
+      "basename": "UE4 Delegates and events",
+      "path": "🌳 The Forest/UE4 Delegates and events.md"
+    },
+    {
+      "basename": "UE4 Interfaces",
+      "path": "🌳 The Forest/UE4 Interfaces.md"
+    },
+    {
+      "basename": "UE4 Traces",
+      "path": "🌳 The Forest/UE4 Traces.md"
+    },
+    {
+      "basename": "We should write notes with our own words",
+      "path": "🌳 The Forest/We should write notes with our own words.md"
+    },
+    {
+      "basename": "UE4 Timer",
+      "path": "🌳 The Forest/UE4 Timer.md"
+    },
+    {
+      "basename": "🪴 Tending this Garden",
+      "path": "⚙️ Meta/🪴 Tending this Garden.md"
+    },
+    {
+      "basename": "Obsidian plugins",
+      "path": "⚙️ Meta/Obsidian plugins.md"
+    },
+    {
+      "basename": "Tag taxonomy",
+      "path": "⚙️ Meta/Tag taxonomy.md"
+    },
+    {
+      "basename": "Folder structure",
+      "path": "⚙️ Meta/Folder structure.md"
+    },
+    {
+      "basename": "Bullet journal dimensions",
+      "path": "⚙️ Meta/Bullet journal dimensions.md"
+    },
+    {
+      "basename": "2022 New Year's resolutions",
+      "path": "⚙️ Meta/2022 New Year's resolutions.md"
+    },
+    {
       "basename": "🗺️ Map of maps",
       "path": "⚙️ Meta/🗺️ Map of maps.md"
     },
     {
-      "basename": "MOCs encourage flexible non-destructive thinking",
-      "path": "Cards/MOCs encourage flexible non-destructive thinking.md"
+      "basename": "UE4 Shortcuts",
+      "path": "🌱 Seedbox/UE4 Shortcuts.md"
     },
     {
-      "basename": "Concepts MOC",
-      "path": "Atlas/MOCs/Concepts MOC.md"
+      "basename": "UE4 Naming Prefixes",
+      "path": "🌱 Seedbox/UE4 Naming Prefixes.md"
     },
     {
-      "basename": "Gall's Law",
-      "path": "Cards/Gall's Law.md"
+      "basename": "UE4 Macros",
+      "path": "🌱 Seedbox/UE4 Macros.md"
     },
     {
-      "basename": "Is LYT For Me",
-      "path": "Cards/Is LYT For Me.md"
+      "basename": "UE4 GameMode",
+      "path": "🌱 Seedbox/UE4 GameMode.md"
     },
     {
-      "basename": "Trust the process (Kit)",
-      "path": "Cards/Trust the process (Kit).md"
+      "basename": "UE4 Core Classes",
+      "path": "🌱 Seedbox/UE4 Core Classes.md"
     },
     {
-      "basename": "Set Up Your Home Note",
-      "path": "Cards/Set Up Your Home Note.md"
+      "basename": "UE4 Collisions",
+      "path": "🌱 Seedbox/UE4 Collisions.md"
     },
     {
-      "basename": "Home",
-      "path": "Home.md"
+      "basename": "Types of lighting in UE4",
+      "path": "🌱 Seedbox/Types of lighting in UE4.md"
     },
     {
-      "basename": "LYT Framework",
-      "path": "Cards/LYT Framework.md"
-    },
-    {
-      "basename": "LYT Kit",
-      "path": "LYT Kit.md"
-    },
-    {
-      "basename": "The forest entrance",
-      "path": "Cards/The forest entrance.md"
-    },
-    {
-      "basename": "Guiding Values of PKM",
-      "path": "Cards/Guiding Values of PKM.md"
-    },
-    {
-      "basename": "+ Start Here",
-      "path": "+ Start Here.md"
-    },
-    {
-      "basename": "Notebox 🗃 (Kit)",
-      "path": "Atlas/Scopes/Notebox 🗃 (Kit).md"
-    },
-    {
-      "basename": "Projects 🏗",
-      "path": "Atlas/MOCs/Projects 🏗.md"
-    },
-    {
-      "basename": "Thinking",
-      "path": "Atlas/MOCs/Thinking.md"
+      "basename": "Texture mipmap",
+      "path": "🌱 Seedbox/Texture mipmap.md"
     }
   ],
   "omittedPaths": [],

@@ -1,6 +1,5 @@
----
-tags: state/bud on/c/pointers
----
+up: [[🖥️ C_C++]]
+tags: #state/bud #on/c/pointers
 
 # What is a pointer?
 A pointer is a reference to a memory address address that stores a value. In practice, a pointer is treated as if it were an integer. Even though they are the same, there is not an implicit [[casting]] between integers and pointers. You must explicitly cast it as a sanity check. This casting has no cost, as it doesn't modify the value in any way.

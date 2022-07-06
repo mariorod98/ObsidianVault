@@ -1,8 +1,5 @@
----
-tags: state/forest on/pkm notOwned
----
-
-[[🗃️ PKM]]
+up: [[🗃️ PKM]]
+tags: #state/forest #on/pkm #notOwned
 
 # Evergreen notes
 

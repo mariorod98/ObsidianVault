@@ -1,8 +1,5 @@
----
-tags: state/bud on/pkm notOwned
----
-
-[[Evergreen notes]]
+up: [[Evergreen notes]]
+tags: #state/bud #on/pkm #notOwned
 
 # Note-making vs note-taking
 

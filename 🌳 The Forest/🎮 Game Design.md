@@ -1,6 +1,4 @@
----
-tags: meta/moc on/gameDesign
----
+tags: #meta/moc #on/gameDesign
 
 # 🎮 Game Design
 

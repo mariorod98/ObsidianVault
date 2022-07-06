@@ -1,8 +1,5 @@
----
-tags: state/forest on/pkm notOwned
----
-
-[[Evergreen notes]]
+UP: [[Evergreen notes]]
+tags: #state/forest #on/pkm #notOwned
 
 # Atomic notes
 

@@ -1,6 +1,5 @@
----
-tags: state/seedling on/ue4
----
+up:
+tags: #state/seedling #on/ue4 
 
 # Types of lighting
 - A **Directional light** simulates light that is being emitted from a source that is infinitely far away. All the shadows casted by this light are parallel. It is mostly used to simulate sunlight.

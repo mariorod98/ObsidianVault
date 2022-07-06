@@ -1,6 +1,6 @@
----
-tags: meta/moc on/pkm
----
+up: [[🗺️ Map of maps]]
+tags: #meta/moc #on/pkm
+
 
 # 🗃️ PKM
 

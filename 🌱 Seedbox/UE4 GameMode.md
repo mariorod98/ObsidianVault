@@ -1,6 +1,6 @@
----
-tags: state/seedling on/ue4
----
+up::
+tags:: #state/seedling #on/ue4
+
 
 # UE4 GameMode
 - Define las reglas del juego.

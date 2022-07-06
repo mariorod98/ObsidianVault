@@ -1,7 +1,5 @@
+tags: #state/bud #on/math #on/computerScience
 
----
-tags: state/bud on/math on/computerScience
----
 
 # Bit Shifting
 Bit shifting is an operation that shifts the value of a binary number to the right or the left. There are four different types of shifting.

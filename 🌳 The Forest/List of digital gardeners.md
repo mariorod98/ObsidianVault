@@ -1,6 +1,5 @@
----
-tags: meta/collection on/pkm notOwned
----
+up: [[🗃️ PKM]]
+tags: #meta/collection #on/pkm #notOwned
 
 # List of digital gardeners
 

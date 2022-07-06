@@ -1,4 +1,0 @@
-- Programar cámara y movimiento
-- Bindear controles
-- Enlazar un evento de una clase base de UE4
-- Almacenar cosas entre niveles

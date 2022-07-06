@@ -1,12 +1,10 @@
----
-tags: state/bud on/cpp
----
+up: [[🖥️ C_C++]]
+tags: #state/bud #on/cpp
 
-# C++ volatile
 
-**Volatile is a keyword used to tell the compiler to avoid aggressive optimization involving that variable.** It might be usable in some instances where the value of the variable may be changed in a way that the compiler is not aware of.
+# Volatile is used to avoid aggressive optimization involving that variable.
 
-For example, consider the code:
+**Volatile is a keyword used to tell the compiler to avoid aggressive optimization involving that variable.** It might be usable in some instances where the value of the variable may be changed in a way that the compiler is not aware of. For example, consider the code:
 
 ```cpp
 int some_int = 100;

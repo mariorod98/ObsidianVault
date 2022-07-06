@@ -1,7 +1,6 @@
----
-alias: 🪴 This Garden
-tags: meta/moc
----
+up: [[🗺️ Map of maps]]
+tags: #meta/moc
+
 
 # 🪴 Tending this Garden
 

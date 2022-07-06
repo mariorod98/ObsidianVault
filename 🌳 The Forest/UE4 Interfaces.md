@@ -1,6 +1,5 @@
----
-tags: state/bud on/ue4/interface
----
+up: [[⚙️Unreal Engine 4]]
+tags: #state/bud #on/ue4
 
 # UE4 Interfaces
 C++ does not support interfaces. In order to implement them, UE4 uses a special class, **UInterface**, that simulates an interface. Custom interfaces in UE4 are composed of two distinct classes: a *UClassName* that inherits from UInterface, and a *IClassName* that doesn't inherit from anything. 

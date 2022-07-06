@@ -1,6 +1,5 @@
----
-tags: state/bud on/ue4/traces
----
+up: [[⚙️Unreal Engine 4]]
+tags: #state/bud #on/ue4
 
 # UE4 Traces
 Traces are a method of getting collision feedback on a specific area. They are defined by a starting point, an ending point and an area that traverses both points.

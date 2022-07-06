@@ -1,4 +1,4 @@
-[[🪴 Tending this Garden]]
+up: [[🪴 Tending this Garden]]
 
 # Folder structure
 Folders are meant to be big buckets of notes. [[🪴 Tending this Garden|🪴 This Garden]] has:

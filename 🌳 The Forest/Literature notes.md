@@ -1,8 +1,5 @@
----
-tags: state/forest on/pkm notOwned
----
-
 [[🗃️ PKM]]
+tags: #state/forest #on/pkm #notOwned
 
 # Literature notes
 
