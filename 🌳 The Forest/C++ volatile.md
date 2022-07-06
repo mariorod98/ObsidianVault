@@ -1,5 +1,5 @@
 ---
-tags: state/seedling on/cpp
+tags: state/bud on/cpp
 ---
 
 # C++ volatile
@@ -15,7 +15,7 @@ while(some_int == 100) {
 }
 ```
 
-If the compiler detects that the value of the variable ``some_int`` never ever changes, it may optimize the while loop to something like: ``while(true)``. This may be undesirable if the variable ``some_int`` is modified outside the program.
+If the compiler detects that the value of the variable ``some_int`` never ever changes, it may optimize the while loop to something like: ``while(true)``. This may be undesirable if the variable ``some_int`` is modified outside the program (via hardware).
 
 ==The volatile keyword is hardware dependent, so it's use and applications may vary between compilers.==
 

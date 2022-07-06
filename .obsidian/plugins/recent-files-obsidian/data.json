@@ -1,12 +1,56 @@
 {
   "recentFiles": [
     {
-      "basename": "C++ volatile",
-      "path": "🌱 Seedbox/C++ volatile.md"
+      "basename": "Términos gráfica",
+      "path": "🌱 Seedbox/Términos gráfica.md"
+    },
+    {
+      "basename": "Rendering path",
+      "path": "🌱 Seedbox/Rendering path.md"
+    },
+    {
+      "basename": "What is referred rendering",
+      "path": "🌱 Seedbox/What is referred rendering.md"
+    },
+    {
+      "basename": "Types of lighting in UE4",
+      "path": "🌱 Seedbox/Types of lighting in UE4.md"
+    },
+    {
+      "basename": "What is forward rendering",
+      "path": "🌱 Seedbox/What is forward rendering.md"
+    },
+    {
+      "basename": "UE4 DUDAS",
+      "path": "🌱 Seedbox/UE4 DUDAS.md"
+    },
+    {
+      "basename": "UE4 GameInstance",
+      "path": "🌱 Seedbox/UE4 GameInstance.md"
+    },
+    {
+      "basename": "Wave Function Collapse Algorithm",
+      "path": "🌱 Seedbox/Wave Function Collapse Algorithm.md"
     },
     {
       "basename": "How the compiler translates C++ to Assembler",
       "path": "🌱 Seedbox/How the compiler translates C++ to Assembler.md"
+    },
+    {
+      "basename": "UE4 Control binding",
+      "path": "🌳 The Forest/UE4 Control binding.md"
+    },
+    {
+      "basename": "In App Purchases (IAPs)",
+      "path": "🌱 Seedbox/In App Purchases (IAPs).md"
+    },
+    {
+      "basename": "UE4 Collisions",
+      "path": "🌱 Seedbox/UE4 Collisions.md"
+    },
+    {
+      "basename": "C++ volatile",
+      "path": "🌳 The Forest/C++ volatile.md"
     },
     {
       "basename": "UE4 GameMode",
@@ -29,24 +73,12 @@
       "path": "🌱 Seedbox/UE4 Binding input to actors.md"
     },
     {
-      "basename": "UE4 Control binding",
-      "path": "🌱 Seedbox/UE4 Control binding.md"
-    },
-    {
-      "basename": "UE4 DUDAS",
-      "path": "🌱 Seedbox/UE4 DUDAS.md"
-    },
-    {
       "basename": "TODO LIST",
       "path": "⚙️ Meta/TODO LIST.md"
     },
     {
       "basename": "Idle Game Core Mechanics",
       "path": "🌳 The Forest/Idle Game Core Mechanics.md"
-    },
-    {
-      "basename": "In App Purchases (IAPs)",
-      "path": "🌱 Seedbox/In App Purchases (IAPs).md"
     },
     {
       "basename": "3D scene",
@@ -167,38 +199,6 @@
     {
       "basename": "Words I've used to describe important habits",
       "path": "Cards/Words I've used to describe important habits.md"
-    },
-    {
-      "basename": "Why Categories for Your Notes are a Good Idea",
-      "path": "Cards/Why Categories for Your Notes are a Good Idea.md"
-    },
-    {
-      "basename": "When Naming Notes, What UID should I use",
-      "path": "Cards/When Naming Notes, What UID should I use.md"
-    },
-    {
-      "basename": "What would it take to get to self-driving cars to collectively communicate",
-      "path": "Cards/What would it take to get to self-driving cars to collectively communicate.md"
-    },
-    {
-      "basename": "What is an MOC - Various Answers",
-      "path": "Cards/What is an MOC - Various Answers.md"
-    },
-    {
-      "basename": "What is a Zettelkasten - Various Answers",
-      "path": "Cards/What is a Zettelkasten - Various Answers.md"
-    },
-    {
-      "basename": "What is a note",
-      "path": "Cards/What is a note.md"
-    },
-    {
-      "basename": "What does X mean in metadata",
-      "path": "Cards/What does X mean in metadata.md"
-    },
-    {
-      "basename": "What are higher-order notes",
-      "path": "Cards/What are higher-order notes.md"
     }
   ],
   "omittedPaths": [],

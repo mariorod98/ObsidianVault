@@ -1,5 +1,5 @@
 ---
-tags: state/seedling on/ue4
+tags: state/bud on/ue4
 ---
 
 # UE4 Input binding
