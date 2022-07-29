@@ -1,8 +1,7 @@
 up: [[⚙️Unreal Engine 4]]
 tags: #state/bud #on/ue4
 
-
-# What is a component?
+# UE4 Components
 A Component is a special type of [[Object]] that [[Actors]] can attach to themselves as sub-objects. The base class for all components is `UActorComponent`. Everything the player sees or interacts with is the work of some type of component.
 
 ## Types of components
