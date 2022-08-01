@@ -1,44 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "UE4 Core Classes",
-      "path": "🌱 Seedbox/UE4 Core Classes.md"
+      "basename": "Things to do this summer",
+      "path": "⚙️ Meta/Things to do this summer.md"
     },
     {
-      "basename": "UE4 Something",
-      "path": "🌱 Seedbox/UE4 Something.md"
-    },
-    {
-      "basename": "UE4 Optimization tips",
-      "path": "🌱 Seedbox/UE4 Optimization tips.md"
-    },
-    {
-      "basename": "UE4 Naming Prefixes",
-      "path": "🌱 Seedbox/UE4 Naming Prefixes.md"
+      "basename": "UE4 Macros",
+      "path": "🌱 Seedbox/UE4 Macros.md"
     },
     {
       "basename": "UE4 GameMode",
       "path": "🌱 Seedbox/UE4 GameMode.md"
     },
     {
-      "basename": "UE4 Collisions",
-      "path": "🌱 Seedbox/UE4 Collisions.md"
+      "basename": "UE4 Naming Prefixes",
+      "path": "🌱 Seedbox/UE4 Naming Prefixes.md"
     },
     {
-      "basename": "C++ const",
-      "path": "🌱 Seedbox/C++ const.md"
-    },
-    {
-      "basename": "C++ virtual",
-      "path": "🌱 Seedbox/C++ virtual.md"
+      "basename": "UE4 Core Classes",
+      "path": "🌱 Seedbox/UE4 Core Classes.md"
     },
     {
       "basename": "🖥️ C_C++",
       "path": "🌳 The Forest/🖥️ C_C++.md"
-    },
-    {
-      "basename": "Volatile is a keyword used to avoid aggressive optimization",
-      "path": "🌳 The Forest/Volatile is a keyword used to avoid aggressive optimization.md"
     },
     {
       "basename": "🎮 Game Design",
@@ -55,6 +39,30 @@
     {
       "basename": "UE4 Components",
       "path": "🌳 The Forest/UE4 Components.md"
+    },
+    {
+      "basename": "UE4 Collisions",
+      "path": "🌱 Seedbox/UE4 Collisions.md"
+    },
+    {
+      "basename": "UE4 Something",
+      "path": "🌱 Seedbox/UE4 Something.md"
+    },
+    {
+      "basename": "UE4 Optimization tips",
+      "path": "🌱 Seedbox/UE4 Optimization tips.md"
+    },
+    {
+      "basename": "C++ const",
+      "path": "🌱 Seedbox/C++ const.md"
+    },
+    {
+      "basename": "C++ virtual",
+      "path": "🌱 Seedbox/C++ virtual.md"
+    },
+    {
+      "basename": "Volatile is a keyword used to avoid aggressive optimization",
+      "path": "🌳 The Forest/Volatile is a keyword used to avoid aggressive optimization.md"
     },
     {
       "basename": "UE4 Delegates and events",
@@ -191,14 +199,6 @@
     {
       "basename": "2022 New Year's resolutions",
       "path": "⚙️ Meta/2022 New Year's resolutions.md"
-    },
-    {
-      "basename": "🗺️ Map of maps",
-      "path": "⚙️ Meta/🗺️ Map of maps.md"
-    },
-    {
-      "basename": "UE4 Macros",
-      "path": "🌱 Seedbox/UE4 Macros.md"
     }
   ],
   "omittedPaths": [],

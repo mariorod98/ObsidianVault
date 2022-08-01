@@ -12,7 +12,6 @@ Some important concepts are:
 - [[UE4 Interfaces]]
 - [[UE4 Delegates and events]]
 - [[UE4 Core Classes]]
+- [[UE4 Collisions]]
 
 ## Resources, tools, people, etc.
-
-### Notable people
