@@ -75,7 +75,10 @@ ptr_1 = &z; // Error: assignment of read-only variable
 ```
 
 ## Constant objects
-As any other variable, objects can also have the **const** keyword. When an object is const, its state (the values of its attributes) cannot be change. A constant object
+As any other variable, objects can also have the **const** keyword. ==When an object is const==, it needs to be initialized at the time of declaration  (with the constructor) and ==its state (the values of its attributes) cannot be change==. 
+
+## Constant methods
+To make sure that a constant object cannot be modified, it can only use its constant methods. These methods must not modify the state of the object, therefore its attributes are read-only.
 
 
 ## References
