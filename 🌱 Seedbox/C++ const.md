@@ -80,7 +80,6 @@ As any other variable, objects can also have the **const** keyword. ==When an ob
 ## Constant methods
 To make sure that a constant object cannot be modified, it can only use its constant methods. These methods must not modify the state of the object, therefore its attributes are read-only.
 
-
 ## References
 [9.8 — Pointers and const – Learn C++](https://www.learncpp.com/cpp-tutorial/pointers-and-const/)
 [Const keyword in C++ - GeeksforGeeks](https://www.geeksforgeeks.org/const-keyword-in-cpp/)
