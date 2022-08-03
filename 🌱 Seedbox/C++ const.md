@@ -126,6 +126,9 @@ my_point.GetY();    // Correct.
 
 ```
 
+## Constant function parameters
+
+
 ## References
 [9.8 — Pointers and const – Learn C++](https://www.learncpp.com/cpp-tutorial/pointers-and-const/)
 [Const keyword in C++ - GeeksforGeeks](https://www.geeksforgeeks.org/const-keyword-in-cpp/)
