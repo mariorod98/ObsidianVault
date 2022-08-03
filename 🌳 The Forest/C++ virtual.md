@@ -1,5 +1,5 @@
 up:: [[🖥️ C_C++]]
-tags:: #state/seedling #on/cpp
+tags:: #state/bud #on/cpp
 
 
 # C++ virtual
