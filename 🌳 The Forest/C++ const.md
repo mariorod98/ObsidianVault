@@ -1,5 +1,5 @@
 up:: [[🖥️ C_C++]]
-tags:: #state/seedling #on/cpp
+tags:: #state/bud #on/cpp
 
 # C++ const
 
@@ -16,7 +16,7 @@ const int x = 10; // Correct
 ```
 
 ## Constant pointers
-A pointer declaration can have the **const** keyword in three different places that define the behavior of the keyword.
+A [[A pointer is a reference to a memory address|pointer]] declaration can have the **const** keyword in three different places that define the behavior of the keyword.
 
 ### Pointer to const value
 If we want to reference a const value by a pointer, we cannot use a pointer to non-const values (the standard pointer). We need to define ==a pointer (const or not) that references a const value==. To do so, the **const** keyword must go before the pointer's data type.
@@ -127,6 +127,36 @@ my_point.GetY();    // Correct.
 ```
 
 ## Constant function parameters
+The parameter of a function can be declared const to ensure that it will not be modified.
+
+```c++
+void my_func(const int a) {
+	a = 1; // Error: assignment of read-only variable
+}
+```
+
+## Const function return
+When the return type of a function is declared const, the variable that stores the returned value must be const. This means that the variable must be declared when calling the function and that it will not be modified.
+
+```c++
+class Point {
+	int x, y;
+}
+
+const Point my_func(int x, int y) {
+	return new Point(x, y);
+}
+
+...
+
+Point p;
+p = my_func(1, 2);  // Error: cannot assign const Point to Point variable
+
+const point p2;      // Error: const variables must be initialized
+p2 = my_func(1, 2);
+
+const Point p3 = my_func(1, 2);  // Correct.
+```
 
 
 ## References
@@ -135,4 +165,4 @@ my_point.GetY();    // Correct.
 
 ---
 Planted: 2022-03-24
-Last tended: 2022-08-01
+Last tended: 2022-08-02

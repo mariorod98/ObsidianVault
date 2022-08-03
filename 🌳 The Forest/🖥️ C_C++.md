@@ -1,7 +1,6 @@
 up: [[🗺️ Map of maps]]
 tags: #meta/moc #on/c #on/cpp
 
-
 # 🖥️ C/C++
 
 C is a widely-known programming language used for all-purpose applications. It's main feature is that it provides low-level access to memory with the use of pointers. It is widely used in videogames programming for its effectiveness to optimize memory usage. 
@@ -13,6 +12,8 @@ Some important concepts are:
 - [[How the compiler translates C++ to Assembler]]
 - [[Volatile is a keyword used to avoid aggressive optimization]]
 
-## Resources, tools, people, etc.
+Some important keywords are:
+- [[C++ const|const]]
+- [[C++ virtual|virtual]]
 
-### Notable people
+## Resources, tools, people, etc.
