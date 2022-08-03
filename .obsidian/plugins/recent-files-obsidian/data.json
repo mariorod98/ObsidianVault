@@ -5,6 +5,10 @@
       "path": "🌱 Seedbox/C++ virtual.md"
     },
     {
+      "basename": "🖥️ C_C++",
+      "path": "🌳 The Forest/🖥️ C_C++.md"
+    },
+    {
       "basename": "Texture mipmap",
       "path": "🌱 Seedbox/Texture mipmap.md"
     },
@@ -27,10 +31,6 @@
     {
       "basename": "C++ const",
       "path": "🌳 The Forest/C++ const.md"
-    },
-    {
-      "basename": "🖥️ C_C++",
-      "path": "🌳 The Forest/🖥️ C_C++.md"
     },
     {
       "basename": "Volatile is a keyword used to avoid aggressive optimization",

@@ -11,6 +11,7 @@ Some important concepts are:
 - [[A pointer is a reference to a memory address]]
 - [[How the compiler translates C++ to Assembler]]
 - [[Volatile is a keyword used to avoid aggressive optimization]]
+- [[VTABLE]]
 
 Some important keywords are:
 - [[C++ const|const]]
