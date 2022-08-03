@@ -77,8 +77,54 @@ ptr_1 = &z; // Error: assignment of read-only variable
 ## Constant objects
 As any other variable, objects can also have the **const** keyword. ==When an object is const==, it needs to be initialized at the time of declaration  (with the constructor) and ==its state (the values of its attributes) cannot be change==. 
 
+```c++
+class Point {
+	int x, y;
+}
+
+...
+
+const Point my_point = new Point();
+my_point.x = 10;  // Error: assignment of read-only variable
+```
+
 ## Constant methods
-To make sure that a constant object cannot be modified, it can only use its constant methods. These methods must not modify the state of the object, therefore its attributes are read-only.
+To ensure that a constant object cannot be modified, it can only use  constant methods. ==These methods must not modify the state of the object, therefore its attributes are read-only==.
+
+==Constant objects can only call constant methods, therefore, when defining a new method, it is important to add the keyword if it is appropriate.==
+
+```c++
+class Point {
+	int x, y;
+
+	void Add(int x, int y) {
+		this.x += x;
+		this.y += y;
+	}
+
+	int GetX() {
+		return x;
+	}
+
+	int GetY() const {
+		return y;
+	}
+
+	int SetX(int x) const {  
+		this.x = x; // Error: a const method cannot modify the state of the object
+	}  
+}
+
+...
+
+const Point my_point = new Point();
+my_point.Add(5, 4);  // Error: the method modifies the state of the object
+
+my_point.GetX();     // Error: even though it doesn't modify the state, the method must be declared const
+
+my_point.GetY();    // Correct.
+
+```
 
 ## References
 [9.8 — Pointers and const – Learn C++](https://www.learncpp.com/cpp-tutorial/pointers-and-const/)
