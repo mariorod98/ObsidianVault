@@ -4,7 +4,9 @@ tags:: #state/seedling #on/cpp
 
 # C++ virtual
 
-The **virtual** keyword is used to define class methods that are expected to be redefined in derived classes. When you refer to a derived class object using a pointer or a reference to the base class, you can call a virtual function for that object and execute the derived class's version of the function.
+==The **virtual** keyword is used to define class methods that are expected to be redefined in derived classes==. When you refer to a derived class object using a pointer or a reference to the base class, you can call a virtual function for that object and execute the derived class's version of the function.
+
+Virtual functions ensure that the correct function is called for an object, regardless of the type of reference (or pointer) used for the call. When a virtual function is called, the resolving of which function to execute is done at runtime ([[Polymorphism|Runtime polymorphism]]). 
 
 ```c++
 class Base {
@@ -20,6 +22,7 @@ class Derived : public Base {
 }
 
 ...
+
 int result;
 Base b1 = new Base();
 Derived d1 = new Derived();
@@ -27,10 +30,12 @@ Derived d1 = new Derived();
 Base* b_pointer = &b1;          // the pointer points to the base class
 result = b_pointer->my_func();  // result = 3
 
-b_pointer = &d1;                // the pointer points to the derived class (polymorphism)
-result = b_pointer->my_func();
+b_pointer = &d1;                // the pointer points to the derived class
+result = b_pointer->my_func();  // result = 4
 
 ```
+
+## Rules for virtual functions
 
 ---
 Planted: 2022-03-24

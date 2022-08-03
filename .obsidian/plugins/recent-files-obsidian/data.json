@@ -5,12 +5,32 @@
       "path": "🌱 Seedbox/C++ virtual.md"
     },
     {
-      "basename": "🖥️ C_C++",
-      "path": "🌳 The Forest/🖥️ C_C++.md"
+      "basename": "Texture mipmap",
+      "path": "🌱 Seedbox/Texture mipmap.md"
+    },
+    {
+      "basename": "3D scene",
+      "path": "🌱 Seedbox/3D scene.md"
+    },
+    {
+      "basename": "Bullet journal dimensions",
+      "path": "⚙️ Meta/Bullet journal dimensions.md"
+    },
+    {
+      "basename": "Wave Function Collapse Algorithm",
+      "path": "🌱 Seedbox/Wave Function Collapse Algorithm.md"
+    },
+    {
+      "basename": "UE4 Timer",
+      "path": "🌳 The Forest/UE4 Timer.md"
     },
     {
       "basename": "C++ const",
       "path": "🌳 The Forest/C++ const.md"
+    },
+    {
+      "basename": "🖥️ C_C++",
+      "path": "🌳 The Forest/🖥️ C_C++.md"
     },
     {
       "basename": "Volatile is a keyword used to avoid aggressive optimization",
@@ -19,10 +39,6 @@
     {
       "basename": "A pointer is a reference to a memory address",
       "path": "🌳 The Forest/A pointer is a reference to a memory address.md"
-    },
-    {
-      "basename": "3D scene",
-      "path": "🌱 Seedbox/3D scene.md"
     },
     {
       "basename": "Things to do this summer",
@@ -101,10 +117,6 @@
       "path": "🌳 The Forest/Instruction Set Architecture of ARM.md"
     },
     {
-      "basename": "Wave Function Collapse Algorithm",
-      "path": "🌱 Seedbox/Wave Function Collapse Algorithm.md"
-    },
-    {
       "basename": "What is forward rendering",
       "path": "🌱 Seedbox/What is forward rendering.md"
     },
@@ -173,10 +185,6 @@
       "path": "🌳 The Forest/We should write notes with our own words.md"
     },
     {
-      "basename": "UE4 Timer",
-      "path": "🌳 The Forest/UE4 Timer.md"
-    },
-    {
       "basename": "🪴 Tending this Garden",
       "path": "⚙️ Meta/🪴 Tending this Garden.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Folder structure",
       "path": "⚙️ Meta/Folder structure.md"
-    },
-    {
-      "basename": "Bullet journal dimensions",
-      "path": "⚙️ Meta/Bullet journal dimensions.md"
-    },
-    {
-      "basename": "2022 New Year's resolutions",
-      "path": "⚙️ Meta/2022 New Year's resolutions.md"
     }
   ],
   "omittedPaths": [],
