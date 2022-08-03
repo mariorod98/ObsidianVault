@@ -44,6 +44,10 @@ result = b_pointer->my_func();  // result = 4
 5. It is not mandatory for the derived class to override a virtual function. In that case, the base class version of the function is used.
 6. A class may have virtual destructor, but it cannot have virtual constructor.
 
+## Limitations
+-  ==The call of a virtual function is slightly slower== due to the runtime mechanism and it makes it more difficult for the compiler to optimize because it doesn't know exactly which function is going to be called at compile time.
+- In a complex system, virtual functions can make it a little more difficult to figure out where a function is being called from, making it more difficult to debug.
+
 ## References
 [Virtual Function in C++ - GeeksforGeeks](https://www.geeksforgeeks.org/virtual-function-cpp/)
 [Virtual Functions | Microsoft Docs](https://docs.microsoft.com/en-us/cpp/cpp/virtual-functions?view=msvc-170)

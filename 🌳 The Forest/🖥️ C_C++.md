@@ -12,6 +12,7 @@ Some important concepts are:
 - [[How the compiler translates C++ to Assembler]]
 - [[Volatile is a keyword used to avoid aggressive optimization]]
 - [[VTABLE]]
+- [[Late and early binding]]
 
 Some important keywords are:
 - [[C++ const|const]]

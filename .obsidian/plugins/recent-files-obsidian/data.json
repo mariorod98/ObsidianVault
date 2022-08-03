@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "C++ virtual",
-      "path": "🌱 Seedbox/C++ virtual.md"
-    },
-    {
       "basename": "🖥️ C_C++",
       "path": "🌳 The Forest/🖥️ C_C++.md"
+    },
+    {
+      "basename": "🗺️ Map of maps",
+      "path": "⚙️ Meta/🗺️ Map of maps.md"
+    },
+    {
+      "basename": "C++ const",
+      "path": "🌳 The Forest/C++ const.md"
+    },
+    {
+      "basename": "Late and early binding",
+      "path": "🌱 Seedbox/Late and early binding.md"
+    },
+    {
+      "basename": "C++ virtual",
+      "path": "🌱 Seedbox/C++ virtual.md"
     },
     {
       "basename": "Texture mipmap",
@@ -27,10 +39,6 @@
     {
       "basename": "UE4 Timer",
       "path": "🌳 The Forest/UE4 Timer.md"
-    },
-    {
-      "basename": "C++ const",
-      "path": "🌳 The Forest/C++ const.md"
     },
     {
       "basename": "Volatile is a keyword used to avoid aggressive optimization",
@@ -191,14 +199,6 @@
     {
       "basename": "Obsidian plugins",
       "path": "⚙️ Meta/Obsidian plugins.md"
-    },
-    {
-      "basename": "Tag taxonomy",
-      "path": "⚙️ Meta/Tag taxonomy.md"
-    },
-    {
-      "basename": "Folder structure",
-      "path": "⚙️ Meta/Folder structure.md"
     }
   ],
   "omittedPaths": [],
