@@ -10,6 +10,8 @@ tags: #state/seedling
 
 [Modifying Wave Function Collapse for more Complex Use in Game Generation and Design](https://digitalcommons.trinity.edu/cgi/viewcontent.cgi?article=1058&context=compsci_honors#:~:text=Wave%20Function%20Collapse%20(WFC)%20is,a%20similar%2C%20yet%20novel%20output.)
 
+[Wave Function Collapse Explained – BorisTheBrave.Com](https://www.boristhebrave.com/2020/04/13/wave-function-collapse-explained/)
+
 ---
 Planted: 2022-05-13
 Last tended: 2022-05-13
