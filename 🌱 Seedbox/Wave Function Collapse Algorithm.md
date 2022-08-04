@@ -12,6 +12,9 @@ tags: #state/seedling
 
 [Wave Function Collapse Explained – BorisTheBrave.Com](https://www.boristhebrave.com/2020/04/13/wave-function-collapse-explained/)
 
+[Wave - by Oskar Stålberg](https://oskarstalberg.com/game/wave/wave.html)
+
+
 ---
 Planted: 2022-05-13
 Last tended: 2022-05-13
