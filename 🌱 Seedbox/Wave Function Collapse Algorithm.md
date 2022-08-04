@@ -2,6 +2,8 @@ up:
 tags: #state/seedling
 
 # Wave Function Collapse Algorithm
+[GitHub - mxgmn/WaveFunctionCollapse: Bitmap & tilemap generation from a single example with the help of ideas from quantum mechanics](https://github.com/mxgmn/WaveFunctionCollapse)
+
 [Superpositions, Sudoku, the Wave Function Collapse algorithm. - YouTube](https://www.youtube.com/watch?v=2SuvO4Gi7uY&ab_channel=MartinDonald)
 
 [The Wavefunction Collapse Algorithm explained very clearly | Robert Heaton](https://robertheaton.com/2018/12/17/wavefunction-collapse-algorithm/)
