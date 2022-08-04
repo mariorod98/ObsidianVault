@@ -5,6 +5,18 @@
       "path": "🌱 Seedbox/Wave Function Collapse Algorithm.md"
     },
     {
+      "basename": "Things to do this summer",
+      "path": "⚙️ Meta/Things to do this summer.md"
+    },
+    {
+      "basename": "🪴 Tending this Garden",
+      "path": "⚙️ Meta/🪴 Tending this Garden.md"
+    },
+    {
+      "basename": "Obsidian plugins",
+      "path": "⚙️ Meta/Obsidian plugins.md"
+    },
+    {
       "basename": "🖥️ C_C++",
       "path": "🌳 The Forest/🖥️ C_C++.md"
     },
@@ -51,10 +63,6 @@
     {
       "basename": "A pointer is a reference to a memory address",
       "path": "🌳 The Forest/A pointer is a reference to a memory address.md"
-    },
-    {
-      "basename": "Things to do this summer",
-      "path": "⚙️ Meta/Things to do this summer.md"
     },
     {
       "basename": "UE4 Macros",
@@ -191,14 +199,6 @@
     {
       "basename": "We should write notes with our own words",
       "path": "🌳 The Forest/We should write notes with our own words.md"
-    },
-    {
-      "basename": "🪴 Tending this Garden",
-      "path": "⚙️ Meta/🪴 Tending this Garden.md"
-    },
-    {
-      "basename": "Obsidian plugins",
-      "path": "⚙️ Meta/Obsidian plugins.md"
     }
   ],
   "omittedPaths": [],

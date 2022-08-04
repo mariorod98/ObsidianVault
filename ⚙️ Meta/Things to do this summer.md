@@ -9,6 +9,7 @@ tags: meta
 - [ ] Finish documenting ue4
 - [ ] Finish documenting C++
 - [ ] Explore marching cubes algorithm
+- [ ] Explore Wave Function Collapse algorithm
 - [ ] Start creating notes about videogames marketing
 - [ ] Read about note taking and knowledge
 
