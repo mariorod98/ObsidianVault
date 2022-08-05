@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "TODO LIST",
+      "path": "⚙️ Meta/TODO LIST.md"
+    },
+    {
       "basename": "Wave Function Collapse Algorithm",
       "path": "🌱 Seedbox/Wave Function Collapse Algorithm.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "UE4 Control binding",
       "path": "🌳 The Forest/UE4 Control binding.md"
-    },
-    {
-      "basename": "We should write notes with our own words",
-      "path": "🌳 The Forest/We should write notes with our own words.md"
     }
   ],
   "omittedPaths": [],
