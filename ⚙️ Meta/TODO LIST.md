@@ -1,7 +1,7 @@
 # TODO LIST
 - [x] Sacar cita ITV
 - [ ] Vacuna VPH
-- [ ] Vacuna COVID
+- [x] Vacuna COVID
 - [x] Mirar cuando cobran airbnb y pedir a esta gente el dinerillo
 - [x] Hacer llamadita juanmo-carmen pa hablar del festi
 - [ ] Hacer ejercicios Milo

@@ -10,6 +10,7 @@ tags: meta
 - [ ] Finish documenting C++
 - [ ] Explore marching cubes algorithm
 - [ ] Explore Wave Function Collapse algorithm
+- [ ] Explore Swarm Intelligence in RTS / Total War
 - [ ] Start creating notes about videogames marketing
 - [ ] Read about note taking and knowledge
 
