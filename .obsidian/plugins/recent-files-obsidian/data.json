@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "2022 New Year's resolutions",
-      "path": "⚙️ Meta/2022 New Year's resolutions.md"
+      "basename": "Git Commands",
+      "path": "🌱 Seedbox/Git Commands.md"
     },
     {
-      "basename": "Bullet journal dimensions",
-      "path": "⚙️ Meta/Bullet journal dimensions.md"
+      "basename": "UE4 Optimization tips",
+      "path": "🌱 Seedbox/UE4 Optimization tips.md"
+    },
+    {
+      "basename": "UE4 Something",
+      "path": "🌱 Seedbox/UE4 Something.md"
     },
     {
       "basename": "Things to do this summer",
@@ -15,6 +19,14 @@
     {
       "basename": "TODO LIST",
       "path": "⚙️ Meta/TODO LIST.md"
+    },
+    {
+      "basename": "2022 New Year's resolutions",
+      "path": "⚙️ Meta/2022 New Year's resolutions.md"
+    },
+    {
+      "basename": "Bullet journal dimensions",
+      "path": "⚙️ Meta/Bullet journal dimensions.md"
     },
     {
       "basename": "Wave Function Collapse Algorithm",
@@ -105,14 +117,6 @@
       "path": "🌱 Seedbox/UE4 Collisions.md"
     },
     {
-      "basename": "UE4 Something",
-      "path": "🌱 Seedbox/UE4 Something.md"
-    },
-    {
-      "basename": "UE4 Optimization tips",
-      "path": "🌱 Seedbox/UE4 Optimization tips.md"
-    },
-    {
       "basename": "UE4 Delegates and events",
       "path": "🌳 The Forest/UE4 Delegates and events.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Registers in ARM Assembler",
       "path": "🌳 The Forest/Registers in ARM Assembler.md"
-    },
-    {
-      "basename": "The geometry pipeline transform vertices form model space to clipping space",
-      "path": "🌳 The Forest/The geometry pipeline transform vertices form model space to clipping space.md"
     }
   ],
   "omittedPaths": [],

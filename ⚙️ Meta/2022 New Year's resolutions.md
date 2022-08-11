@@ -5,5 +5,5 @@
 - [ ] Try to exercise weekly.
 - [ ] Learn to learn and to store information.
 - [ ] Learn about grid worlds and procedural grid generation.
-- [ ] Organize all my photos and erase them from the phone.
+- [ ] Organize all my photos and save them in the ssd.
 - [ ] Reset the computer memory
