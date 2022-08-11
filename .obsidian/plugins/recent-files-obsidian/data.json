@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "2022 New Year's resolutions",
+      "path": "⚙️ Meta/2022 New Year's resolutions.md"
+    },
+    {
+      "basename": "Bullet journal dimensions",
+      "path": "⚙️ Meta/Bullet journal dimensions.md"
+    },
+    {
       "basename": "Things to do this summer",
       "path": "⚙️ Meta/Things to do this summer.md"
     },
@@ -51,10 +59,6 @@
     {
       "basename": "3D scene",
       "path": "🌱 Seedbox/3D scene.md"
-    },
-    {
-      "basename": "Bullet journal dimensions",
-      "path": "⚙️ Meta/Bullet journal dimensions.md"
     },
     {
       "basename": "UE4 Timer",
@@ -195,10 +199,6 @@
     {
       "basename": "The geometry pipeline transform vertices form model space to clipping space",
       "path": "🌳 The Forest/The geometry pipeline transform vertices form model space to clipping space.md"
-    },
-    {
-      "basename": "UE4 Control binding",
-      "path": "🌳 The Forest/UE4 Control binding.md"
     }
   ],
   "omittedPaths": [],
