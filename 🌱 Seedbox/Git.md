@@ -6,8 +6,6 @@ tags:: #state/seedling #on/git
 ## What is Git?
 Git is a Distributed [[Version Control System]] (VSC) that tracks the history of changes as people and teams collaborate on a project together. It is the most common VSC used nowadays.
 
-## How does Git work?
-
 
 ## Start a repository
 
