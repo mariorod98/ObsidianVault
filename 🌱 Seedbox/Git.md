@@ -15,7 +15,12 @@ Git has three environments where these changes live. These are:
 
 ## Start a repository
 
-
+[Git - gitglossary Documentation](https://git-scm.com/docs/gitglossary)
+[https://rogerdudler.github.io/git-guide/files/git_cheat_sheet.pdf](https://rogerdudler.github.io/git-guide/files/git_cheat_sheet.pdf)
+[A Visual Git Reference](https://marklodato.github.io/visual-git-guide/index-en.html)
+[git - the simple guide - no deep shit!](https://rogerdudler.github.io/git-guide/)
+[About Git - GitHub Docs](https://docs.github.com/en/get-started/using-git/about-git)
+[States of a File in Git Working Directory - GeeksforGeeks](https://www.geeksforgeeks.org/states-of-a-file-in-git-working-directory/#:~:text=The%20Git%20directory%20contains%20the,included%20in%20the%20next%20commit.)
 
 ---
 Planted: 2022-08-11
