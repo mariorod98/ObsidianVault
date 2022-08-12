@@ -6,7 +6,12 @@ The Wave Function Collapse (WFC) is an algorithm that generates procedural image
 
 The WFC can be extended to use tilesets to generate images and even 3D blocks to generate a 3D environment. 
 
-The algorithm 
+## Simple explanation
+The WFC algorithm uses a structure, called **wave**, to handle all the possibilities for each node (or position) in the output image. This **wave** stores the candidate tiles of each position.
+
+The algorithm can be broken down into two phases:
+- **Observation phase**. Here the algorithm chooses the a position of the image (based on its *entropy*) and **collapses** that position. This means that it chooses a tile from the candidates in the **wave**, eliminating the rest of the candidates for that node.
+- **Propagation phase**. Once a candidate has been chosen, it must propagate the decision to the rest of the nodes of the image. This propagation works by adjacency. The algorithm will check the neighbors of the current tile to see if any candidate must be removed. If a candidate of a neighbor is removed, then its neighbors must be checked too. The propagation stops when all the changes have been checked.
 
 ## Initial State
 To start the algorithm, the following input must be handed:
