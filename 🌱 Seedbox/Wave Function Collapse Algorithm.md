@@ -9,7 +9,8 @@ The WFC can be extended to use tilesets to generate images and even 3D blocks to
 ## Simple explanation
 The WFC algorithm uses a structure, called **wave**, to handle all the possibilities for each node (or position) in the output image. This **wave** stores the candidate tiles of each position.
 
-
+![[WFC_wave.png | 300]]
+Image 1. The state of the **wave** in a specific iteration of the algorithm.
 
 The algorithm can be broken down into two phases:
 - **Observation phase**. Here the algorithm chooses the a position of the image (based on its *entropy*) and **collapses** that position. This means that it chooses a tile from the candidates in the **wave**, eliminating the rest of the candidates for that node.

@@ -94,7 +94,7 @@
   "defaultViewMode": "source",
   "communityThemeSortOrder": "download",
   "autoPairMarkdown": true,
-  "livePreview": true,
+  "livePreview": false,
   "autoPairBrackets": true,
   "legacyEditor": false,
   "mobileToolbarActivatedOptions": [
