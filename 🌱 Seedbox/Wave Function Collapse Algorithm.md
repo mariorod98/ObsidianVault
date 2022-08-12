@@ -27,6 +27,7 @@ In the initialization of the algorithm, the following structures must be created
 - **wave**. This structure stores, for each node in the image, the available candidate tiles that can be placed in that position. Its size is **rows** x **columns**.
 - **entropy**. A list that stores the entropy value of each node of the output image.
 
+## Observation phase
 
 
 ## References
