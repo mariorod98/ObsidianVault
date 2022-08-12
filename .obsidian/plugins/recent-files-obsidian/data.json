@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Wave Function Collapse Algorithm",
+      "path": "🌱 Seedbox/Wave Function Collapse Algorithm.md"
+    },
+    {
+      "basename": "Late and early binding",
+      "path": "🌱 Seedbox/Late and early binding.md"
+    },
+    {
+      "basename": "How the compiler translates C++ to Assembler",
+      "path": "🌱 Seedbox/How the compiler translates C++ to Assembler.md"
+    },
+    {
       "basename": "Git",
       "path": "🌱 Seedbox/Git.md"
     },
@@ -29,10 +41,6 @@
       "path": "⚙️ Meta/Bullet journal dimensions.md"
     },
     {
-      "basename": "Wave Function Collapse Algorithm",
-      "path": "🌱 Seedbox/Wave Function Collapse Algorithm.md"
-    },
-    {
       "basename": "🪴 Tending this Garden",
       "path": "⚙️ Meta/🪴 Tending this Garden.md"
     },
@@ -55,10 +63,6 @@
     {
       "basename": "C++ const",
       "path": "🌳 The Forest/C++ const.md"
-    },
-    {
-      "basename": "Late and early binding",
-      "path": "🌱 Seedbox/Late and early binding.md"
     },
     {
       "basename": "C++ virtual",
@@ -195,10 +199,6 @@
     {
       "basename": "PKM systems should be future-proof",
       "path": "🌳 The Forest/PKM systems should be future-proof.md"
-    },
-    {
-      "basename": "Registers in ARM Assembler",
-      "path": "🌳 The Forest/Registers in ARM Assembler.md"
     }
   ],
   "omittedPaths": [],

@@ -2,6 +2,9 @@ up:
 tags: #state/seedling
 
 # Wave Function Collapse Algorithm
+The Wave Function Collapse (WFC) is an algorithm that generates procedural environment in 2D (images with pixels or tiles) or 3D (with blocks). 
+
+## References
 [GitHub - mxgmn/WaveFunctionCollapse: Bitmap & tilemap generation from a single example with the help of ideas from quantum mechanics](https://github.com/mxgmn/WaveFunctionCollapse)
 
 [Superpositions, Sudoku, the Wave Function Collapse algorithm. - YouTube](https://www.youtube.com/watch?v=2SuvO4Gi7uY&ab_channel=MartinDonald)
