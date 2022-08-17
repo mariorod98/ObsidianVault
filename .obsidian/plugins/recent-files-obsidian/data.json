@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Git",
+      "path": "🌱 Seedbox/Git.md"
+    },
+    {
       "basename": "Wave Function Collapse Algorithm",
       "path": "🌱 Seedbox/Wave Function Collapse Algorithm.md"
     },
@@ -39,10 +43,6 @@
     {
       "basename": "How the compiler translates C++ to Assembler",
       "path": "🌱 Seedbox/How the compiler translates C++ to Assembler.md"
-    },
-    {
-      "basename": "Git",
-      "path": "🌱 Seedbox/Git.md"
     },
     {
       "basename": "UE4 Optimization tips",

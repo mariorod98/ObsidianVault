@@ -10,7 +10,8 @@ Git is a Distributed [[Version Control System]] (VSC) that tracks the history of
 Git works by tracking the **changes** made into the **files** that conform the **repository**. 
 
 Git has three environments where these changes live. These are:
-- The **working directory** is the place that holds the actual files of the repository. It is the place where you create, delete and modify files.
+- The **working directory** is the place that holds the actual files of the repository. It is the place where you create, delete and modify files. ==It is the project's directory in your computer system==.
+- The **repository** contains the history of all the changes made. When you [[commit]] a change, the 
 - The **stage** (or index) is 
 
 ## Start a repository
