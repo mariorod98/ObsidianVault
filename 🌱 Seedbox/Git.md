@@ -22,8 +22,11 @@ The git workflow consists on:
 ![[git_usage.png]]
 
 ## Git concepts
-- A **Branch** is a version of the repository that diverges from the main working project.
-- The **HEAD** is the representation of the last commit in the current checkout branch. When you switch branches with [[git checkout]], the HEAD revision changes, pointing to the new branch.
+### Branch 
+A **Branch** is a version of the repository that diverges from the main working project. In reality, it's just a pointer that points to a specific commit. When adding a new commit to the branch, it will be added as a son of the commit it is pointing to and then update itself to point to the newly created commit.
+
+### Head
+The **HEAD** is the representation of the last commit in the current checkout branch. When you switch branches with [[git checkout]], the HEAD revision changes, pointing to the new branch.
 ## Git commands
 ### Git init
 
