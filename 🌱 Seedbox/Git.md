@@ -14,6 +14,8 @@ Git has three environments where these changes live. These are:
 - - The **stage** (or index) is an intermediate space between the **working directory** and the **repository**. It stores all the changes made in the **working directory** that you want to [[commit]] to the **repository**. It can be defined as a preview of your next commit.
 - The **repository** contains the files of the project and the history of all the changes made. When you [[commit]] a change, the changes from the **stage** are stored in the repository's history with a unique UUID.
 
+The git workflow consists on modifying the files in your **working directory**, staging the changes you want to commit into the **stage** and commiting the changes to the **repository** once you are sure you want 
+
 ![[git_usage.png]]
 
 
