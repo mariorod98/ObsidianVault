@@ -11,8 +11,9 @@ Git works by tracking the **changes** made into the **files** that conform the *
 
 Git has three environments where these changes live. These are:
 - The **working directory** is the place that holds the actual files of the repository. It is the place where you create, delete and modify files. ==It is the project's directory in your computer system==.
+- - The **stage** (or index) is an intermediate space between the **working directory** and the **repository**. It stores all the changes made in the **working directory** that you want to [[commit]] to the **repository**. It can be defined as a preview of your next commit.
 - The **repository** contains the history of all the changes made. When you [[commit]] a change, the 
-- The **stage** (or index) is 
+
 
 ## Start a repository
 
