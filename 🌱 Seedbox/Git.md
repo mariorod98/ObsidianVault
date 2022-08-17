@@ -21,6 +21,12 @@ The git workflow consists on:
 
 ![[git_usage.png]]
 
+## Git concepts
+- A **Branch** is a version of the repository that diverges from the main working project.
+- The **HEAD** is the representation of the last commit in the current checkout branch. When you switch branches with [[git checkout]], the HEAD revision changes, pointing to the new branch.
+## Git commands
+### Git init
+
 
 ## Start a repository
 
@@ -33,4 +39,4 @@ The git workflow consists on:
 
 ---
 Planted: 2022-08-11
-Last tended: 2022-08-11
+Last tended: 2022-08-17
