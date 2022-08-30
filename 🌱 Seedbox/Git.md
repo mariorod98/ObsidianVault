@@ -46,7 +46,9 @@ git commit -m "First commit"
 ### Commands
 ``git add`` stages a change, taking a snapshot of the current state of files added. Any change that has been staged will become part of the next commit in the project's history. It will not add ignored files by default.
 
-``git commit`` saves the current stage to the project history.
+``git commit`` saves the current stage to the project history. A log message must be given, describing the changes. The new commit is a direct child of **HEAD** and the branch is updated to point to it.
+
+If you make a commit and find a mistake immediately after that, you can recover from it with ``git reset``.
 
 ``git status`` shows the status of the changes as untracked (not in the repository), modified (in the repository but not staged) or staged.
 
@@ -69,6 +71,7 @@ git commit -m "First commit"
 - Between two trees.
 - From a merge.
 - Between two files on disk.
+``git reset``
 
 ## Git folder structure
 
