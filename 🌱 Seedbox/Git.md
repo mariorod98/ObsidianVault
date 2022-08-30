@@ -50,7 +50,10 @@ git commit -m "First commit"
 
 If you make a commit and find a mistake immediately after that, you can recover from it with ``git reset``.
 
-The message can be added with the option ``-m <msg>``
+Options:
+- ``-m <msg>`` adds the message to the commit.
+- ``-dry-run`` does not create a commit, but shows a list of paths that are to be committed and uncommitted.
+
 
 ``git status`` shows the status of the changes as untracked (not in the repository), modified (in the repository but not staged) or staged.
 
