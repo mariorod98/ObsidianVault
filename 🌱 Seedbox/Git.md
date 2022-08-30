@@ -50,13 +50,15 @@ git commit -m "First commit"
 
 If you make a commit and find a mistake immediately after that, you can recover from it with ``git reset``.
 
+The message can be added with the option ``-m <msg>``
+
 ``git status`` shows the status of the changes as untracked (not in the repository), modified (in the repository but not staged) or staged.
 
 ## Remote repositories
 ### Commands
 ``git clone`` creates a local copy of a repository that already exists remotely. The clone includes all the project's files, history and branches.
 
-``git pull``  updates the local repository with updates from its remote counterpart. Developers use this command if a teammate has made commits to a branch on a remote, and they would like to reflect thos changes in their local environment.
+``git pull``  updates the local repository with updates from its remote counterpart. Developers use this command if a teammate has made commits to a branch on a remote, and they would like to reflect those changes in their local environment.
 
 ``git push`` updates the remote repository with any commits made locally to a branch
 
