@@ -35,8 +35,11 @@ Options:
 - ``-b <branch-name>`` Specifies the initial branch in the newly created repository. The default name is ``master``
 
 ### Example
-Start a new gt repository for an existing project
-```
+**Start a new git repository for an existing project**
+```git
+git init
+git add .
+git commit -m "First commit"
 ```
 
 ## Commiting changes to a repository
