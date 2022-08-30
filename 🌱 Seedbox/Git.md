@@ -44,7 +44,7 @@ git commit -m "First commit"
 
 ## Commiting changes to a repository
 ### Commands
-``git add`` stages a change, taking a snapshot of the current state of files added. Any change that has been staged will become part of the next commit in the project's history. 
+``git add`` stages a change, taking a snapshot of the current state of files added. Any change that has been staged will become part of the next commit in the project's history. It will not add ignored files by default.
 
 ``git commit`` saves the current stage to the project history.
 
