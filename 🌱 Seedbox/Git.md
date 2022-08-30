@@ -27,27 +27,46 @@ A **Branch** is a version of the repository that diverges from the main working 
 
 ### Head
 The **HEAD** is the representation of the last commit in the current checkout branch. When you switch branches with [[git checkout]], the HEAD revision changes, pointing to the new branch.
-## Git commands
-### git init
+
+## Initializing a repository
+### Commands
 ``git init`` creates and initializes new repository in the current directory. This adds a hidden subfolder *.git* that stores the internal data structure required for version control.
+Options:
+- ``-b <branch-name>`` Specifies the initial branch in the newly created repository. The default name is ``master``
 
-### git clone
-``git clone`` creates a local copy of a repository that already exists remotely. The clone includes all the project's files, history and branches.
+### Example
+Start a new gt repository for an existing project
+```
+```
 
-### git add
+## Commiting changes to a repository
+### Commands
 ``git add`` stages a change, taking a snapshot of the current state of files added. Any change that has been staged will become part of the next commit in the project's history. 
 
-### git commit
-``git commit`` saves the current stage to the project history
+``git commit`` saves the current stage to the project history.
 
-## Start a repository
+``git status`` shows the status of the changes as untracked, modified or staged.
 
+## Remote repositories
+### Commands
+``git clone`` creates a local copy of a repository that already exists remotely. The clone includes all the project's files, history and branches.
+
+``git pull``  updates the local repository with updates from its remote counterpart. Developers use this command if a teammate has made commits to a branch on a remote, and they would like to reflect thos changes in their local environment.
+
+``git push`` updates the remote repository with any commits made locally to a branch
+
+``git merge`` merges lines of development together. This command is typically used to combine changes made on two distinct branches.
+
+## Git folder structure
+
+## References
 [Git - gitglossary Documentation](https://git-scm.com/docs/gitglossary)
-[https://rogerdudler.github.io/git-guide/files/git_cheat_sheet.pdf](https://rogerdudler.github.io/git-guide/files/git_cheat_sheet.pdf)
+[Git Cheatsheet](https://rogerdudler.github.io/git-guide/files/git_cheat_sheet.pdf)
 [A Visual Git Reference](https://marklodato.github.io/visual-git-guide/index-en.html)
 [git - the simple guide - no deep shit!](https://rogerdudler.github.io/git-guide/)
 [About Git - GitHub Docs](https://docs.github.com/en/get-started/using-git/about-git)
 [States of a File in Git Working Directory - GeeksforGeeks](https://www.geeksforgeeks.org/states-of-a-file-in-git-working-directory/#:~:text=The%20Git%20directory%20contains%20the,included%20in%20the%20next%20commit.)
+[Git - git-init Documentation](https://git-scm.com/docs/git-init)
 
 ---
 Planted: 2022-08-11
