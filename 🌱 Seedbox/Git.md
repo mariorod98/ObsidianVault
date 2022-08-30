@@ -46,7 +46,7 @@ git commit -m "First commit"
 ### Commands
 ``git add`` stages a change, taking a snapshot of the current state of files added. Any change that has been staged will become part of the next commit in the project's history. It will not add ignored files by default.
 
-``git rm`` removes files from the working tree and from the index. 
+``git rm`` removes files from the working directory and from the index. 
 
 ``git commit`` saves the current stage to the project history. A log message must be given, describing the changes. The new commit is a direct child of **HEAD** and the branch is updated to point to it.
 
@@ -70,7 +70,11 @@ Options:
 - ``<branch-name>`` creates the given branch.
 - ``<old-branch> <new-branch>>`` renames the given branch.
 
-``git checkout`` 
+``git checkout`` updates files in the working to match the version in the index or the specified tree. If no path is given, it will also update HEAD to set the specified branch as the current branch.
+
+Options:
+- ``<branch>`` switches to the given branch, updating the index and the working directory, and by pointing HEAD to the top of the branch. Local modifications to the files in the working directory are kept.
+
 ## Remote repositories
 ### Commands
 ``git clone`` creates a local copy of a repository that already exists remotely. The clone includes all the project's files, history and branches.
@@ -83,10 +87,10 @@ Options:
 
 ## Other commands
 ``git diff`` shows the changes, file to file,:
-- Between the working tree and the index.
+- Between the working directory and the index.
 - Between the index and a tree.
 - Between two commits.
-- Between a commit and the working tree.
+- Between a commit and the working directory.
 - Between two trees.
 - From a merge.
 - Between two files on disk.
@@ -107,4 +111,4 @@ Options:
 
 ---
 Planted: 2022-08-11
-Last tended: 2022-08-17
+Last tended: 2022-08-30
