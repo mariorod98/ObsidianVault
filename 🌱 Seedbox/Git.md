@@ -60,6 +60,16 @@ git commit -m "First commit"
 
 ``git merge`` merges lines of development together. This command is typically used to combine changes made on two distinct branches.
 
+## Other commands
+``git diff`` shows the changes, file to file,:
+- Between the working tree and the index.
+- Between the index and a tree.
+- Between two commits.
+- Between a commit and the working tree.
+- Between two trees.
+- From a merge.
+- Between two files on disk.
+
 ## Git folder structure
 
 ## References
