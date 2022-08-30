@@ -60,6 +60,15 @@ Options:
 
 ### Examples
 
+## Branching and merging
+### Commands
+``git branch`` lists, creates or deletes a branch.
+
+Options:
+- ``--list`` lists all existing branches, highlighting in green the current one.
+- ``-d <branch-name>`` deletes the given branch.
+- 
+
 ## Remote repositories
 ### Commands
 ``git clone`` creates a local copy of a repository that already exists remotely. The clone includes all the project's files, history and branches.
