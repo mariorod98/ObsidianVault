@@ -48,7 +48,7 @@ git commit -m "First commit"
 
 ``git commit`` saves the current stage to the project history.
 
-``git status`` shows the status of the changes as untracked, modified or staged.
+``git status`` shows the status of the changes as untracked (not in the repository), modified (in the repository but not staged) or staged.
 
 ## Remote repositories
 ### Commands
