@@ -56,8 +56,9 @@ Options:
 - ``-m <msg>`` adds the message to the commit.
 - ``-dry-run`` does not create a commit, but shows a list of paths that are to be committed and uncommitted.
 
-
 ``git status`` shows the status of the changes as untracked (not in the repository), modified (in the repository but not staged) or staged.
+
+### Examples
 
 ## Remote repositories
 ### Commands
@@ -78,6 +79,7 @@ Options:
 - Between two trees.
 - From a merge.
 - Between two files on disk.
+
 ``git reset``
 
 ## Git folder structure
