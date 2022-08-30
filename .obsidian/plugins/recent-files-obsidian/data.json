@@ -9,6 +9,10 @@
       "path": "🌱 Seedbox/Wave Function Collapse Algorithm.md"
     },
     {
+      "basename": "Late and early binding",
+      "path": "🌱 Seedbox/Late and early binding.md"
+    },
+    {
       "basename": "geometry_pipeline",
       "path": "⚙️ Meta/📎 Attachments/geometry_pipeline.jpg"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "The geometry pipeline transform vertices form model space to clipping space",
       "path": "🌳 The Forest/The geometry pipeline transform vertices form model space to clipping space.md"
-    },
-    {
-      "basename": "Late and early binding",
-      "path": "🌱 Seedbox/Late and early binding.md"
     },
     {
       "basename": "How the compiler translates C++ to Assembler",

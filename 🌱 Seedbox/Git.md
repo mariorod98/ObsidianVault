@@ -28,8 +28,11 @@ A **Branch** is a version of the repository that diverges from the main working 
 ### Head
 The **HEAD** is the representation of the last commit in the current checkout branch. When you switch branches with [[git checkout]], the HEAD revision changes, pointing to the new branch.
 ## Git commands
-### Git init
+### git init
+``git init`` creates and initializes new repository in the current directory. This adds a hidden subfolder *.git* that stores the internal data structure required for version control.
 
+### git clone
+``git clone`` creates a local copy of a repository that already exists remotely. The clone includes all the project's files, history and branches.
 
 ## Start a repository
 
