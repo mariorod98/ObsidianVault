@@ -70,6 +70,7 @@ Options:
 - ``<branch-name>`` creates the given branch.
 - ``<old-branch> <new-branch>>`` renames the given branch.
 
+``git checkout`` 
 ## Remote repositories
 ### Commands
 ``git clone`` creates a local copy of a repository that already exists remotely. The clone includes all the project's files, history and branches.
@@ -102,6 +103,7 @@ Options:
 [About Git - GitHub Docs](https://docs.github.com/en/get-started/using-git/about-git)
 [States of a File in Git Working Directory - GeeksforGeeks](https://www.geeksforgeeks.org/states-of-a-file-in-git-working-directory/#:~:text=The%20Git%20directory%20contains%20the,included%20in%20the%20next%20commit.)
 [Git - git-init Documentation](https://git-scm.com/docs/git-init)
+[Git - Branches in a Nutshell](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
 
 ---
 Planted: 2022-08-11
