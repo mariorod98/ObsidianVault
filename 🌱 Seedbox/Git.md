@@ -34,6 +34,12 @@ The **HEAD** is the representation of the last commit in the current checkout br
 ### git clone
 ``git clone`` creates a local copy of a repository that already exists remotely. The clone includes all the project's files, history and branches.
 
+### git add
+``git add`` stages a change, taking a snapshot of the current state of files added. Any change that has been staged will become part of the next commit in the project's history. 
+
+### git commit
+``git commit`` saves the current stage to the project history
+
 ## Start a repository
 
 [Git - gitglossary Documentation](https://git-scm.com/docs/gitglossary)
