@@ -67,7 +67,8 @@ Options:
 Options:
 - ``--list`` lists all existing branches, highlighting in green the current one.
 - ``-d <branch-name>`` deletes the given branch.
-- 
+- ``<branch-name>`` creates the given branch.
+- ``<old-branch> <new-branch>>`` renames the given branch.
 
 ## Remote repositories
 ### Commands
