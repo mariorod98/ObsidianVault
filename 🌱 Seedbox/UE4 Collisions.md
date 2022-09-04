@@ -35,7 +35,7 @@ This option determines the types of collision that this actor has enabled. It is
 - No collision: Doesn't detect any collisions. It is the most efficient.
 - Query only: Only detects raycast, sweep and overlap. Does not detect hit events.
 - Physics only: Only detects hit events.
-- Collision enabled: raycast, overlap y hit.
+- Collision enabled: detects raycast, overlap y hit.
 
 ### Collision presets
 The collision presets are a set of predefined responses that can be selected for a specific actor or class. There are several basic collision presets, but the user can specify custom presets in the Project Settings. The default collision presets are:
@@ -64,8 +64,6 @@ The collision presets are a set of predefined responses that can be selected for
 
 
 
-Cualquier componente que hereda de primitive tiene un apartado para las colisiones.
-
 
 
 FActorBeginOverlap
@@ -73,4 +71,4 @@ FActorEndOverlap
 
 ---
 Planted: 2022-01-31
-Last tended: 2022-02-07
+Last tended: 2022-09-04
