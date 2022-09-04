@@ -71,10 +71,26 @@ The collision preset defines the collision response that the actor will have to 
 |Vehicle|Vehicle object that blocks Vehicle, WorldStatic and WorldDynamic objects.|
 |UI|WorldStatic object that overlaps all actors by default.|
 
-
 ## Delegate headers
 ```cpp
 void OnOverlapBegin(AActor* OverlappedActor, AActor* OtherActor);
+
+OnComponentBeginOverlap(
+UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
+UPrimitiveComponent* OtherComp, int32 OtherBodyIndex,
+bool bFromSweep, const FHitResult & SweepResult)
+
+OnEndOverlap(AActor* OverlappedActor, AActor* OtherActor)
+
+OnComponentEndOverlap(UPrimitiveComponent* OverlappedComponent,
+AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
+
+OnHit(AActor* SelfActor, AActor* OtherActor, FVector NormalImpulse, const
+FHitResult& Hit)
+
+OnComponentHit(UPrimitiveComponent* HitComponent, AActor*
+OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const
+FHitResult&, Hit)
 ```
 
 
