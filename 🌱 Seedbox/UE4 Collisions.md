@@ -72,7 +72,10 @@ The collision preset defines the collision response that the actor will have to 
 |UI|WorldStatic object that overlaps all actors by default.|
 
 
-## How to bind a function to a collision event
+## Delegate headers
+```c++
+void OnOverlapBegin(AActor* OverlappedActor, AActor* OtherActor);
+```
 
 
 
