@@ -1,5 +1,5 @@
 up:: 
-tags:: #state/seedling #on/git
+tags:: #state/seedling #on/VSC
 
 # Git
 
