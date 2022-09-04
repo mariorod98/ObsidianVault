@@ -19,16 +19,26 @@ When two Physic Objects collide, one of these responses will be generated. If bo
 
 For example, if a object with Block responses collides with an object with Overlap responses, then an Overlap response will be generated. Likewise, an interaction with an Overlap or Block object with an Ignore object will never generate a response.
 
-The type of traces and objects that generate a response are:
-- Trace Types.
-    - Visibility. General visibility testing channel.
-    - Camera. Usually used when tracing from the camera to something.
-- [[Object Types]].
+### Object types/channels
+Every object that can collide gets an **object type** that defines the default collision response that the object will cast when collide.
+These types are also used in the collision presets to define the interaction between the actors with the preset and the object type.
+
+The predefined types are:
     - WorldStatic.
     - WorldDynamic.
     - Pawn. 
     - Vehicle.
     - Destructible.
+
+You can create new types in the Project Settings.
+
+### Trace types/channels
+Similar to the object type, the **trace channels** defines the chane where the raycast will be casted. Only the actors 
+
+The type of traces and objects that generate a response are:
+- Trace Types.
+    - Visibility. General visibility testing channel.
+    - Camera. Usually used when tracing from the camera to something.
     
 ### Collision enabled
 This option determines the types of collision that this actor has enabled. It is used to optimize how many types of collision the engine must perform on the actor. There are four different options:
@@ -38,7 +48,7 @@ This option determines the types of collision that this actor has enabled. It is
 - Collision enabled: detects raycast, overlap y hit.
 
 ### Collision presets
-The collision presets are a set of predefined responses that can be selected for a specific actor or class. There are several basic collision presets, but the user can specify custom presets in the Project Settings. The default collision presets are:
+The collision preset defines the collision response that the actor will have to every collision type defined in the project. There are several basic collision presets, but the user can specify custom presets in the Project Settings. The default collision presets are:
 
 | Preset | Description |
 |---|---|
@@ -68,6 +78,11 @@ The collision presets are a set of predefined responses that can be selected for
 
 FActorBeginOverlap
 FActorEndOverlap
+
+## References
+[Collision Overview | Unreal Engine 4.27 Documentation](https://docs.unrealengine.com/4.27/en-US/InteractiveExperiences/Physics/Collision/Overview/)
+[Collision How To's | Unreal Engine 4.27 Documentation](https://docs.unrealengine.com/4.27/en-US/InteractiveExperiences/Physics/Collision/HowTo/)
+[Collision Response Reference | Unreal Engine 4.27 Documentation](https://docs.unrealengine.com/4.27/en-US/InteractiveExperiences/Physics/Collision/Reference/)
 
 ---
 Planted: 2022-01-31

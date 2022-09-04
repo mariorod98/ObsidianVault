@@ -5,6 +5,10 @@
       "path": "🌱 Seedbox/UE4 Collisions.md"
     },
     {
+      "basename": "Git",
+      "path": "🌱 Seedbox/Git.md"
+    },
+    {
       "basename": "⚙️Unreal Engine 4",
       "path": "🌳 The Forest/⚙️Unreal Engine 4.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "Perforce",
       "path": "🌱 Seedbox/Perforce.md"
-    },
-    {
-      "basename": "Git",
-      "path": "🌱 Seedbox/Git.md"
     },
     {
       "basename": "3D scene",
