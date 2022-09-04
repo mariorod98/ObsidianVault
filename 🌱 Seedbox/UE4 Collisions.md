@@ -98,17 +98,19 @@ FHitResult&, Hit)
 1. Activate the check ``GenerateOverlapEvents`` either in the actor's inspector or in the C++ constructor.
 2. Declare the function that will be executed on the overlap (its signature must corresponde to the delegate). ==Remember to specify the method as UFUNCTION==.
 ```cpp
-class AMyActor {
+// Link.h
+class ALink {
 	UFUNCTION()
 	void OnOverlap(AActor* OverlappedActor, AActor* OtherActor);
 }
 ```
 3. In the ``BeginPlay()`` function, bind the function to the delegate.
 ```cpp
-void AMyActor::BeginPlay() {
-	...
-	OnActorBeginOverlap.AddDynamic(this, &AMyActor::OnOverlap);
-	...
+// Link.cpp
+void ALink::BeginPlay() {
+	// ...
+	OnActorBeginOverlap.AddDynamic(this, &ALink::OnOverlap);
+	// ...
 }
 ```
 

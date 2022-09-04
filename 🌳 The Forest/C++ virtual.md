@@ -21,7 +21,7 @@ class Derived : public Base {
 	}
 }
 
-...
+// ...
 
 int result;
 Base b1 = new Base();

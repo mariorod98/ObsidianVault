@@ -60,7 +60,7 @@ FHitResult HitResult;
 Depending on the type of trace that we want to use, we will call a specific function. All the traces functions belong to the UWorld class, to access them you must use *GetWorld()*. Moreover, all traces return a bool determining if there was a hit or not.
 ```cpp
 if(GetWorld()->LineTraceSingleByChannel(HitResult, StartTrace, EndTrace, ECC_WorldStatic, TraceParams)) {
-    ...
+    // ...
 }
 ```
 

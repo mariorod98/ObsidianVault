@@ -48,7 +48,7 @@ virtual bool Pick() override;
 Pickup.cpp
 bool Pickup::Pick()
 {
-    ...
+    // ...
     return false;
 }
 ```

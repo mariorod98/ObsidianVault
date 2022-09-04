@@ -82,7 +82,7 @@ class Point {
 	int x, y;
 }
 
-...
+// ...
 
 const Point my_point = new Point();
 my_point.x = 10;  // Error: assignment of read-only variable
@@ -115,7 +115,7 @@ class Point {
 	}  
 }
 
-...
+// ...
 
 const Point my_point = new Point();
 my_point.Add(5, 4);  // Error: the method modifies the state of the object
@@ -147,7 +147,7 @@ const Point my_func(int x, int y) {
 	return new Point(x, y);
 }
 
-...
+// ...
 
 Point p;
 p = my_func(1, 2);  // Error: cannot assign const Point to Point variable

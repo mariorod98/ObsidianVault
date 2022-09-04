@@ -134,6 +134,8 @@ DECLARE_EVENT_<Num>Params(OwningType, EventName, Param1Type, Param1Name,...)
 ## Delegate example
 1. Declare the delegate in the header file of the broadcaster class, between the includes and the class declaration. Then add the delegate as a class property.
 ```cpp
+// ZeldaPlayerController.h
+
 UDELEGATE()
 DECLARE_DYNAMIC_MULTICAS_DELEGATE_OneParam(FUpdateRupees, int rupees)
 
@@ -143,8 +145,34 @@ class AZeldaPlayerController {
 	FUpdateRupees OnUpdateRupees;
 }
 ```
+2. Bind the functions that you want to call when the delegate is dispatched. Remember that the function must have the same signature as the event and it must be a UFUNCTION.
+```cpp
+// HUDController.h
+class AHUDController {
+	UFUNCTION()
+	void UpdateRupees(int value);
+}
 
+// HUDController.cpp
+void AHUDController::BeginPlay() {
+	AZeldaPlayerController* PC = Cast<AZeldaPlayerController>(GetOwningPlayerController());
 
+	PC->OnUpdateRupees.AddDynamic(this, &AHUDController::UpdateRupees);
+}
+
+```
+
+3. Broadcast the event to call all the binded functions.
+```cpp
+// InventoryComponent.cpp
+void UInventoryComponent::AddRupees(int rupees)
+{
+	// ...
+	APawn* pawn = Cast<APawn>(GetOwner());
+	AZeldaPlayerController* PC = Cast<AZeldaPlayerController>(pawn->GetController());
+	PC->OnUpdateRupees.Broadcast(rupees_);
+}
+```
 ---
 Planted: 2022-04-18
 Last tended: 2022-09-04
