@@ -19,6 +19,12 @@ With Perforce, you never work directly on files in the depot. Instead, you use t
 Therefore, Perforce has a client-server architecture, where you connect from your computer to the PVS to have access to your depot. 
 
 ## How does Perforce work?
+In Perforce, all the files in your local workspace are read-only. To modify a file, you must first **check out** the file in the depot. 
+
+Each file can only be check out by one user. This ensures that you will be the only user able to modify the file, as the other won't be able to check it out. Moreover, the PVS will show which files are check out by which user.
+
+Checking out a file will add it to the current **changelist**. Once you have submitted that changelist, the file will be **checked in** and others users will be able to check it out.
+
 
 ## Perforce concepts
 ### Depot
@@ -28,6 +34,18 @@ The files in a depot are organized in directory trees,
 
 It is [[Git]]'s equivalent to a repository. 
 
+### Changelist
+Similar to the *stage* in [[Git]], perforce uses the **changelist** to track local changes to your **client workspace** that are not yet synced to the depot. The changelist serves two purposes:
+- to organize your work into logical units by grouping related changes to files together.
+- to guarantee the integrity of your work by ensuring that related changes to files are checked in together.
+For example, if you are working on a change to some software that requires changes to three files, open all three files in one changelist.
+
+A changelist can be *pending* if it has not yet been submitted to the depot. Or it can be *submitted* if the changes have been commited.
+
+
+## Initializing a depot
+
+## Adding files to a depot
 
 ---
 Planted: 2022-09-04
