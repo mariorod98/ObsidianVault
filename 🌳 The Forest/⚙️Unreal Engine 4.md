@@ -16,5 +16,6 @@ Some important concepts are:
 
 Some code snippets are:
 - [[UE4 Collisions#Adding an overlap response to an actor|Add an overlap response to an actor]]
+- [[UE4 Traces#Calling a trace|Call a trace]]
 
 ## Resources, tools, people, etc.

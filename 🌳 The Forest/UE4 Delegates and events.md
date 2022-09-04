@@ -131,7 +131,8 @@ DECLARE_EVENET_OneParam(OwningType, EventName, Param1Type, Param1Name)
 DECLARE_EVENT_<Num>Params(OwningType, EventName, Param1Type, Param1Name,...)
 ```
 
+## Delegate example
 
 ---
 Planted: 2022-04-18
-Last tended: 2022-04-18
+Last tended: 2022-09-04
