@@ -4,10 +4,9 @@ tags:: #state/seedling #on/VSC
 # Perforce
 
 ## What is Perforce?
-Perfor e is an enterprise [[Version Control System]] (VSC) in which users connect to a shared file repository. 
+Perforce is an enterprise [[Version Control System]] (VSC) in which users connect to a shared file repository. 
 
-## How does Perforce work?
-Perforce uses the **Perforce Versioning Service** (PVS) to manage shared file repositories (*depots*). The service maintains a database to track change logs, user permissions, and which users have which files checked out at any time. This information is known as *metadata* 
+Perforce uses the **Perforce Versioning Service** (PVS) to manage shared file repositories (**depots**). The service maintains a database to track change logs, user permissions, and which users have which files checked out at any time. This information is known as **metadata**. 
 
 To communicate with this service, you must use one of the different perforce client applications. These applications enable you tu check files in and out, manage conflicts, create branches, etc. Perforce applications include:
 - P4, the Perforce Command-Line Client.
@@ -15,9 +14,11 @@ To communicate with this service, you must use one of the different perforce cli
 - P4Web, the Perforce Web Client.
 - Plug-ins that work with commercial IDEs.
 
-With Perforce, you never work directly on files in the depot. Instead, you use the applications to manage your *client workspace*, which contains a local copy of a portion of a depot.
+With Perforce, you never work directly on files in the depot. Instead, you use the applications to manage your **client workspace**, which contains a local copy of a portion of a depot.
 
 Therefore, Perforce has a client-server architecture, where you connect from your computer to the PVS to have access to your depot. 
+
+## How does Perforce work?
 
 ## Perforce concepts
 ### Depot
