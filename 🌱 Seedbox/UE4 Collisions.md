@@ -33,7 +33,7 @@ The predefined types are:
 You can create new types in the Project Settings.
 
 ### Trace types/channels
-Similar to the object type, the **trace channels** defines the chane where the raycast will be casted. Only the actors 
+Similar to the object type, the **trace channels** defines the channel where the raycast will be casted. The only actors detected will be the ones with 
 
 The type of traces and objects that generate a response are:
 - Trace Types.
