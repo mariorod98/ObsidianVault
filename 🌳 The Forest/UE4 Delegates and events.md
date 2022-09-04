@@ -132,6 +132,18 @@ DECLARE_EVENT_<Num>Params(OwningType, EventName, Param1Type, Param1Name,...)
 ```
 
 ## Delegate example
+1. Declare the delegate in the header file of the broadcaster class, between the includes and the class declaration. Then add the delegate as a class property.
+```cpp
+UDELEGATE()
+DECLARE_DYNAMIC_MULTICAS_DELEGATE_OneParam(FUpdateRupees, int rupees)
+
+UCLASS()
+class AZeldaPlayerController {
+	UPROPERTY(BlueprintAssignable, Category="Delegates")
+	FUpdateRupees OnUpdateRupees;
+}
+```
+
 
 ---
 Planted: 2022-04-18
