@@ -94,9 +94,23 @@ FHitResult&, Hit)
 ```
 
 
-## Adding a collision response to an actor
-1. Declare the function that will be executed on the collision
-2. 
+## Adding an overlap response to an actor
+1. Activate the check ``GenerateOverlapEvents`` either in the actor's inspector or in the C++ constructor.
+2. Declare the function that will be executed on the overlap (its signature must corresponde to the delegate). ==Remember to specify the method as UFUNCTION==.
+```cpp
+class AMyActor {
+	UFUNCTION()
+	void OnOverlap(AActor* OverlappedActor, AActor* OtherActor);
+}
+```
+3. In the ``BeginPlay()`` function, bind the function to the delegate.
+```cpp
+void AMyActor::BeginPlay() {
+	...
+	OnActorBeginOverlap.AddDynamic(this, &AMyActor::OnOverlap);
+	...
+}
+```
 
 ## References
 [Collision Overview | Unreal Engine 4.27 Documentation](https://docs.unrealengine.com/4.27/en-US/InteractiveExperiences/Physics/Collision/Overview/)

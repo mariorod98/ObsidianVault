@@ -14,4 +14,7 @@ Some important concepts are:
 - [[UE4 Delegates and events]]
 - [[UE4 Collisions]]
 
+Some code snippets are:
+- [[UE4 Collisions#Adding an overlap response to an actor|Add an overlap response to an actor]]
+
 ## Resources, tools, people, etc.
