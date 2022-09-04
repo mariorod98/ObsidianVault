@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "3D scene",
+      "path": "🌱 Seedbox/3D scene.md"
+    },
+    {
+      "basename": "Términos gráfica",
+      "path": "🌱 Seedbox/Términos gráfica.md"
+    },
+    {
+      "basename": "Shortcuts VisualStudio",
+      "path": "🌱 Seedbox/Shortcuts VisualStudio.md"
+    },
+    {
+      "basename": "Late and early binding",
+      "path": "🌱 Seedbox/Late and early binding.md"
+    },
+    {
       "basename": "Git",
       "path": "🌱 Seedbox/Git.md"
     },
     {
       "basename": "Wave Function Collapse Algorithm",
       "path": "🌱 Seedbox/Wave Function Collapse Algorithm.md"
-    },
-    {
-      "basename": "Late and early binding",
-      "path": "🌱 Seedbox/Late and early binding.md"
     },
     {
       "basename": "geometry_pipeline",
@@ -101,10 +113,6 @@
       "path": "🌱 Seedbox/Texture mipmap.md"
     },
     {
-      "basename": "3D scene",
-      "path": "🌱 Seedbox/3D scene.md"
-    },
-    {
       "basename": "UE4 Timer",
       "path": "🌳 The Forest/UE4 Timer.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "A graphic pipeline is used to create a 2D representation from a 3D scene",
       "path": "🌳 The Forest/A graphic pipeline is used to create a 2D representation from a 3D scene.md"
-    },
-    {
-      "basename": "Atomic notes",
-      "path": "🌳 The Forest/Atomic notes.md"
-    },
-    {
-      "basename": "Bit Shifting",
-      "path": "🌳 The Forest/Bit Shifting.md"
     }
   ],
   "omittedPaths": [],
