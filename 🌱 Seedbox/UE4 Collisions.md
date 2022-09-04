@@ -94,10 +94,9 @@ FHitResult&, Hit)
 ```
 
 
-
-
-FActorBeginOverlap
-FActorEndOverlap
+## Adding a collision response to an actor
+1. Declare the function that will be executed on the collision
+2. 
 
 ## References
 [Collision Overview | Unreal Engine 4.27 Documentation](https://docs.unrealengine.com/4.27/en-US/InteractiveExperiences/Physics/Collision/Overview/)
