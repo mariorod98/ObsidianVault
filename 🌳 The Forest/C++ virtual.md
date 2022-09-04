@@ -8,7 +8,7 @@ tags:: #state/bud #on/cpp
 
 Virtual functions ensure that the correct function is called for an object, regardless of the type of reference (or pointer) used for the call. When a virtual function is called, the resolving of which function to execute is done at runtime ([[Polymorphism|Runtime polymorphism]]). 
 
-```c++
+```cpp
 class Base {
 	virtual int my_func() {
 		return 3;

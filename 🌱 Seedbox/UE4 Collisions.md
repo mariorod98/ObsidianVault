@@ -73,7 +73,7 @@ The collision preset defines the collision response that the actor will have to 
 
 
 ## Delegate headers
-```c++
+```cpp
 void OnOverlapBegin(AActor* OverlappedActor, AActor* OtherActor);
 ```
 

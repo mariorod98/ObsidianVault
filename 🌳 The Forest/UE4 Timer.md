@@ -8,7 +8,7 @@ Timers are a useful tool to perform an action once (or repeatedly) at specified 
 
 ## FTimerManager
 Timers are managed by the class *FTimerManager*. This class exists on the Game Instance Object and on each World Object.  The first will manage global timers, while the latter will manage timers related to that world In order to access it, you can use the following methods:
-```
+```cpp
 // For world timers
 GetWorld()->GetTimerManager()
 // or
@@ -29,7 +29,7 @@ To create a timer, you must call the TimerManger method **SetTimer**. This metho
 - **bLoop** (optional): true to loop the timer, false to fire only once. Default is true.
 - **firstDelay** (optional): time in seconds for the first delay in a looping timer, if <0, **Rate** will be used. Default is **Rate**.
 
-```
+```cpp
 FTimerHandle TimerHandle;
 GetWorld()->GetTimerManager().SetTimer(TimerHandle, this, &AMyActor::CallMePlease, 10.0f, false)
 ```
@@ -39,7 +39,7 @@ To create a timer with parameters, you must use a *FTimerDelegate*, a child clas
 - **InMethod**: the method to call when timer fires.
 - Ordered list of the values the params of **InMethod** will take.
 
-```
+```cpp
 FTimerDelegate myTimerDelegate;
 FTimerHandle myTimerHandle;
 
@@ -51,7 +51,8 @@ You can also use **SetTimerForNextTick** which will fire the given function in t
 
 ## Clearing a timer
 To clear a timer, you must call the method **ClearTimer** from *FTimerManager*, using the handle of the timer to be cleared. You can also use the method **ClearAllTimersForObject** to clear all the timers related to a specific object. ==It is important to clear timers related to objects that are being destroyed.==
-```
+
+```cpp
 GetWorldTimerManager().ClearTimer(TimerHandle);
 GetWorldTimerManager().ClearAllTimersForObject(myObject);
 ```
@@ -61,7 +62,7 @@ Using the *FTimerManager* method **PauseTimer**  you can pause the given timer. 
 
 To resume the timer, you can use the method **UnpauseTimer**.
 
-```
+```cpp
 GetWorldTimerManager.PauseTimer(TimerHandle);
 GetWorldTimerManager.UnpauseTimer(TimerHandle);
 ```

@@ -36,7 +36,7 @@ Options:
 
 ### Example
 **Start a new git repository for an existing project**
-```git
+```bash
 git init
 git add .
 git commit -m "First commit"
