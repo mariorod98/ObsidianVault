@@ -73,7 +73,7 @@ There are several ways to specify an address (addressing modes):
 |`[reg., reg., asr #num]`|\*ptr + (x >> num) (signed)|
 
 Examples:
-```
+```armasm
     ldr r4,[r5]               @ r4 = *r5
     ldr r2,[r1, r3, lsl #2]   @ r2 = r1[r3 << 2] r3 is multiplied by 4 because it is an int pointer (4 bytes)
     ldrb r2,[r1,r3]           @ r2 = r1[r3], there is no need to multiply because it is a byte.
@@ -86,7 +86,7 @@ Examples:
 
 **Common pitfall**
 All the LOAD/STORE instructions support conditional suffixes. But, ==LOAD/STORE instructions that do not operate a full word have the conditional in between the instruction==.
-```
+```armasm
     ldreq  r4,[r5] @ r4 = *r5
     ldreqh r4,[r5] @ r4 = *r5
     ldreqb r4,[r5] @ r4 = *r5
@@ -108,7 +108,7 @@ To compare two values, we use `cmp` and `cmn`. These operations act as an `subs`
 **Inconditional jump**
 
 The instruction `b` is used to jump to any point in the program. It must be followed by a tag, this tag must be declared somewhere in the program. For example, in the next snippet of code, the instruction `b` sets the program counter to the instruction`add`. Therefore, the instruction `mov` will never be executed:
-```
+```armasm
     b Jump
     mov r0, r1
     ...
@@ -117,7 +117,7 @@ Jump:
 ```
 **Jump with return**
 The instruction `bl` is used to jump to a subroutine. When executing this instruction, the following instruction is stored in the [[Registers in ARM Assembler|Link Register]]. It is the [[🖥️ C_C++|C]] equivalent to calling a function.
-```
+```armasm
     bl Squared
     add r0, r0, #1
     ...
@@ -125,13 +125,10 @@ Squared:
     mul r0, r1, r1
     bx lr
 ```
-%% TODO %%
-%%WHAT IS bx USED FOR? %%
-%% WHAT DOES exchange instruction set MEAN?%%
 
 **Jump to a pointer**
 It is possible to jump to a direction stored in a register. The following instructions execute the same jump to the direction stored in r1:
-```
+```armasm
     mov pc, r1
     b r1
     bx r1
@@ -187,10 +184,10 @@ The shifter is a flexible operand that can adopt the following values:
 
 
 ### Interesting functions
-**Abs function*
-```
-if(a < 0)
-    a = -a
+**Abs function**
+```armasm
+@ if(a < 0)
+@    a = -a
 
     cmp   r0,#0            @ if a < 0
     sublt r0,r0,r0,lsl #1  @ a = a - 2 * a
