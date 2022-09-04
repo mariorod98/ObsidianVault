@@ -35,8 +35,7 @@ You can create new types in the Project Settings.
 ### Trace types/channels
 Similar to the object type, the **trace channels** defines the channel where the raycast will be casted. The only actors detected will be the ones whose preset overlaps or blocks this channel.
 
-The type of traces and objects that generate a response are:
-- Trace Types.
+The predefined types are:
     - Visibility. General visibility testing channel.
     - Camera. Usually used when tracing from the camera to something.
     
