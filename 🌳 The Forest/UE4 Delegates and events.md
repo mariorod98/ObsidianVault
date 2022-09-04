@@ -131,7 +131,7 @@ DECLARE_EVENET_OneParam(OwningType, EventName, Param1Type, Param1Name)
 DECLARE_EVENT_<Num>Params(OwningType, EventName, Param1Type, Param1Name,...)
 ```
 
-## Delegate example
+## Dynamic Delegate example
 1. Declare the delegate in the header file of the broadcaster class, between the includes and the class declaration. Then add the delegate as a class property.
 ```cpp
 // ZeldaPlayerController.h
@@ -162,7 +162,7 @@ void AHUDController::BeginPlay() {
 
 ```
 
-3. Broadcast the event to call all the binded functions.
+3. Execute the event to call all the binded functions.
 ```cpp
 // InventoryComponent.cpp
 void UInventoryComponent::AddRupees(int rupees)

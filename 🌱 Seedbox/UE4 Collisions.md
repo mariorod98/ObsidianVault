@@ -94,7 +94,8 @@ FHitResult&, Hit)
 ```
 
 
-## Adding an overlap response to an actor
+## Examples
+### Adding an overlap response to an actor
 1. Activate the check ``GenerateOverlapEvents`` either in the actor's inspector or in the C++ constructor.
 2. Declare the function that will be executed on the overlap (its signature must corresponde to the delegate). ==Remember to specify the method as UFUNCTION==.
 ```cpp

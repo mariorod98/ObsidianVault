@@ -64,7 +64,7 @@ if(GetWorld()->LineTraceSingleByChannel(HitResult, StartTrace, EndTrace, ECC_Wor
 }
 ```
 
-## Examples
+## Types of traces
 ```cpp
 // Returns the hit with the first element collided
 GetWorld()->LineTraceSingleByChannel(HitResult, StartTrace, EndTrace, TraceChannel, TraceParams);
@@ -91,6 +91,39 @@ GetWorld()->ComponentSweepMulti(OutHits, PrimComp, Start, End, rotation, QueryPa
 GetWorld()->ComponentOverlapMultiByChannel(OutOverlaps, PrimComp, Position, Rotation, TraceChannel, QueryParams, ObjectQueryParams);
 ```
 
+## Examples
+### Calling a trace by channel using a collision shape
+```cpp
+// BombDrop.cpp
+
+void ABombDrop::Explode()
+{
+	// Initialize all the call's params
+	FCollisionShape sphere = FCollisionShape::MakeSphere(explosion_radius_);
+	TArray<FOverlapResult> overlap_results;
+	FCollisionQueryParams params;
+	params.TraceTag = TEXT("explosion_trace");
+	
+	// Call the trace
+	GetWorld()->OverlapMultiByChannel(overlap_results, GetActorLocation(), FQuat::Identity, ECC_GameTraceChannel2, sphere, params);
+
+	// Iterate through the results
+	for(int i = 0; i < overlap_results.Num(); i++)
+	{
+		AEnemy* enemy = Cast<AEnemy>(overlap_results[i].GetActor());
+		if(enemy != nullptr)
+		{
+			GLog->Log(enemy->GetName());
+			FVector direction = enemy->GetActorLocation() - GetActorLocation();
+			direction.Normalize();
+			enemy->Hit(damage_, direction);
+		}
+	}
+	Destroy();
+}
+```
+
+
 ---
 Planted: 2022-04-19
-Last tended: 2022-04-19
+Last tended: 2022-09-04
