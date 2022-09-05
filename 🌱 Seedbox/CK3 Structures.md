@@ -1,8 +1,9 @@
 up:: 
 tags:: #state/seedling #on/CK3modding
 
-# CK3 Events Structure
+# CK3 Structures
 
+## Event structure
 ```
 event_name {
 	picture = "path"
@@ -25,6 +26,18 @@ event_name {
 }
 ```
 
+
+## if structure
+```
+if = {
+	# condition
+	limit = {
+	}
+
+	# effect
+	do something
+}
+```
 
 ---
 Planted: 2022-09-05
