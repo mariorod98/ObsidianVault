@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled",
+      "path": "🌱 Seedbox/Untitled.md"
+    },
+    {
+      "basename": "UE4 Collisions",
+      "path": "🌳 The Forest/UE4 Collisions.md"
+    },
+    {
+      "basename": "What is referred rendering",
+      "path": "🌱 Seedbox/What is referred rendering.md"
+    },
+    {
+      "basename": "Late and early binding",
+      "path": "🌱 Seedbox/Late and early binding.md"
+    },
+    {
+      "basename": "Wave Function Collapse Algorithm",
+      "path": "🌱 Seedbox/Wave Function Collapse Algorithm.md"
+    },
+    {
+      "basename": "Perforce",
+      "path": "🌱 Seedbox/Perforce.md"
+    },
+    {
       "basename": "⚙️Unreal Engine 4",
       "path": "🌳 The Forest/⚙️Unreal Engine 4.md"
     },
@@ -11,10 +35,6 @@
     {
       "basename": "UE4 Traces",
       "path": "🌳 The Forest/UE4 Traces.md"
-    },
-    {
-      "basename": "UE4 Collisions",
-      "path": "🌱 Seedbox/UE4 Collisions.md"
     },
     {
       "basename": "UE4 Delegates and events",
@@ -65,14 +85,6 @@
       "path": "🌱 Seedbox/Shortcuts VisualStudio.md"
     },
     {
-      "basename": "Perforce",
-      "path": "🌱 Seedbox/Perforce.md"
-    },
-    {
-      "basename": "Late and early binding",
-      "path": "🌱 Seedbox/Late and early binding.md"
-    },
-    {
       "basename": "How the compiler translates C++ to Assembler",
       "path": "🌱 Seedbox/How the compiler translates C++ to Assembler.md"
     },
@@ -91,10 +103,6 @@
     {
       "basename": "Términos gráfica",
       "path": "🌱 Seedbox/Términos gráfica.md"
-    },
-    {
-      "basename": "Wave Function Collapse Algorithm",
-      "path": "🌱 Seedbox/Wave Function Collapse Algorithm.md"
     },
     {
       "basename": "geometry_pipeline",
@@ -191,14 +199,6 @@
     {
       "basename": "🗃️ PKM",
       "path": "🌳 The Forest/🗃️ PKM.md"
-    },
-    {
-      "basename": "Digital garden",
-      "path": "🌳 The Forest/Digital garden.md"
-    },
-    {
-      "basename": "Evergreen notes",
-      "path": "🌳 The Forest/Evergreen notes.md"
     }
   ],
   "omittedPaths": [],
