@@ -3,6 +3,9 @@ tags:: #state/seedling
 
 # Programar IOs
 
+Organization Identifier: identificador único de la empresa
+Bundle identifier: identificador del proyecto
+Interface: cómo vamos a desarrollar la UI
 
 
 ---
