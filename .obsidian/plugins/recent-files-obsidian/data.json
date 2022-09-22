@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Programar IOs",
+      "path": "🌱 Seedbox/Programar IOs.md"
+    },
+    {
       "basename": "Git",
       "path": "🌱 Seedbox/Git.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "🌈 Graphics Programming",
       "path": "🌳 The Forest/🌈 Graphics Programming.md"
-    },
-    {
-      "basename": "🗃️ PKM",
-      "path": "🌳 The Forest/🗃️ PKM.md"
     }
   ],
   "omittedPaths": [],
