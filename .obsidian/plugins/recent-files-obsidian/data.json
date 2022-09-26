@@ -5,6 +5,10 @@
       "path": "🌳 The Forest/⚙️Unreal Engine 4.md"
     },
     {
+      "basename": "Creating a PlayerController and moving a character",
+      "path": "🌱 Seedbox/Creating a PlayerController and moving a character.md"
+    },
+    {
       "basename": "TESEO BROS",
       "path": "🌱 Seedbox/TESEO BROS.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "UE4 Naming Prefixes",
       "path": "🌱 Seedbox/UE4 Naming Prefixes.md"
-    },
-    {
-      "basename": "🎮 Game Design",
-      "path": "🌳 The Forest/🎮 Game Design.md"
     }
   ],
   "omittedPaths": [],
