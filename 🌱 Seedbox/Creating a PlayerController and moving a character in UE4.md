@@ -1,5 +1,5 @@
 up:: [[⚙️Unreal Engine 4]]
-tags:: #state/seedling
+tags:: #state/seedling #on/ue4/tutorials
 
 # Creating a PlayerController to move a character in UE4
 
