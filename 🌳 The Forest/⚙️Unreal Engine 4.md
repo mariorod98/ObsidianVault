@@ -18,5 +18,6 @@ Some code examples are:
 - [[UE4 Collisions#Adding an overlap response to an actor|Adding an overlap response to an actor]]
 - [[UE4 Traces#Calling a trace by channel using a collision shape|Calling a trace by channel using a collision shape]]
 - [[UE4 Delegates and events#Dynamic Delegate example|Creating a dynamic delegate]]
+- [[Creating a PlayerController and moving a character in UE4]]
 
 ## Resources, tools, people, etc.
