@@ -15,6 +15,15 @@ If a group of characters share the same behavior, they use the same Behavior Tre
 To this end, Blackboards are used. A Blackboard is linked to a specific Pawn/Character and it stores all the variables related to that Pawn/Character that the Behavior Tree will use.
 
 ## How to create a simple Behavior Tree
+### Add the required modules
+The first thing to do when using Behavior Trees is adding the correspondent modules to the ``Build.cs`` file:
+
+```c#
+PrivateDependencyModuleNames.AddRange(new string[] {
+	"AIModule",
+	"GameplayTasks"
+});
+```
 
 ---
 Planted: 2022-09-27
