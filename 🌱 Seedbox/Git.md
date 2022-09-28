@@ -109,6 +109,12 @@ Options:
 [Git - git-init Documentation](https://git-scm.com/docs/git-init)
 [Git - Branches in a Nutshell](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
 
+
+
+git log
+git log --oneline
+git log --oneline --graph
+
 ---
 Planted: 2022-08-11
 Last tended: 2022-08-30
