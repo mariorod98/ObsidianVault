@@ -8,7 +8,9 @@ The [[Player Controller]] is used as an interface between the player's input and
 
 In this case, the player will be able to move in the vertical axis and perform a jump action. 
 
-It is worth noting that the method `MoveHorizontal` accepts a float parameter while the method `Jump` does not. This is because the first method will be
+It is worth noting that the method `MoveHorizontal` accepts a float parameter while the method `Jump` does not. This is because the first method will be binded to an axis input, while the second will be binded to a button input. 
+
+The axis input sends either 1.0 or -1.0 as the value, while the button input just calls the function whenever its pressed
 
 ```c++
 // MyPlayerController.h
