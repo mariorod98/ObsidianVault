@@ -138,6 +138,9 @@ int main() {
 	
 	dir = 3; // Error, implicit conversion
 	dir = Directions(3) // Correct, explicit conversion
+	
+	int value = dir; // Error, implicit conversion
+	value = int(dir); // Correct, explicit conversion
 
 	PaymentTypes payment = Metallic;
 	bool isMetallic = payment == North; // True
