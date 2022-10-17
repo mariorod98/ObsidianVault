@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "🖥️ C_C++",
+      "path": "🌳 The Forest/🖥️ C_C++.md"
+    },
+    {
+      "basename": "Late and early binding",
+      "path": "🌱 Seedbox/Late and early binding.md"
+    },
+    {
+      "basename": "C++ volatile",
+      "path": "🌳 The Forest/C++ volatile.md"
+    },
+    {
       "basename": "What are the differences between enum and enum class",
-      "path": "🌱 Seedbox/What are the differences between enum and enum class.md"
+      "path": "🌳 The Forest/What are the differences between enum and enum class.md"
     },
     {
       "basename": "Creating a PlayerController and moving a character in UE4",
