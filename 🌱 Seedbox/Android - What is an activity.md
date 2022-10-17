@@ -12,12 +12,14 @@ For example, opening the mail app from the home screen may open the inbox with a
 
 ## Lifecycle of an Activity
 The lifecycle of an Activity is controlled by 7 methods of the Activity class. These methods are:
-- **onCreate**: called when the activity is first created.
+- **onCreate**: called when the activity is first created. This is where you should do all the static set up: create views, bind data, etc. It is always followed by *onStart*.
 - **onStart**: called when the activity is becoming visible to the user.
-- **onResume**: called when the activity will start interacting with the user.
-- **onPause**: called when the activity is not in the foreground.
-- **onStop**: called when the Activity is no longer visible.
-- **onDestroy**: called before the activity is destroyed.
+- **onResume**: called when the activity will start interacting with the user. The user input goes to this activity. Always followed by *onPause*.
+- **onPause**: called when the activity is not in the foreground. The activity is still visible to the user, so it is recommended to keep it visually active and continue updating the UI. Implementations of this method must be very quic because the next activity will not be resumed until this method returns.
+- **onStop**: called when the Activity is no longer visible. This is typically used to stop animations and refreshing the UI, etc.
+- **onRestart**: called after the activity has been stopped. Always followed by *onStart*.
+- **onDestroy**: called before the activity is destroyed. 
+
 
 Moreover, there are three key loops within an activity:
 - The **entire lifetime** of the activity happens between the first call to *onCreate* until the call to *onDestroy*. ==An Activity will do all the setup in onCreate and release all remaining resources in onDestroy==.
