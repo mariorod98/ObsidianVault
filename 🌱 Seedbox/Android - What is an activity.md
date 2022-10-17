@@ -8,6 +8,7 @@ In desktop apps, the entry point is always the same: you open the app and you ar
 
 For example, opening the mail app from the home screen may open the inbox with a list of mails. However, opening the app from a photo to send the photo may open with a new email with the photo loaded.
 
+## Parts of an Activity
 ---
 Planted: 2022-10-17
 Last tended: 2022-10-17
