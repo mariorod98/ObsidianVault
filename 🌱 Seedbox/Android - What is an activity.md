@@ -11,6 +11,7 @@ For example, opening the mail app from the home screen may open the inbox with a
 ## Parts of an Activity
 
 ## Lifecycle of an Activity
+
 ---
 Planted: 2022-10-17
 Last tended: 2022-10-17
