@@ -17,7 +17,12 @@ The lifecycle of an Activity is controlled by 7 methods of the Activity class. T
 - **onResume**: called when the activity will start interacting with the user.
 - **onPause**: called when the activity is not in the foreground.
 - **onStop**: called when the Activity is no longer visible.
-- **onDestroy**: called 
+- **onDestroy**: called before the activity is destroyed.
+
+Moreover, there are three key loops within an activity:
+- The **entire lifetime** of the activity happens between the first call to **onCreate** until the call to **onDestroy**. An Activity will do all the setup in **onCreate** and release all remaining resources in **onDestroy**.
+- The **visible lifetime** of the activity happens between a call to **onStart** until a corresponding call to **onStop**. During this time the user can see the activity on.-screen, though it may not be in the foreground and interacting with the user.
+- The **foreground lifetime** of the activity happens between a call to **onResume** until a corresponding call to **onPause**. During this time the activity is visible, active and interacting with the user.
 
 ---
 Planted: 2022-10-17
