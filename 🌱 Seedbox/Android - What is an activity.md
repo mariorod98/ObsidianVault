@@ -11,6 +11,13 @@ For example, opening the mail app from the home screen may open the inbox with a
 ## Parts of an Activity
 
 ## Lifecycle of an Activity
+The lifecycle of an Activity is controlled by 7 methods of the Activity class. These methods are:
+- **onCreate**: called when the activity is first created.
+- **onStart**: called when the activity is becoming visible to the user.
+- **onResume**: called when the activity will start interacting with the user.
+- **onPause**: called when the activity is not in the foreground.
+- **onStop**: called when the Activity is no longer visible.
+- **onDestroy**: called 
 
 ---
 Planted: 2022-10-17
