@@ -2,20 +2,26 @@ up::
 tags:: #state/seedling #on/android
 
 # What is an Activity?
-An *Activity* is the basic building block of an Android app. It can be described as ==a single, focused thing that the user can do==.
+An *Activity* is the basic building block of an Android app. It can be described as ==a single, focused thing that the user can do==. An Activity provides the window in which the app draws its UI. It is usually composed of:
+- A **custom class** that inherits from `AppCompatActivity`. This class will have all the code related to the activity.
+- A **layout** that defines the appearance of the Activity. It is in XML format.
+- A declaration in the [[Android Manifest]].
 
-In desktop apps, the entry point is always the same: you open the app and you are welcomed by the same initial screen. However, in mobile-apps, the user doesn't always begin in the same place. 
+## Why activities?
+Activities serve as atomic actions that a user can perform in an app. For example, in the Twitter app, the *dashboard*, *create tweet* and *preferences* are all different activities. 
 
-For example, opening the mail app from the home screen may open the inbox with a list of mails. However, opening the app from a photo to send the photo may open with a new email with the photo loaded.
+Activities work together to form a cohesive user experience in an app, but each activity is only loosely bound to other activities. There are usually minimal dependencies among the activities in an app. 
 
-## Parts of an Activity
+Furthermore, activities serve as the entry point to a mobile application. In desktop apps, the entry point is always the same: you open the app and you are welcomed by the same initial screen. However, in mobile-apps, the user doesn't always begin in the same place. 
+
+For example, opening the mail app from the home screen may open the inbox with a list of mails. However, opening the app from a photo to send the photo may open with a new email with the photo loaded. You can control this behaviour with Activities.
 
 ## Lifecycle of an Activity
 The lifecycle of an Activity is controlled by 7 methods of the Activity class. These methods are:
 - **onCreate**: called when the activity is first created. This is where you should do all the static set up: create views, bind data, etc. It is always followed by *onStart*.
 - **onStart**: called when the activity is becoming visible to the user.
 - **onResume**: called when the activity will start interacting with the user. The user input goes to this activity. Always followed by *onPause*.
-- **onPause**: called when the activity is not in the foreground. The activity is still visible to the user, so it is recommended to keep it visually active and continue updating the UI. Implementations of this method must be very quic because the next activity will not be resumed until this method returns.
+- **onPause**: called when the activity is not in the foreground. The activity is still visible to the user, so it is recommended to keep it visually active and continue updating the UI. ==Implementations of this method must be very quick because the next activity will not be resumed until this method returns==.
 - **onStop**: called when the Activity is no longer visible. This is typically used to stop animations and refreshing the UI, etc.
 - **onRestart**: called after the activity has been stopped. Always followed by *onStart*.
 - **onDestroy**: called before the activity is destroyed. 
