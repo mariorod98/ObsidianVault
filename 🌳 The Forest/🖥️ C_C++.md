@@ -10,12 +10,13 @@ C++ is an extension of C that provides object-oriented functionalities.[[⚙️U
 Some important concepts are:
 - [[A pointer is a reference to a memory address]]
 - [[How the compiler translates C++ to Assembler]]
-- [[Volatile is a keyword used to avoid aggressive optimization]]
+- [[What are the differences between enum and enum class]]
 - [[VTABLE]]
 - [[Late and early binding]]
 
 Some important keywords are:
 - [[C++ const|const]]
 - [[C++ virtual|virtual]]
+- [[C++ volatile|volatile]]
 
 ## Resources, tools, people, etc.

@@ -7,5 +7,6 @@
   ],
   "textFontFamily": "",
   "interfaceFontFamily": "",
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "accentColor": ""
 }
