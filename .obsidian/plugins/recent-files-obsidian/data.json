@@ -11,6 +11,30 @@
     {
       "basename": "UE4 Behavior Trees",
       "path": "🌱 Seedbox/UE4 Behavior Trees.md"
+    },
+    {
+      "basename": "UE4 Macros",
+      "path": "🌱 Seedbox/UE4 Macros.md"
+    },
+    {
+      "basename": "UE4 Core Classes",
+      "path": "🌱 Seedbox/UE4 Core Classes.md"
+    },
+    {
+      "basename": "UE4 Something",
+      "path": "🌱 Seedbox/UE4 Something.md"
+    },
+    {
+      "basename": "UE4 Optimization tips",
+      "path": "🌱 Seedbox/UE4 Optimization tips.md"
+    },
+    {
+      "basename": "UE4 Naming Prefixes",
+      "path": "🌱 Seedbox/UE4 Naming Prefixes.md"
+    },
+    {
+      "basename": "Wave Function Collapse Algorithm",
+      "path": "🌱 Seedbox/Wave Function Collapse Algorithm.md"
     }
   ],
   "omittedPaths": [],

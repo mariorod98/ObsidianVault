@@ -26,11 +26,18 @@ The lifecycle of an Activity is controlled by 7 methods of the Activity class. T
 - **onRestart**: called after the activity has been stopped. Always followed by *onStart*.
 - **onDestroy**: called before the activity is destroyed. 
 
+![[activity_lifecycle.png]]
 
 Moreover, there are three key loops within an activity:
 - The **entire lifetime** of the activity happens between the first call to *onCreate* until the call to *onDestroy*. ==An Activity will do all the setup in onCreate and release all remaining resources in onDestroy==.
 - The **visible lifetime** of the activity happens between a call to *onStart* until a corresponding call to *onStop*. ==During this time the user can see the activity on-screen, though it may not be in the foreground and interacting with the user==.
 - The **foreground lifetime** of the activity happens between a call to *onResume* until a corresponding call to *onPause*. ==During this time the activity is visible, active and interacting with the user==.
+
+## References
+[Introducción a las actividades  |  Desarrolladores de Android  |  Android Developers](https://developer.android.com/guide/components/activities/intro-activities)
+[Activity  |  Android Developers](https://developer.android.com/reference/android/app/Activity#ActivityLifecycle)
+[Android Activity Lifecycle - javatpoint](https://www.javatpoint.com/android-life-cycle-of-activity)
+
 
 ---
 Planted: 2022-10-17
