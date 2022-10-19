@@ -56,3 +56,4 @@ Use language that the job description is using
 [Gyazo](https://gyazo.com/5a958ec36c9261d9ad877c07278f6129)
 [Gyazo](https://gyazo.com/9b012a24b55216ae5c314e270c72ec96)
 [Gyazo](https://gyazo.com/929e42fe2e457f83a5c875b9054ad4b2)
+[Gyazo](https://gyazo.com/b89dadc910854eea9e59c75214518262)
