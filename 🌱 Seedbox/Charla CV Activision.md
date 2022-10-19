@@ -46,7 +46,7 @@ Use language that the job description is using
 - You are remembered for the worse piece of your portfolio
 - Best one first
 - If you are putting group projects, specify the areas where you were responsible
-- 
+
 [Gyazo](https://gyazo.com/c494b303efc2c02db9ac34389b66c9c6)
 [Gyazo](https://gyazo.com/1b1f191d9d24bc21cea44808a7ddd647)
 [Gyazo](https://gyazo.com/e39a1c956933d7af4b008abd3dedfd06)
