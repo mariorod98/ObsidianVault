@@ -46,6 +46,8 @@ Use language that the job description is using
 - You are remembered for the worse piece of your portfolio
 - Best one first
 - If you are putting group projects, specify the areas where you were responsible
+## Linkedin networking
+- 
 
 [Gyazo](https://gyazo.com/c494b303efc2c02db9ac34389b66c9c6)
 [Gyazo](https://gyazo.com/1b1f191d9d24bc21cea44808a7ddd647)
@@ -53,3 +55,4 @@ Use language that the job description is using
 [Gyazo](https://gyazo.com/8144d50cd7b21c34a8468f6d7eb25464)
 [Gyazo](https://gyazo.com/5a958ec36c9261d9ad877c07278f6129)
 [Gyazo](https://gyazo.com/9b012a24b55216ae5c314e270c72ec96)
+[Gyazo](https://gyazo.com/929e42fe2e457f83a5c875b9054ad4b2)
