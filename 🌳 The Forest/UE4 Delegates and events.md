@@ -12,7 +12,7 @@ tags: #state/bud #on/ue4/events
 - **Dynamic delegates** can be serialized and their functions can be found by name. ==They are slower than regular delegates.== They can be single and multicast.
 
 ### Declaring delegates
-To create a delegate, you must use one of the MACROS that UE4 defines to create the signature. The macro will depend on the type of delegate, the number of parameters and whether it returns a value or not. ==Delegates are declared in the broadcaster class==
+To create a delegate, you must use one of the MACROS that UE4 defines to create the signature. The macro will depend on the type of delegate, the number of parameters and whether it returns a value or not. ==Delegates are declared in the broadcaster class==.
 ```cpp
 // Single delegate
 DECLARE_DELEGATE...
@@ -30,6 +30,13 @@ DECLARE_..._DELEGATE_<Num>Params(DelegateName, ParamType1, ParamName1, ...)
 DECLARE_..._DELEGATE_RetVal(RetValType, DelegateName)
 DECLARE_..._DELEGATE_RetVal_OneParam(RetValType, DelegateName, ParamType, ParamName)
 DECLARE_..._DELEGATE_RetVal_<Num>Params(RetVal Type, DelegateName, ParamType1, ParamName1, ...)
+```
+
+Dynamic delegates must define the name of the parameters, while non-dynamic delegate must not define it.
+
+```cpp
+DECLARE_DELEGATE_OneParam(DelegateName, ParamType)
+DECLARE_DYNAMIC_DELEGATE_OneParam(DelegateName, ParamType, ParamName)
 ```
 
 UDelegates support the same specifiers as UFunctions, but you must use UDELEGATE() instead of UFUNCTION. Usually, the delegate name starts with the letter F.
