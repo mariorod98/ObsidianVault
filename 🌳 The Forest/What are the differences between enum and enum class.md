@@ -1,5 +1,5 @@
-up::
-tags:: #state/seedling #on/cpp
+up:: [[🖥️ C_C++]]
+tags:: #state/bud #on/cpp
 
 # What are the differences between enum and enum class
 
@@ -131,6 +131,11 @@ enum PaymentTypes {
 	CreditCard,   // Code = 316
 };
 
+enum TrainStations {
+	North,   // Enums can share values 
+	South
+}
+
 int main() {
 	Directions dir = North;
 
@@ -143,7 +148,7 @@ int main() {
 	value = int(dir); // Correct, explicit conversion
 
 	PaymentTypes payment = Metallic;
-	bool isMetallic = payment == North; // True
+	bool isMetallic = payment == North; // Error, different types
 }
 ```
 
