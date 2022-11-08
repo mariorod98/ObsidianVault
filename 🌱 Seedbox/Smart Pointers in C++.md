@@ -18,9 +18,28 @@ There are three key concepts about ownership and smart pointers:
 A **unique_ptr** is a smart pointer that limits the ownership of a resource to a single entity. The entity is deleted when the scope of the unique_ptr ends. Only one unique_ptr can point to the same resource, so the copy and assignment operations are not implemented.
 
 ```c++
-class Entity {
-public:
-	unique_ptr<
+// class that represents an audio clip to be played
+class AudioClip {
+}
+
+// class that generates audio clip
+class AudioManager {
+ public:
+	std::unique_ptr<AudioClip> generateClip();
+};
+
+// class that represents a source that plays audio clips
+class AudioSource {
+ public:
+	 Play();
+	std::unique_ptr<AudioClip> clip;
+}
+
+
+int main() {
+	AudioManager manager;
+	AudioSource source;
+	source.clip = manager.generateClip();
 }
 ```
 
