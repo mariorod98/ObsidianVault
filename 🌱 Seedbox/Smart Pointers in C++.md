@@ -32,6 +32,9 @@ public:
 ## Weak pointer
 ## Auto pointer
 
+## References
+[auto_ptr, unique_ptr, shared_ptr and weak_ptr - GeeksforGeeks](https://www.geeksforgeeks.org/auto_ptr-unique_ptr-shared_ptr-weak_ptr-2/)
+
 
 ---
 Planted: 2022-11-08
