@@ -25,7 +25,9 @@ class AudioClip {
 // class that generates audio clip
 class AudioManager {
  public:
-	std::unique_ptr<AudioClip> generateClip();
+	std::unique_ptr<AudioClip> generateClip() {
+		return make_unique<AudioClip>();
+	}
 };
 
 // class that represents a source that plays audio clips
@@ -53,6 +55,7 @@ int main() {
 
 ## References
 [auto_ptr, unique_ptr, shared_ptr and weak_ptr - GeeksforGeeks](https://www.geeksforgeeks.org/auto_ptr-unique_ptr-shared_ptr-weak_ptr-2/)
+[How to: Create and use unique_ptr instances | Microsoft Learn](https://learn.microsoft.com/en-us/cpp/cpp/how-to-create-and-use-unique-ptr-instances?view=msvc-170)
 
 
 ---
