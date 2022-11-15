@@ -27,6 +27,9 @@ PrivateDependencyModuleNames.AddRange(new string[] {
 });
 ```
 
+
+## References
+[Blackboard Documentation - Programming & Scripting / Blueprint - Unreal Engine Forums](https://forums.unrealengine.com/t/blackboard-documentation/1795)
 ---
 Planted: 2022-09-27
 Last tended: 2022-09-27
