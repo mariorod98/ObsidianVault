@@ -1,6 +1,6 @@
-Lvalue, cualquier cosa que se pueda poner a la izquierda de una asignacion
+Lvalue, cualquier cosa que se pueda poner a la izquierda de una asignacion (algo que tiene nombre)
 
-Rvalue, cualquier cosa que NO se pueda poner a la izquierda de una asignacion
+Rvalue, cualquier cosa que NO se pueda poner a la izquierda de una asignacion (algo que no tiene nombre)
 
 ```cpp
 int a;
