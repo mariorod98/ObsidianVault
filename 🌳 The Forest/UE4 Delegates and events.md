@@ -59,25 +59,25 @@ Once you have created a delegate, you must bind the functions you want the call 
 **Single delegates**
 ```cpp
 DelegateName.Bind(Instigator, Function);
-OnPlayerHit.Bind(this, Player::OnHit);
+OnPlayerHit.Bind(this, &Player::OnHit);
 ```
 
 **Multicast delegates**
 ```cpp
 DelegateName.Add(Instigator, Function);
-OnPlayerHit.Add(this, Player::OnHit);
+OnPlayerHit.Add(this, &Player::OnHit);
 ```
 
 **Single dynamic delegates**
 ```cpp
 DelegateName.BindDynamic(Instigator, Function);
-OnPlayerHit.BindDynamic(this, Player::OnHit);
+OnPlayerHit.BindDynamic(this, &Player::OnHit);
 ```
 
 **Multicast dynamic delegates**
 ```cpp
 DelegateName.AddDynamic(Instigator, Function);
-OnPlayerHit.AddDynamic(this, Player::OnHit);
+OnPlayerHit.AddDynamic(this, &Player::OnHit);
 ```
 
 To check if a delegate has bound objects, you can use the following methods:
