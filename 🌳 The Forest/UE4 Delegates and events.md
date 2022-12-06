@@ -64,8 +64,8 @@ OnPlayerHit.Bind(this, &Player::OnHit);
 
 **Multicast delegates**
 ```cpp
-DelegateName.Add(Instigator, Function);
-OnPlayerHit.Add(this, &Player::OnHit);
+DelegateName.AddUObject(Instigator, Function);
+OnPlayerHit.AddUObject(this, &Player::OnHit);
 ```
 
 **Single dynamic delegates**
