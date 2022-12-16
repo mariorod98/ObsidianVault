@@ -9,8 +9,11 @@ A scope is where exactly an [[Effects in Clausewitz|effect]] or [[Triggers in Cl
 - **PREV**.
 - **THIS**.
 - **FROM**.
-```
 
+## Scope linking
+
+
+## Scopes in different games
 ---
 Planted: 2022-12-16
 Last tended: 2022-12-16
