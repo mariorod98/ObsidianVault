@@ -539,5 +539,13 @@
       ],
       "key": "ArrowLeft"
     }
+  ],
+  "obsidian-emoji-toolbar:emoji-picker:open-picker": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "."
+    }
   ]
 }
