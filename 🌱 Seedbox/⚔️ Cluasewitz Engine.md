@@ -9,9 +9,11 @@ Some important concepts of the Clausewitz Engine are:
 - [[Scopes in Clausewitz|Scopes]]
 - [[Effects in Clausewitz|Effects]]
 - [[Triggers in Clausewitz|Triggers]]
+- [[Localization in Clausewitz|Localization]]
 
 Some important concepts of Victoria III are:
 - [[States and State Regions in Victoria III|States and Regions]]
+- [[Journals in Victoria III|Journals]]
 
 ---
 Planted: 2022-12-16

@@ -1,5 +1,5 @@
 up:: [[⚔️ Cluasewitz Engine]]
-tags:: #state/seedling
+tags:: #state/seedling #on/clausewitz/victoriaIII 
 
 # States and State Regions in Victoria III
 
