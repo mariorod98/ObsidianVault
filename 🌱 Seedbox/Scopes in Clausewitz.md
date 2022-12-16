@@ -38,6 +38,37 @@ c:SIA = {
 }
 ```
 
+**Culture scope**
+[[Culture in Victoria III|Culture]] scope seems to work in a similar fashion to building scope, indirectly referenced. However, it has more use cases. To scope to a culture, use the letters *cu*.
+
+```
+state_region = {
+	is_homeland = cu:greek
+}
+```
+
+**Interest Group**
+Scoping to an interest group is done using the letters *ig*.
+
+```
+ig:ig_landowners = {
+	remove_ideology = ideology_paternalistic
+	add_ideology = idology_republican_paternalistic
+}
+```
+
+**Market Good scope**
+Scoping to a market good is done using the letters *mg*.
+
+```
+mg:tools = {
+	save_scope_as = cool_tools
+}
+```
+
+
+## References
+[Scopes - Victoria 3 Wiki](https://vic3.paradoxwikis.com/Scopes)
 
 ---
 Planted: 2022-12-16
