@@ -1,10 +1,8 @@
-# TODO LIST
-- [x] Sacar cita ITV
-- [ ] Vacuna VPH
-- [x] Vacuna COVID
-- [x] Mirar cuando cobran airbnb y pedir a esta gente el dinerillo
-- [x] Hacer llamadita juanmo-carmen pa hablar del festi
-- [ ] Hacer ejercicios Milo
-- [ ] Hablar con ra :(
-- [ ] Hacer los book reports
-- [ ] Escribir recetas!!
+# TODO NAVIDAD
+- [ ] Terminar lo de la seguridad social online
+- [ ] Hacerme CV 
+- [ ] Hacerme Portfolio
+- [ ] Pensar si mandar CV a Paradox
+- [ ] Mirar IA de EU4 y victoria
+- [ ] Hacer práctica de BI
+- [ ] Hacer seminario
