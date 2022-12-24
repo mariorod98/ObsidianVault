@@ -43,7 +43,10 @@ In the initialization of the algorithm, the following structures must be created
 
 [Wave - by Oskar Stålberg](https://oskarstalberg.com/game/wave/wave.html)
 
+[Phantom Brigade - Mech, Turn-Based, Tactical RPG](https://forums.tigsource.com/index.php?topic=54424.0)
+
+[Why I'm Using Wave Function Collapse for Procedural Terrain | Unity Devlog - YouTube](https://www.youtube.com/watch?v=20KHNA9jTsE&ab_channel=DVGen)
 
 ---
 Planted: 2022-05-13
-Last tended: 2022-08-12
+Last tended: 2022-12-24
