@@ -43,6 +43,8 @@ In the initialization of the algorithm, the following structures must be created
 
 [Wave - by Oskar Stålberg](https://oskarstalberg.com/game/wave/wave.html)
 
+[SGC21- Oskar Stålberg - Beyond Townscapers - YouTube](https://www.youtube.com/watch?v=Uxeo9c-PX-w&t=420s&ab_channel=SwedenGameArena)
+
 [Phantom Brigade - Mech, Turn-Based, Tactical RPG](https://forums.tigsource.com/index.php?topic=54424.0)
 
 [Why I'm Using Wave Function Collapse for Procedural Terrain | Unity Devlog - YouTube](https://www.youtube.com/watch?v=20KHNA9jTsE&ab_channel=DVGen)
