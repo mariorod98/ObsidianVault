@@ -12,7 +12,7 @@ Here you will find the [[Maps of contents|MOCs]] available in [[🪴 Tending thi
 - [[⚙️Unreal Engine 4]]
 - [[🌈 Graphics Programming]]
 - [[🎮 Game Design]]
-- [[⚔️ Cluasewitz Engine]]
+- [[⚔️ Clausewitz Engine]]
 
 ## Programming
 - [[🖥️ C_C++ | 🖥️ C/C++]]

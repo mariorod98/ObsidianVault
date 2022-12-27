@@ -1,7 +1,7 @@
 up: [[🗺️ Map of maps]]
 tags:: #meta/moc #on/clausewitz
 
-# ⚔️Cluasewitz Engine
+# ⚔️Clausewitz Engine
 Clausewitz Engine is the video games engine used by Paradox Interactive to develop their Grand Strategy series, such as Victoria, Europa Universalis, Crusaders, Stellaris and Heats of Iron.
 
 Some important concepts of the Clausewitz Engine are:

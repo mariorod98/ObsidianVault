@@ -1,4 +1,4 @@
-up:: [[⚔️ Cluasewitz Engine]]
+up:: [[⚔️ Clausewitz Engine]]
 tags:: #state/seedling #on/clausewitz/victoriaIII
 
 # Journals in Victoria III
