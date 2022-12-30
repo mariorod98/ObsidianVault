@@ -1,5 +1,5 @@
 up:: [[🖥️ C_C++]]
-tags:: #state/seedling #on/cpp
+tags:: #state/seedling #on/cpp/cpp11
 
 # Smart Pointers in C++
 ## Concept of ownership
