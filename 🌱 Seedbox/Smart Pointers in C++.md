@@ -24,7 +24,7 @@ In the following example, the *AudioManager* creates an *AudioClip* unique point
 ```cpp
 // class that represents an audio clip to be played
 class AudioClip {
-	...
+	void Play();
 }
 
 // class that generates audio clip
@@ -38,7 +38,7 @@ class AudioManager {
 // class that represents a source that plays audio clips
 class AudioSource {
  public:
-	 Play();
+	void Play() {clip.Play;}
 	std::unique_ptr<AudioClip> clip;
 }
 
@@ -51,10 +51,55 @@ int main() {
 }
 ```
 
-### Passing ownership to other objects
+
+Unique pointers do not limit who can use that pointer, they only manage who must destroy it. Other objects can store a pointer to that resource in order to use it whenever they see fit (although this may be seen as a bad practice), but they are not the owners and therefore they should clean it up.
+
+### Transfering ownership to other objects
 Sometimes, you may want to transfer the ownership from one owner to another. This can be done with the function [[Move function|move]]. ==This function indicates that the object specified in the parameter is allowed to transfer its resources to another object.==
 
+The transfer of ownership is done automatically in the following circunstancies:
+- Returning a **unique_ptr** from a function.
+- Passing a **unique_ptr** as a parameter.
+
+You must remember that after moving the ownership of an object from one pointer to another, the previous pointer is now invalid and should not be used after moving it.
+
+```cpp
+// class that represents an audio clip to be played
+class AudioClip {
+	void Play();
+}
+
+// class that generates audio clip
+class AudioManager {
+ public:
+	std::unique_ptr<AudioClip> generateClip() {
+		return make_unique<AudioClip>();
+	}
+};
+
+// class that represents a source that plays audio clips
+class AudioSource {
+ public:
+	void Play() {clip.Play;}
+	std::unique_ptr<AudioClip> clip;
+}
+
+int main() {
+	AudioManager manager;
+	AudioSource source;
+	auto clip = manager.generateClip();
+	source.clip = std::move(clip);
+
+	clip.Play();   // Incorrect, clip is now nullptr
+	source.Play(); // Correct, clip is now owned by source
+}
+```
+
 ### When to use unique pointers
+Unique pointers should be used when you want to have single ownership of a resource. This way, you ensure that one and just one object handles the cleanup of that resource.
+
+Some examples of unique pointer usage are:
+- 
 
 ## Shared pointer
 ## Weak pointer
@@ -67,4 +112,4 @@ Sometimes, you may want to transfer the ownership from one owner to another. Thi
 
 ---
 Planted: 2022-11-08
-Last tended: 2022-11-08
+Last tended: 2022-12-30
