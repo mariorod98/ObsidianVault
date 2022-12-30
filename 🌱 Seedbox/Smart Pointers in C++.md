@@ -55,13 +55,15 @@ int main() {
 Unique pointers do not limit who can use that pointer, they only manage who must destroy it. Other objects can store a pointer to that resource in order to use it whenever they see fit (although this may be seen as a bad practice), but they are not the owners and therefore they should clean it up.
 
 ### Transfering ownership to other objects
-Sometimes, you may want to transfer the ownership from one owner to another. This can be done with the function [[Move function|move]]. ==This function indicates that the object specified in the parameter is allowed to transfer its resources to another object.==
+Sometimes, you may want to transfer the ownership from one owner to another. This can be done with the function **move**. ==This function indicates that the object specified in the parameter is allowed to transfer its resources to another object.== 
+
+![[move_example_cpp.png]]
+
+You must remember that after moving the ownership of an object from one pointer to another, the previous pointer is now invalid and should not be used after moving it.
 
 The transfer of ownership is done automatically in the following circunstancies:
 - Returning a **unique_ptr** from a function.
 - Passing a **unique_ptr** as a parameter.
-
-You must remember that after moving the ownership of an object from one pointer to another, the previous pointer is now invalid and should not be used after moving it.
 
 ```cpp
 // class that represents an audio clip to be played
@@ -98,10 +100,8 @@ int main() {
 ### When to use unique pointers
 Unique pointers should be used when you want to have single ownership of a resource. This way, you ensure that one and just one object handles the cleanup of that resource.
 
-Some examples of unique pointer usage are:
-- 
-
 ## Shared pointer
+Sometimes, you want several objects to own a resource so that it is only cleaned up when the last object that owns that resource is destroyed. The **shared_ptr** is a smart pointer that handles this scenario
 ## Weak pointer
 ## Auto pointer
 
