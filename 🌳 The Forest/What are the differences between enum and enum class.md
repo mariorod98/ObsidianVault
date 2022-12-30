@@ -14,7 +14,7 @@ Enums are often used to create categories and non quantitative values with restr
 - Type of payment.
 - Options.
 
-```c++
+```cpp
 enum DaysOfWeek {
 	Monday,
 	Tuesday,
@@ -32,7 +32,7 @@ int main() {
 
 Enum values are assigned an internal int code. If no code is provided, the enum value will receive the following number from the previous code. If the first enum value has no code assigned, it will receive the int code of 0.
 
-```c++
+```cpp
 enum Directions {
 	North, // Code = 1
 	South, // Code = 2

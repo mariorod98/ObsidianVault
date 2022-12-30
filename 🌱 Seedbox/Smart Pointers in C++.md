@@ -17,11 +17,14 @@ There are three key concepts about ownership and smart pointers:
 ## Unique pointers
 A **unique_ptr** is a smart pointer that limits the ownership of a resource to a single entity. The entity is deleted when the scope of the unique_ptr ends. Only one unique_ptr can point to the same resource, so the copy and assignment operations are not implemented.
 
+To create a **unique_ptr** you must call the method **make_unique**. This method creates an object of type T and wraps it in a **unique_ptr**.
+
 In the following example, the *AudioManager* creates an *AudioClip* unique pointer and handles it to the *AudioSource* object. The AudioSource is now the owner of the AudioClip and, when the AudioSource is freed, so will the AudioClip.
 
-```c++
+```cpp
 // class that represents an audio clip to be played
 class AudioClip {
+	...
 }
 
 // class that generates audio clip
@@ -49,8 +52,9 @@ int main() {
 ```
 
 ### Passing ownership to other objects
+Sometimes, you may want to transfer the ownership from one owner to another. This can be done with the function [[Move function|move]]. ==This function indicates that the object specified in the parameter is allowed to transfer its resources to another object.==
 
-### when to use unique pointers
+### When to use unique pointers
 
 ## Shared pointer
 ## Weak pointer

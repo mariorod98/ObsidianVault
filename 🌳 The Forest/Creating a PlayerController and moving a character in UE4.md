@@ -10,7 +10,7 @@ In this case, the player will be able to move in the vertical axis and perform a
 
 It is worth noting that the method `MoveHorizontal` accepts a float parameter while the method `Jump` does not. This is because the first method will be binded to an axis input, while the second will be binded to a button input. 
 
-```c++
+```cpp
 // MyPlayerController.h
 class AMyPlayerController : public APlayerController
 {
@@ -31,7 +31,7 @@ public:
 
 The binding of the input and the actions is done in the overridden method `SetInputComponent`. Depending on the type of input (axis or action) the binding may change:
 
-```c++
+```cpp
 BindAction(
 	FName - name of the action, 
 	EInputEvent - type of event, 
@@ -53,7 +53,7 @@ The types of events that the input acepts are:
 - IE_DoubleClick
 - IE_Axis
 
-```c++
+```cpp
 // MyPlayerController.h
 
 class AMyPlayerController : public APlayerController {
@@ -75,7 +75,7 @@ void AMyPlayerController::SetupInputComponent() {
 ## Implementing the APlayerController methods
 In this simple example, the PlayerController methods are wrapper methods to call those of the Character. It is important to remember that, **before calling the character methods, we must first cast the pawn to the character and check if the casting is correct**.
 
-```c++
+```cpp
 // MyPlayerController.cpp
 
 void AMyPlayerController::Jump() {
@@ -94,7 +94,7 @@ void AMyPlayerController::MoveRight(float Value) {
 ## Implementing the methods in APlayerCharacter
 The last step is to implement the methods that are called from the PlayerController (unless we called methods already implemented in the engine).
 
-```c++
+```cpp
 // PlayerCharacter.h
 class APlayerCharacter : public ACharacter {
 	...
