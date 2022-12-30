@@ -105,7 +105,7 @@ Sometimes, you want several objects to own a resource so that it is only cleaned
 
 The **shared_ptr** can be viewed as a container of raw pointers. The way it works is by having a reference count of all the variables that point to the object it stores. This counter is incremented each time a new pointer points to the resource and is decremented each time a pointer that points to the resource is destroyed. Whenever the counter reaches 0, then the resource is finally freed.
 
-Similarly to **unique_ptr**, to create a **shared_ptr** you must call the function **make_shared**
+Similarly to **unique_ptr**, to create a **shared_ptr** you must call the function **make_shared**.
 ### Cyclic dependency
 
 ### When to use shared pointers
