@@ -101,7 +101,14 @@ int main() {
 Unique pointers should be used when you want to have single ownership of a resource. This way, you ensure that one and just one object handles the cleanup of that resource.
 
 ## Shared pointer
-Sometimes, you want several objects to own a resource so that it is only cleaned up when the last object that owns that resource is destroyed. The **shared_ptr** is a smart pointer that handles this scenario
+Sometimes, you want several objects to own a resource so that it is only cleaned up when the last object that owns that resource is destroyed. The **shared_ptr** is a smart pointer that suits this use case.
+
+The **shared_ptr** can be viewed as a container of raw pointers. The way it works is by having a reference count of all the variables that point to the object it stores. This counter is incremented each time a new pointer points to the resource and is decremented each time a pointer that points to the resource is destroyed. Whenever the counter reaches 0, then the resource is finally freed.
+
+Similarly to **unique_ptr**, to create a **shared_ptr** you must call the function **make_shared**
+### Cyclic dependency
+
+### When to use shared pointers
 ## Weak pointer
 ## Auto pointer
 
