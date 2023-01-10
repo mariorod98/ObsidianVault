@@ -5,6 +5,12 @@ tags:: #state/seedling
 
 The **friend** keyword is used to grant a function or class access to private and protected members of another class. The keyword is declared in the body of the class whose members are to be accessed.
 
+Some key features are:
+- Friendship is not transitive (a friend of a friend is not your friend).
+- Friendship is not inherited (your friend's children are not your friends).
+
+
+**Example with friend class**
 ```cpp
 class EntityManager {
 	...
@@ -22,6 +28,8 @@ class Entity {
 }
 ```
 
+
+**Example with friend function**
 ```cpp
 class EntityManager {
 	void my_func(Entity e);
@@ -33,7 +41,7 @@ class Entity {
 
 	// Now my_func from EntityManager has access to Entity's
 	// private and protected members
-	friend EntityManager::my_func(Entity e);
+	friend void EntityManager::my_func(Entity e);
 }
 ```
 ## References
