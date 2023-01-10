@@ -3,7 +3,35 @@ tags:: #state/seedling
 
 # C++ friend
 
-The **friend** keyword is used to grant a function or class access to private and protected members of another class. The keyword is declared in the body of the class 
+The **friend** keyword is used to grant a function or class access to private and protected members of another class. The keyword is declared in the body of the class whose members are to be accessed.
+
+```cpp
+class EntityManager {
+	...
+};
+
+class Entity {
+	...
+
+	// Now EntityManager can have access to Entity's
+	// private and protected members
+	friend class EntityManager;
+}
+```
+
+```cpp
+class EntityManager {
+	...
+};
+
+class Entity {
+	...
+
+	// Now EntityManager can have access to Entity's
+	// private and protected members
+	friend class EntityManager;
+}
+```
 ## References
 [Friend Class and Function in C++ - GeeksforGeeks](https://www.geeksforgeeks.org/friend-class-function-cpp/)
 [Friend declaration - cppreference.com](https://en.cppreference.com/w/cpp/language/friend)
