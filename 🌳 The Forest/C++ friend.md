@@ -1,5 +1,5 @@
-up::
-tags:: #state/seedling
+up:: [[🖥️ C_C++]]
+tags:: #state/forest #on/cpp 
 
 # C++ friend
 
@@ -44,6 +44,7 @@ class Entity {
 	friend void EntityManager::my_func(Entity e);
 }
 ```
+
 ## References
 [Friend Class and Function in C++ - GeeksforGeeks](https://www.geeksforgeeks.org/friend-class-function-cpp/)
 [Friend declaration - cppreference.com](https://en.cppreference.com/w/cpp/language/friend)

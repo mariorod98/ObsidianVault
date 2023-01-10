@@ -11,12 +11,14 @@ Some important concepts are:
 - [[A pointer is a reference to a memory address]]
 - [[How the compiler translates C++ to Assembler]]
 - [[What are the differences between enum and enum class]]
-- [[VTABLE]]
+- [[What is the Virtual Table in C++]]
 - [[Late and early binding]]
 
 Some important keywords are:
 - [[C++ const|const]]
 - [[C++ virtual|virtual]]
 - [[C++ volatile|volatile]]
+- [[C++ friend|friend]]
 
 ## Resources, tools, people, etc.
+[cppreference.com](https://en.cppreference.com/w/)
