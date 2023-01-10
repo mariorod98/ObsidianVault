@@ -1,0 +1,11 @@
+# 2023 New Year's resolutions
+- [ ] Read 12 books.
+- [ ] Create a cookbook and keep it updated.
+- [ ] Learn 15 new recipes.
+- [ ] Try to exercise weekly.
+- [ ] Loose weight up to 95 kg
+- [ ] Learn to learn and to store information.
+- [ ] Learn about grid worlds and procedural grid generation.
+- [ ] Organize all my photos and save them in the ssd.
+- [ ] Reset the computer memory
+- [ ] Make a 
