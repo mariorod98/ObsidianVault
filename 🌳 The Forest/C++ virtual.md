@@ -38,7 +38,7 @@ result = b_pointer->my_func();  // result = 4
 ## Rules for virtual functions
 
 1. Virtual functions cannot be static.
-2. A virtual function can be a [[friend function]] of another class.
+2. A virtual function can be a [[C++ friend|friend function]] of another class.
 3. Virtual functions should be accessed using pointer or reference of base class type to achieve [[runtime polymorphism]].
 4. The prototype of virtual functions should be the same in the base as well as derived class.
 5. It is not mandatory for the derived class to override a virtual function. In that case, the base class version of the function is used.
