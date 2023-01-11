@@ -8,4 +8,3 @@
 - [ ] Learn about grid worlds and procedural grid generation.
 - [ ] Organize all my photos and save them in the ssd.
 - [ ] Reset the computer memory
-- [ ] Make a 
