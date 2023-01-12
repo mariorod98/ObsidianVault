@@ -49,6 +49,8 @@ In the initialization of the algorithm, the following structures must be created
 
 [Why I'm Using Wave Function Collapse for Procedural Terrain | Unity Devlog - YouTube](https://www.youtube.com/watch?v=20KHNA9jTsE&ab_channel=DVGen)
 
+[Wave Function Collapse tips and tricks – BorisTheBrave.Com](https://www.boristhebrave.com/2020/02/08/wave-function-collapse-tips-and-tricks/)
+
 ---
 Planted: 2022-05-13
 Last tended: 2022-12-24
