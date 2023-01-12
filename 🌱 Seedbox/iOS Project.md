@@ -23,6 +23,11 @@ If a scene has an entry point, then the app can be launched through that scene.
 2. Select the element and drag to the position in the code where you want to create the variable
 3. Give a name to the variable. It must be follow the syntax: nameType.
 
+
+## Swift
+
+The exclamation symbol `!` specifies that a variable must exists always
+`weak var helloLabel: UILabel!` 
 ## References
 
 ---
