@@ -1,9 +1,16 @@
 up::
-tags:: #state/seedling #on/cpp 
+tags:: #state/seedling #on/programming/patterns 
 
 # RAII Pattern
 
-*Resource Acquisition Is Initialization* (RAII) is a C++ technique that limits the creation and initialization of an object to be done in the same instant.
+*Resource Acquisition Is Initialization* (RAII) is a programming pattern that limits the creation and initialization of an object to be done in the same instant. RAII binds the life cycle of a resource that must be acquired before use to the lifetime of an object.
+
+Some resources that can fit to the RAII pattern are:
+- Thread execution.
+- Open socket.
+- Open file.
+- Locked mutex.
+- Database connection.
 
 RAII can be summarized as follows:
 - Encapsulate each resource into a class, where
