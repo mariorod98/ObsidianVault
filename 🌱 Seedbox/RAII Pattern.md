@@ -12,6 +12,7 @@ Some resources that can fit to the RAII pattern are:
 - Locked mutex.
 - Database connection.
 
+## Formal definition
 RAII can be summarized as follows:
 - Encapsulate each resource into a class, where
 	- The constructor acquires the resource (or throws an exception if that cannot be done).
@@ -21,6 +22,12 @@ RAII can be summarized as follows:
 	- Has lifetime that is bounded by the lifetime of an automatic or temporary object.
 
 RAII guarantees that a resource is available to any function that may access the object
+
+## Benefits
+
+
+## Examples
+
 ## References
 [RAII - cppreference.com](https://en.cppreference.com/w/cpp/language/raii)
 [c++ - What is meant by Resource Acquisition is Initialization (RAII)? - Stack Overflow](https://stackoverflow.com/questions/2321511/what-is-meant-by-resource-acquisition-is-initialization-raii)
