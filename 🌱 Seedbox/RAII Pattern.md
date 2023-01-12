@@ -23,7 +23,8 @@ RAII can be summarized as follows:
 RAII guarantees that a resource is available to any function that may access the object
 ## References
 [RAII - cppreference.com](https://en.cppreference.com/w/cpp/language/raii)
+[c++ - What is meant by Resource Acquisition is Initialization (RAII)? - Stack Overflow](https://stackoverflow.com/questions/2321511/what-is-meant-by-resource-acquisition-is-initialization-raii)
 
 ---
 Planted: 2023-01-10
-Last tended: 2023-01-10
+Last tended: 2023-01-12
