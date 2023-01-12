@@ -5,6 +5,8 @@ tags:: #state/seedling
 
 ## Targets
 
+# ViewController
+It is similar to the Android Activity both in lifecycle and in function.
 
 ## References
 
