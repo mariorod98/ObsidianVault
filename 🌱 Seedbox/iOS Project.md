@@ -17,6 +17,12 @@ It is similar to the Android Activity both in lifecycle and in function.
 A scene is similar to a layout in Android. It is assigned to a specific controller. The controller it is assigned to can be modified in its properties in `CustomClass->Class`.
 
 If a scene has an entry point, then the app can be launched through that scene.
+
+## How to bind a scene element to a ViewController
+1. Divide Xcode in two panels to have the view and the controller sied to sied
+2. Select the element and drag to the position in the code where you want to create the variable
+3. Give a name to the variable. It must be follow the syntax: nameType.
+
 ## References
 
 ---
