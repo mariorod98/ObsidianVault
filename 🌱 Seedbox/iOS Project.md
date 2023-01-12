@@ -24,6 +24,7 @@ If a scene has an entry point, then the app can be launched through that scene.
 3. Give a name to the variable. It must be follow the syntax: nameType.
 
 
+If a button is connected, depending of the place it is connected, a new variable will be created OR an event for the button
 ## Swift
 
 The exclamation symbol `!` specifies that a variable must exists always
