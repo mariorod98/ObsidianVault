@@ -3,7 +3,9 @@ tags:: #state/seedling #on/programming/patterns
 
 # RAII Pattern
 
-*Resource Acquisition Is Initialization* (RAII) is a programming pattern that limits the creation and initialization of an object to be done in the same instant. RAII binds the life cycle of a resource that must be acquired before use to the lifetime of an object.
+*Resource Acquisition Is Initialization* (RAII) is a programming pattern that binds the life cycle of a resource that must be acquired before use to the lifetime of an object. When that object is created, the resource is initialized, when the object is destroyed, the resource is freed.
+
+This pattern is used to ensure that resources are used only in a limited scope and that they are always initialized and freed in that scope.
 
 Some resources that can fit to the RAII pattern are:
 - Thread execution.
