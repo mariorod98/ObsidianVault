@@ -51,6 +51,8 @@ In the initialization of the algorithm, the following structures must be created
 
 [Wave Function Collapse tips and tricks – BorisTheBrave.Com](https://www.boristhebrave.com/2020/02/08/wave-function-collapse-tips-and-tricks/)
 
+[EPC2018 - Oskar Stalberg - Wave Function Collapse in Bad North - YouTube](https://www.youtube.com/watch?v=0bcZb-SsnrA&ab_channel=BUasGames)
+
 ---
 Planted: 2022-05-13
 Last tended: 2022-12-24
