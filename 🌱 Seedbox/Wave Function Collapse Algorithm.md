@@ -53,6 +53,8 @@ In the initialization of the algorithm, the following structures must be created
 
 [EPC2018 - Oskar Stalberg - Wave Function Collapse in Bad North - YouTube](https://www.youtube.com/watch?v=0bcZb-SsnrA&ab_channel=BUasGames)
 
+[Coding Challenge 171: Wave Function Collapse - YouTube](https://www.youtube.com/watch?v=rI_y2GAlQFM&ab_channel=TheCodingTrain)
+
 ---
 Planted: 2022-05-13
 Last tended: 2022-12-24
