@@ -9,6 +9,7 @@ Primero de profiling: checkear todas las luces y comprobar que su tipo es correc
 En el editor, los tipos de pintado de Optimization Viewmode muestran información de las luces.
 - Light Complexity. Muestra la complejidad de la luz, Si está rojo o verde maaal
 - Lightmap Density. Tamaño de textura que ocupa cada objeto. Si se pinta azul, guay. Si se pinta verde, la resolución de textura es demasiado grande. Se puede cambiar seleccionando el objeto y cambiando la setting Overriden Light Map Res. Esta variable define la resolucion de la textura y debe ser potencia de 2.
+- Shader Complexity. Lo que tarda el shader en dibujar cada elemento? Cuanto más verde mejor. ¿Qué da problemas? Transparencias. (F5 en tiempo real)
 ## References
 
 ---
