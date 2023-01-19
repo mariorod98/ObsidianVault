@@ -12,6 +12,8 @@ tags:: #state/seedling
 7. Create a new Stack View (+ button) and drop it in the Scene. The stack view size is determined by the size of its children, growing and shrinking to accomodate to their size.
 8. Create a new Label and drop it in the Stack View.
 9. Create a new TextField and drop it in the Stack View. Now the Stack View should have the size adjusted to its children.
+10. Change the text of the label to Username.
+11. Copy and paste both components to create the password elements and change the password label text.
 
 ## References
 
