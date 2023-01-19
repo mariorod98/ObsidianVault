@@ -20,7 +20,8 @@ tags:: #state/seedling
 14. In the StackView Inspecctor we can add padding between its children modifying the property Spacing.
 15. To add a background image, go to the assets folder and drag the image to the folder.
 16. Create a new ImageView component and change the attribute Image to th
-17. Connect the image constraints to the View and select Equal Width and Equal Heights, Center Horizontally and Center Vertically. OR we can specify that their top, bottom, leading and trailing constraints match the parent.
+17. Connect the image constraints to the View and select Equal Width and Equal Heights, Center Horizontally and Center Vertically. OR we can specify that their top, bottom, leading and trailing constraints match the parent (setting the constraint value to 0).
+18. If the image is 
 
 ## References
 
