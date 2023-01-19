@@ -18,7 +18,8 @@ tags:: #state/seedling
 12. To center the StackView, right click and drag to the View object. Select the leading and Subtrailing options, as well as Center Vertically. Now it is centered vertically
 13. In the inspector of the StackView, we can change the constraint values, both horizontal and vertical constraints. Change the Leading and Trailing constraint so that its Constraint values are 20.
 14. In the StackView Inspecctor we can add padding between its children modifying the property Spacing.
-15. To add a background image
+15. To add a background image, go to the assets folder and drag the image to the folder.
+16. 
 
 ## References
 
