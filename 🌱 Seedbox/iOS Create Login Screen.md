@@ -24,6 +24,7 @@ tags:: #state/seedling
 18. If the image is at the front of the other elements, just rearrange the elements sending the image to the top of the view childs, just under the SafeArea child.
 19. iPhone tries to maintain the aspect ratio of the image and keep all the image inside the Scene. If we want to fill all the space, croping the image, modify the property ContentMode to Aspect Fill.
 20. The image is only visible inside the safe area, outside it is white. To fill all the screen, change the top and bottom constraint attributes "Second Item" to SuperView.
+21. Add a button to the View and connect its constraints to the bottom part of the screen
 
 ## References
 
