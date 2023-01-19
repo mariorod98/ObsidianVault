@@ -14,8 +14,8 @@ tags:: #state/seedling
 9. Create a new TextField and drop it in the Stack View. Now the Stack View should have the size adjusted to its children.
 10. Change the text of the label to Username.
 11. Copy and paste both components to create the password elements and change the password label text.
-12. To center the StackView, right click and drag to the View object. Select the leading and Subtrailing options. Now it is centered vertically
-13. In the inspector of the StackView, we can change the constraint values, both horizontal and vertical constraints.
+12. To center the StackView, right click and drag to the View object. Select the leading and Subtrailing options, as well as Center Vertically. Now it is centered vertically
+13. In the inspector of the StackView, we can change the constraint values, both horizontal and vertical constraints. Change the Leading and Trailing constraint so that its Constraint values are 20.
 
 ## References
 
