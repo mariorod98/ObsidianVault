@@ -23,6 +23,10 @@ A scene is similar to a layout in Android. It is assigned to a specific controll
 
 If a scene has an entry point, then the app can be launched through that scene.
 
+## App delegate
+The app delegate is the root object of the appm that manages its behaviour.
+The app delegate handles when the app is resumed, paused, etc.
+It also handles deep links (similar to intents in Android).
 ## How to bind a scene element to a ViewController
 1. Divide Xcode in two panels to have the view and the controller sied to sied
 2. Select the element and drag to the position in the code where you want to create the variable
