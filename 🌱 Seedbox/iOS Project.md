@@ -18,13 +18,18 @@ El target tiene
 ## ViewController
 It is similar to the Android Activity both in lifecycle and in function.
 
+## Storyboard
+The Storyboard is a visual representation of the app's UI.  The storyboard is made up of scenes.
+
 ## Scene
-A scene is similar to a layout in Android. It is assigned to a specific controller. The controller it is assigned to can be modified in its properties in `CustomClass->Class`.
+A scene is similar to a layout in Android. It corresponds a full screen's worth of content. It is assigned to a specific controller. The controller it is assigned to can be modified in its properties in `CustomClass->Class`.
 
 If a scene has an entry point, then the app can be launched through that scene.
 
+### Stack View
+Similar to a Linear Layout in Android.
 ## App delegate
-The app delegate is the root object of the appm that manages its behaviour.
+The app delegate is the root object of the app that manages its behaviour.
 The app delegate handles when the app is resumed, paused, etc.
 It also handles deep links (similar to intents in Android).
 Push notifications can be visible or silent. Silent notifications are not visible by the iPhone user.
