@@ -5,6 +5,9 @@ tags:: #state/seedling
 user: pvesat
 password: esata123456*
 
+## Create a project
+Ideally, the Product Name should be all in lower caps.
+
 ## Elements
 - Main scene. Pantalla inicial de la aplicación creada por defecto.
 - LaunchScreen scene. Pantalla de carga que sale antes del Main por defecto.
