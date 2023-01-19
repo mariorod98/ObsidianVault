@@ -2,6 +2,8 @@ up::
 tags:: #state/seedling
 
 # iOS Project
+user: pvesat
+password: esata123456*
 
 ## Elements
 - Main scene. Pantalla inicial de la aplicación creada por defecto.
