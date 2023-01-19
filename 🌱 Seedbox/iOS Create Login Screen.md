@@ -5,8 +5,8 @@ tags:: #state/seedling
 
 1. Create a new project.
 2. Remove the generated ViewController, as we will create a custom one.
-3. Creamos un nuevo ViewController en el Main storyboard (usando el + de arriba a la derecha o con CMD+Shift+L).
-4. 
+3. Create a new ViewController in the Main storyboard (using the + button in the top right corner or with the comand CMD+Shift+L).
+4. If we launch the app, it will show a black screen because we haven't defined the entry point of the story board.
 
 ## References
 
