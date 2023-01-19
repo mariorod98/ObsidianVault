@@ -19,7 +19,8 @@ tags:: #state/seedling
 13. In the inspector of the StackView, we can change the constraint values, both horizontal and vertical constraints. Change the Leading and Trailing constraint so that its Constraint values are 20.
 14. In the StackView Inspecctor we can add padding between its children modifying the property Spacing.
 15. To add a background image, go to the assets folder and drag the image to the folder.
-16. 
+16. Create a new ImageView component and change the attribute Image to th
+17. Connect the image constraints to the View and select Equal Width and Equal Heights, Center Horizontally and Center Vertically. OR we can specify that their top, bottom, leading and trailing constraints match the parent.
 
 ## References
 
