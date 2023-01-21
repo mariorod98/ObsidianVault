@@ -16,3 +16,4 @@ Here you will find the [[Maps of contents|MOCs]] available in [[🪴 Tending thi
 
 ## Programming
 - [[🖥️ C_C++ | 🖥️ C/C++]]
+- [[Programming Patterns]]

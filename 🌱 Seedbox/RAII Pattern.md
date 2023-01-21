@@ -25,9 +25,6 @@ RAII can be summarized as follows:
 
 RAII guarantees that a resource is available to any function that may access the object.
 
-## Benefits
-
-
 ## Example
 In this example, the access to a file is encapsulated in a class to guarantee that the file is opened and closed at the beginning and end of the lifetime of that class.
 
