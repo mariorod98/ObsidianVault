@@ -180,6 +180,14 @@ void UInventoryComponent::AddRupees(int rupees)
 	PC->OnUpdateRupees.Broadcast(rupees_);
 }
 ```
+
+## References
+[Delegates | Unreal Engine 4.27 Documentation](https://docs.unrealengine.com/4.27/en-US/ProgrammingAndScripting/ProgrammingWithCPP/UnrealArchitecture/Delegates/)
+
+[Delegates in UE4, Raw C++, and BP Exposed - UE4: Guidebook](https://unreal.gg-labs.com/wiki-archives/macros-and-data-types/delegates-in-ue4-raw-c++-and-bp-exposed)
+
+[Delegates | Unreal Engine Community Wiki](https://unrealcommunity.wiki/delegates-in-ue4-raw-cpp-and-bp-exposed-xifmcmq5)
+
 ---
 Planted: 2022-04-18
-Last tended: 2022-09-04
+Last tended: 2023-01-21
