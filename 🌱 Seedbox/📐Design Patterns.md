@@ -7,8 +7,10 @@ In software, a **design pattern** is a general, reusable solution to a commonly 
 
 Some design patterns are:
 - [[RAII Pattern|Resource Acquisition is Initialization (RAII)]]
+- [[Singleton]]
 
 Some video games design patterns are:
-
+- [[Entity Component System (ECS)]]
 
 ## Resources, tools, people, etc.
+[Game Programming Patterns](https://gameprogrammingpatterns.com/)

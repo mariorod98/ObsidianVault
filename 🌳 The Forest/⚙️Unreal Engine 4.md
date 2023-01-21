@@ -25,3 +25,5 @@ Some AI concepts are:
 - [[UE4 Behavior Trees]]
 
 ## Resources, tools, people, etc.
+[Unreal Engine Github Repo](https://github.com/EpicGames/UnrealEngine)
+[Unreal Engine API Reference | Unreal Engine Documentation](https://docs.unrealengine.com/4.27/en-US/API/)
