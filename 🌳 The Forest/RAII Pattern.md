@@ -1,5 +1,5 @@
 up:: [[📐Design Patterns]]
-tags:: #state/seedling #on/programming/patterns 
+tags:: #state/bud #on/programming/patterns 
 
 # RAII Pattern
 
@@ -70,6 +70,7 @@ int main() {
 
 ## References
 [RAII - cppreference.com](https://en.cppreference.com/w/cpp/language/raii)
+
 [c++ - What is meant by Resource Acquisition is Initialization (RAII)? - Stack Overflow](https://stackoverflow.com/questions/2321511/what-is-meant-by-resource-acquisition-is-initialization-raii)
 
 ---
