@@ -1,4 +1,4 @@
-up::
+up:: [[📐Design Patterns]]
 tags:: #state/seedling #on/programming/patterns 
 
 # RAII Pattern
@@ -74,4 +74,4 @@ int main() {
 
 ---
 Planted: 2023-01-10
-Last tended: 2023-01-12
+Last tended: 2023-01-21
