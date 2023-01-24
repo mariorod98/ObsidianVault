@@ -16,6 +16,7 @@ En el editor, los tipos de pintado de Optimization Viewmode muestran informació
 2. Hacer la prueba en Play en Standalone y minimizando el editor.
 3. Al lanzarlo, desactivar VSync mediante el comando `r.vsync 0` (para volver a ponerlo, usar el comando `r.vsync 1`).
 4. El comando `Stat UnitGraph` se muestra una gráfica con el framerate del juego.
+5. El comando `Stat UObjects` muestra cuánto consume cada elemento a nivel de código
 
 ## Guardar info de profiling en un fichero
 `stat StartFile` comienza a guardar info en un fichero
