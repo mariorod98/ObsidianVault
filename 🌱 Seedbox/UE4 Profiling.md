@@ -11,6 +11,9 @@ En el editor, los tipos de pintado de Optimization Viewmode muestran informació
 - Lightmap Density. Tamaño de textura que ocupa cada objeto. Si se pinta azul, guay. Si se pinta verde, la resolución de textura es demasiado grande. Se puede cambiar seleccionando el objeto y cambiando la setting Overriden Light Map Res. Esta variable define la resolucion de la textura y debe ser potencia de 2.
 - Shader Complexity. Lo que tarda el shader en dibujar cada elemento? Cuanto más verde mejor. ¿Qué da problemas? Transparencias. (F5 en tiempo real)
 
+ShowFlag.QuadOverdraw se muestra qué zonas tienen demasiada densidad de píxel. Sirve para determinar dónde tienen que ser más agresivos los LODs.
+
+El ParticleCutout permite recortar las partículas evitando la transparencia. El dithering también es útil para reducir la carga de partículas
 ## Profiling CPU
 1. Desactivar en ProjectSettings el check Frame Rate Smoothing.
 2. Hacer la prueba en Play en Standalone y minimizando el editor.
