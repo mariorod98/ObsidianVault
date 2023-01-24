@@ -15,7 +15,13 @@ En el editor, los tipos de pintado de Optimization Viewmode muestran informació
 1. Desactivar en ProjectSettings el check Frame Rate Smoothing.
 2. Hacer la prueba en Play en Standalone y minimizando el editor.
 3. Al lanzarlo, desactivar VSync mediante el comando `r.vsync 0` (para volver a ponerlo, usar el comando `r.vsync 1`).
-4. El comando `Stat UnitGraph` se muestra una gráfica con el framerate del juego
+4. El comando `Stat UnitGraph` se muestra una gráfica con el framerate del juego.
+
+## Guardar info de profiling en un fichero
+`stat StartFile` comienza a guardar info en un fichero
+`stat StopFile` pausa el guardado en fichero
+
+El archivo se guarda en Saved->Profiling. Este fichero se abre con el profiler de UE4. El profiler está en Developer Tools->Session Frontend
 ## References
 
 ---
