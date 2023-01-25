@@ -3,7 +3,7 @@ tags:: #state/seedling
 
 # Presentación de proyectos a inversores (Pitch)
 
-
+- Ser disruptivo. No seguir modelos.
 
 ## References
 
