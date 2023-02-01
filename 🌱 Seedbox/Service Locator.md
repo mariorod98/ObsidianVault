@@ -52,7 +52,7 @@ struct ServiceHolder {
 	// Sirve para implementar todos los operadores lógicos a la vez
 	// Devuelve negativo si es menor, 0 si es igual y positivo si es mayor
 	int operator<=>(const ServiceHolder& other) {
-		return type - other.type;
+		return static_cast<int>(type - other.type);
 	}
 };
 
