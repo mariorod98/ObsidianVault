@@ -46,11 +46,14 @@ GDD, diseño, software, musica, sonido, guion, imagenes, videos, BBDD e incluso 
 - No requiere inscripción en el Registro de la Propiedad Intelectual para su válido reconocimiento.
 
 ### Derechos morales
+
 ### Derechos de explotación
+
 ### Concepto de autor
 - Un autor es una persona FÍSICA (humana) que crea una obra literaria, artística o científica.
 - La persona jurídica no crea pero en algunos casos (obra colectiva) la ley atribuye derechos originarios sobre una obra.
 - Se considera autor de un programa de ordenador a la persona jurídica que lo distribuye.
+
 
 
 ---
