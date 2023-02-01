@@ -31,6 +31,10 @@ El videojuego es una obra compleja, formada por múltiples obras protegidas por 
 Se puede proteger como marca el nombre del estudio o el nombre del juego/saga e incluso de un personaje.
 
 ### Secretos comerciales
+Los contenidos confidenciales se protegen mediante un NDA (aunque solo afecta a quien lo firma) y (desde 2019) existe una normativa a nivel europeo que regula los secretos de empresa. La base fundamental de esa normativa exige que la empresa trate la información como confidencial y que adopte medidas para tratarla como confidencial.
+
+### Patentes
+El hardware se protege mediante patentes, ya que se trata de propiedad industrial.
 
 ---
 Planted: 2023-01-25
