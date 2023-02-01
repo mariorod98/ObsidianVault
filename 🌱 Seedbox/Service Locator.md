@@ -69,12 +69,15 @@ class ServiceLocator {
 			return nullptr;
 		}
 		else {
+			// Al hacer el get, vuelves a reinterpretar el servicio a su tipo original. Este cast es seguro ya que hemos 
 			return reinterpret_cast<T*>(result->ptr);
 		}
 	}
 	
 	template<typename T> add(T* service) {
-		service_list_.emplace_back({typeid(T).hash_code(), service});
+		// Al hacer el add, destipificas el servicio, haciéndolo nullptr
+		// De este modo, todos los servicios se pueden almacenar en el vector
+		service_list_.emplace_back(typeid(T).hash_code(), service);
 		std::sort(service_vector.begin(), service_vector.end());
 	}
  private:
