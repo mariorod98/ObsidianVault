@@ -41,6 +41,10 @@ int main() {
 
 **Implementación con templates**
 ```cpp 
+#include <vector>
+#include <algorithm>
+#include <typeid>
+
 class IServiceA {};
 class IServiceB {};
 class IServiceC {};
@@ -60,7 +64,13 @@ class ServiceLocator {
  public:
 	template<typename T> T& get() {
 		// la binary search es más óptima para vectores con pocos elementos (max 50) ya que los elementos se pueden cargar en la caché en un único paso y el procesador puede hacer la búsqueda rápidamente. Si hay muchos más elementos, un map/set es una mejor opción a un vector.
-		std::binary_search(service_vector.begin(), service_vector.end(), typeid(T).hash_code());
+		auto result = std::binary_search(service_vector.begin(), service_vector.end(), typeid(T).hash_code());
+		if(result == service_vector.end()) {
+		
+		}
+		else {
+		
+		}
 	}
 	
 	template<typename T> add(T* service) {
