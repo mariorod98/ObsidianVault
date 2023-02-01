@@ -24,6 +24,12 @@ Si su contenido son marcas, fotos, etc. Los elementos están protegidos. Pero la
 ### El código penal
 El código penal tmb regula la propiedad intelectual. Por ejemplo, el delito contra secreto de empresa (Art. 278-280). Además, hay delitos por plagiar, reproducir y distribuir a terceros (Art. 270-271).
 
+## Propiedad intelectual de videojuegos
+El videojuego es una obra compleja, formada por múltiples obras protegidas por propiedad intelectual. Su protección comienza desde que comienza el videojuego, no hay que realizar ningún registro.
+
+### Marcas
+
+
 ---
 Planted: 2023-01-25
 Last tended: 2023-01-25
