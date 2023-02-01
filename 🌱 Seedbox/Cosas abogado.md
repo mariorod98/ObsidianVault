@@ -42,8 +42,16 @@ GDD, diseño, software, musica, sonido, guion, imagenes, videos, BBDD e incluso 
 ## Propiedad intelectual
 - La propiedad intelectual protege obras literarias cientificas o artisticas.
 - La constitución reconoce la propiedad intelectual (libre creación científica, artística o cultural) como un derecho universal. Este derecho no se puede limitar salvo mediante una ley orgánica.
-- Los derechos de propiedad intelectual duran toda la vida del autor y 70 años tras su muerte.
+- Los derechos de propiedad intelectual duran toda la vida del autor y 70 años tras su muerte. (Si es una empresa, es 70 años desde que se lanza la obra).
 - No requiere inscripción en el Registro de la Propiedad Intelectual para su válido reconocimiento.
+
+### Derechos morales
+### Derechos de explotación
+### Concepto de autor
+- Un autor es una persona FÍSICA (humana) que crea una obra literaria, artística o científica.
+- La persona jurídica no crea pero en algunos casos (obra colectiva) la ley atribuye derechos originarios sobre una obra.
+- Se considera autor de un programa de ordenador a la persona jurídica que lo distribuye.
+
 
 ---
 Planted: 2023-01-25
