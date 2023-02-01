@@ -45,15 +45,20 @@ class IServiceA {};
 class IServiceB {};
 class IServiceC {};
 
+struct ServiceHolder {
+	size_t type;
+	void* ptr;
+};
 
 class ServiceLocator {
  public:
 	template<typename T> T& get();
-	template<typename T> Add(T* service);
+	template<typename T> Add(T* service) {
+		service_list_.emplace_back(, service);
+		void* ptr
+	}
  private:
-	IServiceA* a = nullptr;
-	IServiceB* b = nullptr;
-	IServiceC* c = nullptr;
+	std::vector<ServiceHolder> service_vector_;
 };
 
 class ClaseUsuario {
