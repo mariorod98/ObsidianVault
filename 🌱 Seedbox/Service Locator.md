@@ -50,11 +50,15 @@ struct ServiceHolder {
 	void* ptr;
 };
 
+bool operator<=>(const ServiceHolder& a, const Serviceholder& b) {
+
+}
+
 class ServiceLocator {
  public:
 	template<typename T> T& get();
 	template<typename T> Add(T* service) {
-		service_list_.emplace_back(, service);
+		service_list_.emplace_back({typeid(T).hash_coce(), service});
 		void* ptr
 	}
  private:
