@@ -48,21 +48,26 @@ class IServiceC {};
 struct ServiceHolder {
 	size_t type;
 	void* ptr;
+	
+	// Sirve para implementar todos los operadores lógicos a la vez
+	// Devuelve negativo si es menor, 0 si es igual y positivo si es mayor
+	int operator<=>(const ServiceHolder& other) {
+		return type - other.type;
+	}
 };
-
-bool operator<=>(const ServiceHolder& a, const Serviceholder& b) {
-
-}
 
 class ServiceLocator {
  public:
-	template<typename T> T& get();
-	template<typename T> Add(T* service) {
-		service_list_.emplace_back({typeid(T).hash_coce(), service});
-		void* ptr
+	template<typename T> T& get() {
+		std::binary_search(service_vector.begin(), service_vector.end(), typeid(T).hash_code());
+	}
+	
+	template<typename T> add(T* service) {
+		service_list_.emplace_back({typeid(T).hash_code(), service});
+		std::sort(service_vector.begin(), service_vector.end());
 	}
  private:
-	std::vector<ServiceHolder> service_vector_;
+	std::vector<ServiceHolder> service_vector;
 };
 
 class ClaseUsuario {
