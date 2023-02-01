@@ -49,6 +49,7 @@ class IServiceA {};
 class IServiceB {};
 class IServiceC {};
 
+// Este struct se utiliza para destipificar los servicios, almacenando el hash code de la clase de ese servicio
 struct ServiceHolder {
 	size_t type;
 	void* ptr;
