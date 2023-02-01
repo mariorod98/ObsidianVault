@@ -62,13 +62,14 @@ struct ServiceHolder {
 
 class ServiceLocator {
  public:
-	template<typename T> T& get() {
-		auto result = std::lower_bound(service_vector.begin(), service_vector.end(), typeid(T).hash_code());
-		if(result == service_vector.end()) {
-		
+	template<typename T> T* get() {
+		auto hash = typeid(T).hash_code();
+		auto result = std::lower_bound(service_vector.begin(), service_vector.end(), ServiceHolder{hash, nullptr});
+		if(result == service_vector.end() || result->type != hash) {
+			return nullptr;
 		}
 		else {
-		
+			return reinterpret_cast<T*>(result->ptr);
 		}
 	}
 	
@@ -77,7 +78,6 @@ class ServiceLocator {
 		std::sort(service_vector.begin(), service_vector.end());
 	}
  private:
- // Cuando el número de objetos es bajo (<=50), un vector es mucho más eficiente que otras estructuras (como un map) ya que se puede cargar todo el bloque de memoria del vector directamente a la caché. En las otras estructuras, los elementos pueden estar muy espaciados en memoria.
 	std::vector<ServiceHolder> service_vector;
 };
 
