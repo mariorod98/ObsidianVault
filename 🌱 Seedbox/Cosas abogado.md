@@ -28,7 +28,7 @@ El código penal tmb regula la propiedad intelectual. Por ejemplo, el delito con
 El videojuego es una obra compleja, formada por múltiples obras protegidas por propiedad intelectual. Su protección comienza desde que comienza el videojuego, no hay que realizar ningún registro.
 
 ### Marcas
-
+Se puede proteger como marca el nombre del estudio
 
 ---
 Planted: 2023-01-25
