@@ -5,11 +5,24 @@ tags:: #state/seedling
 
 - Ser disruptivo. No seguir modelos.
 
-## Cesión de derechos de explotacion
+## Propiedad intelectual de un producto software
 Al contratar a terceros, hay que asugarse la cesión absoluta de todos los derechos de explotación de todo el contenido de nuestro software (musica, arte, codigo, etc).
 
 ### Sofware a medida
 Los derechos de autor del software a medida se deben especificar en el contrato, ya que ninguna ley regula a quien pertenece el software.
+Si no se especifica, el juez decidira según lo que se pidió, lo que se realizó y su coste.
+
+### Páginas web
+Las webs se consideran productos formados por multiples obras protegidas (obra compleja). Algunas están protegidas en parte como programa de ordenador y como medio audiovisual.
+
+### Videojuegos
+Al igual que las páginas web, son obras formadas por obras protegidas intelectualmente (obra completa). No tienen protección específica, se aplicará la de las partes consecuentes.
+
+### Bases de datos
+Si su contenido son marcas, fotos, etc. Los elementos están protegidos. Pero la estructura de la base de datos tmb se contempla en la ley de propiedad intelectual.
+
+### El código penal
+El código penal tmb regula la propiedad intelectual. Por ejemplo, el delito contra secreto de empresa (Art. 278-280).
 
 ---
 Planted: 2023-01-25
