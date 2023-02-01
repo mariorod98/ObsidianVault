@@ -33,8 +33,8 @@ Se puede proteger como marca el nombre del estudio o el nombre del juego/saga e 
 ### Secretos comerciales
 Los contenidos confidenciales se protegen mediante un NDA (aunque solo afecta a quien lo firma) y (desde 2019) existe una normativa a nivel europeo que regula los secretos de empresa. La base fundamental de esa normativa exige que la empresa trate la información como confidencial y que adopte medidas para tratarla como confidencial.
 
-### Patentes
-El hardware se protege mediante patentes, ya que se trata de propiedad industrial.
+### Patentes y diseño industrial
+El hardware se protege mediante patentes, ya que se trata de propiedad industrial. Las figuritas de acción basados en personajes de nuestro juego se protegen mediante patente de diseño industrial.
 
 ---
 Planted: 2023-01-25
