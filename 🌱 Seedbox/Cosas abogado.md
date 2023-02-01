@@ -39,6 +39,12 @@ El hardware se protege mediante patentes, ya que se trata de propiedad industria
 ### Propiedad intelectual
 GDD, diseño, software, musica, sonido, guion, imagenes, videos, BBDD e incluso la interfaz se protegen por la propiedad intelectual.
 
+## Propiedad intelectual
+- La propiedad intelectual protege obras literarias cientificas o artisticas.
+- La constitución reconoce la propiedad intelectual (libre creación científica, artística o cultural) como un derecho universal. Este derecho no se puede limitar salvo mediante una ley orgánica.
+- Los derechos de propiedad intelectual duran toda la vida del autor y 70 años tras su muerte.
+- No requiere inscripción en el Registro de la Propiedad Intelectual para su válido reconocimiento.
+
 ---
 Planted: 2023-01-25
 Last tended: 2023-01-25
