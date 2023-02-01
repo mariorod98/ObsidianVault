@@ -36,6 +36,9 @@ Los contenidos confidenciales se protegen mediante un NDA (aunque solo afecta a 
 ### Patentes y diseño industrial
 El hardware se protege mediante patentes, ya que se trata de propiedad industrial. Las figuritas de acción basados en personajes de nuestro juego se protegen mediante patente de diseño industrial.
 
+### Propiedad intelectual
+GDD, diseño, software, musica, sonido, guion, imagenes, videos, BBDD e incluso la interfaz se protegen por la propiedad intelectual.
+
 ---
 Planted: 2023-01-25
 Last tended: 2023-01-25
