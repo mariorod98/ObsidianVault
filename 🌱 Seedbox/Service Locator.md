@@ -63,8 +63,7 @@ struct ServiceHolder {
 class ServiceLocator {
  public:
 	template<typename T> T& get() {
-		// la binary search es más óptima para vectores con pocos elementos (max 50) ya que los elementos se pueden cargar en la caché en un único paso y el procesador puede hacer la búsqueda rápidamente. Si hay muchos más elementos, un map/set es una mejor opción a un vector.
-		auto result = std::binary_search(service_vector.begin(), service_vector.end(), typeid(T).hash_code());
+		auto result = std::lower_bound(service_vector.begin(), service_vector.end(), typeid(T).hash_code());
 		if(result == service_vector.end()) {
 		
 		}
@@ -78,6 +77,7 @@ class ServiceLocator {
 		std::sort(service_vector.begin(), service_vector.end());
 	}
  private:
+ // Cuando el número de objetos es bajo (<=50), un vector es mucho más eficiente que otras estructuras (como un map) ya que se puede cargar todo el bloque de memoria del vector directamente a la caché. En las otras estructuras, los elementos pueden estar muy espaciados en memoria.
 	std::vector<ServiceHolder> service_vector;
 };
 
