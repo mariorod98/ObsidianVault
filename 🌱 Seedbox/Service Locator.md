@@ -69,7 +69,7 @@ class ServiceLocator {
 			return nullptr;
 		}
 		else {
-			// Al hacer el get, vuelves a reinterpretar el servicio a su tipo original. Este cast es seguro ya que hemos 
+			// Al hacer el get, vuelves a reinterpretar el servicio a su tipo original. Este cast es seguro ya que hemos comprobado que el tipo objeto encontrado tiene el mismo hash que T
 			return reinterpret_cast<T*>(result->ptr);
 		}
 	}
