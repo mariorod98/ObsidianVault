@@ -54,7 +54,8 @@ GDD, diseño, software, musica, sonido, guion, imagenes, videos, BBDD e incluso 
 - La persona jurídica no crea pero en algunos casos (obra colectiva) la ley atribuye derechos originarios sobre una obra.
 - Se considera autor de un programa de ordenador a la persona jurídica que lo distribuye.
 
-
+## Marcas
+Una marca es un signo que permite diferenciar un producto o servicio de una empresa de los de las demás
 
 ---
 Planted: 2023-01-25
