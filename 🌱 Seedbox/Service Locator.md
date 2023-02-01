@@ -2,7 +2,7 @@ up::
 tags:: #state/seedling
 
 # Service Locator
-
+Una clase con un montón de punteros a interfaces, esta clase se pasa como "contexto" a los objetos que la necesiten.
 
 ## References
 
