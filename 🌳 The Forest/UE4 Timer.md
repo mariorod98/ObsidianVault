@@ -43,7 +43,7 @@ To create a timer with parameters, you must use a *FTimerDelegate*, a child clas
 FTimerDelegate myTimerDelegate;
 FTimerHandle myTimerHandle;
 
-myTimerDelegate.BindUFunction(this, Fname("CallMePlease"), 10.0f, 3);
+myTimerDelegate.BindUFunction(this, FName("CallMePlease"), 10.0f, 3);
 GetWorldTimerManager().SetTimer(myTimerHandle, myTimerDelegate, 8.0f, true);
 ```
 
