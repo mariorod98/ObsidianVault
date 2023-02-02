@@ -1,0 +1,87 @@
+up::
+tags:: #state/seedling
+
+# Mobile 26-1
+
+## Añadir un nav controller a la app
+1.  Crear un nuevo ViewController en el Storyboard actual. Al añadirlo, el inspector izquierdo aparecerá un nuevo view controller.
+2.  Para pasar de una escena a otra mediante el click de un boton. Arrastrar el boton (con click derecho) hasta la escena que queremos abrir y al abrirse el menú contextual, seleccionar “Open Scene”. Esta escena se muestra en modo “Modal”, es como una subescena de la escena anterior.
+3.  Un Navigation Controller nos permite añadir navegación al storyboard. Un NavigationController es un controlador que contiene un stack de controladores. Se añade al storyboard como cualquier otro elemento. De forma predeterminada el navcontroller añade un view controller por defecto.
+4.  Eliminamos el view controller que se ha creado por defecto.
+5.  Para poner el entry point en el navcontroller, arrastramos la flecha del entry point hasta el nav controller.
+6.  Ahora tenemos que definir el root view del navcontroller. Hacemos click derecho al nav controller y arrastramos hasta el login. Seleccionamos root view en el menu contextual.
+7.  Ahora, en la scene de home, nos aparece un boton back automaticamente. Ya no es una view modal y se puede hacer swipe de un view controller a otro
+
+## Crear el codigo del Home view controller
+1.  Para crear una clase nueva de view controller con algo de funcionalidad. Nos vamos a la jerarquía del proyecto y creamos un nuevo archivo de tipo CocoaTouchClass que herede de ViewController.
+2.  Ahora hay que conectar la clase creada con nuestro HomeViewController.Antes de asignar la clase, utilizan una clase básica de UIViewController con información básica.
+3.  Seleccionamos el HomeVC en el storyboard y en el inspector nos vamos a la cuarta pestaña (Identity Inspector). Ahí podemos modificar la CustomClass de esa escena.
+
+# Swift
+
+- Swift es typesafe, se pueden trabajar con objetos opcionales
+- Desde el view controller se puede acceder al navigation controller que lo contiene.
+- Al ser typesafe, no importa si el navigation controller está seteado o no 
+- ? -> la variable puede o no existir. El código de detrás del ? se ejecutará si la variable existe.
+- !->se especifica que sí o sí la variable va a existir, así que fuerza a que se ejecute lo que va detras
+
+self.navigationController?.isNavigationBarHidden = true // se ejecuta si existe
+
+self.navigationController!.isNavigationBarHidden = true // se fuerza su ejecucion
+
+  
+```swift
+class HomeViewController: UIViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // autotipado
+        // al poner el ., omite el tipo y lo obtiene a partir de lo que pide backgroundColor
+        //self.view.backgroundColor = .red
+        customizeNavigationbar()
+
+    }
+    
+    // es buena prácita hacer funciones atómicas con una única función
+    // nos fuerza a tener responsabilidades con responsabilidad única
+    // nos ayuda a realizar test unitarios
+    private func customizeNavigationbar() {
+        // implementacion más básica, solo se ejecuta si existe
+        // self.navigationController?.isNavigationBarHidden = true
+        // posible imlementacion que está ok, se ve más claro que el código solo se ejecuta si existe
+        //if let navigationController = self.navigationController {
+        //    navigationController.isNavigationBarHidden = true
+        //}
+        
+        // mejor implementacion, se pueden hacer cosas si existe y si no
+        guard let navigationController = self.navigationController else {
+            print("navigationController is nil")
+            return
+        }
+        navigationController.isNavigationBarHidden = true
+    }
+}
+```
+  
+
+## UITABLE VIEW VS UICOLLECTIONVIEW
+
+la UITableView tiene celdas (filas) y secciones (agrupaciones de celdas). Las celdas de la tabla no tienen por que tener el mismo tamaño ni los mismos elementos. Al agrupar los elementos en celdas, estas se pueden reutilizar en cualquier parte de la app. Por ejemplo, una celda “titulo” una celda “array de botones” o una celda “imagen principal”.
+
+El UICollectionView tmb trabaja con celdas, pero no es tan restrictivo. las celdas pueden tener distintos tamaños y no es tan cuadriculado. Las celdas tmb se contienen en secciones, pero no aparecen en formato de listado sino en formato de cascada.
+  
+Hay dos formas de añadir un table view. 
+
+1.  Que nuestro view controller sea un table view controller. Hay que evitarla a toda costa. No te deja añadir elementos encima del uitable view, solo dentro de la tabla o como footer.
+2.  Añadir un uitable view a un view controller. De esta forma, el table view se puede adaptar a nuestra escena y al resto de elementos que la habitan.
+
+Para añadir funcionalidad a la tabla
+1.  Seleccionar la table view en el editor de storyboard y arrastrarla al editor de codigo de la homeviewcontroller en la posicion donde queramos que se cree la variable. Ponerle de nombre tableView. Esta variable se crea con el operador !, que indica que debe existir la variable, o crashea.
+2.  A la tabla hay que añadirle un datasource y un delegado. El datasource se usa para poblar la tabla de elementos. El delegado se usa para capturar eventos de la tabla.
+3.  El delegado va a seer nuestra propia clase. Para ello, hay que extender de la clase UITableViewDelegate. Una extensión consiste en coger una clase y extender su funcionalidad (distinto de heredar). Extender es mejor que heredar por legibilidad, longevidad de código (no tener una clase de 400 lineas) y por encapsulamiento (separar la responsabilidad de cada fichero). Una extension es básicamente separar la funcionalidad de la clase en distintos ficheros.
+4.  Para crear una extensión, lo hacemos fuera de la propia clase en el mismo código.
+
+## References
+
+---
+Planted: 2023-02-02
+Last tended: 2023-02-02
