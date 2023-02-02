@@ -92,6 +92,9 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         self.tableView.delegate = self
         self.tableView.dataSource = self
+
+		let morgana = Hero(name: "Morgana", photo: "", powerLevel: 1)
+		self.heroes.append(morgana)
     }
 }
 
