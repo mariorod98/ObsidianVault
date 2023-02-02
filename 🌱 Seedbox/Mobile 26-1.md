@@ -80,6 +80,8 @@ Para añadir funcionalidad a la tabla
 3.  El delegado va a seer nuestra propia clase. Para ello, hay que extender de la clase UITableViewDelegate. Una extensión consiste en coger una clase y extender su funcionalidad (distinto de heredar). Extender es mejor que heredar por legibilidad, longevidad de código (no tener una clase de 400 lineas) y por encapsulamiento (separar la responsabilidad de cada fichero). Una extension es básicamente separar la funcionalidad de la clase en distintos ficheros.
 4.  Para crear una extensión, lo hacemos fuera de la propia clase en el mismo código.
 
+### Prototipar una tabla con celdas
+1. En el storyboard añadir un table view cell, se creara un objeto prototipo de la clase clase UITableViewCell 
 ## References
 
 ---
