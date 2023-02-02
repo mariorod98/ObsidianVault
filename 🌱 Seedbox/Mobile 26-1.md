@@ -80,8 +80,56 @@ Para añadir funcionalidad a la tabla
 3.  El delegado va a seer nuestra propia clase. Para ello, hay que extender de la clase UITableViewDelegate. Una extensión consiste en coger una clase y extender su funcionalidad (distinto de heredar). Extender es mejor que heredar por legibilidad, longevidad de código (no tener una clase de 400 lineas) y por encapsulamiento (separar la responsabilidad de cada fichero). Una extension es básicamente separar la funcionalidad de la clase en distintos ficheros.
 4.  Para crear una extensión, lo hacemos fuera de la propia clase en el mismo código.
 
+Ejemplo de tableview controller
+``` swift
+class HomeViewController: UIViewController {
+    @IBOutlet weak var tableView: UITableView!
+
+	// Inicialización de un array de héroes vacío
+	var heroes: [Hero] = []
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.tableView.delegate = self
+        self.tableView.dataSource = self
+    }
+}
+
+extension HomeViewController: UITableViewDelegate {
+//    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+//    }
+}
+
+  
+
+extension HomeViewController: UITableViewDataSource {
+    // número de celdas que van a haber
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return self.heroes.count
+    }
+
+    // para la fila x, devolver la celda de esa fila
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = UITableViewCell()
+        cell.textLabel?.text = self.heroes[indexPath.row].name
+        return cell
+    }
+}
+```
+
 ### Prototipar una tabla con celdas
 1. En el storyboard añadir un table view cell, se creara un objeto prototipo de la clase clase UITableViewCell 
+2. Crear un nuevo struct swift que almacene la información de la cell. 
+
+```swift
+struct Hero {
+	 let name: String
+	 let photo: String
+	 let powerLevel: Int
+}
+```
+
+
 ## References
 
 ---
