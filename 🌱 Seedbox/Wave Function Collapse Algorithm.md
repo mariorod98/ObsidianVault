@@ -55,6 +55,8 @@ In the initialization of the algorithm, the following structures must be created
 
 [Coding Challenge 171: Wave Function Collapse - YouTube](https://www.youtube.com/watch?v=rI_y2GAlQFM&ab_channel=TheCodingTrain)
 
+[Fetching Title#zupq](https://www.gdcvault.com/play/1026263/Math-for-Game-Developers-Tile)
+
 ---
 Planted: 2022-05-13
 Last tended: 2022-12-24
