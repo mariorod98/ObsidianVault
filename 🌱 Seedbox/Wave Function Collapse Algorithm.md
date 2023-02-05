@@ -55,7 +55,7 @@ In the initialization of the algorithm, the following structures must be created
 
 [Coding Challenge 171: Wave Function Collapse - YouTube](https://www.youtube.com/watch?v=rI_y2GAlQFM&ab_channel=TheCodingTrain)
 
-[Fetching Title#zupq](https://www.gdcvault.com/play/1026263/Math-for-Game-Developers-Tile)
+[# Tile-Based Map Generation using Wave Function Collapse in 'Caves of Qud' - YouTube](https://www.youtube.com/watch?v=AdCgi9E90jw)
 
 ---
 Planted: 2022-05-13
