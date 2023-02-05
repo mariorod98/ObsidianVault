@@ -47,7 +47,6 @@ Use language that the job description is using
 - Best one first
 - If you are putting group projects, specify the areas where you were responsible
 ## Linkedin networking
-- 
 
 [Gyazo](https://gyazo.com/c494b303efc2c02db9ac34389b66c9c6)
 [Gyazo](https://gyazo.com/1b1f191d9d24bc21cea44808a7ddd647)
