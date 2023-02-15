@@ -238,6 +238,9 @@ Every AActor has the default priority of 1.0. If you set an AActor's *NetPriorit
 ## Authority
 The Authority is used to determine if a snippet of code can be executed in the Server and/or Client. **Authority lets us create a function that has certain functionality in the Server and other functionality in the Client.**
 
+The Authority is determine by who spawns the AActor (I think). **The Server should be the Authority of almost all the AActors spawned**. 
+
+To check if the AActor has Authority (alas, to check if we are executing in the Server), you can use the method *HasAuthority()*.
 
 
 ## References
