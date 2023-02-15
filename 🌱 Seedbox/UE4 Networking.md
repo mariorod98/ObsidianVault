@@ -208,6 +208,8 @@ The validation function detects if any parameter of the RPC is bad and, in that 
 One of the most important concepts to understand RPCs is the concept of ownership. **Both Server or Clients can own an AActor**. When calling an RPC, it is important to know who is the owner of the AActor because ==if a Client calls a Server RPC on an AActor that it does NOT own, the RPC is dropped==.
 
 The tables above show the action that will happen depending on the ownership of the AActor.
+
+**The ownership is inherited between AActors**. If an APlayerController possesses an APawn and the APlayerController is owned by a Client, then the Client owns both the APawn and APlayerController.
 ## References
 
 ---
