@@ -15,6 +15,7 @@ The UE4 framework can ve split into different sections depending on where the ob
 - **Server & Clients**. These objects exists on the Server and on all Clients.
 - **Server & Owning Client**. These objects only exist on the Server and the owning Client (the player who owns the Actor).
 - **Owning Client Only**. These objects only exist on the owning Client.
+
 ![[ue4_networking_architecture.png]]
 
 ### Game Mode
@@ -59,7 +60,8 @@ In Blueprint, replication is activated by setting the *Replicates* flag in to tr
 ==When an AActor is set to replicate, it will ONLY be spawned and replicated on all Clients if it is spawned by the Server. If a Client spawns the Actor, it will ONLY exist on the owning Client.==
 
 ### Variable Replication
-When Replication is enabled on an AActor, its variables may be replicated. To do so in Blueprint, select the variable and set the flag *Replicated* to true. 
+When Replication is enabled on an AActor, its variables may be replicated. 
+To do so in Blueprint, select the variable and set the flag *Replicated* to true. 
 
 In C++, there are two ways to replicate:
 
@@ -98,6 +100,9 @@ void AMyActor::OnRep_Health() {
 	}
 }
 ```
+
+The Replication conditions are:
+![[ue4_networking_rep_cond.png]]
 ## References
 
 ---
