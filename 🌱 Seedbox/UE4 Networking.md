@@ -215,6 +215,19 @@ One of the main problems with this architecture is that a Client cannot call Ser
 
 For example, if the player wants to open a door. Instead of trying to open the door AActor in the Client side, we send a Server RPC to the APlayerController in the Server to open that door. 
 
+## Relevancy
+To avoid collapsing the network with useless information, Unreal uses the *Relevancy* of AActors to determine if their information should be shared through the network or not. 
+
+The following rules are used to determine the **relevant set of Actors** for a Client.
+1. If the AActor is *bAlwaysRelevant*, is owned by the APawn or the APlayer controller, is the Pawn or the Pawn is the instigator of some action (like noise or damage), it is **relevant**.
+2. If the AActor is *bNetUserOwnerRelevancy* and has an Owner, **use the Owner's relevancy.**
+3. If the AActor is *bOnlyRelevantToOwner* and does not pass the first check, it is **not relevant**.
+4. If the Actor is attached to the Skeleton of another AActor, then **its relevancy is determined by the relevancy of its base**.
+5. If the AActor is hidden (*bHidden == true*) and the root component does not collide, then the actor is **not relevant**.
+6. If AGameNetworkManager is set to use distance based relevancy, **the AActor is relevant if it is closer than the net cull distance**.
+
+## Priorization
+
 ## References
 
 ---
