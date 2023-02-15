@@ -63,13 +63,41 @@ When Replication is enabled on an AActor, its variables may be replicated. To do
 
 In C++, there are two ways to replicate:
 
-- Using the [[UE4 Macros|UPROPERTY]] *Replicated*.
+- Using the [[UE4 Macros|UPROPERTY]] *Replicated*. And implementing in the cpp file the method *GetLifeTimeReplicatedProps*.
 
 ```cpp
+// AMyActor.h
 UPROPERTY(Replicated)
 float health_;
+
+// AMyActor.cpp
+void AMyActor::GetLifetimeReplicatedProps( TArray< FLifetimeProperty > & OutLifetimeProps ) const
+{
+	// Replication without conditions
+    DOREPLIFETIME( AMyActor, health_);
+
+	// Replication with conditions
+	DOREPLIFETIME(AMyActor, health_, COND_OwnerOnly)
+}
 ```
 
+- Using the [[UE4 Macros|UPROPERTY]] *ReplicatedUsing=* followed by the name of the method used to replicate the variable. This method MUST be UFUNCTION.
+
+```cpp
+// AMyActor.h
+UPROPERTY(ReplicatedUsing=OnRep_Health)
+float health_;
+
+UFUNCTION()
+void OnRep_Health();
+
+// AMyActor.cpp
+void AMyActor::OnRep_Health() {
+	if(health_ < 0.0f) {
+		PlayDeathAnimation();
+	}
+}
+```
 ## References
 
 ---
