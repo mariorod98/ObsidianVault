@@ -63,9 +63,7 @@ In Blueprint, replication is activated by setting the *Replicates* flag in to tr
 When Replication is enabled on an AActor, its variables may be replicated. 
 To do so in Blueprint, select the variable and set the flag *Replicated* to true. 
 
-In C++, there are two ways to replicate:
-
-- Using the [[UE4 Macros|UPROPERTY]] *Replicated*. And implementing in the cpp file the method *GetLifeTimeReplicatedProps*.
+In C++, the replication is done using the [[UE4 Macros|UPROPERTY]] *Replicated*. And implementing in the cpp file the method *GetLifeTimeReplicatedProps*.
 
 ```cpp
 // AMyActor.h
@@ -83,7 +81,16 @@ void AMyActor::GetLifetimeReplicatedProps( TArray< FLifetimeProperty > & OutLife
 }
 ```
 
-- Using the [[UE4 Macros|UPROPERTY]] *ReplicatedUsing=* followed by the name of the method used to replicate the variable. This method MUST be UFUNCTION.
+The Replication conditions are:
+![[ue4_networking_rep_cond.png]]
+
+There is another way to Replicate a variable: *RepNotify*. This makes use of a function that will be called on **all instances** when receiven the updated value.
+
+With RepNotify, ==you can call logic that needs to be called AFTER the value has been replicated==.
+
+In Blueprint this function will be automatically created when selectin RepNotify as the Replication method.
+
+In C++ it is implemented using the [[UE4 Macros|UPROPERTY]] *ReplicatedUsing=* followed by the name of the method used to replicate the variable. This method MUST be UFUNCTION. The method *GetLifeTimeReplicatedProps* must also be implemented.
 
 ```cpp
 // AMyActor.h
@@ -99,10 +106,21 @@ void AMyActor::OnRep_Health() {
 		PlayDeathAnimation();
 	}
 }
+
+void AMyActor::GetLifetimeReplicatedProps( TArray< FLifetimeProperty > & OutLifetimeProps ) const
+{
+	// Replication without conditions
+    DOREPLIFETIME( AMyActor, health_);
+
+	// Replication with conditions
+	DOREPLIFETIME(AMyActor, health_, COND_OwnerOnly)
+}
 ```
 
-The Replication conditions are:
-![[ue4_networking_rep_cond.png]]
+When the variable *health_* is successfully replicated, the function *OnRep_Health* is called.
+
+## Remote Procedure Calls (RPCs)
+
 ## References
 
 ---
