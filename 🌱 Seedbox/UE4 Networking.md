@@ -227,6 +227,17 @@ The following rules are used to determine the **relevant set of Actors** for a C
 6. If AGameNetworkManager is set to use distance based relevancy, **the AActor is relevant if it is closer than the net cull distance**.
 
 ## Priorization
+Unreal uses a **load-balancing technique** to prioritize all AActors. It gives to each AActor a percentage of bandwith depending on the priority of the AActor.
+
+Every AActor has the default priority of 1.0. If you set an AActor's *NetPriority* to 2.0 then it will update twice as frequently as the AActors with a *NetPriority* of 1.0.
+
+## Actor Role and RemoteRole
+These two properties determine:
+- Who has the **Authority** over the AActor.
+- Whether the AActor is replicated or not.
+- The Mode of the replication.
+
+To check who has the **Authority** of an AActor, we have to check that the *Role* property is set to *ROLE_Authority*. If it is, then this instance of the Engine is in charge of this AActor.
 
 ## References
 
