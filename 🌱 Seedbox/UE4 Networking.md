@@ -141,6 +141,22 @@ For a RPC to work, it must follow these **rules**:
 
 Given these rules, and depending on the ownership of the AActor, the following tables determine the behaviour of the RPC:
 
+**RPC invoked form the Server**
+
+|  Ownership  | Not replicated | NetMulticast           | Server | Client        |
+|:-----------:| -------------- | ---------------------- | ------ | ------------- |
+| **Client**  | Server         | Server and all Clients | Server | Owning client |
+| **Server**  | Server         | Server and all Clients | Server | Server        |
+| **Unowned** | Server         | Server and all Clients | Server | Server        |
+
+**RPC invoked form a Client**
+
+|     Ownership     | Not replicated  | NetMulticast    | Server | Client          | 
+|:-----------------:| --------------- | --------------- | ------ | --------------- |
+| **Owning Client** | Invoking Client | Invoking Client | Server | Invoking Client |
+| **Other Client**  | Invoking Client | Invoking Client | Server | Invoking Client |
+|    **Server**     | Invoking Client | Invoking Client | Server | Invoking Client |
+|    **Unowned**    | Invoking Client | Invoking Client | Server | Invoking Client |
 
 ## References
 
