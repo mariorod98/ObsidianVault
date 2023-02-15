@@ -167,13 +167,24 @@ The *Reliable* property can be checked to mark the RPC as *important* and make s
 ### RPCs in C++
 To create an RPC in C++, you need to create a method with the UFUNCTION() header specifying:
 - The type or RPC: Server, Client, NetMulticast.
-- Wether it is reliable or unreliable.
-- The *WithValidation* parameter, that specifies that the method has a validation method (mandatory for RPCs).
+- Whether it is reliable or unreliable.
+- Whether the RPC must be validated or not (with the parameter *WithValidation*).
 
 ```cpp
+// Server RPC that is unreliable and has validation
 UFUNCTION(Server, unreliable, WithValidation)
 void Server_PlaceBomb();
+
+// Client RPC that is reliable and does not have validation
+UFUNCTION(Client, reliable)
+void ReliableClient_PlaceBomb();
+
+// Multicst RPC that is unreliable and has validation
+UFUNCTION(NetMulticast, unreliable, WithValidation)
+void Multicast_PlaceBomb();
 ```
+
+
 
 ## References
 
