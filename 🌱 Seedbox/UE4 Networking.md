@@ -139,6 +139,9 @@ For a RPC to work, it must follow these **rules**:
 	- If they are called from Clientes, they will only execute locally.
 	- A Multicast RPC will not replicate more than twice in a given period (AActor's network update period).
 
+Given these rules, and depending on the ownership of the AActor, the following tables determine the behaviour of the RPC:
+
+
 ## References
 
 ---
