@@ -55,6 +55,8 @@ Widgets are only available locally on Client. They are NOT replicated and you al
 ## Replication
 Replication is the act of the Server passing information to the Clients. This can be limited to specific entities and groups.
 
+**REMEMBER: Replication only happens from Server to Client**.
+
 In Blueprint, replication is activated by setting the *Replicates* flag in to true in the AActor whose information we want to replicate. In C++, it is activated by setting the bool bReplicates to true in the constructor.
 
 ==When an AActor is set to replicate, it will ONLY be spawned and replicated on all Clients if it is spawned by the Server. If a Client spawns the Actor, it will ONLY exist on the owning Client.==
