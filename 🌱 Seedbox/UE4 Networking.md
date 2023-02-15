@@ -205,8 +205,9 @@ bool AMyActor::Server_PlaceBomb_Validate(AActor* bomb) {
 The validation function detects if any parameter of the RPC is bad and, in that case, notifies the system to disconnect the Client/Server who initiated the RPC call. **Validation is required for every ServerRPCFunction** to encourage secure Server RPC functions.
 
 ### Ownership
-One of the most important concepts to understand RPCs is the concept of ownership. **Both Server or Clients can own an AActor**. When calling an RPC, it is important to know 
+One of the most important concepts to understand RPCs is the concept of ownership. **Both Server or Clients can own an AActor**. When calling an RPC, it is important to know who is the owner of the AActor because ==if a Client calls a Server RPC on an AActor that it does NOT own, the RPC is dropped==.
 
+The tables above show the action that will happen depending on the ownership of the AActor.
 ## References
 
 ---
