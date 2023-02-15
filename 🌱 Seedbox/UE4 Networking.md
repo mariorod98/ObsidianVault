@@ -61,6 +61,8 @@ In Blueprint, replication is activated by setting the *Replicates* flag in to tr
 
 ### Variable Replication
 When Replication is enabled on an AActor, its variables may be replicated. 
+The Replication of variables is done in certain intervals of time, if we want to replicate information as soon as possible, we must use an RPC.
+
 To do so in Blueprint, select the variable and set the flag *Replicated* to true. 
 
 In C++, the replication is done using the [[UE4 Macros|UPROPERTY]] *Replicated*. And implementing in the cpp file the method *GetLifeTimeReplicatedProps*.
@@ -84,7 +86,7 @@ void AMyActor::GetLifetimeReplicatedProps( TArray< FLifetimeProperty > & OutLife
 The Replication conditions are:
 ![[ue4_networking_rep_cond.png]]
 
-There is another way to Replicate a variable: *RepNotify*. This makes use of a function that will be called on **all instances** when receiven the updated value.
+There is another way to Replicate a variable: *RepNotify*. This makes use of a function that will be called on **all instances** when receiving the updated value. ==You have to be careful with RepNotify, as this methods are not called automatically when updating the Server, so you must call the method manually==.
 
 With RepNotify, ==you can call logic that needs to be called AFTER the value has been replicated==.
 
@@ -217,6 +219,8 @@ For example, if the player wants to open a door. Instead of trying to open the d
 
 ## Relevancy
 To avoid collapsing the network with useless information, Unreal uses the *Relevancy* of AActors to determine if their information should be shared through the network or not. 
+
+==Relevancy is only used in RPCs, not in data replication.==
 
 The following rules are used to determine the **relevant set of Actors** for a Client.
 1. If the AActor is *bAlwaysRelevant*, is owned by the APawn or the APlayer controller, is the Pawn or the Pawn is the instigator of some action (like noise or damage), it is **relevant**.
