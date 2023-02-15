@@ -210,6 +210,10 @@ One of the most important concepts to understand RPCs is the concept of ownershi
 The tables above show the action that will happen depending on the ownership of the AActor.
 
 **The ownership is inherited between AActors**. If an APlayerController possesses an APawn and the APlayerController is owned by a Client, then the Client owns both the APawn and APlayerController.
+
+One of the main problems with this architecture is that a Client cannot call Server RPCs of almost any object in the Scene. To work around this, we can use the PlayerController, that is owned by the Client and replicated to the Server, to call a Server RPC from the Client to the Server. This RPC can then call perform the action we desire in the Server.
+
+For example, if the player wants to open a door. Instead of trying to open the door AActor in the Client side, we send a Server RPC to the APlayerController in the Server to open that door.
 ## References
 
 ---
