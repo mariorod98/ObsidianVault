@@ -189,17 +189,22 @@ Then you have to implement the method and, if it has the parameter *WithValidati
 ```cpp
 // AMyActor.h
 UFUNCTION(Server, unreliable, WithValidation)
-void Server_PlaceBomb();
+void Server_PlaceBomb(AActor* bomb);
 
 // AMyActor.cpp
-void AMyActor::Server_PlaceBomb_Implementation() {
-	// BOOM!
+void AMyActor::Server_PlaceBomb_Implementation(AActor* bomb) {
+	bomb.BOOM();
 }
 
-bool AMyActor::Server_PlaceBomb_Validate() {
-	return true;
+bool AMyActor::Server_PlaceBomb_Validate(AActor* bomb) {
+	return bomb != nullptr;
 }
 ```
+
+### Validation
+The validation function detects if any parameter of the RPC is bad and, in that case, notifies the system to disconnect the Client/Server who initiated the RPC call. **Validation is required for every ServerRPCFunction** to encourage secure Server RPC functions.
+
+### Ownership
 
 ## References
 
