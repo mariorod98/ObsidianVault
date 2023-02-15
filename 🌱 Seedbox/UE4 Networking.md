@@ -59,7 +59,11 @@ In Blueprint, replication is activated by setting the *Replicates* flag in to tr
 ==When an AActor is set to replicate, it will ONLY be spawned and replicated on all Clients if it is spawned by the Server. If a Client spawns the Actor, it will ONLY exist on the owning Client.==
 
 ### Variable Replication
-When Replication is enabled on an AActor, its variables may be replicated. To do so in Blueprint, select the variable and set the flag *Replicated* to true. In C++, the Replication is done with the [[UE4 Macros|UPROPERTY]] *Replicated*.
+When Replication is enabled on an AActor, its variables may be replicated. To do so in Blueprint, select the variable and set the flag *Replicated* to true. 
+
+In C++, there are two ways to replicate:
+
+- Using the [[UE4 Macros|UPROPERTY]] *Replicated*.
 
 ```cpp
 UPROPERTY(Replicated)
