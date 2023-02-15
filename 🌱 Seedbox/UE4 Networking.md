@@ -235,15 +235,14 @@ Unreal uses a **load-balancing technique** to prioritize all AActors. It gives t
 
 Every AActor has the default priority of 1.0. If you set an AActor's *NetPriority* to 2.0 then it will update twice as frequently as the AActors with a *NetPriority* of 1.0.
 
-## Actor Role and RemoteRole
-These two properties determine:
-- Who has the **Authority** over the AActor.
-- Whether the AActor is replicated or not.
-- The Mode of the replication.
+## Authority
+The Authority is used to determine if a snippet of code can be executed in the Server and/or Client. **Authority lets us create a function that has certain functionality in the Server and other functionality in the Client.**
 
-To check who has the **Authority** of an AActor, we have to check that the *Role* property is set to *ROLE_Authority*. If it is, then this instance of the Engine is in charge of this AActor.
+
 
 ## References
+[Network | Unreal Engine Community Wiki](https://unrealcommunity.wiki/4-13+-network-guide-jzjxykfy)
+['Unreal Engine 4' Network Compendium](https://cedric-neukirchen.net/Downloads/Compendium/UE4_Network_Compendium_by_Cedric_eXi_Neukirchen.pdf)
 
 ---
 Planted: 2023-02-14
