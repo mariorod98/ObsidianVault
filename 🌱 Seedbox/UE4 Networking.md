@@ -158,6 +158,15 @@ Given these rules, and depending on the ownership of the AActor, the following t
 |    **Server**     | Invoking Client | Invoking Client | Server | Invoking Client |
 |    **Unowned**    | Invoking Client | Invoking Client | Server | Invoking Client |
 
+
+### RPCs in Blueprints
+To create a RPC in Blueprint you just have to create a Custom Event and set its *Replicates* property to the type of RPC you want.
+
+The *Reliable* property can be checked to mark the RPC as *important* and make sure it will 99.99% be executed. Do not mark every RPC as *Reliable*.
+
+### RPCs in C++
+
+
 ## References
 
 ---
