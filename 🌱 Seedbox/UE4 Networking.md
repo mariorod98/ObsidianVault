@@ -120,6 +120,24 @@ void AMyActor::GetLifetimeReplicatedProps( TArray< FLifetimeProperty > & OutLife
 When the variable *health_* is successfully replicated, the function *OnRep_Health* is called.
 
 ## Remote Procedure Calls (RPCs)
+RPCs are methods called from one instance of the AActor to another instance of the AActor. They can be used to call functions from Client to Server, Server to Client or Server to a specific group of Clients.
+
+==RPCs do not return value. To return something, you need to use a second RPC==.
+
+An RPC can be classified as:
+- **Run on server**. It is meant to be executed on the server Instance of the AActor.
+- **Run on owning Client**. It is meant to be executed on the Owner of the AActor.
+- **NetMulticast**. It is meant to be executed on all the instances of the AActor.
+
+For a RPC to work, it must follow these **rules**:
+1. They must be called from AActors.
+2. The AActor must be replicated.
+3. If the RPC is from Server to Client, only the owner will execute the function.
+4. If the RPC is from Client to Server, only the owner can launch the RPC.
+5. Multicast RPCs are an exeception:
+	- If they are called from the server, the Server will execute them locally and on all the currently connected Clients.
+	- If they are called from Clientes, they will only execute locally.
+	- A Multicast RPC will not replicate more than twice in a given period (AActor's network update period).
 
 ## References
 
