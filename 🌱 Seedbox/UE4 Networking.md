@@ -165,7 +165,7 @@ To create a RPC in Blueprint you just have to create a Custom Event and set its 
 The *Reliable* property can be checked to mark the RPC as *important* and make sure it will 99.99% be executed. Do not mark every RPC as *Reliable*.
 
 ### RPCs in C++
-To create an RPC in C++, you need to create a method with the UFUNCTION() header specifying:
+To create an RPC in C++, you need to create a method with the UFUNCTION() macro specifying:
 - The type or RPC: Server, Client, NetMulticast.
 - Whether it is reliable or unreliable.
 - Whether the RPC must be validated or not (with the parameter *WithValidation*).
@@ -184,7 +184,22 @@ UFUNCTION(NetMulticast, unreliable, WithValidation)
 void Multicast_PlaceBomb();
 ```
 
+Then you have to implement the method and, if it has the parameter *WithValidation*, you have to implement the validation method.
 
+```cpp
+// AMyActor.h
+UFUNCTION(Server, unreliable, WithValidation)
+void Server_PlaceBomb();
+
+// AMyActor.cpp
+void AMyActor::Server_PlaceBomb_Implementation() {
+	// BOOM!
+}
+
+bool AMyActor::Server_PlaceBomb_Validate() {
+	return true;
+}
+```
 
 ## References
 
