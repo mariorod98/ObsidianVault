@@ -29,8 +29,12 @@
 - Take up space with education previous to university degree. 
 - Make your CV longer than 2 pages
 - Make an overly complex design
+- 
 ![[job_hunting_example_brief_description.png]]
 ![[job_hunting_example_technical_skills.png]]
 ![[job_hunting_example_relevant_experience.png]]
 ![[job_hunting_example_education.png]]
 ![[job_hunting_example_less_relevant_experience.png]]
+![[job_hunting_example_hobbies.png]]
+
+## Portfolio
