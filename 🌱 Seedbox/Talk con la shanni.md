@@ -139,3 +139,5 @@ Offers:
 - Know your notice period and start date.
 - Counter offers. If you are working at a job and you receive an offer outside, look out for a counter offer for your current job. Make your priorities straight.
 - Offer letters and contracts. Know what you need to sign, receive and send
+
+**grads in games**
