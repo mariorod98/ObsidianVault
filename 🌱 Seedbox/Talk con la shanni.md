@@ -38,3 +38,27 @@
 ![[job_hunting_example_hobbies.png]]
 
 ## Portfolio
+**Platform**
+
+*Do*
+- Choose an appropriate platform. Use a template. Have freedom to include images, text, bullet points, etc.
+- Use a simple URL link (including your name). Make it as memorable as possible.
+- Include the name and discipline in the portfolio.
+- Include gameplay footage. GIF, embedded video...
+- List the technologies used.
+- Mention the size of the team.
+- List the responsabilities on the project.
+- Have a breakdown section explaining your process. Explain the thoughts behind what you did. What challenges you faced and how.
+- Think about quality over quantity.
+*Dont*
+- Password protect your work. 
+- Include things that are under an NDA.
+- Create too many pages.
+- Include too many disciplines. Having too much disciplines is a red flag. Most people are looking for specialists.
+- Include images with no relevant info.
+- Show your oldestwork first
+- Fail to mention any imported assets.
+- Claim to have worked on things you haven't
+**Content**
+
+**Layout**
