@@ -38,9 +38,7 @@
 ![[job_hunting_example_hobbies.png]]
 
 ## Portfolio
-**Platform**
-
-*Do*
+**Do**
 - Choose an appropriate platform. Use a template. Have freedom to include images, text, bullet points, etc.
 - Use a simple URL link (including your name). Make it as memorable as possible.
 - Include the name and discipline in the portfolio.
@@ -50,7 +48,7 @@
 - List the responsabilities on the project.
 - Have a breakdown section explaining your process. Explain the thoughts behind what you did. What challenges you faced and how.
 - Think about quality over quantity.
-*Dont*
+**Dont**
 - Password protect your work. 
 - Include things that are under an NDA.
 - Create too many pages.
@@ -59,6 +57,9 @@
 - Show your oldestwork first
 - Fail to mention any imported assets.
 - Claim to have worked on things you haven't
-**Content**
 
-**Layout**
+## Networking
+- You should be networking in Linkedin. Connect with people in the university. Connect with people starting a job in the industry.
+- Discord communities. Developers working together in a project.
+- Virtual events. 
+- Physical events. Stronges ways to networking.
