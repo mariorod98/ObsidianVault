@@ -95,3 +95,38 @@ Working with agency recruiters:
 - Have your CV and Portfolio ready.
 - No need for a cover letter. They act as the cover letter.
 - Understand the recruiters' goals.
+- Leverage the recruiters' time.
+- Be available for emails and calls.
+- Contact the recruiter before and after your interviews.
+
+Applying directly with studios:
+- Set up job alerts on LinkedIn and Google
+- Connect with studio contacts (LinkedIn). Find who is in the programmer team, who is the recruitment team. 
+- Only contact relevant studios.
+- Keep a spreadsheet to track your applications
+- Be polite and respectful, even when rejected
+
+
+## Interview Process
+2 most common interview process:
+
+1. First stage - Test
+2. Second stage - Interview
+3. Third stagee - Final interview
+
+1. First stage - Casual Interview
+2. Second stag e- Technical interview
+3. Third stage - Finalk interview and potential offer
+
+
+**Interview prep**
+
+Test
+- Plan your time, how long do you have?
+- Don't take on too many tests at once. If you receive 5 test request, prioritize some, not all the tests. Try to delay the test if you can not make it.
+- Make sure you understand the brief of the test
+- Ask how they want it to be submitted. Is it an online questionnaire, do you have to send it to a specific email
+
+Interviews:
+- Research the studio, the people working them, the games, when was it established, how  big it is, what is their business culture.
+- Practice explaining your projects.
