@@ -55,12 +55,16 @@ Widgets are only available locally on Client. They are NOT replicated and you al
 ## Replication
 Replication is the act of the Server passing information to the Clients. This can be limited to specific entities and groups.
 
+**REMEMBER: Replication only happens from Server to Client**.
+
 In Blueprint, replication is activated by setting the *Replicates* flag in to true in the AActor whose information we want to replicate. In C++, it is activated by setting the bool bReplicates to true in the constructor.
 
 ==When an AActor is set to replicate, it will ONLY be spawned and replicated on all Clients if it is spawned by the Server. If a Client spawns the Actor, it will ONLY exist on the owning Client.==
 
 ### Variable Replication
 When Replication is enabled on an AActor, its variables may be replicated. 
+The Replication of variables is done in certain intervals of time, if we want to replicate information as soon as possible, we must use an RPC.
+
 To do so in Blueprint, select the variable and set the flag *Replicated* to true. 
 
 In C++, the replication is done using the [[UE4 Macros|UPROPERTY]] *Replicated*. And implementing in the cpp file the method *GetLifeTimeReplicatedProps*.
@@ -84,7 +88,7 @@ void AMyActor::GetLifetimeReplicatedProps( TArray< FLifetimeProperty > & OutLife
 The Replication conditions are:
 ![[ue4_networking_rep_cond.png]]
 
-There is another way to Replicate a variable: *RepNotify*. This makes use of a function that will be called on **all instances** when receiven the updated value.
+There is another way to Replicate a variable: *RepNotify*. This makes use of a function that will be called on **all instances** when receiving the updated value. ==You have to be careful with RepNotify, as this methods are not called automatically when updating the Server, so you must call the method manually==.
 
 With RepNotify, ==you can call logic that needs to be called AFTER the value has been replicated==.
 
@@ -205,9 +209,45 @@ bool AMyActor::Server_PlaceBomb_Validate(AActor* bomb) {
 The validation function detects if any parameter of the RPC is bad and, in that case, notifies the system to disconnect the Client/Server who initiated the RPC call. **Validation is required for every ServerRPCFunction** to encourage secure Server RPC functions.
 
 ### Ownership
-One of the most important concepts to understand RPCs is the concept of ownership. **Both Server or Clients can own an AActor**. When calling an RPC, it is important to know 
+One of the most important concepts to understand RPCs is the concept of ownership. **Both Server or Clients can own an AActor**. When calling an RPC, it is important to know who is the owner of the AActor because ==if a Client calls a Server RPC on an AActor that it does NOT own, the RPC is dropped==.
+
+The tables above show the action that will happen depending on the ownership of the AActor.
+
+**The ownership is inherited between AActors**. If an APlayerController possesses an APawn and the APlayerController is owned by a Client, then the Client owns both the APawn and APlayerController.
+
+One of the main problems with this architecture is that a Client cannot call Server RPCs of almost any object in the Scene. To work around this, we can use the PlayerController, that is owned by the Client and replicated to the Server, to call a Server RPC from the Client to the Server. This RPC can then call perform the action we desire in the Server.
+
+For example, if the player wants to open a door. Instead of trying to open the door AActor in the Client side, we send a Server RPC to the APlayerController in the Server to open that door. 
+
+## Relevancy
+To avoid collapsing the network with useless information, Unreal uses the *Relevancy* of AActors to determine if their information should be shared through the network or not. 
+
+==Relevancy is only used in RPCs, not in data replication.==
+
+The following rules are used to determine the **relevant set of Actors** for a Client.
+1. If the AActor is *bAlwaysRelevant*, is owned by the APawn or the APlayer controller, is the Pawn or the Pawn is the instigator of some action (like noise or damage), it is **relevant**.
+2. If the AActor is *bNetUserOwnerRelevancy* and has an Owner, **use the Owner's relevancy.**
+3. If the AActor is *bOnlyRelevantToOwner* and does not pass the first check, it is **not relevant**.
+4. If the Actor is attached to the Skeleton of another AActor, then **its relevancy is determined by the relevancy of its base**.
+5. If the AActor is hidden (*bHidden == true*) and the root component does not collide, then the actor is **not relevant**.
+6. If AGameNetworkManager is set to use distance based relevancy, **the AActor is relevant if it is closer than the net cull distance**.
+
+## Priorization
+Unreal uses a **load-balancing technique** to prioritize all AActors. It gives to each AActor a percentage of bandwith depending on the priority of the AActor.
+
+Every AActor has the default priority of 1.0. If you set an AActor's *NetPriority* to 2.0 then it will update twice as frequently as the AActors with a *NetPriority* of 1.0.
+
+## Authority
+The Authority is used to determine if a snippet of code can be executed in the Server and/or Client. **Authority lets us create a function that has certain functionality in the Server and other functionality in the Client.**
+
+The Authority is determine by who spawns the AActor (I think). **The Server should be the Authority of almost all the AActors spawned**. 
+
+To check if the AActor has Authority (alas, to check if we are executing in the Server), you can use the method *HasAuthority()*.
+
 
 ## References
+[Network | Unreal Engine Community Wiki](https://unrealcommunity.wiki/4-13+-network-guide-jzjxykfy)
+['Unreal Engine 4' Network Compendium](https://cedric-neukirchen.net/Downloads/Compendium/UE4_Network_Compendium_by_Cedric_eXi_Neukirchen.pdf)
 
 ---
 Planted: 2023-02-14
