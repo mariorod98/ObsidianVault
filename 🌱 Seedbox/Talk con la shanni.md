@@ -130,3 +130,12 @@ Test
 Interviews:
 - Research the studio, the people working them, the games, when was it established, how  big it is, what is their business culture.
 - Practice explaining your projects.
+- Prepare questions to ask them.  Think questions outside of the box (what are the future projects of the studio, how do you promote that your employees keep learning and perfecting the skills), not the common ones such as "how is a day like working at the studio"
+- Smile and try to relax
+
+Offers:
+- Know your salary expectations. The mean is 30k€. The north of the UK is cheaper.
+- Make sure whether you want to move to the studio location and what are your relocation preferences.
+- Know your notice period and start date.
+- Counter offers. If you are working at a job and you receive an offer outside, look out for a counter offer for your current job. Make your priorities straight.
+- Offer letters and contracts. Know what you need to sign, receive and send
