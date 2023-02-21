@@ -169,6 +169,8 @@ To create a RPC in Blueprint you just have to create a Custom Event and set its 
 The *Reliable* property can be checked to mark the RPC as *important* and make sure it will 99.99% be executed. Do not mark every RPC as *Reliable*.
 
 ### RPCs in C++
+**To use RPCs in C++, you must include the header Net/UnrealNetwork.h somewhere in your project.**
+
 To create an RPC in C++, you need to create a method with the UFUNCTION() macro specifying:
 - The type or RPC: Server, Client, NetMulticast.
 - Whether it is reliable or unreliable.
@@ -251,4 +253,4 @@ To check if the AActor has Authority (alas, to check if we are executing in the 
 
 ---
 Planted: 2023-02-14
-Last tended: 2023-02-14
+Last tended: 2023-02-21
