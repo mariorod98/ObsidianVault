@@ -69,6 +69,8 @@ To do so in Blueprint, select the variable and set the flag *Replicated* to true
 
 In C++, the replication is done using the [[UE4 Macros|UPROPERTY]] *Replicated*. And implementing in the cpp file the method *GetLifeTimeReplicatedProps*.
 
+**To use Replication in C++, you must include the header Net/UnrealNetwork.h somewhere in your project.**
+
 ```cpp
 // AMyActor.h
 UPROPERTY(Replicated)
@@ -77,6 +79,7 @@ float health_;
 // AMyActor.cpp
 void AMyActor::GetLifetimeReplicatedProps( TArray< FLifetimeProperty > & OutLifetimeProps ) const
 {
+	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
 	// Replication without conditions
     DOREPLIFETIME( AMyActor, health_);
 
