@@ -7,7 +7,7 @@ Desde la posicion y perspectiva de la luz, pintamos el z buffer para ver qué ob
 
 Desde el punto de vista del usuario, cogemos el fragmento y sacamos sus coordenadas en el mundo. Si cogemos esa coordenada y la multiplicamos por la transform de la luz, obtenemos esa coordenada desde el punto de vista de la luz.
 
-Comparando el z buffer con la z de esa ultima posicion, podemos ver si es iluminado o no.
+Comparando el z buffer (las uvs son las posiciones x e y) con la z de esa ultima posicion, podemos ver si es iluminado o no.
 
 ## References
 
