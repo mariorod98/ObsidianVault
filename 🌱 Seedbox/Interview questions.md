@@ -13,6 +13,11 @@ An empty class has a size of 1 byte to guarantee that it has a specific address 
 4. If there is virtual inheritance, then it adds 4 bytes for a pointer to the base class.
 
 ### How do we declare a constant variable in a header file? 
+Before C++17, we had to declare the variable `static` in the header file and then initialize it in a cpp file.
+
+Since C++17, we can declare and initialize a constant in a header file with the keyword `inline` to ensure that the constant is created only once in one file. Then, the linker is the responsible to link that constant in the rest of the files that use it.
+
+
 
 ### What is the diamond problem in inheritance?
 
