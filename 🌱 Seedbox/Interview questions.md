@@ -33,6 +33,9 @@ Since C++17, we can declare and initialize a constant in a header file with the 
 ### What is a friend class?
 
 ### What is forward declaration?
+Forward declaration is a technique used to declare a variable, function or class before its actual definition.
+
+It is used mainly to reduce dependencies between different parts of the program and improve readability of the code. However, if not used properly it can result in errors of undefined references.
 
 ### How does a virtual function work inside a compiler?
 
