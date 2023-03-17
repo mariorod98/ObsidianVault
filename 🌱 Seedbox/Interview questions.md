@@ -6,7 +6,7 @@ tags:: #state/seedling
 ## Personal questions
 ### Describe yourself in one line
 
-###
+### What is your salary expectation
 
 ## Design, structures, algorithms
 ### What is the diamond problem in inheritance?
