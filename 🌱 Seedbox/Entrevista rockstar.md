@@ -7,6 +7,8 @@ tags:: #state/seedling
 
 ### What is your salary expectation
 
+For what I have seen across the industrie, the salary I expect is around 30 000 a year.
+
 ### Which person do you most admire in the video game development industry
 
 ### If you could improve your video game development capabilities, which area would you choose to focus?
