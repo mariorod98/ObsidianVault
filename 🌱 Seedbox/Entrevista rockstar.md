@@ -45,6 +45,12 @@ My favorite title from Rockstar Games is Red Dead Redemption 2. I love that game
 
 ### What was the most difficult part about working on a group project?
 
+### Some people say that gaming can negatively impact people’s lives. What are your thoughts on this?
+
+### Which tasks do you prefer doing as a programmer?
+
+As a programmer I love 
+
 ---
 Planted: 2023-03-17
 Last tended: 2023-03-17
