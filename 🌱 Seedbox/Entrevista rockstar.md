@@ -3,13 +3,9 @@ tags:: #state/seedling
 
 # Entrevista rockstar
 
-### What is a system?
-
 ### Describe yourself in one line
 
 ### What is your salary expectation
-
-### What is the entity component system
 
 ### Which person do you most admire in the video game development industry
 
@@ -48,8 +44,11 @@ My favorite title from Rockstar Games is Red Dead Redemption 2. I love that game
 ### Some people say that gaming can negatively impact people’s lives. What are your thoughts on this?
 
 ### Which tasks do you prefer doing as a programmer?
-
 As a programmer I love breaking down a task into 
+
+### What is a system?
+
+### What is the entity component system
 
 ---
 Planted: 2023-03-17
