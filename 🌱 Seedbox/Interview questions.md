@@ -3,6 +3,11 @@ tags:: #state/seedling
 
 # Interview questions
 
+## Personal questions
+### Describe yourself in one line
+
+###
+
 ## Design, structures, algorithms
 ### What is the diamond problem in inheritance?
 The diamond problem refers to the ambiguity that arises when two classes B and C inherit from a class A, and a class D inherits from both B and C. If there is a virtual method in A that is overridden by both B and C, but not overridden in D. If D calls that method, which version is called: B or C?
