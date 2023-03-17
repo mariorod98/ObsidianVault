@@ -21,6 +21,8 @@ tags:: #state/seedling
 
 ### What is your favorite Rockstar Games title and why?
 
+My favorite title from Rockstar Games is Red Dead Redemption 2. I love that game because it is a huge living world where you can spend hundreds of hours interacting with its systems without even touching the main story line. 
+
 ### Are you comfortable working in a fast-paced environment?
 
 ### Why do you want to work at Rockstar Games?
