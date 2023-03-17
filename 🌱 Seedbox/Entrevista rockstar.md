@@ -49,7 +49,7 @@ My favorite title from Rockstar Games is Red Dead Redemption 2. I love that game
 
 ### Which tasks do you prefer doing as a programmer?
 
-As a programmer I love 
+As a programmer I love breaking down a task into 
 
 ---
 Planted: 2023-03-17
