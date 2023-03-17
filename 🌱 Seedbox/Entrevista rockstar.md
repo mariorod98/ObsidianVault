@@ -15,6 +15,8 @@ tags:: #state/seedling
 
 ### If you could improve your video game development capabilities, which area would you choose to focus?
 
+### When have you applied a unique or creative approach to solving a difficult development problem?
+
 ## References
 
 ---
