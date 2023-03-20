@@ -13,3 +13,19 @@
 ¿por qué prefieres un rol en engineering en vez un content/level design?
 
 - What I love about programming is that 
+
+
+
+
+
+- I would implement a finite state machine 
+
+
+
+
+
+
+
+
+
+
