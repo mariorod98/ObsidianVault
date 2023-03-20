@@ -14,11 +14,11 @@ tags:: #state/seedling
 - A weakness I have is that I do not speak out my opinion because I fear I might be wrong or that the people I am talking to do not want to hear what I have to say. Specially if what I am saying is negative.
 
 ### Why should I hire you? Why do you stand out?
-- As part of my last year studying Videogames Programming, I am developing a custom graphics engine in C++ from scratch. From design to scheduling, implementation and testing. I am learning so much about designing principles and modern C++ that I feel I can be a great fit to this position. 
+As part of my last year studying Videogames Programming, I am developing a custom graphics engine in C++ from scratch. From design to scheduling, implementation and testing. I am learning so much about designing principles and modern C++ that I feel I can be a great fit to this position. 
 
 
 ### What is a system?
-A system is 
+A system is a process that has a specific function that is performed on a group of components. For example, a physics system would take all the associated components to calculate the results of applying forces.
 
 ### How often do you check up on your teammates when working together on a project?
 
