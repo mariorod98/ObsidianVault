@@ -18,7 +18,8 @@
 
 
 
-- I would implement a finite state machine 
+- I would implement a finite state machine with each behaviour being a state.
+- The transition between states would be implemented through events. For example, if you are in the patrolling state and see the player, then the event of seeing the player would be dispatched and the enemy would change state
 
 
 
