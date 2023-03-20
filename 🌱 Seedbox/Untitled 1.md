@@ -9,4 +9,7 @@
 ¿Por qué decidiste entrar en la industria del videouego y por qué rockstar?
 ¿Cuál fue el último juego de rockstar que jugaste y qué te gustó?
 ¿Qué no te gustó, cómo lo cambiarías y que ramificaciones tendrían esos cambios?
-¿por qué prefieres un rol en engineering en vez un content/level design
+
+¿por qué prefieres un rol en engineering en vez un content/level design?
+
+- What I love about programming is that 
