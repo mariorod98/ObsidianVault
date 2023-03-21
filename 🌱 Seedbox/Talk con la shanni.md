@@ -12,7 +12,6 @@
 
 ## CV
 **Do**
-
 - Link the portfolio at the top of the page.
 - Keep the opening summary short and concise.
 - Include skills and software competencies

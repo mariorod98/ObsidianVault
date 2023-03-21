@@ -25,7 +25,7 @@ Some useful methods and events in the GameMode in multiplayer games are:
 - *OnPostLogin*. An event that is called whenever a Player joins the Game.
 - *ReadyToStartMatch*.
 - *ReadyToEndMatch*.
-*- OnRestartPlayer.*
+- *OnRestartPlayer.*
 - *OnLogout*.
 - *ChoosePlayerStart*.
 - *FindPlayerStart*.
