@@ -84,7 +84,7 @@ void AMyActor::GetLifetimeReplicatedProps( TArray< FLifetimeProperty > & OutLife
     DOREPLIFETIME( AMyActor, health_);
 
 	// Replication with conditions
-	DOREPLIFETIME(AMyActor, health_, COND_OwnerOnly)
+	DOREPLIFETIME_CONDITION(AMyActor, health_, COND_OwnerOnly)
 }
 ```
 
@@ -256,4 +256,4 @@ To check if the AActor has Authority (alas, to check if we are executing in the 
 
 ---
 Planted: 2023-02-14
-Last tended: 2023-02-21
+Last tended: 2023-03-22
