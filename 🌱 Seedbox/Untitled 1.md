@@ -5,7 +5,7 @@
 - For example, diplomacy, stealth or working smart to overcome the situation in any other mean.
 - The problem with this is that yo have to introduce new systems that 
 
-¿En qué títulos o sagas te gustaría trabajr y por qué?
+¿En qué títulos o sagas te gustaría trabajar y por qué?
 ¿Por qué decidiste entrar en la industria del videouego y por qué rockstar?
 ¿Cuál fue el último juego de rockstar que jugaste y qué te gustó?
 ¿Qué no te gustó, cómo lo cambiarías y que ramificaciones tendrían esos cambios?
