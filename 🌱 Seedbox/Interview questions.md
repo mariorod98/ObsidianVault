@@ -56,6 +56,11 @@ It is used mainly to reduce dependencies between different parts of the program 
 
 ### What are the benefits of templatization?
 
+### What is a magic number?
+A magic number is a literal number inserted in an operation in the code. It is a number that, when you read the code, you don't know what that number represents.
+
+To avoid magic numbers, you can declare const variables to give does values a readable representation. Moreover, since C++11 
+
 ## Unreal
 ### What is the EQS and what is it used for?
 
