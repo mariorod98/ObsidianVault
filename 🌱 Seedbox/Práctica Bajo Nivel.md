@@ -28,5 +28,5 @@ for(y..)
 		rot3D(&v)
 		alpha = raycast(&v)
 		light = calculate_light(z_cut)
-		wrap_text(&v, )
+		wrap_text(&u, &v, Xcut, Ycut, Zcut)
 ```
