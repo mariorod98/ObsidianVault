@@ -59,7 +59,7 @@ It is used mainly to reduce dependencies between different parts of the program 
 ### What is a magic number?
 A magic number is a literal number inserted in an operation in the code. It is a number that, when you read the code, you don't know what that number represents.
 
-To avoid magic numbers, you can declare const variables to give does values a readable representation. Moreover, since C++11 
+To avoid magic numbers, you can declare const variables to give does values a readable representation. Moreover, since C++11 you can declare `constexpr` to define variables at compile-time.
 
 ## Unreal
 ### What is the EQS and what is it used for?
