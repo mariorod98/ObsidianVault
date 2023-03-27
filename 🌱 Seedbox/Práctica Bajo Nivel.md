@@ -30,3 +30,12 @@ for(y..)
 		light = calculate_light(z_cut)
 		wrap_text(&u, &v, Xcut, Ycut, Zcut)
 ```
+
+
+- [x] Hacer el ray de la cámara al pixel.
+- [x] Calcular alfa (el parámetro de la ecuación para obtener el punto de corte del rayo con el cilindro).
+- [X] Obtener el punto de corte.
+- [ ] Calcular la iluminación.
+- [ ] Pintar una textura.
+- [ ] Hacer que la textura se mueva en z.
+- [ ] Girar la cámara.
