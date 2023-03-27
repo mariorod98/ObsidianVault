@@ -69,6 +69,8 @@ To do so in Blueprint, select the variable and set the flag *Replicated* to true
 
 In C++, the replication is done using the [[UE4 Macros|UPROPERTY]] *Replicated*. And implementing in the cpp file the method *GetLifeTimeReplicatedProps*.
 
+**To use Replication in C++, you must include the header Net/UnrealNetwork.h somewhere in your project.**
+
 ```cpp
 // AMyActor.h
 UPROPERTY(Replicated)
@@ -77,11 +79,12 @@ float health_;
 // AMyActor.cpp
 void AMyActor::GetLifetimeReplicatedProps( TArray< FLifetimeProperty > & OutLifetimeProps ) const
 {
+	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
 	// Replication without conditions
     DOREPLIFETIME( AMyActor, health_);
 
 	// Replication with conditions
-	DOREPLIFETIME(AMyActor, health_, COND_OwnerOnly)
+	DOREPLIFETIME_CONDITION(AMyActor, health_, COND_OwnerOnly)
 }
 ```
 
@@ -169,6 +172,8 @@ To create a RPC in Blueprint you just have to create a Custom Event and set its 
 The *Reliable* property can be checked to mark the RPC as *important* and make sure it will 99.99% be executed. Do not mark every RPC as *Reliable*.
 
 ### RPCs in C++
+**To use RPCs in C++, you must include the header Net/UnrealNetwork.h somewhere in your project.**
+
 To create an RPC in C++, you need to create a method with the UFUNCTION() macro specifying:
 - The type or RPC: Server, Client, NetMulticast.
 - Whether it is reliable or unreliable.
@@ -251,4 +256,4 @@ To check if the AActor has Authority (alas, to check if we are executing in the 
 
 ---
 Planted: 2023-02-14
-Last tended: 2023-02-14
+Last tended: 2023-03-22
