@@ -27,4 +27,6 @@ for(y..)
 		getVect(&v, x, y);
 		rot3D(&v)
 		alpha = raycast(&v)
+		light = calculate_light(z_cut)
+		wrap_text(&v, )
 ```
