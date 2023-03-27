@@ -15,7 +15,7 @@ z = aVz
 donde V es un vector dirección
 ```
 
-La incógnita de este vector es determinar cuál es el valor de `a`. Se obtiene sustituyendo la ecuación del cilindro en la ecuación de la recta.
+La incógnita de este vector es determinar cuál es el valor de `a` (alpha). Se obtiene sustituyendo la ecuación del cilindro en la ecuación de la recta.
 
 
 Bucle de raytracing
@@ -25,4 +25,6 @@ for(y..)
 	for(x...)
 		// a partir de x e y, obtener el vector
 		getVect(&v, x, y);
+		rot3D(&v)
+		alpha = raycast(&v)
 ```
