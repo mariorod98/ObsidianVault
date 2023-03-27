@@ -61,6 +61,10 @@ A magic number is a literal number inserted in an operation in the code. It is a
 
 To avoid magic numbers, you can declare const variables to give does values a readable representation. Moreover, since C++11 you can declare `constexpr` to define variables at compile-time.
 
+## Math
+### What is the dot product used for?
+
+
 ## Unreal
 ### What is the EQS and what is it used for?
 
