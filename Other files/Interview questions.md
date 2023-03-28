@@ -63,7 +63,11 @@ To avoid magic numbers, you can declare const variables to give does values a re
 
 ## Math
 ### What is the dot product used for?
+The dot product is the product of the magnitude of two vectors and the cosine of their angle.
 
+If the dot product is greater than 0, both vectors are facing the same direction. If it is equal to 0, they are perpendicular (90º angle). If they are less than 0, they are facing opposite directions.
+
+If it is exactly 1, their angle is 0º. If it is exactly -1, their angle is 180º.
 
 ### Can you explain the use of sine and cosine functions in video game development, and provide an example of when you would use them?
 
