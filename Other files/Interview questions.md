@@ -35,11 +35,15 @@ For me, quality code must be:
 - Easy to read and understand by a stranger at first glance, with plenty of useful comments and following clean code guidance.
 - Whenever I male a system, class or function, I try to make it as atomically as possible. They must perform just one task and only that task. They also have to be
 
-### What are your plans for the near future? And far?
+### How do you approach debugging an AI algorithm when it's not performing as expected?
+
+### Can you give an example of how have you optimized an AI algorithm to improve its performance?
+
+### What are your plans for the near future? And far future?
 
 ### Why do you like AI programming?
 
-### What inspired you to pursue a career in videogame programming?
+### What inspired you to pursue a career in videogames programming?
 
 ### How would you describe your approach to problem-solving?
 
