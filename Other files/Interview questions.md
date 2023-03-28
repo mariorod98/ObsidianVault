@@ -48,7 +48,7 @@ In my experience, debugging AI systems tends to be a slow and sometimes tedious 
 
 ### Can you give an example of how have you optimized an AI algorithm to improve its performance?
 
-I am currently working in the procedural generation of a grid world using the 
+I am currently working in the procedural generation of a grid world using the Wave Function Collapse algorithm. It is an algorithm that generates a grid base on adjacency constraints.
 
 ### What are your plans for the near future? And far future?
 
