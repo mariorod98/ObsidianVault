@@ -15,16 +15,26 @@ Tech debt is a term that defines when a developing team prioritizes speeding up 
 ### What is the diamond problem in inheritance?
 The diamond problem refers to the ambiguity that arises when two classes B and C inherit from a class A, and a class D inherits from both B and C. If there is a virtual method in A that is overridden by both B and C, but not overridden in D. If D calls that method, which version is called: B or C?
 
-C++ solves this problem by not allowing virtual classes 
+C++ solves this problem with the `virtual` inheritance. Declaring a parent class as `virtual` ensures that it is only inherited once, even if that class is found multiple times in the inheritance tree.
 
 ### What differences does vectors and lists have? Which is better at what?
-Vectors store their elements in sequence in memory. To iterate through the vector, you just have to pass to the next position in the memory.
+The main differences between both containers are:
 
-A list does not store all its elements in sequence, they are scattered through the memory. To traverse the elements, the list stores, with each element, a pointer to the memory position of the next element.
+**Memory allocation**
+A vector allocates its elements in a contiguous block of memory, while lists use a linked list of nodes that do not need to be contiguous in memory.
 
-Vectors are faster when iterating over elements and when the number of inserts and deletes are not high.
+**Random access**
+Due to this form of allocation, vectors support random access to elements, as it knows the memory direction of the first element and the size of the element, it can calculate the memory direction of the element in any given position.
 
-Lists are faster if you do not have to iterate the entire list and when you are constantly inserting and deleting elements.
+Lists, on the other hand, do not support random access. To access a certain element, you have to iterate all the list up to that element.
+
+**Insertion and deletion**
+Insertion and deletion in a list is trivial, you just have to create or free the memory of the element and adjust the pointer of the neighboring nodes.
+
+However, these operations in a vector are much slower, as you have to move all the elements after the inserted or deleted position. Moreover, if the number of elements exceeds the vector's capacity, you have to allocate new memory and copy all the current elements to their new location.
+
+**Size**
+Vector elements are the size of the stored element, while list elements have  a bigger size due to having to store the extra pointers. The size will depend if it is a single or double linked list. In C++ it is a double linked list.
 
 ## C++
 ### What are smart pointers? Advantages and disadvantages?
@@ -33,6 +43,11 @@ Smart pointers are a wrapper class used to manage the heap memory in a safe way 
 Smart pointers work by destroying the object they point to whenever the pointer life ends, in other words, when they go out of scope.
 
 The disadvantage is that smart pointers are heavier in memory than simple pointers.
+
+C++ uses three types of smart pointers:
+- unique_ptr. Manages the ownership of an object. It is the only owner the object can have. Whenever the unique pointer goes out of scope, the object is destroyed.
+- shared_ptr. Allows multiple pointers to manage the same object. Inside, it has a counter of all the references to this object. When a new shared pointer points to the object, the counter is incremented and when a shared pointer pointing to the object goes out of scope, the counter is reduced. When the counter reaches 0, the object is not referenced by any pointer and it is deleted.
+- weak_ptr. A pointer used along with shared_ptr to share a pointer to an object. However, this pointer does not increment or reduce the counter of the smart pointer. It is only used to provide a weak reference to the object. It is used to safely access object that may or may not be deleted at the time of the access.
 
 ### What is the size of an empty class
 An empty class has a size of 1 byte to guarantee that it has a specific address in memory.
@@ -50,16 +65,21 @@ Since C++17, we can declare and initialize a constant in a header file with the 
 
 ### How is the memory of the program arranged?
 
+### What is a virtual function?
+
+### How does a virtual function work inside a compiler?
+
 ### What is the vtable?
 
 ### What is a friend class?
+In C++ the `friend` keyword is used to declare a function or class that is friend with another class. This friend function/class can access any protected and private method or attribute of the class. 
+
+The `friend` declaration is not transitive and it is not inherited.
 
 ### What is forward declaration?
 Forward declaration is a technique used to declare a variable, function or class before its actual definition.
 
 It is used mainly to reduce dependencies between different parts of the program and improve readability of the code. However, if not used properly it can result in errors of undefined references.
-
-### How does a virtual function work inside a compiler?
 
 ### What is a static variable? and function?
 
