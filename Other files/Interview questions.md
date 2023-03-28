@@ -14,7 +14,9 @@ tags:: #state/seedling
 
 When I was studying Computer Science I chose the Artificial Intelligence specialization where I learned about pathfinding, multiagent systems, machine learning, genetic algorithms and other AI techniques. 
 
-Currently, I am working on multiple projects with a focus on new AI techniques. For example, I am implementing the Wave Function Collapse algorithm to procedurally generate an hexagonal grid world. I am also making a stealth game with enemy agents that have the basic behaviour of these types of enemies: patrolling, searching for the player, communicating
+Currently, I am working on multiple projects with a focus on new AI techniques. For example, I am implementing the Wave Function Collapse algorithm to procedurally generate an hexagonal grid world. I am also making a stealth game with enemy agents that have the basic behaviour of these types of enemies: patrolling, searching for the player, communicating between agents, etc.
+
+Moreover, I am also developing a multiplayer game in Unreal Engine 
 
 ### What makes a good AI programmer?
 
