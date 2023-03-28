@@ -30,8 +30,6 @@ Finally, I think that they must be constantly researching and learning. Artifici
 
 ### What responsibilities do you expect from the position?
 
-
-
 ### How do you ensure you write quality code?
 
 ### How do you approach debugging an AI algorithm when it's not performing as expected?
