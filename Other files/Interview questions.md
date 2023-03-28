@@ -10,7 +10,35 @@ tags:: #state/seedling
 
 ### What are your strengths and weaknesses?
 
+### What projects have you done related to this position?
 
+### What makes a good AI programmer?
+
+### What responsibilities do you expect from the position?
+
+### How do you ensure you write quality code?
+
+### What are your plans for the near future? And far?
+
+### Why do you like AI programming?
+
+### What inspired you to pursue a career in videogame programming?
+
+### How would you describe your approach to problem-solving?
+
+### Can you walk me through your experience with game engines such as Unity or Unreal?
+
+### What programming languages are you most comfortable with and how proficient are you with them?
+
+### Have you ever developed a game from start to finish? Can you describe the process and any challenges you faced?
+
+### How do you approach working with a team of game developers? What strategies do you use to ensure effective collaboration?
+
+### How do you stay up-to-date with the latest trends and advancements in game programming? Do you participate in any online communities or attend any industry events?
+
+### Can you tell me about a particularly challenging project you've worked on and how you overcame any obstacles?
+
+### How do you ensure that the games you develop are optimized for performance and can run on a variety of hardware platforms?
 
 ## Design, structures, algorithms
 ### What is tech debt?
