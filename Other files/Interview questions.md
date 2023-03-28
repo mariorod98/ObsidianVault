@@ -34,6 +34,8 @@ Finally, I think that they must be constantly researching and learning. Artifici
 
 ### How do you ensure you write quality code?
 
+### How do you approach debugging an AI algorithm when it's not performing as expected.
+
 ### What are your plans for the near future? And far future?
 
 ### Why do you like AI programming?
