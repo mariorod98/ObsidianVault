@@ -15,6 +15,8 @@ Tech debt is a term that defines when a developing team prioritizes speeding up 
 ### What is the diamond problem in inheritance?
 The diamond problem refers to the ambiguity that arises when two classes B and C inherit from a class A, and a class D inherits from both B and C. If there is a virtual method in A that is overridden by both B and C, but not overridden in D. If D calls that method, which version is called: B or C?
 
+C++ solves this problem by not allowing virtual classes 
+
 ### What differences does vectors and lists have? Which is better at what?
 Vectors store their elements in sequence in memory. To iterate through the vector, you just have to pass to the next position in the memory.
 
