@@ -30,6 +30,8 @@ Finally, I think that they must be constantly researching and learning. Artifici
 
 ### What responsibilities do you expect from the position?
 
+
+
 ### How do you ensure you write quality code?
 
 ### What are your plans for the near future? And far future?
