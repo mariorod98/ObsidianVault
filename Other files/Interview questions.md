@@ -71,7 +71,7 @@ For two unitary vector:
 - If it is equal to 0, they are perpendicular (90º angle). 
 
 The dot product is used in the following scenarios:
-- When we want to know how close are two unitary vectors without calculating the angle (dot product is much more fast).
+- When we want to know how close are two unitary vectors without calculating the angle (dot product is much more fast). For example: if the player is inside enemy vision.
 
 ### Can you explain the use of sine and cosine functions in video game development, and provide an example of when you would use them?
 
