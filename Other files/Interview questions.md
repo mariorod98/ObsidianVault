@@ -50,6 +50,8 @@ In my experience, debugging AI systems tends to be a slow and sometimes tedious 
 
 I am currently working in the procedural generation of a grid world using the Wave Function Collapse algorithm. It is an algorithm that generates a grid base on adjacency constraints.
 
+In the first iteration of the algorithm, I had a set of rules that determined the adjacency constraints between tiles. So a tile with half sea and half beach could only be place next to a sea tile, a beach tile and half-sea/half-beach tiles.
+
 ### What are your plans for the near future? And far future?
 
 ### Why do you like AI programming?
