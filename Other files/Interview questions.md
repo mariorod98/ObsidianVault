@@ -64,6 +64,7 @@ To avoid magic numbers, you can declare const variables to give does values a re
 ## Math
 ### What is the dot product used for?
 
+
 ### Can you explain the use of sine and cosine functions in video game development, and provide an example of when you would use them?
 
 ### How would you calculate the angle between two vectors in 3D space, and why is this important in video game programming?
