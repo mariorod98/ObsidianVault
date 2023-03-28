@@ -54,7 +54,9 @@ In the first iteration of the algorithm, I had a set of rules that determined th
 
 ### What inspired you to pursue a career in videogames programming?
 
-Videogames have always been an important part of my life. Since little they have been my main source of entertainment. Already in high school I had the dream 
+Videogames have always been an important part of my life. Since little they have been my main source of entertainment. Already in high school I had the dream job to develop games. Obviously I didn't know anything about it so I started to research, I watched videos, read interviews, listened to podcasts. 
+
+I started programming basic stuff in C and HTML
 
 ### How would you describe your approach to problem-solving?
 
