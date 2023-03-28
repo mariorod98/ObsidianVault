@@ -5,7 +5,7 @@
 ### What is your salary expectation
 
 ### What are your strengths and weaknesses?
-One of my strengths is that I am very patient when facing a difficult problem or situation. I tend to stay calm instead of panicking, which lets me think
+One of my strengths is that I am very patient when facing a difficult problem or under a stressful situation. I tend to stay calm instead of panicking.
 
 ### What projects have you done related to this position?
 
