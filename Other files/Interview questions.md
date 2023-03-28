@@ -36,7 +36,7 @@ Finally, I think that they must be constantly researching and learning. Artifici
 
 ### Why do you like AI programming?
 
-### What inspired you to pursue a career in videogame programming?
+### What inspired you to pursue a career in videogames programming?
 
 ### How would you describe your approach to problem-solving?
 
