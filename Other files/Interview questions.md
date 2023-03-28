@@ -8,6 +8,10 @@ tags:: #state/seedling
 
 ### What is your salary expectation
 
+### What are your strengths and weaknesses?
+
+
+
 ## Design, structures, algorithms
 ### What is tech debt?
 Tech debt is a term that defines when a developing team prioritizes speeding up the development of features over creating scalable and maintainable features. The consequences of this behaviour is that eventually you will have to refactor that code, wasting more time that it would have taken if you had written the feature properly to begin with.
