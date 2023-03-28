@@ -26,7 +26,7 @@ An good AI programmer is someone that needs to have great problem-solving skills
 
 They must also embrace the iterating process, as AI systems require a lot of fine-tunning and refining the algorithms, which is a long process with a lot of iteration and backtracking.
 
-Finally, I think that they must be in
+Finally, I think that they must be constantly researching and learning. Artificial Intelligence is one of the fields that is constantly changing and evolving. Take for example the breakthrough of ChatGPT. There is always new techniques to learn and new papers to consult that could prove useful in the future.
 
 ### What responsibilities do you expect from the position?
 
