@@ -16,7 +16,7 @@ Si no se especifica, el juez decidirá según lo que se pidió, lo que se realiz
 Las webs se consideran productos formados por multiples obras protegidas (obra compleja). Algunas están protegidas en parte como programa de ordenador y como medio audiovisual.
 
 ### Videojuegos
-Al igual que las páginas web, son obras formadas por obras protegidas intelectualmente (obra completa). No tienen protección específica, se aplicará la de las partes consecuentes.
+Al igual que las páginas web, son obras formadas por obras protegidas intelectualmente (obra compleja). No tienen protección específica, se aplicará la de las partes consecuentes.
 
 ### Bases de datos
 Si su contenido son marcas, fotos, etc. Los elementos están protegidos. Pero la estructura de la base de datos tmb se contempla en la ley de propiedad intelectual.
