@@ -12,9 +12,7 @@ tags:: #state/seedling
 
 ### What projects have you done related to this position?
 
-When I was studying Computer Science I chose the Artificial Intelligence specialization where I learned about pathfinding, multiagent systems, machine learning, genetic algorithms and other AI techniques. 
-
-For example, in my portfolio I have a project of an generic agent that tries to solve as much levels as possible from a minigame about mining and collecting gems.
+When I was studying Computer Science I chose the Artificial Intelligence specialization where I learned multiple techniques such as multi agent systems, machine learning and genetic algorithms. I know the theory and basis of all these techniques and I have developed projects for some of them.
 
 Currently, I am working on multiple projects with a focus on new AI techniques. For example, I am implementing the Wave Function Collapse algorithm to procedurally generate an hexagonal grid world. I am also making a stealth game with enemy agents that have the basic behaviour of these types of enemies: patrolling, searching for the player, communicating between agents, etc.
 
@@ -31,6 +29,11 @@ Finally, I think that they must be constantly researching and learning. Artifici
 ### What responsibilities do you expect from the position?
 
 ### How do you ensure you write quality code?
+I try to be as consistent as possible with the code I write and I take pride in creating code that is functional, optimized and easily understandable.
+
+For me, quality code must be:
+- Easy to read and understand by a stranger at first glance, with plenty of useful comments and following clean code guidance.
+- Whenever I male a system, class or function, I try to make it as atomically as possible. They must perform just one task and only that task. They also have to be
 
 ### What are your plans for the near future? And far?
 
