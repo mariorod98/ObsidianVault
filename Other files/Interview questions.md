@@ -14,11 +14,15 @@ tags:: #state/seedling
 
 When I was studying Computer Science I chose the Artificial Intelligence specialization where I learned about pathfinding, multiagent systems, machine learning, genetic algorithms and other AI techniques. 
 
+For example, in my portfolio I have a project of an generic agent that tries to solve as much levels as possible from a minigame about mining and collecting gems.
+
 Currently, I am working on multiple projects with a focus on new AI techniques. For example, I am implementing the Wave Function Collapse algorithm to procedurally generate an hexagonal grid world. I am also making a stealth game with enemy agents that have the basic behaviour of these types of enemies: patrolling, searching for the player, communicating between agents, etc.
 
-Moreover, I am also developing a multiplayer game in Unreal Engine 
+Moreover, I am also developing a multiplayer game in Unreal Engine where you have to escape a labyrinth. The enemy AI in that game is done with Behaviour Trees and the perception system that Unreal provides.
 
 ### What makes a good AI programmer?
+
+An good AI programmer is someone that
 
 ### What responsibilities do you expect from the position?
 
