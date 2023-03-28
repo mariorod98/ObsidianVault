@@ -10,6 +10,7 @@ tags:: #state/seedling
 
 ### What are your strengths and weaknesses?
 
+
 ### What projects have you done related to this position?
 
 When I was studying Computer Science I chose the Artificial Intelligence specialization where I learned multiple techniques such as multi agent systems, machine learning and genetic algorithms. I know the theory and basis of all these techniques and I have developed projects for some of them.
