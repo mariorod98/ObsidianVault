@@ -8,7 +8,6 @@
 One of my strengths is that I am very patient when facing a difficult problem or under a stressful situation. I tend to stay calm instead of panicking.
 
 ### What projects have you done related to this position?
-
 When I was studying Computer Science I chose the Artificial Intelligence specialization where I learned multiple techniques such as multi agent systems, machine learning and genetic algorithms. I know the theory and basis of all these techniques and I have developed projects for some of them.
 
 Currently, I am working on multiple projects with a focus on new AI techniques. For example, I am implementing the Wave Function Collapse algorithm to procedurally generate an hexagonal grid world. I am also making a stealth game with enemy agents that have the basic behaviour of these types of enemies: patrolling, searching for the player, communicating between agents, etc.
