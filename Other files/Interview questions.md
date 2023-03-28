@@ -1,15 +1,11 @@
-up::
-tags:: #state/seedling
-
 # Interview questions
-
 ## Personal questions
 ### Describe yourself in one line
 
 ### What is your salary expectation
 
 ### What are your strengths and weaknesses?
-
+One of my strengths is that
 
 ### What projects have you done related to this position?
 
@@ -192,7 +188,3 @@ However, if I just need to now if they are facing the same direction or opposite
 ### What is the EQS and what is it used for?
 
 ## References
-
----
-Planted: 2023-03-15
-Last tended: 2023-03-15
