@@ -5,7 +5,9 @@
 ### What is your salary expectation
 
 ### What are your strengths and weaknesses?
-One of my strengths is that I am very patient when facing a difficult problem or under a stressful situation. I tend to stay calm instead of panicking.
+One of my strengths is that I am very patient when facing a difficult problem or under a stressful situation. I tend to stay calm instead of panicking. In this situations, I try to analyze the problem, how can I approach it and what are the viable solutions.
+
+Other great strength that I have is that I am very empathic and the team work spirit comes naturally to me. I like to work together with my colleagues face difficult challenges, whether it is in a videogame or working, 
 
 ### What projects have you done related to this position?
 When I was studying Computer Science I chose the Artificial Intelligence specialization where I learned multiple techniques such as multi agent systems, machine learning and genetic algorithms. I know the theory and basis of all these techniques and I have developed projects for some of them.
@@ -56,7 +58,8 @@ In the first iteration of the algorithm, I had a set of rules that determined th
 
 Videogames have always been an important part of my life. Since little they have been my main source of entertainment. Already in high school I had the dream job to develop games. Obviously I didn't know anything about it so I started to research, I watched videos, read interviews, listened to podcasts. 
 
-I started programming basic stuff in C++ and HTML and I decided to study Computer Science at college. Since then, I kept learning about the industry as a whole and wanting to work there. 
+I started programming basic stuff in C++ and HTML and I decided to study Computer Science at college. Since then, I kept learning about the industry as a whole and wanting to work there. After graduating, I worked at a company that developed business programs but after a while I decided to quit to pursue this dream.
+
 ### How would you describe your approach to problem-solving?
 
 ### Can you walk me through your experience with game engines such as Unity or Unreal?
