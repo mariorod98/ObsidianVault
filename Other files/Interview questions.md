@@ -110,6 +110,8 @@ However, these operations in a vector are much slower, as you have to move all t
 **Size**
 Vector elements are the size of the stored element, while list elements have  a bigger size due to having to store the extra pointers. The size will depend if it is a single or double linked list. In C++ it is a double linked list.
 
+### What is a neural network?
+
 ## C++
 ### What are smart pointers? Advantages and disadvantages?
 Smart pointers are a wrapper class used to manage the heap memory in a safe way that reduce memory leaks and memory related bugs. 
