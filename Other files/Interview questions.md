@@ -58,6 +58,10 @@ In the first iteration of the algorithm, I had a set of rules that determined th
 
 ### What are your plans for the near future? And far future?
 
+For the next couple of years I want to keep learning and train myself in AI programming. I am also excited to live a couple of years outside of Spain to experience living in another culture, learn a new language and all that. So those are my short term goals.
+
+In the far future, I have not formed a strong idea yet. Depending on the following years maybe I want to return to Spain and work remotely or maybe I am fine where I live. What I am sure of is that I want to be an essential and valuable member in the company, having learned a lot on the past years and putting that knowledge into practice. Maybe helping new entrees in the company.
+
 ### Why do you like AI programming?
 
 ### What inspired you to pursue a career in videogames programming?
@@ -73,6 +77,8 @@ I started programming basic stuff in C++ and HTML and I decided to study Compute
 ### Have you ever developed a game from start to finish? Can you describe the process and any challenges you faced?
 
 ### How do you approach working with a team of game developers? What strategies do you use to ensure effective collaboration?
+
+Effective communication is the pillar of any team. 
 
 ### How do you stay up-to-date with the latest trends and advancements in game programming? Do you participate in any online communities or attend any industry events?
 
