@@ -30,6 +30,8 @@ Finally, I think that they must be constantly researching and learning. Artifici
 
 ### What responsibilities do you expect from the position?
 
+I expect to enhance and maintain your current AI systems as well as develop new ones if necessary. I guess the bulk of the work comes from developing the drivatars for the game. I also expect to develop tools for artists and designers to facilitate the use of whatever AI technique we develop.
+
 ### How do you ensure you write quality code?
 I try to be as consistent as possible with the code I write and I take pride in creating code that is functional, optimized and easily understandable.
 
