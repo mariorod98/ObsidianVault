@@ -43,7 +43,7 @@ For me, quality code must be:
 Whenever I have to track and solve a bug. The first thing I do is try to replicate that bug. If it is replicable, then I can determine what are the conditions needed for the bug to happen and the task becomes much easier.
 
 If it is not replicable, as sometimes happens when debugging AI, I try to figure out how the bug can be related to a specific system or entity.
-
+ 
 When I have sorted out where the bug might be happening, I use debugging tools to follow the process until I get to the bug. Using specific tools for AI debugging is quite helpful here, but if none are available, a simple debugger where I can put breakpoints and watch the variables' states is enough.
 
 In my experience, debugging AI systems tends to be a slow and sometimes tedious task that requires a lot of try and error. So it is better to plan ahead and have a consistent methodology.
