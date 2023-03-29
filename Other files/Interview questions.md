@@ -76,6 +76,12 @@ I started programming basic stuff in C++ and HTML and I decided to study Compute
 
 ### How do you stay up-to-date with the latest trends and advancements in game programming? Do you participate in any online communities or attend any industry events?
 
+I consume a lot of media related to videogame development. 
+- I watch all the GDC talks that I am interested in each year.
+- I follow several podcast that talk about the game industry or that interview game developers over their most recent projects. 
+- I read programming articles and postmortem analysis done by developers. 
+- I read about the most recent advances in AI.
+
 ### Can you tell me about a particularly challenging project you've worked on and how you overcame any obstacles?
 
 ### How do you ensure that the games you develop are optimized for performance and can run on a variety of hardware platforms?
