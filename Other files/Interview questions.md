@@ -70,8 +70,6 @@ I started programming basic stuff in C++ and HTML and I decided to study Compute
 
 ### Can you walk me through your experience with game engines such as Unity or Unreal?
 
-### What programming languages are you most comfortable with and how proficient are you with them?
-
 ### Have you ever developed a game from start to finish? Can you describe the process and any challenges you faced?
 
 ### How do you approach working with a team of game developers? What strategies do you use to ensure effective collaboration?
