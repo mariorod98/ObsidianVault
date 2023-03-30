@@ -61,3 +61,32 @@ int solution(int K, vector<int> &A) {
     return bounds;
 }
 ```
+
+## Solution 
+
+```cpp
+#include <vector>
+#include <map>
+
+using namespace std;
+
+int solution(int K, vector<int> &A) {
+    int n = A.size();
+    long long ans = 0;
+    map<int, int> freq;
+    int j = 0;
+    for (int i = 0; i < n; i++) {
+        freq[A[i]]++;
+        while (freq.rbegin()->first - freq.begin()->first > K) {
+            freq[A[j]]--;
+            if (freq[A[j]] == 0) {
+                freq.erase(A[j]);
+            }
+            j++;
+        }
+        ans += i - j + 1;
+    }
+    return ans > 1000000000 ? 1000000000 : ans;
+}
+
+```
