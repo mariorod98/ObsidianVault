@@ -23,3 +23,24 @@ Write an ***efficient*** algorithm for the following assumptions:
 
 -   N is an integer within the range [0..100,000];
 -   each element of array A is an integer within the range [−2,147,483,648..2,147,483,647].
+
+## Solution
+
+```cpp
+int solution(vector<int> &A) {
+    int inversions = 0;
+    
+    for(unsigned int i = 0; i < A.size(); i++) {
+        for(unsigned int j = i + 1; j < A.size(); j++) {
+            if(A[j] < A[i]) {
+                inversions++;
+                if(inversions > 1000000000) {
+                    return -1;
+                }
+            }
+        }
+    }
+    
+    return inversions;
+}
+```
