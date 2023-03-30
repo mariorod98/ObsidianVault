@@ -38,7 +38,7 @@ Write an ****efficient**** algorithm for the following assumptions:
 -   K is an integer within the range [0..1,000,000,000];
 -   each element of array A is an integer within the range [−1,000,000,000..1,000,000,000].
 
-## Solution
+## Solution O(n^2)
 
 ```cpp
 int solution(int K, vector<int> &A) {
@@ -62,7 +62,7 @@ int solution(int K, vector<int> &A) {
 }
 ```
 
-## Solution 
+## Solution ChatGPT O(n)
 
 ```cpp
 #include <vector>
