@@ -1,4 +1,5 @@
-# Compute the height of a binary tree
+
+# 🟢Compute the height of a binary tree
 
 ## Description
 
