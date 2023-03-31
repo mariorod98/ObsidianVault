@@ -1,4 +1,4 @@
-# Calculate the number of slices in which (maximum - minimum <= K).
+# 🟠 Calculate the number of slices in which (maximum - minimum <= K).
 ## Definition
 
 An integer K and a non-empty array A consisting of N integers are given.
