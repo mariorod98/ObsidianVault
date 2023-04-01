@@ -32,24 +32,24 @@
 
 ## Twitters
 ### Arte
-Nerea @Nera_Etx
-Carlos
-Gustavo
-Clara @Clara_Selusi
-Pablo
-Asier
+Nerea  Echeverria @Nera_Etx
+Carlos Pulido
+Gustavo Sanchis
+Clara Selusi @Clara_Selusi
+Pablo de Sobrino
+Asier Luri
 ### Programación
-Carmen @cmartindev
-Mario @mariorod_dev
-Ander @jauregiazcue
-Carlos @CharlimonDev
-Chema
-Alejandro @martinezfor_
-Jorge @Jorge_G_P_
+Carmen Martín @cmartindev
+Mario Rodríguez @mariorod_dev
+Ander Jauregui @jauregiazcue
+Carlos Monte @CharlimonDev
+Chema (Jose María) Sánchez 
+Alejandro Martínez @martinezfor_
+Jorge García @Jorge_G_P_
 ### Diseño
-Alek @AlekForca
-Lorenzo @lorenartemar
-Adrián @Adrian_VGames
+Alek Forca @AlekForca
+Lorenzo Arteagama @lorenartemar
+Adrián Gómez @Adrian_VGames
 
 
 
