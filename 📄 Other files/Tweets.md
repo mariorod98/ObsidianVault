@@ -35,18 +35,18 @@
 Nerea @Nera_Etx
 Carlos
 Gustavo
-Clara
+Clara @Clara_Selusi
 Pablo
 Asier
 ### Programación
-Carmen 
-Mario
-Ander
-Carlos
+Carmen @cmartindev
+Mario @mariorod_dev
+Ander @jauregiazcue
+Carlos @CharlimonDev
 Chema
-Alejandro
-Jorge
+Alejandro @martinezfor_
+Jorge @Jorge_G_P_
 ### Diseño
-Alek 
+Alek @AlekForca
 Lorenzo @lorenartemar
 Adrián @Adrian_VGames
