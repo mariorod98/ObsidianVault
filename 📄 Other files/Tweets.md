@@ -3,12 +3,12 @@
 ## Concepts
 
 - [x] Player
-- [ ] Masilla
-- [ ] Enemigo volador
-- [ ] Lancero
-- [ ] Escudero
-- [ ] Mago
-- [ ] Coloso
+- [ ] Masilla (Morph)
+- [ ] Enemigo volador (Liv)
+- [ ] Lancero (Lance)
+- [ ] Escudero (Lance)
+- [ ] Mago (Custodian)
+- [ ] Coloso (Brutus)
 
 ## Showcase (Animaciones, acción en gameplay)
 - [ ] Player
