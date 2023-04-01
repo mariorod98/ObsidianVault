@@ -3,7 +3,7 @@
 ## Concepts
 
 - [x] Player
-- [ ] Masilla (Morph)
+- [x] Masilla (Morph)
 - [ ] Enemigo volador (Liv)
 - [ ] Lancero (Lance)
 - [ ] Escudero (Lance)
