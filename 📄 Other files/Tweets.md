@@ -50,3 +50,12 @@ Jorge @Jorge_G_P_
 Alek @AlekForca
 Lorenzo @lorenartemar
 Adrián @Adrian_VGames
+
+
+
+
+Today is the day to show the enemy designed by our awesome artist Carlos Pulido from the team at @ESAT_Valencia .
+
+Meet Morph! The first creation of the mighty 𝐀𝐫𝐜𝐚𝐧𝐢𝐬𝐭 and the first enemy that you will encounter in your journey to the surface.
+
+#art #conceptart #gamedev
