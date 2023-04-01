@@ -29,3 +29,24 @@
 [Biografía de los enemigos](https://trello.com/c/SrcIrMB5/24-biograf%C3%ADa-de-personaje-enemigos)
 [Sinopsis](https://trello.com/c/9qAz9R16/21-sinopsis)
 [Universo](https://trello.com/c/z7xXJOwz/25-desarrollo-del-universo)
+
+## Twitters
+### Arte
+Nerea @Nera_Etx
+Carlos
+Gustavo
+Clara
+Pablo
+Asier
+### Programación
+Carmen 
+Mario
+Ander
+Carlos
+Chema
+Alejandro
+Jorge
+### Diseño
+Alek 
+Lorenzo @lorenartemar
+Adrián @Adrian_VGames
