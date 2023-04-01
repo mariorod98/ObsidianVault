@@ -2,13 +2,13 @@
 
 ## Concepts
 
-- [x] Player
+- [x] Player (Yridis)
 - [x] Masilla (Morph)
-- [ ] Enemigo volador (Liv)
-- [ ] Lancero (Lance)
-- [ ] Escudero (Lance)
-- [ ] Mago (Custodian)
-- [ ] Coloso (Brutus)
+- [x] Enemigo volador (Liv)
+- [x] Lancero (Lance)
+- [x] Escudero (Lance)
+- [x] Mago (Custodian)
+- [x] Coloso (Brutus)
 
 ## Showcase (Animaciones, acción en gameplay)
 - [ ] Player
