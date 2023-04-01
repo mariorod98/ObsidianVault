@@ -43,7 +43,7 @@ Write an ****efficient**** algorithm for the following assumptions:
 -   N is an integer within the range [1..100,000];
 -   the height of tree T (number of edges on the longest path from root to leaf) is within the range [0..800].
 
-## Solution
+## Solution O(n)
 
 ```cpp
 int turn_left(tree* T, int zigzag_count, bool was_left);
@@ -80,4 +80,35 @@ int solution(tree * T) {
   
     return right > left ? right : left;
 }
+```
+
+## Solution ChatGPT O(N)
+
+```cpp
+int solution(tree * T) {
+    if (T == NULL) {
+        return 0;
+    } else {
+        return max(zigzag(T->l, true, 1), zigzag(T->r, false, 1));
+    }
+}
+
+int zigzag(tree * T, bool is_left, int length) {
+    if (T == NULL) {
+        return length;
+    } else {
+        if (is_left) {
+            return max(
+			            zigzag(T->r, false, length + 1), 
+						zigzag(T->l, true, 1)
+					);
+        } else {
+		    return max(
+					    zigzag(T->l, true, length + 1), 
+					    zigzag(T->r, false, 1)
+					);
+        }
+    }
+}
+
 ```
