@@ -112,3 +112,46 @@ int solution(vector< vector<int> >& A) {
   return countries;
 }
 ```
+
+
+## Solution ChatGPT O(MN)
+```cpp
+void dfs(vector< vector<int> > &A, vector< vector<bool> > &visited, int i, int j) {
+    int color = A[i][j];
+    visited[i][j] = true;
+    
+    // check neighboring cells
+    if (i > 0 && !visited[i-1][j] && A[i-1][j] == color) {
+        dfs(A, visited, i-1, j);
+    }
+    if (i < A.size()-1 && !visited[i+1][j] && A[i+1][j] == color) {
+        dfs(A, visited, i+1, j);
+    }
+    if (j > 0 && !visited[i][j-1] && A[i][j-1] == color) {
+        dfs(A, visited, i, j-1);
+    }
+    if (j < A[0].size()-1 && !visited[i][j+1] && A[i][j+1] == color) {
+        dfs(A, visited, i, j+1);
+    }
+}
+
+int solution(vector< vector<int> > &A) {
+    int N = A.size();
+    int M = A[0].size();
+    
+    vector< vector<bool> > visited(N, vector<bool>(M, false));
+    int num_countries = 0;
+    
+    // perform DFS traversal on unvisited nodes
+    for (int i = 0; i < N; i++) {
+        for (int j = 0; j < M; j++) {
+            if (!visited[i][j]) {
+                dfs(A, visited, i, j);
+                num_countries++;
+            }
+        }
+    }
+    
+    return num_countries;
+}
+```
