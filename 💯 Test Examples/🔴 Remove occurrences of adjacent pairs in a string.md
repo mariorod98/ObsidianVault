@@ -95,3 +95,5 @@ string solution(string& S) {
   return divide_and_conquer(S, 0, S.size());
 }
 ```
+
+## Solution by ChatGPT using a stack O(N)
