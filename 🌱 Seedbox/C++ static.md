@@ -7,6 +7,9 @@ The **static** keyword can be used along with function and variable declarations
 ## Static variables
 When a variable is declared as **static**, ==space for the variable is allocated for the lifetime of the program==.
 
+### Static variable in a function
+If a static variable is declared in a function, ==only that function can access the variable==. However, **the memory (and value) of the variable is preserved between function calls**.
+
 ### Static variables in classes
 As a static variable is only allocated once in memory, a static variable in a class is shared by all the objects of that class.
 
