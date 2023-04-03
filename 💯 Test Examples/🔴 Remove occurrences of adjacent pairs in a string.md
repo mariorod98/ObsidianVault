@@ -97,3 +97,25 @@ string solution(string& S) {
 ```
 
 ## Solution by ChatGPT using a stack O(N)
+```cpp
+#include <stack>
+#include <algorithm>
+
+string solution(string& S) {
+    stack<char> st;
+    for (char c : S) {
+        if (!st.empty() && c == st.top()) {
+            st.pop();
+        } else {
+            st.push(c);
+        }
+    }
+    string result;
+    while (!st.empty()) {
+        result += st.top();
+        st.pop();
+    }
+    reverse(result.begin(), result.end());
+    return result;
+}
+```
