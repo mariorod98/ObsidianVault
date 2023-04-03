@@ -10,6 +10,9 @@ Static in C means that the variable or method is private to the file. There can 
 ## Static in a .h
 Each .c that includes that header will have a private variable with that signature.
 
+## Static variables
+When a variable is declared as static, space for the function is allocated for the lifetime of the program.
+
 ## References
 
 ---
