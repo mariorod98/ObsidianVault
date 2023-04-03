@@ -2,7 +2,7 @@ up::
 tags:: #state/seedling
 
 # C++ static
-The **static** keyword can be used algon with function and variable declarations.
+The **static** keyword can be used along with function and variable declarations. The meaning of the keyword varies between 
 
 Cualquier funcio pública (no static) será tratada por el compilador mediante el prolog y el epilog, para garantizar que cualquier archivo puede llavmar a la funcion
 ## Static in a .c
