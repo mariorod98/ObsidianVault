@@ -25,6 +25,8 @@ As with other types, objects can also be declared as static. A static object has
 ### Inside a class
 When a function is declared as static, that function ==can be called without an instance of a class==. This function **cannot access non-static members/functions of the class**.
 
+Static member functions cannot be [[C++ Virtual|virtual]], [[C++ const|const]] or [[C++ volatile|volatile]].
+
 ### Outside of a class
 
 When a function that is not in a class is declared as static, this means that that function will not be referred by any other [[translation unit]]
@@ -38,7 +40,9 @@ Static in C means that the variable or method is private to the file. There can 
 Each .c that includes that header will have a private variable with that signature.
 
 ## References
+[What is Static Member Function in C++? | Edureka](https://www.edureka.co/blog/what-is-static-member-function-in-cpp#:~:text=Static%20is%20a%20keyword%20in,or%20outside%20of%20a%20class.)
+[static members - cppreference.com](https://en.cppreference.com/w/cpp/language/static)
 
 ---
 Planted: 2023-01-16
-Last tended: 2023-01-16
+Last tended: 2023-04-04
