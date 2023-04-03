@@ -27,7 +27,10 @@ When a function is declared as static, that function ==can be called without an 
 
 ### Outside of a class
 
+When a function that is not in a class is declared as static, this means that that function will not be referred by any other [[translation unit]]
+
 Cualquier funcio pública (no static) será tratada por el compilador mediante el prolog y el epilog, para garantizar que cualquier archivo puede llavmar a la funcion
+
 ## Static in a .c
 Static in C means that the variable or method is private to the file. There can exist two global variables, structs, functions, etc with the same signature that are static.
 
