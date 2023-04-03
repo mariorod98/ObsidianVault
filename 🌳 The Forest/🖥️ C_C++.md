@@ -20,5 +20,8 @@ Some important keywords are:
 - [[C++ volatile|volatile]]
 - [[C++ friend|friend]]
 
+Concepts introduced in each standard:
+- [[C++ 23]]
+
 ## Resources, tools, people, etc.
 [cppreference.com](https://en.cppreference.com/w/)
