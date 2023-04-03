@@ -19,6 +19,7 @@ Some important keywords are:
 - [[C++ virtual|virtual]]
 - [[C++ volatile|volatile]]
 - [[C++ friend|friend]]
+- [[C++ static|static]]
 
 Concepts introduced in each standard:
 - [[C++ 23]]
