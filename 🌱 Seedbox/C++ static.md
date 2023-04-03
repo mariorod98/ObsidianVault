@@ -10,6 +10,8 @@ When a variable is declared as **static**, ==space for the variable is allocated
 ### Static variable in a function
 If a static variable is declared in a function, ==only that function can access the variable==. However, **the memory (and value) of the variable is preserved between function calls**.
 
+Static variables declared in functions are initialized during the first call of the function.
+
 ### Static variables in classes
 As a static variable is only allocated once in memory, a static variable in a class is shared by all the objects of that class.
 
@@ -20,6 +22,10 @@ As with other types, objects can also be declared as static. A static object has
 
 ## Static functions
 
+### Inside a class
+When a function is declared as static, that function ==can be called without an instance of a class==. This function **cannot access non-static members/functions of the class**.
+
+### Outside of a class
 
 Cualquier funcio pública (no static) será tratada por el compilador mediante el prolog y el epilog, para garantizar que cualquier archivo puede llavmar a la funcion
 ## Static in a .c
