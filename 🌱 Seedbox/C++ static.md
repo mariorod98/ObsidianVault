@@ -22,6 +22,8 @@ Static member functions cannot be [[C++ Virtual|virtual]], [[C++ const|const]] o
 ## Use of the static keyword outside a class
 The **static** keyword outside a class refers to the [[Storage duration in C++|storage duration]] . A **static** storage duration means that the memory for the object is allocated when the program begins and deallocated when the program ends. **Only one instance of the object exists.**
 
+Variables and functions declared **static** can only be linked in their [[C++ Translation Unit|translation unit]].
+
 ### Static variable in a function
 If a static variable is declared in a function, ==only that function can access the variable==. However, **the memory (and value) of the variable is preserved between function calls**.
 
