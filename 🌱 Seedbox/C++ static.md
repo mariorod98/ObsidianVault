@@ -24,26 +24,21 @@ The **static** keyword outside a class refers to the [[Storage duration in C++|s
 Variables and functions declared **static** can only be linked in their [[C++ Translation Unit|translation unit]].
 
 #### Static variable in a function
-If a static variable is declared in a function, ==only that function can access the variable==. However, **the memory (and value) of the variable is preserved between function calls**.
+If a **static** variable is declared in a function, ==only that function can access the variable==. However, **the memory (and value) of the variable is preserved between function calls**.
 
 Static variables declared in functions are initialized the first time the program passes through the initialization line.
 
 #### Static class object
-As with other types, objects can also be declared as static. A static object has the scope of the entire execution of the program. The constructor is called at the beginning of the main function and the destructor is called at the end.
+As with other types, objects can also be declared as **static**. A static object has the scope of the entire execution of the program. The constructor is called at the beginning of the main function and the destructor is called at the end.
 
 ### Static function
-When a function that is not in a class is declared as static, this means that that function will not be referred by any other [[translation unit]]
+When a function that is not in a class is declared as **static**, this means that that function will not be referred by any other [[translation unit]]
 
+The compiler will not try to inline functions declared as **static** to guarantee that any object file has access to the function. This guarantees that it will always jump to the function definition, doing the subsequent prolog and epilog.
 
 
 
 Cualquier funcio pública (no static) será tratada por el compilador mediante el prolog y el epilog, para garantizar que cualquier archivo puede llavmar a la funcion
-
-## Static in a .c
-Static in C means that the variable or method is private to the file. There can exist two global variables, structs, functions, etc with the same signature that are static.
-
-## Static in a .h
-Each .c that includes that header will have a private variable with that signature.
 
 ## References
 [What is Static Member Function in C++? | Edureka](https://www.edureka.co/blog/what-is-static-member-function-in-cpp#:~:text=Static%20is%20a%20keyword%20in,or%20outside%20of%20a%20class.)
