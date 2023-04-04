@@ -32,7 +32,9 @@ Static variables declared in functions are initialized the first time the progra
 As with other types, objects can also be declared as **static**. A static object has the scope of the entire execution of the program. The constructor is called at the beginning of the main function and the destructor is called at the end.
 
 ### Static function
-When a function that is not in a class is declared as **static**, this means that that function will not be referred by any other [[translation unit]]
+When a function that is not in a class is declared as **static** it will give the function's name [[internal linkage]], this means that that function will not be referred by any other [[translation unit]].
+
+This is useful if you want to have functions with the same name in different [[translation units]] without causing naming conflicts. This can also be achieved by declaring the function inside an empty [[C++ Namespace|namespace]].
 
 The compiler will not try to inline functions declared as **static** to guarantee that any object file has access to the function. This guarantees that it will always jump to the function definition, doing the subsequent prolog and epilog.
 
