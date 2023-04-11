@@ -150,9 +150,18 @@ Before C++17, we had to declare the variable `static` in the header file and the
 Since C++17, we can declare and initialize a constant in a header file with the keyword `inline` to ensure that the constant is created only once in one file. Then, the linker is the responsible to link that constant in the rest of the files that use it.
 
 ### How is the memory of the program arranged?
+A program in C++ has the following memory layout, from the lowest address to the highest address:
+- The **text segment** is the memory region that stores all the executable instructions of the program.
+- The **initialized data segment** is the portion of the memory that contains all the global and static variables that are initialized. Inside this segment there is another subsegment for all the constant variables and literal values in the code.
+- The **uninitialized data segment (BSS)** contains all the global and static variables that are not initialized.
+- The rest of the memory is divided between the stack and the heap.
+	- The **stack** grows from lower addresses to higher addresses and is used to store all the local variables of functions. Whenever a function is called, a *stack frame* is created in the stack to point to the previous function call.
+	- The **heap** grows in inverse order to the stack. It corresponds to the dynamic memory of the program. It is managed by new, malloc, realloc, delete and free.
 
 ### What is a virtual function?
+A virtual function is a function that is declared in the base class and is then re-defined (overridden) by a derived class. 
 
+When you refer to a derived class object using a pointer of the base class, you can call the virtual function and execute the derived class's version of the function. This is used to achieve **runtime polymorphism**.
 ### How does a virtual function work inside a compiler?
 
 ### What is the vtable?
