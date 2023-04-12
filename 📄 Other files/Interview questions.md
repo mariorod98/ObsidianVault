@@ -162,6 +162,7 @@ A program in C++ has the following memory layout, from the lowest address to the
 A virtual function is a function that is declared in the base class and is then re-defined (overridden) by a derived class. 
 
 When you refer to a derived class object using a pointer of the base class, you can call the virtual function and execute the derived class's version of the function. This is used to achieve **runtime polymorphism**.
+
 ### How does a virtual function work inside a compiler?
 
 ### What is the vtable?
@@ -177,10 +178,18 @@ Forward declaration is a technique used to declare a variable, function or class
 It is used mainly to reduce dependencies between different parts of the program and improve readability of the code. However, if not used properly it can result in errors of undefined references.
 
 ### What is a static variable? and function?
+A static variable is a variable that is only allocated in memory once.
+
+A static function is a function is a function that can only be referred inside the translation unit that is defined.
 
 ### What are the differences between a struct and a class?
 
 ### What is the difference between a pointer and a reference?
+A pointer is a variable that holds the memory address of another variable. It must be dereferenced to access the memory it points to.
+
+A reference is an alias to an existing variable. As such, it does not need dereferencing.
+
+You can perform arithmetic operation on pointers, change where they point to and make them null, you cannot do this with references.
 
 ### What is a parameter pack?
 
