@@ -222,8 +222,6 @@ The dot product is used in the following scenarios:
 - To make one way triggers.
 - To prompt a player action if they are facing the target.
 
-### Can you explain the use of sine and cosine functions in video game development, and provide an example of when you would use them?
-
 ### How would you calculate the angle between two vectors in 3D space, and why is this important in video game programming?
 
 If I need the specific value of the angle between both vectors, I would just use the angle equation of `arccos((a . b) / (|a|*|b|))`.
