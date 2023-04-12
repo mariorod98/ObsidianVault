@@ -192,10 +192,14 @@ A reference is an alias to an existing variable. As such, it does not need deref
 You can perform arithmetic operation on pointers, change where they point to and make them null, you cannot do this with references.
 
 ### What is a parameter pack?
+A parameter pack is a way to create functions with a variable number of parameter.
 
 ### What does rvalue and lvalue mean?
 
 ### What are the benefits of templatization?
+Templates are a way to create generic functions and classes that do not depend on the type of its parameters. Whenever the compiler finds a template function being used with a new type,  it will generate the function to be used with that type.
+
+Among its benefits, templates reduce the duplication of code that has to be maintained by the programmer. They also generate result in cleaner code.
 
 ### What is a magic number?
 A magic number is a literal number inserted in an operation in the code. It is a number that, when you read the code, you don't know what that number represents.
