@@ -1,0 +1,6 @@
+- How do you approach reading another person's code.
+- What is something challenging that you have recently done?
+- Do you prefer C++ or C#?
+- How familiarized are you with Unreal Engine?
+- What have you learned about modern C++?
+- What is your favourite feature in C++17?
