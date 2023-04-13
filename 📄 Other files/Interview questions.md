@@ -21,7 +21,6 @@ Currently, I am working on multiple projects with a focus on new AI techniques. 
 Moreover, I am also developing a multiplayer game in Unreal Engine where you have to escape a labyrinth. The enemy AI in that game is done with Behaviour Trees and the perception system that Unreal provides.
 
 ### What makes a good AI programmer?
-
 An good AI programmer is someone that needs to have great problem-solving skills. Developing realistic and engaging AIs in videogames is a complex problem where you have to be creative and think out of the box to come up with innovative solutions.
 
 They must also embrace the iterating process, as AI systems require a lot of fine-tunning and refining the algorithms, which is a long process with a lot of iteration and backtracking.
