@@ -18,3 +18,7 @@ como promocionais a los empleados de categoria?
 
 ## SMI
 ![[Pasted image 20230420124419.png]]
+[Smic (salaire minimum de croissance) | Service-public.fr](https://www.service-public.fr/particuliers/vosdroits/F2300)
+
+## Salario medio
+[Séries | Insee](https://www.insee.fr/fr/statistiques/series/103212723)
