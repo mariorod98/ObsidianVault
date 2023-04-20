@@ -14,3 +14,7 @@ different experiences
 projects
 prepare topics and experience
 como promocionais a los empleados de categoria? 
+
+
+## SMI
+![[Pasted image 20230420124419.png]]
