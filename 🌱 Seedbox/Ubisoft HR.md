@@ -16,6 +16,12 @@ prepare topics and experience
 como promocionais a los empleados de categoria? 
 
 
+## Questions
+- How do you avoid burnout and crunch?
+- Do you conduct surveys about the wellbeing of your employees?
+- How do you promote employees? Is the position static or are we able to move up?
+- Do you have any budget for employee training/learning? Assist conferences or buy books or courses.
+
 ## SMI
 ![[Pasted image 20230420124419.png]]
 [Smic (salaire minimum de croissance) | Service-public.fr](https://www.service-public.fr/particuliers/vosdroits/F2300)
