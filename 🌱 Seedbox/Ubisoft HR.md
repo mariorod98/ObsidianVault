@@ -6,7 +6,12 @@ bonus on benefits of the project 1-3 month
 restaurant tickets 9€/day - 180€/ month childcare facilities
 massage people
 
-25 3pm hr 
+[25 3pm hr](<## SMI
+![[Pasted image 20230420124419.png]]
+[Smic (salaire minimum de croissance) | Service-public.fr](https://www.service-public.fr/particuliers/vosdroits/F2300)
+
+## Salario medio
+[Séries | Insee](https://www.insee.fr/fr/statistiques/series/103212723)>)
 
 collaboration
 how I like to work
@@ -44,9 +49,3 @@ Some of the main challenges I faced were:
 - How do you promote employees? Is the position static or are we able to move up?
 - Do you have any budget for employee training/learning? Assist conferences or buy books or courses.
 
-## SMI
-![[Pasted image 20230420124419.png]]
-[Smic (salaire minimum de croissance) | Service-public.fr](https://www.service-public.fr/particuliers/vosdroits/F2300)
-
-## Salario medio
-[Séries | Insee](https://www.insee.fr/fr/statistiques/series/103212723)
