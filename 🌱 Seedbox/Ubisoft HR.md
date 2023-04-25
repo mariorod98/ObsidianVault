@@ -21,7 +21,11 @@ prepare topics and experience
 - We worked with SCRUM methodology, where I had daily meetings of 15 mins where the team discussed the progress of the previous day and which where the tasks we would be focusing on that day.
 - I had to create my own task and estimate the duration of the task.
 - We were five programmers divided into two teams. One team was a senior and a junior working on the transport scheduling program. I was in another team with another senior and another junior and then there was another programmer that was in charge of another program.
-- I had to implement a very important feature for the finance program so I had to be in 
+- I worked closely with QA to develop a key feature in my project.
+
+Some of the main challenges I faced were:
+- I had to develop features that required a lot of knowledge about finances and Spanish taxes. So I had to research a lot about those topics. Luckily I had two colleages in the company that worked in consumer service and QA and knew everything about these topics.
+- I started working in a new company with a programming language that was obscure, with basically no information on internet. I had to work on a program I did not understand at first. It was like entering a black hole of knowledge. I had to put a lot of effort the first months to learn everything I could. In the end it all paid off
 
 
 ## Questions
