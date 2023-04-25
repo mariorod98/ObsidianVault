@@ -24,8 +24,9 @@ prepare topics and experience
 - I worked closely with QA to develop a key feature in my project.
 
 Some of the main challenges I faced were:
-- I had to develop features that required a lot of knowledge about finances and Spanish taxes. So I had to research a lot about those topics. Luckily I had two colleages in the company that worked in consumer service and QA and knew everything about these topics.
-- I started working in a new company with a programming language that was obscure, with basically no information on internet. I had to work on a program I did not understand at first. It was like entering a black hole of knowledge. I had to put a lot of effort the first months to learn everything I could. In the end it all paid off9
+- I had to develop features that required a lot of knowledge about finances and Spanish taxes. So I had to research a lot about those topics. Luckily I had two colleagues in the company that worked in consumer service and QA and knew everything about these topics.
+- I started working in a new company with a programming language that was obscure, with basically no information on internet. I had to work on a program I did not understand at first. It was like entering a black hole of knowledge. I had to put a lot of effort the first months to learn everything I could. In the end it all paid off.
+- 
 
 
 ## Questions
