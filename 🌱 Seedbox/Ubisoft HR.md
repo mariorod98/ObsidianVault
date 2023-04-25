@@ -26,6 +26,11 @@ prepare topics and experience
 Some of the main challenges I faced were:
 - I had to develop features that required a lot of knowledge about finances and Spanish taxes. So I had to research a lot about those topics. Luckily I had two colleagues in the company that worked in consumer service and QA and knew everything about these topics.
 - I started working in a new company with a programming language that was obscure, with basically no information on internet. I had to work on a program I did not understand at first. It was like entering a black hole of knowledge. I had to put a lot of effort the first months to learn everything I could. In the end it all paid off.
+
+
+### ESAT
+- I am part of a interdisciplinary team developing a 2.5 platformer that we aim to release on Steam this summer.
+- I work in a team of 8 programmers, 6 artists and 3 designers.
 - 
 
 
