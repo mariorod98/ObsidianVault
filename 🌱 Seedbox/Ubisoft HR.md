@@ -13,12 +13,20 @@ how I like to work
 different experiences
 projects
 prepare topics and experience
-como promocionais a los empleados de categoria? 
+
+
+## Experiences
+### UNICOM
+- I worked there for 8 months.
+- We worked with SCRUM methodology, where I had daily meetings of 15 mins where the team discussed the progress of the previous day and which where the tasks we would be focusing on that day.
+- I had to create my own task and estimate the duration of the task.
+- We were five programmers divided into two teams. One team was a senior and a junior working on the transport scheduling program. I was in another team with another senior and another junior and then there was another programmer that was in charge of another program.
+- I had to implement a very important feature for the finance program so I had to be in 
 
 
 ## Questions
 - How do you avoid burnout and crunch?
-- Do you conduct surveys about the wellbeing of your employees?
+- Do you track the wellbeing or satisfaction of your employees?
 - How do you promote employees? Is the position static or are we able to move up?
 - Do you have any budget for employee training/learning? Assist conferences or buy books or courses.
 
