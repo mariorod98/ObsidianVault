@@ -31,7 +31,11 @@ Some of the main challenges I faced were:
 ### ESAT
 - I am part of a interdisciplinary team developing a 2.5 platformer that we aim to release on Steam this summer.
 - I work in a team of 8 programmers, 6 artists and 3 designers.
-- 
+
+
+Some of the main challenges I faced were:
+- Being a team of 8 programmers with no direct leadership, sort of a horizontal structure, we had to figure out, collectively, what each individual would be doing and we had to do this in a way were the workload was equally shared.
+- For the first months of the project the programming team was kind of isolated from the rest of the teams, as we were creating the structure of the game. We talked a bit with the design team about how a mechanic would work or to receive feedback, but we did not cross words with the art team. However, now we are implementing the animations, materials and meshes that they have created so the project is currently in a phase where everyone needs to talk with everyone. The communication can be quite chaotic if, for example, two artists give different feedback to a programmer or ask for things that oppose each other. 
 
 
 ## Questions
