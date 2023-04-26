@@ -5,6 +5,8 @@ tags:: #state/seedling
 
 ## Raytracing
 
+### Rayo
+Tiene un origen (punto) y una dirección (vector normalizado).
 
 ## References
 
