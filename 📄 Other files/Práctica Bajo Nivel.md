@@ -56,3 +56,6 @@ for y += 16
 	for x += 16
 		for sy++
 			for sx++
+
+Optimización extra:
+en vez de girar los rayos, girar el frustum
