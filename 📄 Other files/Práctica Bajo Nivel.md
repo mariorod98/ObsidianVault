@@ -41,5 +41,8 @@ for(y..)
 - [x] Girar la cámara.
 -
 ## Optimización
-1. Atacar raíz cuadrada y atan.
-2. No meterse en el mapeo de coordenadas quitando el atan.
+Realizar menos cortes e interpolar la UV y light entre los valores calculados.
+
+Nodo de interseccion
+
+struct float u,v,l
