@@ -44,5 +44,15 @@ for(y..)
 Realizar menos cortes e interpolar la UV y light entre los valores calculados.
 
 Nodo de interseccion
+struct {float u,v,l}
+struct[] = new[(w / 16 + 1) * (h / 16 + 1)]
 
-struct float u,v,l
+Bucle de calculo intersecciones
+for y + 16
+	for x + 16
+	
+Bucle de dibujado
+for y += 16
+	for x += 16
+		for sy++
+			for sx++
