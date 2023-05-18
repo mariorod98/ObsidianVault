@@ -59,3 +59,9 @@ for y += 16
 
 Optimización extra:
 en vez de girar los rayos, girar el frustum
+
+# Mediciones
+## Primera iteración (sin optimizaciones)
+
+Cuando hay negro: 85
+Cuando hay que pintar toda la pantalla con textura: 130
