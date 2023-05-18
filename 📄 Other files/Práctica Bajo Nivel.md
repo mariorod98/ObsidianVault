@@ -34,8 +34,10 @@ for(y..)
 
 - [x] Hacer el ray de la cámara al pixel.
 - [x] Calcular alfa (el parámetro de la ecuación para obtener el punto de corte del rayo con el cilindro).
-- [X] Obtener el punto de corte.
+- [x] Obtener el punto de corte.
 - [x] Calcular la iluminación.
 - [x] Pintar una textura.
 - [x] Hacer que la textura se mueva en z.
-- [ ] Girar la cámara.
+- [x] Girar la cámara.
+-
+## Optimización
