@@ -10,6 +10,10 @@ Comprueba memory leaks
 
 Debugger visual de linux
 
+## nemiver
+
+Debugger de linux mas bonito que ddd
+
 ## References
 
 ---
