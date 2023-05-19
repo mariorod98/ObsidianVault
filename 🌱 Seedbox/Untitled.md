@@ -6,8 +6,7 @@
 
 		Uno de los desafíos más importantes ha sido programar el salto del jugador para que tuviera las características que los diseñadores querían. En un plataformas el salto es la mecánica más importante y para conseguir uno que se sienta bien hemos tenido que iterar mucho y probar muchas soluciones distintas hasta dar con la adecuada.
 
-4. ¿Cómo se gestionó el rendimiento y la optimización del juego para garantizar una
-experiencia fluida y sin problemas?
+4. ¿Cómo se gestionó el rendimiento y la optimización del juego para garantizar una experiencia fluida y sin problemas?
 
 	Desde primero nuestros profesores han hecho bastante hincapié en el rendimiento de todos nuestros trabajo, enseñándonos diferentes técnicas que hemos podido aplicar a este proyecto. Además, utilizamos el profiler de Unreal para hacer un análisis más detallado de qué se puede optimizar en el proyecto.
 
