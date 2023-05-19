@@ -28,3 +28,5 @@ experiencia fluida y sin problemas?
 		Tanto los efectos visuales como sonoros tienen dos objetivos, uno es la inmersión del jugador en la atmósfera e historia que queremos contar y el otro es darle ayudas visuales y sonoras sobre lo que pasa en el juego. Estos son los dos mantras que hemos seguido para diseñar todos los efectos y hay que encontrar un equilibrio entre ellos, porque cuanto más inmersivo el efecto, menos visible suele ser y viceversa. Es un equilibrio delicado que tenemos que alcanzar en conjunto programadores, diseñadores y artistas.
 
 5. ¿Cómo fue la colaboración con el equipo de diseño y arte para garantizar la coherencia entre todos los departamentos para garantizar la coherencia del juego?
+
+		Hacer un videojuego es un esfuerzo grupal monumental. Tiene que haber una comunicación eficaz entre todos los departamentos ya que tiramos del mismo carro. Ha sido una experiencia muy personal, cuando una persona del proyecto necesita hablar con alguien de otro equipo lo hace de forma directa, nos reunimos en cuanto tenemos un hueco libre y resolvemos cualquier problema o duda que surja.
