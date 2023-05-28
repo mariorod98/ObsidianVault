@@ -34,8 +34,34 @@ for(y..)
 
 - [x] Hacer el ray de la cámara al pixel.
 - [x] Calcular alfa (el parámetro de la ecuación para obtener el punto de corte del rayo con el cilindro).
-- [X] Obtener el punto de corte.
+- [x] Obtener el punto de corte.
 - [x] Calcular la iluminación.
 - [x] Pintar una textura.
 - [x] Hacer que la textura se mueva en z.
-- [ ] Girar la cámara.
+- [x] Girar la cámara.
+-
+## Optimización
+Realizar menos cortes e interpolar la UV y light entre los valores calculados.
+
+Nodo de interseccion
+struct {float u,v,l}
+struct[] = new[(w / 16 + 1) * (h / 16 + 1)]
+
+Bucle de calculo intersecciones
+for y + 16
+	for x + 16
+	
+Bucle de dibujado
+for y += 16
+	for x += 16
+		for sy++
+			for sx++
+
+Optimización extra:
+en vez de girar los rayos, girar el frustum
+
+# Mediciones
+## Primera iteración (sin optimizaciones)
+
+Cuando hay negro: 85
+Cuando hay que pintar toda la pantalla con textura: 130
