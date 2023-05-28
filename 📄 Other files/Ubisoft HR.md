@@ -4,7 +4,13 @@ yearly bonus on profit-sharing results of the company maybe 1 month
 bonus on benefits of the project 1-3 month 
 12 extra days of paid holidays + 5 weeks 
 restaurant tickets 9€/day - 180€/ month childcare facilities
+
 massage people
+
+moving bonus 1500€ 
+
+Studio closed first week of august july 29 to august 6
+close studio one week on summer one week on winter
 
 [25 3pm hr](<## SMI
 ![[Pasted image 20230420124419.png]]
