@@ -2,7 +2,7 @@
 - [x] Entity
 - [x] TransformComponent
 - [x] RenderComponent
-- [ ] LightComponent
+- [x] LightComponent
 - [ ] CameraComponent
 - [ ] EntityManager
 - [ ] Input
