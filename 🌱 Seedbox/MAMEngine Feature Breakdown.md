@@ -1,9 +1,0 @@
-- [x] Window
-- [x] Entity
-- [x] TransformComponent
-- [x] RenderComponent
-- [x] LightComponent
-- [ ] CameraComponent
-- [ ] EntityManager
-- [ ] Input
-- [ ] Editor
