@@ -1,7 +1,3 @@
----
-tags: bookReport
----
-
 # Los Desposeídos
 ### Información
 | Campo | Valor |

@@ -1,7 +1,3 @@
----
-tags: bookReport
----
-
 # <% tp.file.title %>
 ### Información
 | Campo | Valor |

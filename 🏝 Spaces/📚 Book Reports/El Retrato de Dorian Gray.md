@@ -1,7 +1,3 @@
----
-tags: bookReport
----
-
 # El Retrato de Dorian Gray
 ### Información
 | Campo | Valor |
@@ -21,5 +17,5 @@ tags: bookReport
 - La relación entre Dorian, Basil y Henry en los primeros capítulos.
 - El progreso degenerativo de Dorian. 
 ### No me ha gustado...
-- Toda la subtrama de James Vane, es absurda.
+- Toda la trama de James Vane, es absurda.
 - Algunas conversaciones filosóficas demasiado lentas.

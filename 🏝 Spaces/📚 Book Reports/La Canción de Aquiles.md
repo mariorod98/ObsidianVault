@@ -1,7 +1,3 @@
----
-tags: bookReport
----
-
 # La Canción de Aquiles
 ### Información
 | Campo | Valor |

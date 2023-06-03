@@ -1,7 +1,3 @@
----
-tags: bookReport
----
-
 # Dune
 ### Información
 | Campo | Valor |
