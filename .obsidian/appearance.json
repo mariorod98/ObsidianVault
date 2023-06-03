@@ -8,5 +8,6 @@
   "textFontFamily": "",
   "interfaceFontFamily": "",
   "theme": "obsidian",
-  "accentColor": ""
+  "accentColor": "",
+  "nativeMenus": false
 }
