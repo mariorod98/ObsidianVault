@@ -13,6 +13,9 @@ tags: bookReport
 |Fecha de fin de lectura|06/03/2022|
 
 ### Temas
+Juventud
+Estética
+Libertinaje y moral
 
 ### Me ha gustado...
 
