@@ -20,5 +20,6 @@ tags: bookReport
 ### Me ha gustado...
 - La representación de la vida cotidiana de las clases altas inglesas.
 - El uso de de la ironía y el humor.
+- La respuesta de Elizabeth cuando Darcy le dice que le da igual que sea pobre.
 ### No me ha gustado...
 - 
