@@ -13,10 +13,13 @@ tags: bookReport
 |Fecha de fin de lectura|06/03/2022|
 
 ### Temas
-Juventud
-Estética
-Libertinaje y moral
+- Juventud
+- Estética
+- Libertinaje y moral
 
 ### Me ha gustado...
-
+- La relación entre Dorian, Basil y Henry en los primeros capítulos.
+- El progreso degenerativo de Dorian.
 ### No me ha gustado...
+- Toda la subtrama de James Vane, es absurda.
+- Algunas conversaciones filosóficas demasiado lentas.
