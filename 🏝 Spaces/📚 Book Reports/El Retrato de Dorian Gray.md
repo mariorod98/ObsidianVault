@@ -19,7 +19,7 @@ tags: bookReport
 
 ### Me ha gustado...
 - La relación entre Dorian, Basil y Henry en los primeros capítulos.
-- El progreso degenerativo de Dorian.
+- El progreso degenerativo de Dorian. 
 ### No me ha gustado...
 - Toda la subtrama de James Vane, es absurda.
 - Algunas conversaciones filosóficas demasiado lentas.
