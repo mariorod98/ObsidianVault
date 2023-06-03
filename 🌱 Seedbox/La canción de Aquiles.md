@@ -11,8 +11,12 @@
 ### Temas
 - Amor juvenil.
 - El elegido.
-- 
+- Destino y deseo.
+- El honor.
 
 ### Me ha gustado...
-
+- El personaje de Patroclo y su relación con Aquiles.
+- La humanización de Aquiles y su dilema.
 ### No me ha gustado...
+- Cuando llegan a Troya, la trama me pierde un poco.
+- Ojalá la parte de Quirón más larga.
