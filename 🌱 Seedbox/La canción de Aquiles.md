@@ -1,0 +1,15 @@
+# La canción de Aquiles
+### Información
+| Campo | Valor |
+|:---:|---|
+|Autor||
+|Año de publicación||
+|Género||
+|Fecha de inicio de lectura||
+|Fecha de fin de lectura||
+
+### Temas
+
+### Me ha gustado...
+
+### No me ha gustado...
