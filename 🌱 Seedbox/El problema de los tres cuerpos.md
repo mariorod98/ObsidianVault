@@ -11,7 +11,8 @@
 ### Temas
 - Revolución cultural.
 - Contacto alienígena.
-- 
 ### Me ha gustado...
-
+- El contexto histórico de la obra.
 ### No me ha gustado...
+- Muy lenta, no me enganchó.
+- Violencia demasiado cruda.
