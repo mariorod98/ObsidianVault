@@ -13,6 +13,7 @@
 - Asesinato sin resolver
 - Corrupción
 ### Me ha gustado...
-- 
+- La sucesión de muertes aparentemente casuales.
 ### No me ha gustado...
 - Trama demasiado enrevesada.
+- A partir de la visita de Poirot a la casa de campo de Blunt.
