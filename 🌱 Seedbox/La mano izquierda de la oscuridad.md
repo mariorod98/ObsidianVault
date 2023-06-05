@@ -15,5 +15,9 @@
 - Política.
 - Exploración del espacio.
 ### Me ha gustado...
-
+- La exploración del género.
+- El contexto socio-político de la historia.
+- La introducción del Ekumen.
 ### No me ha gustado...
+- Que se describa a los personajes de forma masculina en vez de neutra.
+- La travesía por el hielo es muy lenta y aburrida.
