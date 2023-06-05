@@ -10,7 +10,12 @@
 
 ### Temas
 - El amor.
-- 
+- La vejez.
+- El amor no correspondido.
+- Clases sociales.
 ### Me ha gustado...
-
+- El primer capítulo me parece buenísimo.
 ### No me ha gustado...
+- La trama y los personajes son bastante aburridos para ser García Márquez.
+- Muy poco realismo mágico.
+- Florentino Ariza es un cansino y no se merece ese final.
