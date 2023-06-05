@@ -9,7 +9,11 @@
 |Fecha de fin de lectura|08/08/2022|
 
 ### Temas
-
+- Juegos de rol.
+- Cobardía.
+- Exploración del mundo.
 ### Me ha gustado...
-
+- El humor.
+- El mundo de discworld y cómo se cuenta.
 ### No me ha gustado...
+- Algunas historias son un poco lentas.
