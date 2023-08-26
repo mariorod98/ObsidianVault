@@ -152,9 +152,6 @@
     "editor:insert-link"
   ],
   "showUnsupportedFiles": false,
-  "spellcheckLanguages": [
-    "es",
-    "en-US"
-  ],
+  "spellcheckLanguages": null,
   "showInlineTitle": false
 }
