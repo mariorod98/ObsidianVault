@@ -12,6 +12,8 @@ Por ejemplo, puedes tener una pistola que dispara una bala en linea recta. Si co
 
 La mecánica principal del juego consiste es maximizar los distintos combos de armas y mejoras que te aparecen de forma aleatoria al subir de nivel.
 
+
+
 ## References
 
 ---
