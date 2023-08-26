@@ -1,9 +1,20 @@
 {
 	"nodes":[
-		{"id":"01a62163b02c4ba9","x":-420,"y":-160,"width":382,"height":335,"type":"text","text":"# ComponentName\n## Attributes\n## Methods\n## Events"},
-		{"type":"text","text":"# HealthComponent\n## Attributes\n- m_currentHealth : int\n- m_maxHealth : int\n- m_currentShield : int\n- m_maxShield : int\n- m_isDead : bool\n## Methods\n- heal(int amount)\n- shield(int amount)\n- receiveDamage(int amount)\n- getters\n## Events\n- OnReceiveDamage(int amount, int currentHealth, int maxHealth)\n- OnHeal(int amount, int currentHealth, int maxHealth)\n- OnShield(int amount, int currentShield, int maxShield)\n- OnDie()\n","id":"facf07c97588a7e5","x":20,"y":-160,"width":382,"height":335},
-		{"type":"text","text":"# MovementComponent\n## Attributes\n- m_movementSpeed : int\n- m_hasMoved : bool\n## Methods\n- move(???)\n- resetMovement()\n- getters\n## Events","id":"4652eb63bf1f45b4","x":20,"y":220,"width":382,"height":335},
-		{"type":"text","text":"# CombatComponent\n## Attributes\n## Methods\n## Events","id":"211c5ad10bd55e3a","x":-420,"y":220,"width":382,"height":335}
+		{"id":"01a62163b02c4ba9","x":-420,"y":-160,"width":382,"height":335,"type":"text","text":"# ClassName\n## Attributes\n## Methods\n## Events"},
+		{"type":"text","text":"# CombatComponent\n## Attributes\n- m_weapon : Weapon\n- m_hasAttacked : bool\n## Methods\n- attack(??? target)\n## Events","id":"211c5ad10bd55e3a","x":-420,"y":220,"width":382,"height":335},
+		{"type":"text","text":"# Weapon\n## Attributes\n- m_damage : int\n- m_range : int\n## Methods\n## Events","id":"0160f51c7d51ffd6","x":-1120,"y":220,"width":382,"height":335},
+		{"type":"text","text":"# MovementComponent\n## Attributes\n- m_movementSpeed : int\n- m_hasMoved : bool\n## Methods\n- move(???)\n- resetMovement()\n- getters\n## Events","id":"4652eb63bf1f45b4","x":40,"y":220,"width":382,"height":335},
+		{"type":"text","text":"# HealthComponent\n## Attributes\n- m_currentHealth : int\n- m_maxHealth : int\n- m_currentShield : int\n- m_maxShield : int\n- m_isDead : bool\n## Methods\n- heal(int amount)\n- shield(int amount)\n- receiveDamage(int amount)\n- getters\n## Events\n- OnReceiveDamage(int amount, int currentHealth, int maxHealth)\n- OnHeal(int amount, int currentHealth, int maxHealth)\n- OnShield(int amount, int currentShield, int maxShield)\n- OnDie()\n","id":"facf07c97588a7e5","x":520,"y":220,"width":382,"height":335},
+		{"type":"text","text":"# PlayerCombatComponent\n## Attributes\n- m_weapon : Weapon\n- m_hasAttacked : bool\n## Methods\n- attack(??? target, int diceValue)\n## Events","id":"29fa30ed3499b5c4","x":-420,"y":760,"width":382,"height":335},
+		{"type":"text","text":"# PlayerMovementComponent\n## Attributes\n- m_movementSpeed : int\n- m_hasMoved : bool\n## Methods\n- move(???, intDiceValue)\n- resetMovement()\n- getters\n## Events","id":"ba758a3336ad9b82","x":40,"y":760,"width":382,"height":335},
+		{"type":"text","text":"# Player\n## Attributes\n- m_healthRef : PlayerHealthComponent\n- m_movRef : PlayerMovementComponent\n- m_combatRef : PlayerCombatComponent\n- m_dices : List<int>\n## Methods\n## Events","id":"07b0baeaba63a7dc","x":40,"y":1280,"width":382,"height":335}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"6a6bbe379f7b839b","fromNode":"211c5ad10bd55e3a","fromSide":"left","toNode":"0160f51c7d51ffd6","toSide":"right","color":"1"},
+		{"id":"68cb1949260e1918","fromNode":"29fa30ed3499b5c4","fromSide":"top","toNode":"211c5ad10bd55e3a","toSide":"bottom","color":"1"},
+		{"id":"63bcdbd27d5046c5","fromNode":"ba758a3336ad9b82","fromSide":"top","toNode":"4652eb63bf1f45b4","toSide":"bottom","color":"1"},
+		{"id":"c004c42c47fb4fa4","fromNode":"07b0baeaba63a7dc","fromSide":"top","toNode":"29fa30ed3499b5c4","toSide":"bottom","color":"3"},
+		{"id":"574008958be5d004","fromNode":"07b0baeaba63a7dc","fromSide":"top","toNode":"ba758a3336ad9b82","toSide":"bottom","color":"3"},
+		{"id":"9e4de885f99edf6d","fromNode":"07b0baeaba63a7dc","fromSide":"top","toNode":"facf07c97588a7e5","toSide":"bottom","color":"3"}
+	]
 }
