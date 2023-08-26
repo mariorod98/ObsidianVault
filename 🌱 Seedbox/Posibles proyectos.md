@@ -8,6 +8,13 @@ tags:: #state/seedling
 ## Game Jams
 - Juego similar a vampire survivor pero dandole un twist
 
+Temas de GMTK GJ
+- Roles reversed
+- Roll of the dice
+- Out of control
+- Joined together
+- Only one
+
 ## Otros
 
 
