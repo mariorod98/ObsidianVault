@@ -1,0 +1,6 @@
+{
+	"nodes":[
+		{"id":"01a62163b02c4ba9","x":-302,"y":-155,"width":382,"height":335,"type":"text","text":"# Character\n## Properties\n- Current health\n- Max health\n- Movement speed\n## Methods\n- Move()\n- Attack()\n- ReceiveDamage()\n- OnDie()"}
+	],
+	"edges":[]
+}
