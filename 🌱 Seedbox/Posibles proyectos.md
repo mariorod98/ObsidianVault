@@ -5,8 +5,8 @@ tags:: #state/seedling
 
 ## Algoritmos IA
 
-## Game Jams
-- Juego similar a vampire survivor pero dandole un twist
+## Prototipos/Game Jams
+
 
 Temas de GMTK GJ
 - Roles reversed
@@ -14,6 +14,9 @@ Temas de GMTK GJ
 - Out of control
 - Joined together
 - Only one
+- 
+## Juegos 
+- Juego similar a vampire survivor pero dandole un twist
 
 ## Otros
 
