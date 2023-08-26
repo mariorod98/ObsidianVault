@@ -1,6 +1,8 @@
 {
 	"nodes":[
-		{"id":"01a62163b02c4ba9","x":-302,"y":-155,"width":382,"height":335,"type":"text","text":"# Character\n## Properties\n- Current health\n- Max health\n- Movement speed\n## Methods\n- Move()\n- Attack()\n- ReceiveDamage()\n- OnDie()"}
+		{"id":"01a62163b02c4ba9","x":-420,"y":-160,"width":382,"height":335,"type":"text","text":"# ComponentName\n## Attributes\n## Methods"},
+		{"type":"text","text":"# HealthComponent\n## Attributes\n- m_currentHealth : int\n- m_maxHealth : int\n- m_currentShield : int\n- m_maxShield : int\n- m_isDead : bool\n## Methods\n- heal(int amount)\n- receiveDamage(int amount)\n- getters\n## Events\n- OnReceiveDamage(int amount, int currentHealth, int maxHealth)\n- OnHeal(int amount, int currentHealth, int maxHealth)\n- OnDie()\n","id":"facf07c97588a7e5","x":20,"y":-160,"width":382,"height":335},
+		{"type":"text","text":"# MovementComponent\n## Attributes\n- m_movementSpeed : int\n- m_hasMoved : bool\n## Methods\n- move(???)\n- resetMovement()\n- getters","id":"4652eb63bf1f45b4","x":20,"y":220,"width":382,"height":335}
 	],
 	"edges":[]
 }
