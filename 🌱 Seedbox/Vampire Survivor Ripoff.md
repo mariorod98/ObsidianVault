@@ -10,7 +10,7 @@ Cuando matas enemigos recibes experiencia que te ayudan a subir de nivel. Al sub
 
 Por ejemplo, puedes tener una pistola que dispara una bala en linea recta. Si consigues un modificador de dispersion, ahora ese arma dispara varias balas en vez de solo una.
 
-La mecánica principal 
+La mecánica principal del juego consiste es maximizar los distintos combos de armas y mejoras que te aparecen de forma aleatoria al subir de nivel.
 
 ## References
 
