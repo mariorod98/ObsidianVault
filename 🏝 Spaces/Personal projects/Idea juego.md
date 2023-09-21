@@ -1,0 +1,1 @@
+Juego cuya mecánica principal sea encadenar combos (inspiración de persona 5). Puede ser del tipo encadenar los ataques correctos con los enemigos correctos o encadenar los ataques en el tiempo correcto.
