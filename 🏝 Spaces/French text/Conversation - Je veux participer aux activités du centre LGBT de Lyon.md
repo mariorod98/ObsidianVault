@@ -1,1 +1,1 @@
-Bon
+Bonjour, je voudrais 
