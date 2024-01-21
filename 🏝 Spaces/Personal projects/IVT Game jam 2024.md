@@ -6,8 +6,7 @@ Three ways that we can adapt the theme to a game:
 - The game gets progressively worse as you advance, so the worse it gets, the better you are.
 
 ## The worse you perform, the better score
-- A singing game where your objective is to sing as off pitch as possible. The goal could be to do as opposite pitch as possible (so if the note to hit is a high note you sing it as low as possible). We could also add during the son special short phases where you have to do something like constantly switch pitch or keep a note for a period of time.
-- 
+- A singing game where your objective is to sing as off pitch as possible. The goal could be to do as opposite pitch as possible (so if the note to hit is a high note you sing it as low as possible). We could also add during the son special short phases where you have to do something like constantly switch pitch or keep a note for a period of time
 
 ## The goal is to do something commonly bad in videogames
 - A local coop game where the objective is to be the first one to die. Similar to duck game. We can have a map with different hazards and the objective is to die to those hazards the first. We can add mechanics to avoid other players from beind damage like pushing them or giving them a shield or inmobilizing them.
