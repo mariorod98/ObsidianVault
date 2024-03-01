@@ -10,7 +10,7 @@ A Component is a special type of [[Object]] that [[Actors]] can attach to themse
 - **Primitive Components** (class `UPrimitiveComponent`, a child of `USceneComponent`) are Scene Components with geometric representation, either for rendering or collision purposes. For example, meshes, sprites, particle systems, etc.
 
 ## Examples
-### Adding a Scene Component to a class
+### Adding a SceneComponent to an actor
 1. Add the component to the class declaration as a pointer. Do not forget to add the UPROPERTY.
 ```cpp
 // ASpaceshipCharacter.h
@@ -23,7 +23,8 @@ class ASpaceshipCharacter {
 ```cpp
 ASpaceshipCharacter::ASpaceshipCharacter()
 {
-	weaponComp_ 
+	weaponComp_ = CreateDefaultSubobject<UWeaponComponent>(TEXT("WeaponComp"));
+	weaponComp_->SetupAttachment(RootComponent);
 }
 ```
 ---
