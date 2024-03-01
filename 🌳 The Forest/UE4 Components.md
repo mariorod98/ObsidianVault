@@ -9,6 +9,23 @@ A Component is a special type of [[Object]] that [[Actors]] can attach to themse
 - **Scene Components** (class `USceneComponent`, inherits from  `UActorComponent`) supports location-based behaviors that do not require geometric representation. For example, cameras, audio, physical forces, etc.
 - **Primitive Components** (class `UPrimitiveComponent`, a child of `USceneComponent`) are Scene Components with geometric representation, either for rendering or collision purposes. For example, meshes, sprites, particle systems, etc.
 
+## Examples
+### Adding a Scene Component to a class
+1. Add the component to the class declaration as a pointer. Do not forget to add the UPROPERTY.
+```cpp
+// ASpaceshipCharacter.h
+class ASpaceshipCharacter {
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	class UWeaponComponent* weaponComp_;
+}
+```
+2. Create the componennt in the class constructor and attach it to another component or set as root component.
+```cpp
+ASpaceshipCharacter::ASpaceshipCharacter()
+{
+	weaponComp_ 
+}
+```
 ---
 Planted: 2022-01-16
-Last tended: 2022-01-22
+Last tended: 2024-03-01

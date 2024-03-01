@@ -101,8 +101,10 @@ FHitResult&, Hit)
 ```cpp
 // Link.h
 class ALink {
+	// ...
 	UFUNCTION()
 	void OnOverlap(AActor* OverlappedActor, AActor* OtherActor);
+	// ...
 }
 ```
 3. In the ``BeginPlay()`` function, bind the function to the delegate.
