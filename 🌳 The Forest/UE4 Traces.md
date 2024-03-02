@@ -108,7 +108,7 @@ void ABombDrop::Explode()
 	GetWorld()->OverlapMultiByChannel(overlap_results, GetActorLocation(), FQuat::Identity, ECC_GameTraceChannel2, sphere, params);
 
 	// Iterate through the results
-	for(int i = 0; i < overlap_results.Num(); i++)
+	for(int i = 0; i < overlap_results.Num(); ++i)
 	{
 		AEnemy* enemy = Cast<AEnemy>(overlap_results[i].GetActor());
 		if(enemy != nullptr)
