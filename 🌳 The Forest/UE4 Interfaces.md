@@ -89,9 +89,9 @@ Any of the following functions will check if a class implements an interface:
 ```cpp
 bool bIsImplemented = OriginalObject->GetClass()->ImplementsInterface(UPickable::StaticClass()); // bIsImplemented will be true if OriginalObject implements UPickable.
 
-bool Implemented = OriginalObject->Implements<UPickable>(); // bIsImplemented will be true if OriginalObject implements UPickable.
+bool bIsImplemented = OriginalObject->Implements<UPickable>(); // bIsImplemented will be true if OriginalObject implements UPickable.
 
-IPickable* ReactingObjectA = Cast<IPickable>(OriginalObject); // ReactingObject will be non-null if OriginalObject implements IPickable.
+IPickable* ReactingObject = Cast<IPickable>(OriginalObject); // ReactingObject will be non-null if OriginalObject implements IPickable.
 ```
 
 ### Casting to other Unreal Types
