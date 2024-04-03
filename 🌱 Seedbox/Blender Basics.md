@@ -11,6 +11,7 @@ Middle mouse click + move mouse: rotate camera
 ## Contextual menus
 shift + Space:  open gizmo menu
 shift + A : open primitives menu
+shift + S: cursor menu
 T : show/hide left-hand menu
 N: show/hide menu side bar
 
@@ -23,7 +24,7 @@ shift + d: duplicate mesh
 g: move object freely
 \[r,s] + \[x,y,z]: rotate/scale on that axis
 \[r,s] + \[x,y,z] + num: rotate/scale on that axis by that value
-
+shift + right click: set cursor position
 
 
 numpad 1:  front
