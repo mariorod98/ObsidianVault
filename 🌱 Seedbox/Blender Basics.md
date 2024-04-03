@@ -47,3 +47,4 @@ alt + shift + click: quick selection loop
 e: extrude
 l: select all connected meshes
 p (edit mode) : separate mesh menu
+ctrl + a: reset transform
