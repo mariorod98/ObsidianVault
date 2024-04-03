@@ -13,5 +13,9 @@ shift + Space:  open gizmo menu
 shift + A : open primitives menu
 
 ## Others
+right click: if making a change to an object, cancel the change
+a: select all
 shift + d: duplicate mesh
 g: move object freely
+\[r,s] + \[x,y,z]: rotate/scale on that axis
+\[r,s] + \[x,y,z] + num: rotate/scale on that axis by that value
