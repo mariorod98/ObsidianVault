@@ -44,6 +44,6 @@ a (while in cutting mode) : fix to the z axis
 ctrl + R: create edgeloop
 
 alt + shift + click: quick selection loop
-shift + e: extrude
+e: extrude
 l: select all connected meshes
 p (edit mode) : separate mesh menu
