@@ -19,3 +19,10 @@ shift + d: duplicate mesh
 g: move object freely
 \[r,s] + \[x,y,z]: rotate/scale on that axis
 \[r,s] + \[x,y,z] + num: rotate/scale on that axis by that value
+
+numpad 1:  front
+numpad 3: sideview
+numpad 7: topview
+ctrl + numpad 1: rear
+ctrl + numpad 2: opposite side
+ctrl + numpad 3: bottom
