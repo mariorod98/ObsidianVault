@@ -48,3 +48,7 @@ e: extrude
 l: select all connected meshes
 p (edit mode) : separate mesh menu
 ctrl + a: reset transform
+
+
+## Modifier window
+ctrl + a: apply modifier
