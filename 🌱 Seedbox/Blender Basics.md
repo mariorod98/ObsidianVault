@@ -32,3 +32,9 @@ numpad 7: topview
 ctrl + numpad 1: rear
 ctrl + numpad 2: opposite side
 ctrl + numpad 3: bottom
+
+
+tab: switch object/edit mode
+
+
+ctrl + shift + b: bevel vertices
