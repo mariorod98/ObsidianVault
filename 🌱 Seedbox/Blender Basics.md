@@ -38,3 +38,6 @@ tab: switch object/edit mode
 
 
 ctrl + shift + b: bevel vertices
+K: enter cutting mode
+a (while in cutting mode) : fix to the z axis
+ctrl + R: create edgeloop
