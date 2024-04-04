@@ -54,7 +54,8 @@ p (edit mode) : separate mesh menu
 ctrl + a: reset transform
 i: insert 
 
-
+h: hide selected
+shift + h: hide everything but selected
 
 ## Modifier window
 ctrl + a: apply modifier
