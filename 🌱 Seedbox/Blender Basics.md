@@ -1,6 +1,10 @@
+# Definitions
+**Seams.** Similar to seams in a piece of clothing, they give you control of how the texture is applied in your mesh.
+**Sharps.** Gives control of how hard and soft our angles are rendered.
 # Modes
 **Object mode**. The default mode. Can move, rotate and scale an object.
 **Edit mode**. Modify geometry of the object.
+
 # Shortcuts
 ## Move around
  middle mouse up/down: zoom
