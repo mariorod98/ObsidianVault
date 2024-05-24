@@ -27,4 +27,19 @@ Antonio comienza a obsesionarse con su pasado y con la secta, va varias veces po
 Antonio y la secta se preparan para llevar a cabo un ritual con el que abrirán un portal al plano de los muertos y llamarán a las almas errantes de los Abencerrajes asesinados. Antonio absorberá esas almas para obtener poderes psíquicos. Para ello tiene que asesinar a su primogénito. Antonio desaparece con su hijo sin avisar a Susana para prepararse para el ritual. En una semana, dará lugar el ritual.
 
 ## Premisa
-**Punto de partida de la historia**: Un hombre y su hijo han desa
+Pregunta: **¿Qué ha pasado con Antonio y Pedrito?**
+Respuesta: *Antonio ha raptado a su hijo para sacrificarlo en un ritual.*
+
+## Orden lógico para llegar de la pregunta a la respuesta
+
+1. Antonio y Susana estaban pasando por vacas flacas.
+2. Antonio acude a Fernando para obtener dinero rápido.
+3. Fernando extorsiona a Antonio usando su negocio para lavar dinero.
+4. Antonio no soporta más la extorsión y le dice a Fernando que se acabó. 
+5. Fernando le amenaza con hacer daño a su familia.
+6. Antonio entra en la secta y le lavan el cerebro haciéndole creer que con un ritual va a acabar con sus enemigos.
+7. Antonio rapta a Pedrito para llevar a cabo el ritual.
+
+## Posibles sospechosos
+- **Fernando y Cristian Gálvez**. Los mafiosos pueden haber hecho algo a Antonio y Pedrito para ajustar cuentas.
+- **Susana y Marco**. Susana quería separarse Antonio e irse con Marco. Pero Antonio no sabía nada aún. **¿Cómo hace esto que ellos sean sospechosos?**
