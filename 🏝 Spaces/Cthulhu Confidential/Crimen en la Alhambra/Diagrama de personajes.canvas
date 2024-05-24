@@ -1,1 +1,23 @@
-{}
+{
+	"nodes":[
+		{"id":"c793d58fd0766cb8","type":"text","text":"## Susana Baena Díaz\n*La clienta*","x":420,"y":-215,"width":460,"height":435},
+		{"id":"a29af05b14bf6908","x":-400,"y":-215,"width":460,"height":435,"type":"text","text":"## Antonio Molina Rodríguez\n*Descendiente Abencerraje*"},
+		{"id":"c18bc09b670803fb","type":"text","text":"## Purificación Delgado Moreno\n*Tarotista*","x":1280,"y":-215,"width":460,"height":435},
+		{"id":"b917b601b4bb5d01","type":"text","text":"## Ramón García García\n*Ocultista y boxeador*","x":-400,"y":-880,"width":460,"height":435},
+		{"id":"c86e189d1f1b5584","type":"text","text":"## Ana Martos Salinas\n*Suma sacerdotisa*","x":-1160,"y":-880,"width":460,"height":435},
+		{"id":"730c36ca10374ef7","type":"text","text":"## Pedrito Molina Baena\n*Niño*","x":420,"y":440,"width":460,"height":435},
+		{"id":"76602df1428b29b4","type":"text","text":"## Marco Giannoli\n*Un amigo*","x":-220,"y":440,"width":460,"height":435},
+		{"id":"cc0e2c1ed7865b74","type":"text","text":"## Fernando Gálvez Gómez\n*Un amigo*","x":-930,"y":440,"width":460,"height":435}
+	],
+	"edges":[
+		{"id":"f284c60b133fc6fa","fromNode":"a29af05b14bf6908","fromSide":"right","toNode":"c793d58fd0766cb8","toSide":"left","fromEnd":"arrow","label":"Esposo.a"},
+		{"id":"79039f055cf7cf8c","fromNode":"a29af05b14bf6908","fromSide":"bottom","toNode":"730c36ca10374ef7","toSide":"top","label":"Padre"},
+		{"id":"829d4b74dc8a7cd8","fromNode":"c793d58fd0766cb8","fromSide":"bottom","toNode":"730c36ca10374ef7","toSide":"top","label":"Madre"},
+		{"id":"3dbf8771f19f9dbf","fromNode":"c18bc09b670803fb","fromSide":"left","toNode":"c793d58fd0766cb8","toSide":"right","label":"Gurú"},
+		{"id":"0e0cc898d4137bd4","fromNode":"b917b601b4bb5d01","fromSide":"bottom","toNode":"a29af05b14bf6908","toSide":"top","label":"Introduce al culto"},
+		{"id":"907c87ea14c594cc","fromNode":"b917b601b4bb5d01","fromSide":"left","toNode":"c86e189d1f1b5584","toSide":"right","label":"Discípulo"},
+		{"id":"e09c4e1d1c1bd912","fromNode":"a29af05b14bf6908","fromSide":"left","toNode":"c86e189d1f1b5584","toSide":"bottom","label":"Discípulo"},
+		{"id":"f7f4ddd8d5c70a37","fromNode":"76602df1428b29b4","fromSide":"top","toNode":"a29af05b14bf6908","toSide":"bottom","label":"Amigo"},
+		{"id":"2bce4399278a826d","fromNode":"76602df1428b29b4","fromSide":"top","toNode":"c793d58fd0766cb8","toSide":"left","label":"Amante"}
+	]
+}
