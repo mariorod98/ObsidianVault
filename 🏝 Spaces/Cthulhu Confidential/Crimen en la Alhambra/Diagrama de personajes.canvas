@@ -5,11 +5,11 @@
 		{"id":"c18bc09b670803fb","type":"text","text":"## Purificación Delgado Moreno\n*Tarotista*","x":1280,"y":-215,"width":460,"height":155},
 		{"id":"76602df1428b29b4","type":"text","text":"## Marco Giannoli\n*Un amigo*","x":60,"y":-560,"width":460,"height":138},
 		{"id":"730c36ca10374ef7","type":"text","text":"## Pedrito Molina Baena\n*Niño*","x":60,"y":100,"width":460,"height":145},
-		{"id":"3be75f6ce3a2ae29","type":"text","text":"## Penélope Iglesias Roldán\n*Subinspectora*","x":-480,"y":280,"width":460,"height":138},
 		{"id":"6a0bd37eaa3f00f8","type":"text","text":"## Cristian Gálvez Contreras\nMatón","x":-1440,"y":-355,"width":460,"height":140},
 		{"id":"cc0e2c1ed7865b74","type":"text","text":"## Fernando Gálvez Gómez\n*Capo de la mafia*","x":-1160,"y":171,"width":460,"height":149},
 		{"id":"c86e189d1f1b5584","type":"text","text":"## Ana Martos Salinas\n*Suma sacerdotisa*","x":-1120,"y":-987,"width":460,"height":135},
-		{"id":"b917b601b4bb5d01","type":"text","text":"## Ramón García García\n*Ocultista y boxeador*","x":-400,"y":-852,"width":460,"height":149}
+		{"id":"b917b601b4bb5d01","type":"text","text":"## Ramón García García\n*Ocultista y boxeador*","x":-400,"y":-852,"width":460,"height":149},
+		{"id":"3be75f6ce3a2ae29","type":"text","text":"## Penélope Iglesias Roldán\n*Subinspectora*","x":-440,"y":320,"width":460,"height":138}
 	],
 	"edges":[
 		{"id":"f284c60b133fc6fa","fromNode":"a29af05b14bf6908","fromSide":"right","toNode":"c793d58fd0766cb8","toSide":"left","fromEnd":"arrow","label":"Esposo.a"},
@@ -24,6 +24,7 @@
 		{"id":"97b6681418265b7f","fromNode":"6a0bd37eaa3f00f8","fromSide":"right","toNode":"a29af05b14bf6908","toSide":"left","label":"Amenaza"},
 		{"id":"a47d175f03c897f3","fromNode":"76602df1428b29b4","fromSide":"bottom","toNode":"a29af05b14bf6908","toSide":"top","label":"Amigo"},
 		{"id":"031d74132c6740ba","fromNode":"76602df1428b29b4","fromSide":"bottom","toNode":"c793d58fd0766cb8","toSide":"top","label":"Amante"},
-		{"id":"d866a42364f799ca","fromNode":"3be75f6ce3a2ae29","fromSide":"top","toNode":"a29af05b14bf6908","toSide":"bottom","label":"Investiga"}
+		{"id":"d866a42364f799ca","fromNode":"3be75f6ce3a2ae29","fromSide":"top","toNode":"a29af05b14bf6908","toSide":"bottom","label":"Investiga"},
+		{"id":"a465c0afdeaa94ad","fromNode":"3be75f6ce3a2ae29","fromSide":"left","toNode":"cc0e2c1ed7865b74","toSide":"right","label":"Investiga"}
 	]
 }
