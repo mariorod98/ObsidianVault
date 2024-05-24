@@ -5,8 +5,8 @@
 - **Año 1829**. Tras meses de investigación, Washington Irving halla el Necronomicón de los Abencerrajes y, tras leerlo, decide esconderlo en la Alhambra para que nadie pueda volver a usarlo.
 - **Hace un año**. Antonio acude a Fernando Gálvez por dinero. Comienzan a usar su negocio para lavar dinero.
 - **Hace 5 meses**. La secta roba el necronomicón.
-- **Hace 6 semanas**. Antonio le dice a Fernando que no quiere seguir siendo usado. Fernando comienza a extorsionarle para que le devuelva el dinero.
-- **Hace 4 semanas**. Ramón introduce a Antonio a la secta.
+- **Hace 2 meses**. Ramón introduce a Antonio a la secta.
+- **Hace 4 semanas**. Antonio le dice a Fernando que no quiere seguir siendo usado. Fernando comienza a extorsionarle para que le devuelva el dinero.
 - **Hace 2 semanas**. Cristian visita a Antonio y le amenaza con hacer daño a su familia.
 - **Hace cinco días**. Antonio secuestra a Pedrito y se esconde en un piso de Ana a las afueras de Granada, preparándose para el ritual.
 - **Ayer**. Susana se cansa de la inactividad de la policía y decide contactar con un detective privado.
