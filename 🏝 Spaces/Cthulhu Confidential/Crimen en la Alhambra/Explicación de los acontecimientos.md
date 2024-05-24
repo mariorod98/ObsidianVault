@@ -22,3 +22,8 @@ Allí Antonio es introducido a la secta de la suma sacerdotisa Ana Martos. Esta 
 
 La secta consiguió el Necronomicón unos meses atrás, robándolo de la Alhambra y destrozando el lugar en el que estaba sepultado. Este hecho causó bastante revuelo y fue documentado en las noticias. La policía no encontró pruebas de la existencia del libro ni de quién lo había hecho así que supusieron que fue mero vandalismo.
 
+Antonio comienza a obsesionarse con su pasado y con la secta, va varias veces por semana al club de boxeo. Susana sospecha que algo no va bien, Antonio le ha hablado varias veces sobre ese pasado y que pronto todo va a ser mejor.
+
+Antonio y la secta se preparan para llevar a cabo un ritual con el que abrirán un portal al plano de los muertos y llamarán a las almas errantes de los Abencerrajes asesinados. Antonio absorberá esas almas para obtener poderes psíquicos. Para ello tiene que asesinar a su primogénito. Antonio desaparece con su hijo sin avisar a Susana para prepararse para el ritual. En una semana, dará lugar el ritual.
+
+
