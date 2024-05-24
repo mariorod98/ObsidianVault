@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"b09ef8fc865be99a","x":-211,"y":-252,"width":391,"height":612,"type":"text","text":"## Introducción\nSusana llega al despacho pidiendote que busques a su esposo y su hijo.\n\nInformación que proporciona:\n- Antonio y ella llevaban tiempo que no conseguian llegar a fin de mes. \n- Antonio lleva dos meses muy raro. No paraba de decir que pronto iba a tener un golpe de suerte y que todo iba a cambiar.\n- La policía está investigando el caso. (Sientes que no te está contando todo)\n- (Si se le presiona) La policía ya había ido a hablar con Antonio y con ella hace unos meses. (Core scene: hablar con la poli).\n- Susana te invita a su casa \n"}
+		{"id":"b09ef8fc865be99a","x":-211,"y":-252,"width":391,"height":612,"type":"text","text":"## Introducción\nSusana llega al despacho pidiendote que busques a su esposo y su hijo.\n\nInformación que proporciona:\n- Antonio y ella llevaban tiempo que no conseguian llegar a fin de mes. \n- Antonio lleva dos meses muy raro. No paraba de decir que pronto iba a tener un golpe de suerte y que todo iba a cambiar.\n- (Core scene: hablar con la poli) La policía está investigando el caso. Pero no han avanzado mucho en la investigación. (Sientes que no te está contando todo)\n- (Si se le presiona) La policía ya había ido a hablar con Antonio y con ella hace unos meses. .\n- (Core scene: investigar casa) Susana te invita a su casa.\n"}
 	],
 	"edges":[]
 }
