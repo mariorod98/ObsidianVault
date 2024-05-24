@@ -26,4 +26,5 @@ Antonio comienza a obsesionarse con su pasado y con la secta, va varias veces po
 
 Antonio y la secta se preparan para llevar a cabo un ritual con el que abrirán un portal al plano de los muertos y llamarán a las almas errantes de los Abencerrajes asesinados. Antonio absorberá esas almas para obtener poderes psíquicos. Para ello tiene que asesinar a su primogénito. Antonio desaparece con su hijo sin avisar a Susana para prepararse para el ritual. En una semana, dará lugar el ritual.
 
-
+## Premisa
+**Punto de partida de la historia**: Un hombre y su hijo han desa
