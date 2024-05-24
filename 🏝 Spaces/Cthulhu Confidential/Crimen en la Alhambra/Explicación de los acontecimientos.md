@@ -10,9 +10,7 @@ En el año 1829 Washington Irving descubre en la Alhambra unos textos dejados po
 
 En el año 2024, Antonio Molina es un autónomo que tiene un pequeño ultramarinos regentado junto a su mujer Susana Baena, con la que tiene un hijo de 6 años, Pedro molina.
 
-Después de la pandemia y la recesión, el negocio ha ido muy mal y ha faltado el dinero en casa. Movido por la desesperación, Antonio acudió a un capo local de Granada, Fernando Gálvez, en busca de ayuda. El capo le ofreció una buena cantidad de dinero a cambio de poder utilizar su tienda para blanquear dinero. En un principio Antonio aceptó, pero ha estado meses carcomido por el cargo de conciencia y el miedo a que le pillen. Antonio fue a hablar con Fernando a decirle que cancelaba el trato y este le reclama el dinero que le dio con unos intereses abusivos. 
-
-Antonio no consigue llegar a fin de mes a la vez que pagar al capo y lleva varios meses poniéndole excusas y retrasando el pago. Fernando decide entonces mandar a su hijo para que amedrente a Antonio. Este le amenaza con hacerle daño a su familia si no paga.
+Después de la pandemia y la recesión, el negocio ha ido muy mal y ha faltado el dinero en casa. Movido por la desesperación, Antonio acudió a un capo local de Granada, Fernando Gálvez, en busca de ayuda. El capo le ofreció una buena cantidad de dinero a cambio de poder utilizar su tienda para blanquear dinero. En un principio Antonio aceptó, pero ha estado meses carcomido por el cargo de conciencia y el miedo a que le pillen. Antonio fue a hablar con Fernando a decirle que cancelaba el trato y este decide entonces mandar a su hijo para que amedrente a Antonio. Este le amenaza con hacerle daño a su familia si no paga.
 
 Por otro lado, Susana lleva medio año poniendo los cuernos a Antonio con su mejor amigo, Marco. Antonio no sabe nada porque también lleva meses comportándose de forma extraña y no está muy pendiente de su mujer.
 
