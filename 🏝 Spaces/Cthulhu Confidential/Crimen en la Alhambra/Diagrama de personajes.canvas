@@ -3,11 +3,13 @@
 		{"id":"c793d58fd0766cb8","type":"text","text":"## Susana Baena Díaz\n*La clienta*","x":420,"y":-215,"width":460,"height":435},
 		{"id":"a29af05b14bf6908","x":-400,"y":-215,"width":460,"height":435,"type":"text","text":"## Antonio Molina Rodríguez\n*Descendiente Abencerraje*"},
 		{"id":"c18bc09b670803fb","type":"text","text":"## Purificación Delgado Moreno\n*Tarotista*","x":1280,"y":-215,"width":460,"height":435},
-		{"id":"b917b601b4bb5d01","type":"text","text":"## Ramón García García\n*Ocultista y boxeador*","x":-400,"y":-880,"width":460,"height":435},
-		{"id":"c86e189d1f1b5584","type":"text","text":"## Ana Martos Salinas\n*Suma sacerdotisa*","x":-1160,"y":-880,"width":460,"height":435},
-		{"id":"730c36ca10374ef7","type":"text","text":"## Pedrito Molina Baena\n*Niño*","x":420,"y":440,"width":460,"height":435},
-		{"id":"76602df1428b29b4","type":"text","text":"## Marco Giannoli\n*Un amigo*","x":-220,"y":440,"width":460,"height":435},
-		{"id":"cc0e2c1ed7865b74","type":"text","text":"## Fernando Gálvez Gómez\n*Jefe del cartel de granada*","x":-930,"y":440,"width":460,"height":435}
+		{"id":"c86e189d1f1b5584","type":"text","text":"## Ana Martos Salinas\n*Suma sacerdotisa*","x":-1460,"y":-1315,"width":460,"height":435},
+		{"id":"b917b601b4bb5d01","type":"text","text":"## Ramón García García\n*Ocultista y boxeador*","x":-630,"y":-1000,"width":460,"height":435},
+		{"id":"cc0e2c1ed7865b74","type":"text","text":"## Fernando Gálvez Gómez\n*Capo de la mafia*","x":-1230,"y":600,"width":460,"height":435},
+		{"id":"6a0bd37eaa3f00f8","type":"text","text":"## Cristian Gálvez Contreras\n*Jefe del cartel de granada*","x":-1720,"y":-40,"width":460,"height":435},
+		{"id":"76602df1428b29b4","type":"text","text":"## Marco Giannoli\n*Un amigo*","x":60,"y":-920,"width":460,"height":435},
+		{"id":"730c36ca10374ef7","type":"text","text":"## Pedrito Molina Baena\n*Niño*","x":120,"y":395,"width":460,"height":435},
+		{"id":"3be75f6ce3a2ae29","type":"text","text":"## Penélope Iglesias Roldán\n*Teniente de policía*","x":-480,"y":680,"width":460,"height":435}
 	],
 	"edges":[
 		{"id":"f284c60b133fc6fa","fromNode":"a29af05b14bf6908","fromSide":"right","toNode":"c793d58fd0766cb8","toSide":"left","fromEnd":"arrow","label":"Esposo.a"},
@@ -17,7 +19,11 @@
 		{"id":"0e0cc898d4137bd4","fromNode":"b917b601b4bb5d01","fromSide":"bottom","toNode":"a29af05b14bf6908","toSide":"top","label":"Introduce al culto"},
 		{"id":"907c87ea14c594cc","fromNode":"b917b601b4bb5d01","fromSide":"left","toNode":"c86e189d1f1b5584","toSide":"right","label":"Discípulo"},
 		{"id":"e09c4e1d1c1bd912","fromNode":"a29af05b14bf6908","fromSide":"left","toNode":"c86e189d1f1b5584","toSide":"bottom","label":"Discípulo"},
-		{"id":"f7f4ddd8d5c70a37","fromNode":"76602df1428b29b4","fromSide":"top","toNode":"a29af05b14bf6908","toSide":"bottom","label":"Amigo"},
-		{"id":"2bce4399278a826d","fromNode":"76602df1428b29b4","fromSide":"top","toNode":"c793d58fd0766cb8","toSide":"left","label":"Amante"}
+		{"id":"e25f2bb8a241a7d1","fromNode":"a29af05b14bf6908","fromSide":"left","toNode":"cc0e2c1ed7865b74","toSide":"right","label":"Debe dinero"},
+		{"id":"457b76594e3f2b29","fromNode":"cc0e2c1ed7865b74","fromSide":"top","toNode":"6a0bd37eaa3f00f8","toSide":"bottom","label":"Padre"},
+		{"id":"97b6681418265b7f","fromNode":"6a0bd37eaa3f00f8","fromSide":"right","toNode":"a29af05b14bf6908","toSide":"left","label":"Amenaza"},
+		{"id":"a47d175f03c897f3","fromNode":"76602df1428b29b4","fromSide":"bottom","toNode":"a29af05b14bf6908","toSide":"top","label":"Amigo"},
+		{"id":"031d74132c6740ba","fromNode":"76602df1428b29b4","fromSide":"bottom","toNode":"c793d58fd0766cb8","toSide":"top","label":"Amante"},
+		{"id":"d866a42364f799ca","fromNode":"3be75f6ce3a2ae29","fromSide":"top","toNode":"a29af05b14bf6908","toSide":"bottom"}
 	]
 }
