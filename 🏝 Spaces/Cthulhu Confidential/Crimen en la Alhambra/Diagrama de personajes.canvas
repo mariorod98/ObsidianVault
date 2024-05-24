@@ -7,7 +7,7 @@
 		{"id":"c86e189d1f1b5584","type":"text","text":"## Ana Martos Salinas\n*Suma sacerdotisa*","x":-1160,"y":-880,"width":460,"height":435},
 		{"id":"730c36ca10374ef7","type":"text","text":"## Pedrito Molina Baena\n*Niño*","x":420,"y":440,"width":460,"height":435},
 		{"id":"76602df1428b29b4","type":"text","text":"## Marco Giannoli\n*Un amigo*","x":-220,"y":440,"width":460,"height":435},
-		{"id":"cc0e2c1ed7865b74","type":"text","text":"## Fernando Gálvez Gómez\n*Un amigo*","x":-930,"y":440,"width":460,"height":435}
+		{"id":"cc0e2c1ed7865b74","type":"text","text":"## Fernando Gálvez Gómez\n*Jefe del cartel de granada*","x":-930,"y":440,"width":460,"height":435}
 	],
 	"edges":[
 		{"id":"f284c60b133fc6fa","fromNode":"a29af05b14bf6908","fromSide":"right","toNode":"c793d58fd0766cb8","toSide":"left","fromEnd":"arrow","label":"Esposo.a"},
