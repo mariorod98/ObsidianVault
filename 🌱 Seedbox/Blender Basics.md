@@ -7,10 +7,13 @@
 
 # Shortcuts
 ## Move around
+wheel button + move mouse : rotate camera
+shift + wheel button + move mouse: move in 2D
+ctrl + wheel button + move mouse: move in the third axis
+
  middle mouse up/down: zoom
 CTRL + Shift + mouse up/down: zoom slowmo
 . in numpad: zoom in selected
-Middle mouse click + move mouse: rotate camera
 
 ## Contextual menus
 shift + Space:  open gizmo menu
