@@ -88,5 +88,7 @@ shift + h: hide everything but selected
 ctrl + a: apply modifier
 
 # Modifiers
+Ctrl + A: apply a modifier
+
 ## Solidify
-Makes a surface think
+Makes a surface thick
