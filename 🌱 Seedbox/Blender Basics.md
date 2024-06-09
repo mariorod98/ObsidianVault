@@ -39,7 +39,7 @@ Press K to open cut tool and select the vertex where you want to start the cut.
 To make a straight cut, press A to fix the direction.
 
 ## How to cut a face by half?
-In Edit mode, select a vertex of the face and press ctrl+R. Move the cursor to the closest edge to create a split from that edge to the opposite. 
+In Edit mode, select a vertex of the face and press ctrl+R. Move the cursor to the closest edge to create a split from that edge to the opposite.  It will initially be set to the center of the edge but can be moved
 ## Others
 right click: if making a change to an object, cancel the change
 a: select all
