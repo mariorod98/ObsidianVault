@@ -1,6 +1,7 @@
 # Definitions
 **Seams.** Similar to seams in a piece of clothing, they give you control of how the texture is applied in your mesh.
 **Sharps.** Gives control of how hard and soft our angles are rendered.
+
 # Modes
 **Object mode**. The default mode. Can move, rotate and scale an object.
 **Edit mode**. Modify geometry of the object.
@@ -33,6 +34,14 @@ T : show/hide left-hand menu
 N: show/hide menu side bar
 
 ctrl + Space : clear every menu from viewport
+
+## Object mode
+### How to reset transforms
+I have to look deeper into what this means but, when we are editing an object, it keeps the transform of the original object. If we then want to modify it through Modifiers, weird results can occur. Therefore we need to reset the transforms of the object so that they match its current shape, not the original one.
+
+To open the reset menu press Ctrl + A and to reset the transforms press All Transforms.
+
+Reset transformations will set the origin of the transformation to the origin of the world. To set them back to the center of the object, we must right click the object and Set Origin to Origin to Geometry
 
 ## Edit Mode
 L : select the whole connected mesh
@@ -77,3 +86,7 @@ shift + h: hide everything but selected
 
 ## Modifier window
 ctrl + a: apply modifier
+
+# Modifiers
+## Solidify
+Makes a surface think
