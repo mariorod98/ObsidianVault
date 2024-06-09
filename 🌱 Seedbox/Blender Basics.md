@@ -15,6 +15,14 @@ ctrl + wheel button + move mouse: move in the third axis
 CTRL + Shift + mouse up/down: zoom slowmo
 . in numpad: zoom in selected
 
+## Select views
+numpad 1:  front
+numpad 3: sideview
+numpad 7: topview
+ctrl + numpad 1: rear
+ctrl + numpad 2: opposite side
+ctrl + numpad 3: bottom
+
 ## Contextual menus
 shift + Space:  open gizmo menu
 shift + A : open primitives menu
@@ -34,12 +42,7 @@ g: move object freely
 shift + right click: set cursor position
 
 
-numpad 1:  front
-numpad 3: sideview
-numpad 7: topview
-ctrl + numpad 1: rear
-ctrl + numpad 2: opposite side
-ctrl + numpad 3: bottom
+
 
 
 tab: switch object/edit mode
