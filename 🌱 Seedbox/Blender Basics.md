@@ -32,6 +32,12 @@ N: show/hide menu side bar
 
 ctrl + Space : clear every menu from viewport
 
+## Cut tool
+Cut tool creates new edges.
+To acces cut mode you have to be in Edit mode (and in vertex mod maybe).
+Press K to open cut tool and select the vertex where you want to start the cut.
+To make a straight cut, press A to fix the direction.
+To 
 ## Others
 right click: if making a change to an object, cancel the change
 a: select all
