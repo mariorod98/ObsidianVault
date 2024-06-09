@@ -44,9 +44,10 @@ To open the reset menu press Ctrl + A and to reset the transforms press All Tran
 Reset transformations will set the origin of the transformation to the origin of the world. To set them back to the center of the object, we must right click the object and Set Origin to Origin to Geometry
 
 ## Edit Mode
-L : select the whole connected mesh
+L : select the whole connected mesh that the mouse is pointing at. If the mesh has seams and we are in face mode, it respects the seams. This does not restarts your selection, it adds the mesh to what you have currently selected.
 P: open separation menu to separate a group of faces from another mesh, creating a new mesh
-
+alt + shift + click: quick select loop
+Y: disconnects a selection of elements from the rest of the mesh WITHOUT creating a new object
 ### Cut tool
 Cut tool creates new edges.
 To acces cut mode you have to be in Edit mode (and in vertex mod maybe).
@@ -63,6 +64,9 @@ If you want to select different especific elements, use shift + left click to se
 
 If you want to select consecutive elements, select the first element and then ctrl + left click the last element and it will select all in between
 
+## Marking seams
+Seams are useful to divide a mesh into subparts and work only in that subpart so that you don´t have to select all the especific **faces** all the time. Seams only work with faces.
+
 ## Others
 right click: if making a change to an object, cancel the change
 a: select all
@@ -75,7 +79,7 @@ shift + right click: set cursor positiom
 
 ctrl + shift + b: bevel vertices
 ctrl + R: create edgeloop
-alt + shift + click: quick selection loop
+
 e: extrude
 l: select all connected meshes
 p (edit mode) : separate mesh menu
