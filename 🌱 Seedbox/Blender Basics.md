@@ -32,19 +32,23 @@ N: show/hide menu side bar
 
 ctrl + Space : clear every menu from viewport
 
-## Cut tool
+## Edit Mode
+L : select the whole connected mesh
+P: open separation menu to separate a group of faces from another mesh, creating a new mesh
+### Cut tool
 Cut tool creates new edges.
 To acces cut mode you have to be in Edit mode (and in vertex mod maybe).
 Press K to open cut tool and select the vertex where you want to start the cut.
 To make a straight cut, press A to fix the direction.
 
-## How to cut a face by half
+### How to cut a face by half
 In Edit mode, select a vertex of the face and press ctrl+R. Move the cursor to the closest edge to create a split from that edge to the opposite.  It will initially be set to the center of the edge but can be moved
 
 ## Select multiple elements in Edit Mode
 If you want to select different especific elements, use shift + left click to select each element
 
 If you want to select consecutive elements, select the first element and then ctrl + left click the last element and it will select all in between
+
 ## Others
 right click: if making a change to an object, cancel the change
 a: select all
@@ -52,27 +56,17 @@ shift + d: duplicate mesh
 g: move object freely
 \[r,s] + \[x,y,z]: rotate/scale on that axis
 \[r,s] + \[x,y,z] + num: rotate/scale on that axis by that value
-shift + right click: set cursor position
-
-
-
-
+shift + right click: set cursor positiom
 
 tab: switch object/edit mode
-
-
 ctrl + shift + b: bevel vertices
-K: enter cutting mode
-a (while in cutting mode) : fix to the z axis
 ctrl + R: create edgeloop
-
 alt + shift + click: quick selection loop
 e: extrude
 l: select all connected meshes
 p (edit mode) : separate mesh menu
 ctrl + a: reset transform
 i: insert 
-
 h: hide selected
 shift + h: hide everything but selected
 
