@@ -97,3 +97,8 @@ Ctrl + A: apply a modifier
 
 ## Solidify
 Makes a surface thick
+
+## Troubleshoot
+## I have marked seems in my edges and separated a piece of the mesh from the rest but when moving it, the rest of the mesh follows.
+Solution: You have the smoothing activated. **Deactivate it.**
+![[Pasted image 20240620213352.png]]
