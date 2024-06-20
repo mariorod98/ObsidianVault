@@ -49,6 +49,9 @@ P: open separation menu to separate a group of faces from another mesh, creating
 alt + shift + click: quick select loop
 Y: disconnects a selection of elements from the rest of the mesh WITHOUT creating a new object
 
+### Face mode
+i : insert faces
+
 ### Cut tool
 Cut tool creates new edges.
 To acces cut mode you have to be in Edit mode (and in vertex mod maybe).
