@@ -48,6 +48,7 @@ L : select the whole connected mesh that the mouse is pointing at. If the mesh h
 P: open separation menu to separate a group of faces from another mesh, creating a new mesh
 alt + shift + click: quick select loop
 Y: disconnects a selection of elements from the rest of the mesh WITHOUT creating a new object
+
 ### Cut tool
 Cut tool creates new edges.
 To acces cut mode you have to be in Edit mode (and in vertex mod maybe).
