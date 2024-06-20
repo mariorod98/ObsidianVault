@@ -49,6 +49,8 @@ P: open separation menu to separate a group of faces from another mesh, creating
 alt + shift + click: quick select loop
 Y: disconnects a selection of elements from the rest of the mesh WITHOUT creating a new object
 
+### Vertex mod
+ctrl + shift + b: bevel selected vertices
 ### Face mode
 i : insert faces
 
