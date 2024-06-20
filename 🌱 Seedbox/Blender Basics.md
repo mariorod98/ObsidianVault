@@ -60,6 +60,9 @@ In Edit mode, select a vertex of the face and press ctrl+R. Move the cursor to t
 
 You can modify the number of edges created with the mouse wheel. They will be arranged evenly.
 
+### How to fill holes
+Go to menu Mesh->Clean up->Fill holes to fill all the wholes of the selection
+
 ### Select multiple elements in Edit Mode
 If you want to select different especific elements, use shift + left click to select each element
 
