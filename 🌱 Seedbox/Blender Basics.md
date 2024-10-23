@@ -107,6 +107,9 @@ Ctrl + A: apply a modifier
 Makes a surface thick
 
 ## Troubleshoot
-## I have marked seems in my edges and separated a piece of the mesh from the rest but when moving it, the rest of the mesh follows.
+**I have marked seems in my edges and separated a piece of the mesh from the rest but when moving it, the rest of the mesh follows.**
 Solution: You have the smoothing activated. **Deactivate it.**
 ![[Pasted image 20240620213352.png]]
+
+**When I apply a modifier, it is applied to the whole group, instead of the mesh I configured it on.**
+To solve this, use the action Object Mode->Object->Convert->Mesh. It will apply each modifier of every mesh individually
