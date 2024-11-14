@@ -1,8 +1,8 @@
-# Scene name
+# <% tp.file.title %>
 ##### Scene type {Introduction, Core, Alternate, Antagonist Reaction, Conclusion, Denouement}
 
 ## Lead-ins
 
 ## Lead-outs
 
-## Descripción
+## Description
