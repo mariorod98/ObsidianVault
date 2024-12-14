@@ -3,7 +3,10 @@ Teron (Ramon)
 Chinka (Mega)
 Portal (Goblin adoptado)
 
-Murghyr - Ciudad que queremos conquistar. Gobernada por familiares de Myrkull. Son casi momias. Se han sacao el corazon. Rey, princesa y un calvo familair lejano
+Murghyr - Ciudad que queremos conquistar. Gobernada por familiares de Myrkull. Son casi momias. Se han sacao el corazon. Rey, princesa y un calvo familair lejano. Lady Murave?
+
+Por favor. Si fueras tan amable.
+Abrete por favor por Lady Murave.
 
 No tengo compasion. Me rijo por las reg
 Lord Darrington, no es de por aqui. Acento de ulcer? Embajador. Negociar paz con mullorand. Podemos obtener recompensa mandando un cuervo.
