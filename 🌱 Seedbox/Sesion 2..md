@@ -8,6 +8,7 @@ Murghyr - Ciudad que queremos conquistar. Gobernada por familiares de Myrkull. S
 No tengo compasion. Me rijo por las reg
 Lord Darrington, no es de por aqui. Acento de ulcer? Embajador. Negociar paz con mullorand. Podemos obtener recompensa mandando un cuervo.
 
+Asesina de Ulcer viene a matar a los nigromantes.
 
 Devota de Auril
 
