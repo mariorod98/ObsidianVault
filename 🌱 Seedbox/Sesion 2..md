@@ -26,3 +26,13 @@ Segundo piso
 2. Baldurs gate
 3. Desierto Purpura
 4. Cordillera izquierda desierto purpura
+
+
+**Cupramarth**. Mi ciudad natal. Soy emisaria de la ciudad.
+
+**Dwavarith**. Pueblo que sirve de enlace comercial entre Cupramarth y Murhyr.
+
+**Murghyr**. Ciudad donde reside el bastión que debo consquistar.
+
+
+He conocido a Teron en Cupramarth. Tiene una propuesta interesante de conquistar Murghyr. Se lo he hecho saber al consejo de la ciudad y me han encomendado la misión de ayudar a Teron en su misión y asegurar que Murghyr entre en nuestra zona de influencia. Junto a Teron a venido un humano, Chinka, que está un poco borracho.
