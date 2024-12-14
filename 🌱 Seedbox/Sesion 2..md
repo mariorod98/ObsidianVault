@@ -3,7 +3,7 @@ Teron (Ramon)
 Chinka (Mega)
 Portal (Goblin adoptado)
 
-Murghyr - Ciudad que queremos conquistar. Gobernada por familiares de Myrkull. Son casi momias. Se han sacao el corazon. Rey, princesa y un calvo familair lejano. Rey Nadir Irmirkull
+Murghyr - Ciudad que queremos conquistar. Gobernada por familiares de Myrkull. Son casi momias. Se han sacao el corazon. Rey, princesa y un calvo familair lejano. Rey Nadir Irmirkull. Hombre habla sobre atacar un dragon. Mujer femenina le trata de marioneta.
 
 Por favor. Si fueras tan amable.
 Abrete por favor por Lady Murave. Uno de los 5 nobles que gobiernan la ciudad.
