@@ -39,3 +39,5 @@ He conocido a Teron en Cupramarth. Tiene una propuesta interesante de conquistar
 
 
 Teron esta en nombre de su patron. Ebondeth (pozo de mentiras segun la faraona) Draco lich. Va a convertirse en el nuevo señor del castillo
+
+Mujer cn brazo de esqueleto dorado. Princesa Zenia Ir'Mirkull
