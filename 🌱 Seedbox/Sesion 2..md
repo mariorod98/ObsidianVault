@@ -36,3 +36,6 @@ Segundo piso
 
 
 He conocido a Teron en Cupramarth. Tiene una propuesta interesante de conquistar Murghyr. Se lo he hecho saber al consejo de la ciudad y me han encomendado la misión de ayudar a Teron en su misión y asegurar que Murghyr entre en nuestra zona de influencia. Junto a Teron a venido un humano, Chinka, que está un poco borracho.
+
+
+Teron esta en nombre de su patron. Ebondeth Draco lich. Va a convertirse en el nuevo señor del castillo
