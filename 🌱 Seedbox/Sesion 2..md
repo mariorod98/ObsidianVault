@@ -6,11 +6,13 @@ Portal (Goblin adoptado) - Muerto
 # Sesion 3
 Hemos conseguido que  la princesa Zenia y nosotros nos ayudemos
 En la sala de recepcion estan:
-Lady Murave
+Lady Murave ()
 Lord Alsarza (flota)
-Lady Niscarifa
+Lady Niscarifa (Anciana)
 Lord Algarvio
-Lord Arminio
+Lord Alminio (fuego en los ojos)
+
+A los lores no les cae bien la familia real, la aguantan para protegerse del dragon
 
 # Sesion 2
 Murghyr - Ciudad que queremos conquistar. Gobernada por familiares de Myrkull. Son casi momias. Se han sacao el corazon. Rey, princesa y un calvo familair lejano. Rey Nadir Ir'mirkull habla sobre atacar un dragon. Mujer femenina le trata de marioneta, Ashyra (ashaira pronunciacion) faraona de mullorand. Esta en guerra con las ciudades independientes.
