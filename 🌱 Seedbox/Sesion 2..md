@@ -11,7 +11,7 @@ Abrete por favor por Lady Murave. Uno de los 5 nobles que gobiernan la ciudad.
 No tengo compasion. Me rijo por las reg
 Lord Darrington, no es de por aqui. Acento de ulcer? Embajador. Negociar paz con mullorand. Podemos obtener recompensa mandando un cuervo.
 
-Asesina de Ulcer viene a matar a los nigromantes.
+Cazadora de monstruos venefere de Ulcer viene a matar a los nigromantes.
 
 El hongo ignifugo es del abismo.
 
