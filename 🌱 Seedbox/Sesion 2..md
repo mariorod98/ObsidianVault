@@ -31,7 +31,7 @@ Tengo que hablar con Lady Murabe. Quiere pedir armas a Murcamarth.
 Sala con estatuas MUY realistas con expresion de terror.
 Dormitorio de Zenia. Habitacion llena de muñecas que nos siguen con la mirada.
 
-Rami, el senescal del castillo, sabe donde esta el corazon de la princesa. Pariente lejano de la familia.
+Rami, el senescal del castillo, sabe donde esta el corazon de la princesa. Pariente lejano de la familia. Controla cosas del castillo con su piano barroco, caro de plata.
 
 # Sesion 2
 Murghyr - Ciudad que queremos conquistar. Gobernada por familiares de Myrkull. Son casi momias. Se han sacao el corazon. Rey, princesa y un calvo familair lejano. Rey Nadir Ir'mirkull habla sobre atacar un dragon. Mujer femenina le trata de marioneta, Ashyra (ashaira pronunciacion) faraona de mullorand. Esta en guerra con las ciudades independientes.
