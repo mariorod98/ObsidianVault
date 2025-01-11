@@ -8,7 +8,7 @@ Hemos conseguido que  la princesa Zenia y nosotros nos ayudemos
 En la sala de recepcion estan:
 Lady Murave
 Lord Alsarza (flota)
-Lady Niskarifa
+Lady Niscarifa
 Lord Algarvio
 Lord Arminio
 
