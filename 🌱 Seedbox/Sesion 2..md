@@ -13,7 +13,7 @@ Lord Algarvio (obama). Apoya.
 Lord Alminio (fuego en los ojos, tiene almohada que levita). Apoya.
 
 A los lores no les cae bien la familia real, la aguantan para protegerse del dragon.
-Zenia y ady Murave no se llevan bien
+Zenia y Lady Murave no se llevan bien.
 
 # Sesion 2
 Murghyr - Ciudad que queremos conquistar. Gobernada por familiares de Myrkull. Son casi momias. Se han sacao el corazon. Rey, princesa y un calvo familair lejano. Rey Nadir Ir'mirkull habla sobre atacar un dragon. Mujer femenina le trata de marioneta, Ashyra (ashaira pronunciacion) faraona de mullorand. Esta en guerra con las ciudades independientes.
