@@ -1,7 +1,7 @@
 Gladys
 Teron (Ramon)
 Chinka (Mega)
-Portal (Goblin adoptado)
+Portal (Goblin adoptado) - Muerto
 
 Murghyr - Ciudad que queremos conquistar. Gobernada por familiares de Myrkull. Son casi momias. Se han sacao el corazon. Rey, princesa y un calvo familair lejano. Rey Nadir Ir'mirkull habla sobre atacar un dragon. Mujer femenina le trata de marioneta, Ashyra faraona de mullorand. Esta en guerra con las ciudades independientes.
 
