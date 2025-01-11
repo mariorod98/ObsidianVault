@@ -7,10 +7,10 @@ Portal (Goblin adoptado) - Muerto
 Hemos conseguido que  la princesa Zenia y nosotros nos ayudemos
 
 En la sala de recepcion estan:
-Lady Murabe (). Quiere guerra.
+Lady Murabe (). Quiere guerra. Hermana de Algarbio. 
 Lord Alsarza (flota). Apoya.
-Lady Niscarif (Anciana). Quiere guerra.
-Lord Algarbio (obama). Apoya.
+Lady Niscarif (Anciana). Quiere guerra. Es la que tiene espias.
+Lord Algarbio (obama). Apoya. Rico y controla el ejercito.
 Lord Alminio (fuego en los ojos, tiene almohada que levita). Apoya.
 
 A los lores no les cae bien la familia real, la aguantan para protegerse del dragon.
@@ -22,7 +22,10 @@ Skalnedir, dragon azul de la tormenta.
 Su ciudad es mas poderosa que la nuestra. Es posible que quiera atacarnos. Quiere ser el protector de las ciudades libres.
 
 Ya han matado un dragon antes.
+La princesa/reina necesitaria un mes o un año para crear el ejercito de no muertos.
+Hay cuevas debajo de la ciudad llenas de no muertos (ahora muertos).
 
+Tengo que hablar con Lady Murabe. Quiere pedir armas a Murcamarth.
 # Sesion 2
 Murghyr - Ciudad que queremos conquistar. Gobernada por familiares de Myrkull. Son casi momias. Se han sacao el corazon. Rey, princesa y un calvo familair lejano. Rey Nadir Ir'mirkull habla sobre atacar un dragon. Mujer femenina le trata de marioneta, Ashyra (ashaira pronunciacion) faraona de mullorand. Esta en guerra con las ciudades independientes.
 
