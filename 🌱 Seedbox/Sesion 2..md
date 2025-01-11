@@ -39,6 +39,8 @@ Lady Albacea es la madre del rey. Es una banshee.
 
 Sala de juegos. Iara, fantasma que juega a cosas. Es la maestra del castillo de Goblins y Gorgonas.
 
+Ebondeth, patron de Teron. Antiguo avatar de myrkull. Dracholich que formo pacto con Myrkull.
+
 # Sesion 2
 Murghyr - Ciudad que queremos conquistar. Gobernada por familiares de Myrkull. Son casi momias. Se han sacao el corazon. Rey, princesa y un calvo familair lejano. Rey Nadir Ir'mirkull habla sobre atacar un dragon. Mujer femenina le trata de marioneta, Ashyra (ashaira pronunciacion) faraona de mullorand. Esta en guerra con las ciudades independientes.
 
