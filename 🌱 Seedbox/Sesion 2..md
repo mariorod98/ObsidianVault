@@ -7,6 +7,7 @@ Portal (Goblin adoptado) - Muerto
 Hemos conseguido que  la princesa Zenia y nosotros nos ayudemos
 
 En la sala de recepcion estan:
+
 Lady Murabe (). Quiere guerra. Hermana de Algarbio. 
 Lord Alsarza (flota). Apoya.
 Lady Niscarif (Anciana). Quiere guerra. Es la que tiene espias.
@@ -27,7 +28,10 @@ Hay cuevas debajo de la ciudad llenas de no muertos (ahora muertos).
 
 Tengo que hablar con Lady Murabe. Quiere pedir armas a Murcamarth.
 
-Sala con estatuas MUY realistas con expresion de terror
+Sala con estatuas MUY realistas con expresion de terror.
+Dormitorio de Zenia. Habitacion llena de muñecas que nos siguen con la mirada.
+
+Rami, el senescal del castillo, sabe donde esta el corazon de la princesa. Pariente lejano de la familia.
 
 # Sesion 2
 Murghyr - Ciudad que queremos conquistar. Gobernada por familiares de Myrkull. Son casi momias. Se han sacao el corazon. Rey, princesa y un calvo familair lejano. Rey Nadir Ir'mirkull habla sobre atacar un dragon. Mujer femenina le trata de marioneta, Ashyra (ashaira pronunciacion) faraona de mullorand. Esta en guerra con las ciudades independientes.
