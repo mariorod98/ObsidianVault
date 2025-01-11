@@ -13,12 +13,6 @@ Lord Darrington, no es de por aqui. Acento de ulcer? Embajador. Negociar paz con
 
 Asesina de Ulcer viene a matar a los nigromantes.
 
-Devota de Auril
-
-Barbuda y tetona. Alta para el estándar enano. Fuerte pero chichona.
-
-Oriunda de Cupramarth. Viene de una familia noble de la ciudad. Es una sacerdotisa devota de Auril (como? por que?). Ser de familia noble y sacerdotisa la hace la candidata ideal para ser la emisaria oficial del templo en la ciudad.
-
 El hongo ignifugo es del abismo.
 
 Segundo piso
@@ -26,6 +20,19 @@ Segundo piso
 2. Baldurs gate
 3. Desierto Purpura
 4. Cordillera izquierda desierto purpura
+
+Mujer con brazo de esqueleto dorado. Princesa Zenia Ir'Mirkull
+
+# Sesion 1
+Devota de Auril
+
+Barbuda y tetona. Alta para el estándar enano. Fuerte pero chichona.
+
+Oriunda de Cupramarth. Viene de una familia noble de la ciudad. Es una sacerdotisa devota de Auril (como? por que?). Ser de familia noble y sacerdotisa la hace la candidata ideal para ser la emisaria oficial del templo en la ciudad.
+
+
+
+
 
 
 **Cupramarth**. Mi ciudad natal. Soy emisaria de la ciudad.
@@ -39,7 +46,7 @@ He conocido a Teron en Cupramarth. Tiene una propuesta interesante de conquistar
 
 Teron esta en nombre de su patron. Ebondeth (pozo de mentiras segun la faraona) Draco lich. Va a convertirse en el nuevo señor del castillo
 
-Mujer con brazo de esqueleto dorado. Princesa Zenia Ir'Mirkull
+
 
 
 Gladys Barbaescarcha.
