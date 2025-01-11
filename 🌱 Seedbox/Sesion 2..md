@@ -10,7 +10,7 @@ Lady Murave (). Quiere guerra.
 Lord Alsarza (flota). Apoya.
 Lady Niscarifa (Anciana). Quiere guerra.
 Lord Algarvio (obama). Apoya.
-Lord Alminio (fuego en los ojos, tiene almohada que levita)
+Lord Alminio (fuego en los ojos, tiene almohada que levita). Apoya.
 
 A los lores no les cae bien la familia real, la aguantan para protegerse del dragon.
 Zenia y ady Murave no se llevan bien
