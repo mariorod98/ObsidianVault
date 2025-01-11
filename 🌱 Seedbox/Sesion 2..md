@@ -18,6 +18,8 @@ Zenia y Lady Murave no se llevan bien.
 
 Cada noble controla un barrio.
 
+Skalnedir, dragon azul de la tormenta.
+Su ciudad es mas poderosa que la nuestra. Es posible que quiera atacarnos. Quiere ser el protector de las ciudades libres.
 # Sesion 2
 Murghyr - Ciudad que queremos conquistar. Gobernada por familiares de Myrkull. Son casi momias. Se han sacao el corazon. Rey, princesa y un calvo familair lejano. Rey Nadir Ir'mirkull habla sobre atacar un dragon. Mujer femenina le trata de marioneta, Ashyra (ashaira pronunciacion) faraona de mullorand. Esta en guerra con las ciudades independientes.
 
