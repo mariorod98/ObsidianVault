@@ -10,7 +10,7 @@ Lady Murave ()
 Lord Alsarza (flota)
 Lady Niscarifa (Anciana)
 Lord Algarvio
-Lord Alminio (fuego en los ojos)
+Lord Alminio (fuego en los ojos, tiene almohada que levita)
 
 A los lores no les cae bien la familia real, la aguantan para protegerse del dragon
 
