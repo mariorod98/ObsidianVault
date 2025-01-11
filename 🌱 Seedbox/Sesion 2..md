@@ -4,7 +4,13 @@ Chinka (Mega)
 Portal (Goblin adoptado) - Muerto
 
 # Sesion 3
-
+Hemos conseguido que  la princesa Zenia y nosotros nos ayudemos
+En la sala de recepcion estan:
+Lady Murave
+Lord Alsarza (flota)
+Lady Niskarifa
+Lord Algarvio
+Lord Arminio
 
 # Sesion 2
 Murghyr - Ciudad que queremos conquistar. Gobernada por familiares de Myrkull. Son casi momias. Se han sacao el corazon. Rey, princesa y un calvo familair lejano. Rey Nadir Ir'mirkull habla sobre atacar un dragon. Mujer femenina le trata de marioneta, Ashyra (ashaira pronunciacion) faraona de mullorand. Esta en guerra con las ciudades independientes.
@@ -15,7 +21,7 @@ Abrete por favor por Lady Murave. Uno de los 5 nobles que gobiernan la ciudad.
 No tengo compasion. Me rijo por las reg
 Lord Darrington, no es de por aqui. Acento de ulcer? Embajador. Negociar paz con mullorand. Podemos obtener recompensa mandando un cuervo.
 
-Cazadora de monstruos venefere de Ulcer viene a matar a los nigromantes.
+Cazadora de monstruos Venefere de Ulcer viene a matar a los nigromantes.
 
 El hongo ignifugo es del abismo.
 
