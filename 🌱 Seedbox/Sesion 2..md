@@ -37,6 +37,8 @@ Zenia tiene una hermana pequeña que no quiere reinar. Estudia en Baldurs Gate. 
 
 Lady Albacea es la madre del rey. Es una banshee.
 
+Sala de juegos. Iara, fantasma que juega a cosas. Es la maestra del castillo de Goblins y Gorgonas.
+
 # Sesion 2
 Murghyr - Ciudad que queremos conquistar. Gobernada por familiares de Myrkull. Son casi momias. Se han sacao el corazon. Rey, princesa y un calvo familair lejano. Rey Nadir Ir'mirkull habla sobre atacar un dragon. Mujer femenina le trata de marioneta, Ashyra (ashaira pronunciacion) faraona de mullorand. Esta en guerra con las ciudades independientes.
 
