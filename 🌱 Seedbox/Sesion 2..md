@@ -27,6 +27,9 @@ Segundo piso
 
 Mujer con brazo de esqueleto dorado. Princesa Zenia Ir'Mirkull
 
+A Zenia no le cae bien su padre.
+
+
 # Sesion 1
 Devota de Auril
 
