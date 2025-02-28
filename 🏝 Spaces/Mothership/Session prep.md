@@ -51,3 +51,7 @@ If the horror wins, it has taken control of the station. What will the company d
 	- Soldiers are very territorial and might confront you.
 	- 
 **Something to Solve**
+- How to get into the dark area?
+- How to turn on the generator?
+- How to defeat the monster?
+- 
