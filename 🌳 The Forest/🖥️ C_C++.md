@@ -13,6 +13,7 @@ Some important concepts are:
 - [[What are the differences between enum and enum class]]
 - [[What is the Virtual Table in C++]]
 - [[Late and early binding]]
+- [[Smart Pointers in C++]]
 
 Some important keywords are:
 - [[C++ const|const]]
