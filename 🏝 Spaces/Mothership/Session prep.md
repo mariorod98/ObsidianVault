@@ -28,7 +28,7 @@ The horror is dead forever. Or maybe it is frozen, until the next researchers wa
 If the horror wins, it has taken control of the station. What will the company do to recover this precious asset?
 
 ## Survive, Solve and Save
-**Survive**
+**Something to Survive**
 - **Psychological trauma**
 	- Non functional station.
 	- Gore scenes where the horror has attacked.
@@ -36,3 +36,18 @@ If the horror wins, it has taken control of the station. What will the company d
 - **Environmental Hazard**
 	- Part of the station is full dark after power malfunction.
 	- Objects my be horrors in disguise.
+- **Social pressure**
+	- Survivors at the edge of madness.
+	- One Company guy that is adamant on capturing a horror, at any cost.
+	- Group of soldiers ready to take control of the situation.
+- **Resource scarcity**.
+	- Very few weapons and ammo on board.
+	- One horror detector in the dark part of the station.
+	- No map of the station until found.
+	- Only one source of cold.
+- **Violent Encounters**
+	- The horrors are always preparing ambushes.
+	- Survivors might fight you for resources.
+	- Soldiers are very territorial and might confront you.
+	- 
+**Something to Solve**
