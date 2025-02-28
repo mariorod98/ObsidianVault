@@ -9,5 +9,6 @@
   "interfaceFontFamily": "",
   "theme": "obsidian",
   "accentColor": "",
-  "nativeMenus": false
+  "nativeMenus": false,
+  "showRibbon": true
 }
