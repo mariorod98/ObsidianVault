@@ -2,9 +2,22 @@ up::
 tags:: #state/seedling #math/geometry #math/algebra
 
 # Vectors
-==A *vector* is a geometric object that has magnitude (or length) and direction.== Mathematically, a vector is simply an *array* of numbers. We say that the *dimension* of a vector is the number of elements in this array. A 1D vector is known as a [scalar].
+In linear algebra, a vector is just an array of numbers of n dimension. We say that the *dimension* of a vector is the number of elements in this array. A 1D vector is known as a [scalar].
 
-## Geometric definition of a vector
+In geometry, ==a *vector* is a geometric object that has magnitude and direction.==  It is represented by an arrow, the magnitude is the length of the arrow and the direction is where in the space coordinate is it pointing towards.
+
+## Properties of vectors
+### The zero vector
+For any set, the *additive identity* of the set is the element *x*, such that for all *y* in the set, $$y+x=y$$
+
+For the set of vectors of a particular dimension, the additive identity element is the so-called "zero-vector" of that dimension, which has zeros in every position.
+
+The zero vector is the only vector with a magnitude of zero. For any other magnitude, there are an infinite number of vectors of that magnitude.
+
+The zero vector express the concept of "no displacement".
+
+## Vector operations
+### Negating a vector
 
 
 ## References
