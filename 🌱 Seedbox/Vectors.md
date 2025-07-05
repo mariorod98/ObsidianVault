@@ -20,7 +20,11 @@ The zero vector express the concept of "no displacement".
 
 ## Vector operations
 ### Negating a vector
+For any set, the *additive inverse* of $x$, denoted by $-x$, is the element that yields the additive identity of that set (zero) when added to $x$. Put simply: $x+(-x)=0$.
 
+**Algebra rules**
+To negate a vector of any dimension, negate each component of the vector.
+$-\left[\begin{array}{c}a_1 \\ a_2 \\ \vdots \\ a_n\end{array}\right] = \left[\begin{array}{c}-a_1 \\ -a_2 \\ \vdots \\ -a_n\end{array}\right]$
 
 ## References
 
