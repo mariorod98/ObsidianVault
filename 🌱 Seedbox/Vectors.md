@@ -8,9 +8,11 @@ In geometry, ==a *vector* is a geometric object that has magnitude and directi
 
 ## Properties of vectors
 ### The zero vector
-For any set, the *additive identity* of the set is the element *x*, such that for all *y* in the set, $$y+x=y$$
+For any set, the *additive identity* of the set is the element *x*, such that for all *y* in the set, $y+x=y$
 
 For the set of vectors of a particular dimension, the additive identity element is the so-called "zero-vector" of that dimension, which has zeros in every position.
+
+$\mathbf{0}=\left[\begin{array}{c}0 \\ 0 \\ \vdots \\ 0\end{array}\right]$
 
 The zero vector is the only vector with a magnitude of zero. For any other magnitude, there are an infinite number of vectors of that magnitude.
 
