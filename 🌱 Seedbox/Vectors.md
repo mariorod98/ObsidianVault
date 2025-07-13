@@ -40,7 +40,11 @@ TODO: FINISH SECTION
 The magnitude of a vector is also known as the *length* or *norm* of the vector.
 
 **Algebra rules**
+In algebra, the magnitude of a vector is the square root of the sum of the squares of the components of the vector. Thus, it is a **nonnegative scalar quantity**.
 
+$\|\mathbf{v}\|=\sqrt{\sum_{i=1}^n v_i^2}=\sqrt{v_1^2+v_2^2+\cdots+v_{n-1}^2+v_n^2}$.
+
+**Geometric interpretation**
 
 ### Normalized vectors
 ## References
