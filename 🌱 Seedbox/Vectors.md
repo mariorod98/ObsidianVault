@@ -45,6 +45,14 @@ In algebra, the magnitude of a vector is the square root of the sum of the squar
 $\|\mathbf{v}\|=\sqrt{\sum_{i=1}^n v_i^2}=\sqrt{v_1^2+v_2^2+\cdots+v_{n-1}^2+v_n^2}$.
 
 **Geometric interpretation**
+For any vector $v$ in 2D, we can form a right triangle with $v$ as the hypotenuse.
+![[{D767260E-A410-4CCA-8F6E-1D6A52532C0E}.png]]
+The Pythagorean theorem states that for any triangle, the square of the length of the hypotenuse is equal to the sum of the squares of the length of the two sides.
+
+$\|\mathbf{v}\|^2=v_x^2+v_y^2$
+
+Then, by taking the square root in both sides, we get that 
+$\|\mathbf{v}\|=\sqrt{v_x^2+v_y^2}$
 
 ### Normalized vectors
 ## References
