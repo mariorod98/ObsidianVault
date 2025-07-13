@@ -29,6 +29,20 @@ $-\left[\begin{array}{c}a_1 \\ a_2 \\ \vdots \\ a_n\end{array}\right] = \left[\b
 **Geometric interpretation**
 Negating a vector results in a vector of the same magnitude but opposite direction.
 
+### Vector multiplication with a scalar
+The result of a multiplication between a vector and a scalar is a vector that is parallel with the original vector, except with a different length and possibly opposite direction.
+TODO: FINISH SECTION
+
+### Vector addition and subtraction
+TODO: FINISH SECTION
+
+### Vector magnitude
+The magnitude of a vector is also known as the *length* or *norm* of the vector.
+
+**Algebra rules**
+
+
+### Normalized vectors
 ## References
 
 ---
