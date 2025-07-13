@@ -1,0 +1,14 @@
+{
+  "cssTheme": "",
+  "translucency": false,
+  "baseFontSize": 17,
+  "enabledCssSnippets": [
+    "file-explorer-no-line-wrap"
+  ],
+  "textFontFamily": "",
+  "interfaceFontFamily": "",
+  "theme": "obsidian",
+  "accentColor": "",
+  "nativeMenus": false,
+  "showRibbon": true
+}

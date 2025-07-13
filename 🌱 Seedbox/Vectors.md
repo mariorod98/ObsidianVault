@@ -26,6 +26,9 @@ For any set, the *additive inverse* of $x$, denoted by $-x$, is the element that
 To negate a vector of any dimension, negate each component of the vector.
 $-\left[\begin{array}{c}a_1 \\ a_2 \\ \vdots \\ a_n\end{array}\right] = \left[\begin{array}{c}-a_1 \\ -a_2 \\ \vdots \\ -a_n\end{array}\right]$
 
+**Geometric interpretation**
+Negating a vector results in a vector of the same magnitude but opposite direction.
+
 ## References
 
 ---
