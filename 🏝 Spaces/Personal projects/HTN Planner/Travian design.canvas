@@ -9,11 +9,11 @@
 		{"id":"ddca904843c500e3","type":"text","text":"## PlayerController\nInteracts with the simulation.\n\nContains all the player info, including its villages.","x":-820,"y":-755,"width":361,"height":316}
 	],
 	"edges":[
-		{"id":"472369e9d5447a08","fromNode":"5563f4e8e4b19c3b","fromSide":"right","toNode":"d434310c25768c6d","toSide":"left","label":"contains [1...]"},
+		{"id":"472369e9d5447a08","fromNode":"5563f4e8e4b19c3b","fromSide":"right","toNode":"d434310c25768c6d","toSide":"left","fromEnd":"arrow","label":"contains [1,...]"},
 		{"id":"66278c317f7d64c1","fromNode":"d434310c25768c6d","fromSide":"bottom","toNode":"b9e8c855213e9600","toSide":"top","color":"5"},
 		{"id":"f8d9808d2ad90a88","fromNode":"d434310c25768c6d","fromSide":"bottom","toNode":"36369eb6bd64aa6b","toSide":"top","color":"5"},
 		{"id":"4559223d5a0a8579","fromNode":"759c48f08932e778","fromSide":"bottom","toNode":"104b5a5bd540223c","toSide":"top","label":"controls [1,1]"},
-		{"id":"55914a6e4e9b1008","fromNode":"ddca904843c500e3","fromSide":"bottom","toNode":"5563f4e8e4b19c3b","toSide":"top","label":"owns[1,...]"},
+		{"id":"55914a6e4e9b1008","fromNode":"ddca904843c500e3","fromSide":"bottom","toNode":"5563f4e8e4b19c3b","toSide":"top","fromEnd":"arrow","label":"owns[1,...]"},
 		{"id":"dab33ef3d41f1fb3","fromNode":"759c48f08932e778","fromSide":"bottom","toNode":"ddca904843c500e3","toSide":"top","label":"tracks[1,...]"}
 	]
 }
