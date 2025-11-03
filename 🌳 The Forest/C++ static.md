@@ -1,5 +1,5 @@
 up:: [[🖥️ C_C++]]
-tags:: #state/seedling #on/cpp
+tags:: #state/bud  #on/cpp
 
 # C++ static
 The **static** keyword can be used along with function and variable declarations. The meaning of the keyword varies between variables and functions and whether it is declared inside or outside a class.

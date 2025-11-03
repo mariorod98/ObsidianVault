@@ -1,25 +1,25 @@
-up::
-tags:: #state/seedling #math/geometry
+up:: [[📐 Geometry]]
+tags:: #state/bud #math/geometry
 
 # Cartesian Coordinate System
-A nD Cartesian Coordinate System is a space defined by two pieces of information:
+A $n$D Cartesian Coordinate System is a space defined by two pieces of information:
 - The *origin*, a nD point that defines the center of the coordinate system.
-- N axes, usually perpendicular to each other.
+- $n$ axes, usually perpendicular to each other.
 
-This coordinate space is, in theory, **boundless**, all the axes extend potentially infinitely.
+in theory, this coordinate space is **boundless**, all the axes extend potentially infinitely.
 
 ## How to use it
 A coordinate space is a framework for specifying location precisely and mathematically. To define the location of  a point in a Cartesian coordinate space, we use Cartesian 
-*coordinates*. 
+coordinates. 
 
 ## 2D coordinate system
-In 2D, two numbers are used to specify a location, *x* and *y*. Each number is the signed distance to one of the axes. The *x* coordinate designates the signed distance from the point to the *y*-axis, measured along a line parallel to the *x*-axis. Likewise, the *y* 
-coordinate designates the signed distance from the point to the *x*-axis, measured along a line parallel to the *y*-axis.
+In 2D, two numbers are used to specify a location, $x$ and $y$. Each number is the signed distance to one of the axes. The $x$ coordinate designates the signed distance from the point to the $y$-axis, measured along a line parallel to the $x$-axis. Likewise, the $y$ 
+coordinate designates the signed distance from the point to the $x$-axis, measured along a line parallel to the $y$-axis.
 
 ![[Pasted image 20250705231710.png]]
 
 ## 3D coordinate system
-In 3D, any pair of axes defines a plane that contains two axes and is perpendicular to the third axis (the plane containing x- and y-axes is the *xy* plane, etc). We can consider any of these planes a 2D Cartesian coordinate space in its own right.
+In 3D, any pair of axes defines a plane that contains two axes and is perpendicular to the third axis (the plane containing x- and y-axes is the $xy$ plane, etc). We can consider any of these planes a 2D Cartesian coordinate space in its own right.
 
 ![[Pasted image 20250705231723.png]]
 

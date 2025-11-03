@@ -1,5 +1,5 @@
-up::
-tags:: #state/seedling
+up:: [[📐Design Patterns]]
+tags:: #state/seedling #on/programming/patterns
 
 # Service Locator
 Una clase con un montón de punteros a interfaces, esta clase se pasa como "contexto" a los objetos que la necesiten.

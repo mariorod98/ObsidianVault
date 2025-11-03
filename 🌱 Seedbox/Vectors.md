@@ -1,5 +1,5 @@
-up::
-tags:: #state/seedling #math/geometry #math/algebra
+up::  
+tags:: #state/seedling #on/math/geometry #on/math/algebra
 
 # Vectors
 In linear algebra, a vector is just an array of numbers of n dimension. We say that the *dimension* of a vector is the number of elements in this array. A 1D vector is known as a [scalar].

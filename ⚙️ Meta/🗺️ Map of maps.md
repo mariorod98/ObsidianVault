@@ -8,12 +8,16 @@ Here you will find the [[Maps of contents|MOCs]] available in [[🪴 Tending thi
 ## Thinking & Learning
 - [[🗃️ PKM]]
 
+## Programming
+- [[🖥️ C_C++ | 🖥️ C/C++]]
+- [[🐍 Python]]
+- [[📐Design Patterns]]
+
 ##  Videogames Programming
 - [[⚙️Unreal Engine 4]]
 - [[🌈 Graphics Programming]]
 - [[🎮 Game Design]]
 - [[⚔️ Clausewitz Engine]]
 
-## Programming
-- [[🖥️ C_C++ | 🖥️ C/C++]]
-- [[📐Design Patterns]]
+## Math
+- [[📐 Geometry]]
