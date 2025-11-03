@@ -1,13 +1,35 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "path:\"🌱 Seedbox\" OR  path:\"🌳 The Forest\"  ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [],
-  "collapse-display": false,
+  "colorGroups": [
+    {
+      "query": "tag:#state/seedling  ",
+      "color": {
+        "a": 1,
+        "rgb": 65280
+      }
+    },
+    {
+      "query": "tag:#state/bud  ",
+      "color": {
+        "a": 1,
+        "rgb": 30720
+      }
+    },
+    {
+      "query": "tag:#state/forest  ",
+      "color": {
+        "a": 1,
+        "rgb": 15360
+      }
+    }
+  ],
+  "collapse-display": true,
   "showArrow": true,
   "textFadeMultiplier": -3,
   "nodeSizeMultiplier": 1.35738663675693,
@@ -17,6 +39,6 @@
   "repelStrength": 13.0846138361404,
   "linkStrength": 0.662111442594553,
   "linkDistance": 267,
-  "scale": 0.17630805360403853,
-  "close": true
+  "scale": 0.34654336065938146,
+  "close": false
 }

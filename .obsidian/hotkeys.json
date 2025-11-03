@@ -547,5 +547,13 @@
       ],
       "key": "."
     }
+  ],
+  "obsidian-git:open-git-view": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "G"
+    }
   ]
 }

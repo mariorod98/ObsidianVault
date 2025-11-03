@@ -1,4 +1,5 @@
-tags: state/bud on/graphics
+up::
+tags:: #state/bud #on/graphics
 
 # What is a geometry pipeline?
 The geometry pipeline corresponds to the geometry stage of the [[A graphic pipeline is used to create a 2D representation from a 3D scene|graphic pipeline]]. It is responsible for the majority of the operation with polygons and their vertices. The objective of this pipeline is to **transform the vertices of the primitives from model space to clipping space**. It has three steps:
@@ -11,4 +12,4 @@ The geometry pipeline corresponds to the geometry stage of the [[A graphic pipel
 
 ---
 Planted: 2022-01-16
-Last tended: 2022-01-16
+Last tended: 2025-11-03

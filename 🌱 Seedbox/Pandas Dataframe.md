@@ -1,5 +1,5 @@
-up::
-tags:: #state/seedling
+up:: [[🐍 Python]]
+tags:: #state/seedling #on/python/library
 
 # Pandas Dataframe
 
@@ -92,4 +92,4 @@ dataframe[["temperature", "unemployment"]].agg([iqr, "mean"])
 
 ---
 Planted: 2025-10-07
-Last tended: 2025-10-07
+Last tended: 2025-11-03
