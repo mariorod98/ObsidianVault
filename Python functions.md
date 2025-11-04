@@ -104,9 +104,24 @@ reassign(my_list, my_other_list) # prints [3, 4]
 print(my_list) # prints (1, 2)
 ```
 
-### Call functions with parameter list or dictionary
+### Positional vs keyword arguments
+When we call a function, we can specify the arguments in three ways:
+- By specifying all its parameters sequentially as they are defined in the function header. In this case, we talk about **positional arguments**.
+- By preceding each argument with the parameter name. In this case, we talk about **keyword arguments**. in this case, the order does not have to be respected.
+- Using both types of arguments. However, ==you must specify first the positional arguments and then the keyword arguments==.
 
+```python
+from math import sqrt
 
+def distance(x1, y1, x2, y2):
+	return sqrt((x1 - x2)**2 + (y1 - y2)**2)
+
+# positional arguments
+distance(3.0, 4.5, 1.0, 5.6)
+
+# keyword arguments
+distance(x1=3.0, y1= 1.0, y2=5.6, x2=4.5)
+```
 ### Optional parameters
 Functions can have parameters with default values. In this case, these parameters can be omitted in the call and they will have the default value.
 
@@ -129,8 +144,20 @@ def func3(arg1, arg2 = False, arg3):
 	# body
 ```
 
-### Parameter expansion
+### Argument expansion
+In python functions, you can specify an arbitrary number of arguments in two ways:
+- By using `*`, you specify a variable number of [[positional arguments]]. This will be a tuple with all the arguments in order.
+- By using `**`, you specify a variable number of [[keyword arguments]]. This will be a dictionary with the pairs name:value of the arguments.
 
+```python
+def sum_values(*values):
+	result = 0
+	for v in values:
+		result += v
+	return result
+	
+def 
+```
 
 ## References
 https://stackabuse.com/python-nested-functions/
