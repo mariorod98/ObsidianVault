@@ -122,6 +122,7 @@ distance(3.0, 4.5, 1.0, 5.6)
 # keyword arguments
 distance(x1=3.0, y1= 1.0, y2=5.6, x2=4.5)
 ```
+
 ### Optional parameters
 Functions can have parameters with default values. In this case, these parameters can be omitted in the call and they will have the default value.
 
