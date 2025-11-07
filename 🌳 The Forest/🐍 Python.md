@@ -16,6 +16,15 @@ The basic structures are:
 - [[Dictionary]]
 - [[Set]]
 
+Some important concepts about *functions* are:
+- [[In python, functions can be defined in three different scopes]]
+- [[In python, you can reference global and nonlocal variables inside functions]]
+- [[In python, parameters are passed by reference]]
+- [[In python, there are positional and keyword arguments]]
+- [[In python, keyword parameters can have default values]]
+- [[In python, you can specify an arbitrary number of arguments for functions]]
+- [[In python, functions always return a single object]]
+
 Some useful functions for iterables are:
 - [[Reduce function|Reduce]]
 - [[Filter function|Filter]]
@@ -24,6 +33,7 @@ Some useful functions for iterables are:
 Some useful libraries are:
 - [[Pandas Dataframe|pandas]]
 - [[functools]]
+- [[datetime]]
 - [[numpy]]
 - [[matplotlib]]
 - [[scikit-learn]]

@@ -1,4 +1,4 @@
-up:: [[📐 Geometry]]
+up:: [[⭕ Geometry]]
 tags:: #state/bud #math/geometry
 
 # Cartesian Coordinate System

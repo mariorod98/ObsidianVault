@@ -17,7 +17,6 @@ Here you will find the [[Maps of contents|MOCs]] available in [[🪴 Tending thi
 - [[⚙️Unreal Engine 4]]
 - [[🌈 Graphics Programming]]
 - [[🎮 Game Design]]
-- [[⚔️ Clausewitz Engine]]
 
 ## Math
-- [[📐 Geometry]]
+- [[⭕ Geometry]]

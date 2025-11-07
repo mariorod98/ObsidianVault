@@ -9,3 +9,5 @@ tags:: #state/seedling
 # <% tp.file.title %>
 
 ## References
+
+## Related notes
