@@ -9,7 +9,7 @@ tags:: #state/seedling #on/python/library/pandas
 # pandas Series
 A Series is a one-dimensional array-like object that contains a sequence of values **of the same type** (like [[numpy arrays]]). These values are associated to an *index*.
 
-Whenever you slice a [[pandas Dataframe|Dataframe]] to one column, you create a Series.
+Whenever you slice a [[pandas DataFrame|Dataframe]] to one column, you create a Series.
 ## Operation
 ### Convert from and to a dict
 ```python

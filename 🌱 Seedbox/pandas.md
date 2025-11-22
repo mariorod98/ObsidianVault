@@ -9,7 +9,7 @@ tags:: #state/seedling #on/python/library/pandas
 # pandas
 pandas is an open source [[🐍 Python]] library specialised in data manipulation of tabular data structures. It is designed to make data manipulation and analysis fast and convenient.
 
-The most important concepts of the library are the [[pandas Series|Series]] and the [[pandas Dataframe|Dataframes]].
+The most important concepts of the library are the [[pandas Series|Series]] and the [[pandas DataFrame|Dataframes]].
 ## References
 
 ## Related notes
