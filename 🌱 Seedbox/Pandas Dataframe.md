@@ -1,5 +1,5 @@
 up:: [[🐍 Python]]
-tags:: #state/seedling #on/python/library
+tags:: #state/seedling #on/python/library/pandas
 
 # Pandas Dataframe
 

@@ -31,7 +31,7 @@ Some useful functions for iterables are:
 - [[Map function|Map]]
 
 Some useful libraries are:
-- [[Pandas Dataframe|pandas]]
+- [[pandas]]
 - [[functools]]
 - [[datetime]]
 - [[numpy]]
