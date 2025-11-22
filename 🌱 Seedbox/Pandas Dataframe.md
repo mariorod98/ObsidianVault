@@ -7,8 +7,11 @@ up:: [[🐍 Python]]
 tags:: #state/seedling #on/python/library/pandas
 
 # pandas DataFrame
-A DataFrame is a rectangular table of data and contains an ordered, named collection of columns, each of which can be a different value type.
+A DataFrame is a rectangular table of data and contains an ordered, named collection of columns, each of which can be a different value type. It can be thought as a dictionary of [[pandas Series|Series]].
 
+![[Pasted image 20251122121003.png]]
+
+## Obtaining DataFrame infos
 ## Subsetting
 You can create a subset of a dataset using the `[]` operators. These are very versatile and include multitude of ways to access the data. The subset returns a [[Pandas Series]] if it is only a column.
 
