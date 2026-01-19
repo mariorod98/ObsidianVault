@@ -9,6 +9,7 @@ Python is the most used programming language in [[📋 Data Science]].
 Some basic concepts are:
 - [[Lambda expressions]]
 - [[Iterables]]
+- [[Parallel programming in Python]]
 
 The basic structures are:
 - [[A list is a mutable sequence of typically homogenous elements]]
