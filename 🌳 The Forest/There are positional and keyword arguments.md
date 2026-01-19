@@ -1,12 +1,12 @@
 ---
 created: 2025-11-07
-last updated: 2025-11-07
+last updated: 2026-01-19
 ---
 
 up:: [[🐍 Python]]
 tags:: #state/bud #on/python
 
-# In python, there are positional and keyword arguments
+# There are positional and keyword arguments
 When we call a function, we can specify the arguments in three ways:
 - By specifying all its parameters sequentially as they are defined in the function header. In this case, we talk about **positional arguments**.
 - By preceding each argument with the parameter name. In this case, we talk about **keyword arguments**. in this case, the order does not have to be respected.
@@ -37,4 +37,4 @@ distance(3.0, 1.0, 5.6 ,y1 = 1.0)
 ## References
 
 ## Related notes
-[[In python, keyword parameters can have default values]]
+[[Keyword parameters can have default values]]

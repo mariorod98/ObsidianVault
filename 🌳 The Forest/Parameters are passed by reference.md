@@ -1,12 +1,12 @@
 ---
 created: 2025-11-07
-last updated: 2025-11-07
+last updated: 2026-01-19
 ---
 
 up:: [[🐍 Python]]
 tags:: #state/bud #on/python 
 
-# In python, parameters are passed by reference
+# Parameters are passed by reference
 In Python, parameters are passed by reference, modifying their internal state in a function will modify the object outside the function. ==However, assigning them inside a function will not modify them outside, just reassign the variable to a new local object==.
 
 ```python

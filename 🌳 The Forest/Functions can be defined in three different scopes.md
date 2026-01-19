@@ -1,12 +1,12 @@
 ---
 created: 2025-11-07
-last updated: 2025-11-07
+last updated: 2026-01-19
 ---
 
 up:: [[🐍 Python]]
 tags:: #state/bud #on/python
 
-# In python, functions can be defined in three different scopes
+# Functions can be defined in three different scopes
 Functions are local to the scope they are declared: 
 - **If declared in global scope**, they can be accessed everywhere in the file.
 - **If declared inside a class**, they are member functions of the class.
@@ -42,4 +42,4 @@ def my_func(value):
 [Python Nested Functions](https://stackabuse.com/python-nested-functions/)
 
 ## Related notes
-[[In python, you can reference global and nonlocal variables inside functions]]
+[[You can reference global and nonlocal variables inside functions]]

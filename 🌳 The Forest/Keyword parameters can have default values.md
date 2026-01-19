@@ -6,7 +6,7 @@ last updated: 2025-11-07
 up:: [[🐍 Python]]
 tags:: #state/bud #on/python
 
-# In python, keyword parameters can have default values
+# Keyword parameters can have default values
 In this case, these parameters can be omitted in the call and they will have the default value. ==Parameters with default values must be at the end of the parameter list.==
 
 ```python
@@ -31,4 +31,4 @@ def func3(arg1, arg2 = False, arg3):
 ## References
 
 ## Related notes
-[[In python, there are positional and keyword arguments]]
+[[There are positional and keyword arguments]]

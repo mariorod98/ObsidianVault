@@ -50,14 +50,6 @@
       "key": "8"
     }
   ],
-  "editor:swap-line-up": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "1"
-    }
-  ],
   "app:go-forward": [
     {
       "modifiers": [
@@ -123,14 +115,6 @@
       "key": "G"
     }
   ],
-  "workspace:edit-file-title": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "L"
-    }
-  ],
   "app:toggle-right-sidebar": [
     {
       "modifiers": [
@@ -141,15 +125,6 @@
     }
   ],
   "note-refactor-obsidian:app:extract-selection-content-only": [],
-  "calendar:open-weekly-note": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "M"
-    }
-  ],
   "table-editor-obsidian:table-control-bar": [
     {
       "modifiers": [
@@ -157,15 +132,6 @@
         "Mod"
       ],
       "key": ";"
-    }
-  ],
-  "editor:open-link-in-new-leaf": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "Enter"
     }
   ],
   "note-refactor-obsidian:app:extract-selection-first-line": [
@@ -340,23 +306,6 @@
       "key": "ArrowDown"
     }
   ],
-  "hotkeysplus-obsidian:toggle-bullet-number": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "3"
-    }
-  ],
-  "workspace:close-others": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "W"
-    }
-  ],
   "file-explorer:reveal-active-file": [
     {
       "modifiers": [
@@ -384,14 +333,6 @@
   "pane-relief:put-3rd": [],
   "pane-relief:put-2nd": [],
   "pane-relief:put-1st": [],
-  "editor:swap-line-down": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "2"
-    }
-  ],
   "obsidian-sample-plugin:prompt-random": [
     {
       "modifiers": [

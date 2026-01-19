@@ -11,19 +11,19 @@ Some basic concepts are:
 - [[Iterables]]
 
 The basic structures are:
-- [[List]]
-- [[Tuple]]
+- [[A list is a mutable sequence of typically homogenous elements]]
+- [[A tuple is an immutable sequence of elements]]
 - [[Dictionary]]
 - [[Set]]
 
 Some important concepts about *functions* are:
-- [[In python, functions can be defined in three different scopes]]
-- [[In python, you can reference global and nonlocal variables inside functions]]
-- [[In python, parameters are passed by reference]]
-- [[In python, there are positional and keyword arguments]]
-- [[In python, keyword parameters can have default values]]
-- [[In python, you can specify an arbitrary number of arguments for functions]]
-- [[In python, functions always return a single object]]
+- [[Functions can be defined in three different scopes]]
+- [[You can reference global and nonlocal variables inside functions]]
+- [[Parameters are passed by reference]]
+- [[There are positional and keyword arguments]]
+- [[Keyword parameters can have default values]]
+- [[You can specify an arbitrary number of arguments for functions]]
+- [[Functions always return a single object]]
 
 Some useful functions for iterables are:
 - [[Reduce function|Reduce]]

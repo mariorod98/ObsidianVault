@@ -1,12 +1,12 @@
 ---
 created: 2025-11-07
-last updated: 2025-11-07
+last updated: 2026-01-19
 ---
 
 up:: [[🐍 Python]]
 tags:: #state/bud #on/python
 
-# In python, you can reference global and nonlocal variables inside functions
+# You can reference global and nonlocal variables inside functions
 Functions can declare local variables inside their own scope. **These variables can have the same name as variables in global or other scopes**. If a local variable is created (as in, assigned a value) with the same name as a global variable, the function will use and modify only the local variable.
 
 ==To use a global variable inside a function, we use the keyword `global`.==
@@ -58,4 +58,4 @@ def func4():
 ## References
 
 ## Related notes
-[[In python, functions can be defined in three different scopes]]
+[[Functions can be defined in three different scopes]]

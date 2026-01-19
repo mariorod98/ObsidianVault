@@ -19,4 +19,4 @@ Here you will find the [[Maps of contents|MOCs]] available in [[🪴 Tending thi
 - [[🎮 Game Design]]
 
 ## Math
-- [[⭕ Geometry]]
+- [[🔢The Great Atlas of Mathematics]]

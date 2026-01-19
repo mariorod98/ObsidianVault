@@ -8,7 +8,7 @@ It's Garden, with capital `G`, because this is my [[Digital garden]].
 
 ## Setup
 
-See the [[Folder structure]] in place and the [[Tag taxonomy]].
+See the [[Folder structure]] in place and the [[Tag taxonomy]] and [[Writing style]].
 
 Some [[Obsidian plugins|Plugins]] have been installed.
 
@@ -16,5 +16,5 @@ Some [[Obsidian plugins|Plugins]] have been installed.
 
 **Newly created notes** are automatically put within the `🌱 Seedbox` folder.
 
-The **emoji** selector can be brought with `Ctrl+Shift+,` (this shortcut can be changed in the `Hotkeys` section in the `Options` dialog).
+The **emoji** selector can be brought with `Ctrl+.` (this shortcut can be changed in the `Hotkeys` section in the `Options` dialog).
 
