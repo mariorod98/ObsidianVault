@@ -58,12 +58,16 @@ Buenas equipo. El planteamiento de Diego me parece muy buena idea, pero coincido
 Yo priorizaría hablar con los encargados de los departamentos pertinentes (ventas, entiendo) para que nos expliquen ellos cómo recaban y gestionan los datos, qué pausas utilizan (si alguna) y qué medios (excel, base de datos o ambos).
 
 ## Abro hilo imposibilidad de realizar la tarea
-Buenas equipo,
-El plan propuesto por Gonzalo de llevar a cabo un MVP para sacar las castañas del fuego al CEO me parece la idea más adecuada (teniendo en cuenta el tiempo que tenemos). Sin embargo, yo propongo otra opción, puede que descabellada: explicarle al CEO, con franqueza, que lo que pide es imposible.
+Buenas equipo.
 
-Partiendo del modelo de madurez DELTTA de Davenport, Harris y Morison (explicado en el tema de Organizaciones orientadas a datos), nuestra organización se encuentra en casi todos los apartados en la fase 1: **Incapacidad analítica**. La organización no está capacitada de ninguna manera para implantar un proyecto analítico de predicción de ventas **en una semana**. Temo que si intentamos llevar a cabo el proyecto en este margen de tiempo, no vamos a poder garantizar unos buenos resultados.
+El plan propuesto por Gonzalo de llevar a cabo un MVP para sacar las castañas del fuego al CEO me parece la idea más adecuada (teniendo en cuenta el tiempo que tenemos). Sin embargo, yo propongo otra opción: explicarle al CEO, con franqueza, que lo que pide es imposible. Partiendo del modelo de madurez DELTTA de Davenport, Harris y Morison [1], nuestra organización se encuentra en casi todos los apartados en la fase 1: **Incapacidad analítica**. La organización no está capacitada para implantar un proyecto analítico de predicción de ventas en una semana. Temo que **no vamos a poder garantizar unos buenos resultados**.
 
-Mi propuesta es:
-1. El CEO ha tenido reuniones con inversores antes de nuestra llegada. Para esta ocasión, tendrá que utilizar las herramientas de las que disponía en las anteriores ocasiones. Podemos dedicar parte del equipo a ayudarle recopilar y limpiar datos y que realice alguna predicción en base a modelos de regresión lineal en excel.
-2. Comenzar con el proceso de transformación a una organización orientada al dato. Utilizando el modelo DELTTA, analizar en qué fase está la organización para cada factor y trabajar para mejorarlos. Por ejemplo, estandarizar los datos que se generan en la empresa, crear un data warehouse, hacer limpieza de todos los datos que la empresa tiene actualmente, etc.
-3. Comenzar a implantar una cultura de orientación al dato en la organización. Analizar cómo trabajan los distintos departamentos de la organización y realizar talleres para enseñarles las buenas prácticas a la hora de trabajar con los datos. Como se explica en *Organizaciones orientadas al dato*, uno de los primeros pasos debe ser cambiar la actitud, hábitos y conocimientos de los usuarios de negocio para que nuestra labor sea luego más sencilla y eficaz.
+Mi propuesta para esta semana de caos es:  
+1. El CEO ha tenido reuniones con inversores antes de nuestra llegada. Para esta ocasión, tendrá que utilizar las herramientas de las que disponía en las anteriores ocasiones. Podemos dedicar parte del equipo a ayudarle recopilar y limpiar datos y que realice alguna predicción en base a modelos de regresión lineal en excel.  
+2. Comenzar con el proceso de transformación a una organización orientada al dato. Utilizando el modelo DELTTA, analizar en qué fase está la organización para cada factor y trabajar para mejorarlos.
+
+**¿Qué resultados tendría esta acción?**
+
+A corto plazo, puede que la perdida de confianza del CEO. Sin embargo, a largo plazo, aprovecharemos esta semana para comenzar a sentar las bases para que esta organización pase a ser una organización orientada al dato.
+
+¿Qué os parece la idea?¿Creéis que es demasiado arriesgado o que el CEO no entendería el rechazo?¿Cómo garantizamos la calidad de la predicción si no?
