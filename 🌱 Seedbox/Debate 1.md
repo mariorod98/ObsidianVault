@@ -53,4 +53,16 @@ Intentamos centrarnos en la estructura?
 
 
 ## Respuesta hilo Diego Manuel
-Buenas equipo. El planteamiento de Diego me parece muy buena idea, pero coincido con Gonzalo, no tenemos tiempo en una semana de llevar a cabo tal transformación. Analizando la situación, no tenemos el tiempo ni el capital de implantar un proyecto analítico en una semana.
+Buenas equipo. El planteamiento de Diego me parece muy buena idea, pero coincido con Gonzalo, no tenemos tiempo en una semana de llevar a cabo tal transformación. Analizando la situación, no tenemos el tiempo ni el capital de implantar un proyecto analítico en una semana. Por lo que opto por la idea de Gonzalo de un MVP. 
+
+Yo priorizaría hablar con los encargados de los departamentos pertinentes (ventas, entiendo) para que nos expliquen ellos cómo recaban y gestionan los datos, qué pausas utilizan (si alguna) y qué medios (excel, base de datos o ambos).
+
+## Abro hilo imposibilidad de realizar la tarea
+Buenas equipo,
+El plan propuesto por Gonzalo de llevar a cabo un MVP para sacar las castañas del fuego al CEO me parece la idea más adecuada (teniendo en cuenta el tiempo que tenemos). Sin embargo, yo propongo otra opción, puede que descabellada: explicarle al CEO, con franqueza, que lo que pide es imposible.
+
+Partiendo del modelo de madurez DELTTA de Davenport, Harris y Morison (explicado en el tema de Organizaciones orientadas a datos), nuestra organización se encuentra en casi todos los apartados en la fase 1: **Incapacidad analítica**. La organización no está capacitada de ninguna manera para implantar un proyecto analítico de predicción de ventas **en una semana**. Temo que si intentamos llevar a cabo el proyecto en este margen de tiempo, no vamos a poder garantizar unos buenos resultados.
+
+Mi propuesta es:
+1. El CEO ha tenido reuniones con inversores antes de nuestra llegada. Para esta ocasión, tendrá que utilizar las herramientas de las que disponía en las anteriores ocasiones. Podemos dedicar parte del equipo a ayudarle recopilar y limpiar datos y que realice alguna predicción en base a modelos de regresión lineal en excel.
+2. Comenzar con el proceso de transformación a una organización orientada al dato. Utilizando el modelo DELTTA, analizar en qué fase está la organización para cada factor y trabajar para mejorarlos. Por ejemplo, estandarizar los datos que se generan en la empresa, crear un data warehouse, hacer limpieza de todos los datos que la empresa tiene actualmente, etc.
