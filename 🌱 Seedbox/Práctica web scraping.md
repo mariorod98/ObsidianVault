@@ -15,5 +15,7 @@ Paginas web que permiten el scraping y almacenamiento de sus datos
 - Tiene derecho de autor, asi que no prodiamos almacenar imagenes o la noticia entera, pero si keywords.
 - Gestion de javascript
 
-
 Selenium para tocar ofertas. En las ofertas filtrar portatil u ordenador
+Coolodown entre peticiones
+Dimension de tiempo
+Descarga de imagenes
