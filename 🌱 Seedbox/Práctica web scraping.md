@@ -14,3 +14,6 @@ Paginas web que permiten el scraping y almacenamiento de sus datos
 - Analizar el sesgo de los periódicos. Cuánto hablan sobre un tema en comparación de otros. Cuanto mencionan a un politico en sus titulares. Cuales son los temas mas prominentes de la semana.
 - Tiene derecho de autor, asi que no prodiamos almacenar imagenes o la noticia entera, pero si keywords.
 - Gestion de javascript
+
+
+Selenium para tocar ofertas. En las ofertas filtrar portatil u ordenador
