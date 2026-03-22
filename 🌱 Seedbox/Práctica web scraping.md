@@ -19,3 +19,7 @@ Selenium para tocar ofertas. En las ofertas filtrar portatil u ordenador
 Coolodown entre peticiones
 Dimension de tiempo
 Descarga de imagenes
+
+[python - Selenium headless: How to bypass Cloudflare detection using Selenium - Stack Overflow](https://stackoverflow.com/questions/68289474/selenium-headless-how-to-bypass-cloudflare-detection-using-selenium)
+
+[python - Selenium headless: How to bypass Cloudflare detection using Selenium - Stack Overflow](https://stackoverflow.com/questions/68289474/selenium-headless-how-to-bypass-cloudflare-detection-using-selenium)
