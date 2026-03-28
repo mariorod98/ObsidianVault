@@ -42,3 +42,5 @@ Descarga de imagenes
 		- Selenium y los captcha
 		- Bloqueo temporal durante la descarga de archivos
 - Mostrar el dataset en zenodo y explicar la licencia que hemos escogido
+
+Meter scrapping de ofertas en el dataset
