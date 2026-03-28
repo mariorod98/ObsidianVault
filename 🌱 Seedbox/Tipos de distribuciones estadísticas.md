@@ -1,0 +1,3 @@
+- **Distribución de Bernoulli**. Se usa para variables aleatorias binarias. B(p) donde p es la probabilidad de que la variable sea 1 y 1-p la probabilidad de que sea 0.
+- **Distribución binomial**. Es una extensión de la distribución de bernoulli. Se usa para variables aleatorias que cuentan el número de veces que un suceso pasa. La variable puede tomar valores entre 0 y n. B(n, p), p es la probabilidad de exito (como en Bernoulli) y n es el número de intentos.
+- **Distribución geométrica**.
