@@ -17,3 +17,17 @@ Respondiendo a las preguntas del reto:
 	- **Monitorizar la calidad del dato**:  Deberíamos garantizar que el dato mantiene estos estandares de calidad y que no surgen nuevas incompatibilidades al entrar nuevos datos. Para esto, creo que estaria bien tener unos indicadores de calidad, que sean cuantificables y se puedan evaluar a lo largo del tiempo.
 	- **Informar**: Mantener actualizado a todo el equipo sobre la calidad del dato y las posibles mejoras implementadas, estado del monitoreo, etc.
 **¿Qué decisiones tomaríais y cuál sería el resultado esperado del reto?**
+
+
+
+
+
+Buenas equipo,
+
+Estoy completamente de acuerdo con todos vosotros. Resumiendo las ideas que habéis planteado, las acciones a priorizar para resolver este problema serían:
+- Por un lado, corregir los errores en los datos existentes llevando a cabo un proceso de limpieza de los datos y unificar los datos de las tres fuentes de datos.
+- Por el otro, comenzar a diseñar e implementar un programa de gobierno del dato que evite que casos como este vuelvan a surgir en el futuro. 
+
+Creo que la parte de corregir los errores en los datos actuales la tenemos ya bien definida. 
+
+Respecto a la gobernanza del dato, me sumo a las propuestas de @José Rodríguez Sojo, @Iker Rodrigo Serrato Soteno y @José Rodríguez Sojo.
