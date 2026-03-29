@@ -22,12 +22,13 @@ Respondiendo a las preguntas del reto:
 
 
 
-Buenas equipo,
 
-Estoy completamente de acuerdo con todos vosotros. Resumiendo las ideas que habéis planteado, las acciones a priorizar para resolver este problema serían:
-- Por un lado, corregir los errores en los datos existentes llevando a cabo un proceso de limpieza de los datos y unificar los datos de las tres fuentes de datos.
-- Por el otro, comenzar a diseñar e implementar un programa de gobierno del dato que evite que casos como este vuelvan a surgir en el futuro. 
+Buenas equipo.
 
-Creo que la parte de corregir los errores en los datos actuales la tenemos ya bien definida. 
+Respecto a la gobernanza del dato, me sumo a las propuestas de @José Rodríguez Sojo, @Iker Rodrigo Serrato Soteno y @José Rodríguez Sojo. Creo que es un programa de mantenimiento de la calidad del dato muy bien definido.
 
-Respecto a la gobernanza del dato, me sumo a las propuestas de @José Rodríguez Sojo, @Iker Rodrigo Serrato Soteno y @José Rodríguez Sojo.
+Más allá de la calidad del dato, creo deberíamos hablar también sobre otros aspectos del programa de gobierno del dato, aunque sea para plantear el diseño inicial de este programa.
+
+En mi opinión, lo más importante es la necesidad de definir los **datos maestros** de nuestro sistema y de asegurar que su ciclo de vida es adecuado. Actualmente, los datos con los que trabajamos se encuentran en diferentes silos que nos dificulta trabajar con ellos. Desde el punto de vista de la gestión de datos maestros (CITA CICLO DE VIDA), deberíamos evitar la existencia de estos silos y centralizar todos los datos en un único data warehouse. De esta manera es más fácil asegurar su calidad y controlar su ciclo de vida y seguridad.
+
+Como ya vamos a realizar el proceso de limpieza y de unificación de los datos para los que ya hay existentes, creo que deberíamos extender esto hacia un pipeline que, al recibir datos en estos silos, de forma automática los preprocese y almacene en el data warehouse. A futuro, puede ser interesante eliminar completamente los silos y que los datos captados se almacenen directamente en el data warehouse.
