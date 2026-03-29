@@ -43,4 +43,7 @@ Descarga de imagenes
 		- Bloqueo temporal durante la descarga de archivos
 - Mostrar el dataset en zenodo y explicar la licencia que hemos escogido
 
-Meter scrapping de ofertas en el dataset
+TODO: 
+- [ ] Meter scrapping de ofertas en el dataset
+- [ ] Meter reacondicionados con selenium, no funcionan con page
+- [ ] Meter descarga de imagenes en el scrapping
