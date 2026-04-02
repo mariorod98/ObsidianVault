@@ -47,3 +47,5 @@ TODO:
 - [x] Meter scrapping de ofertas en el dataset
 - [ ] Meter reacondicionados con selenium, no funcionan con page
 - [x] Meter descarga de imagenes en el scrapping
+
+Buscar info previa a los datos
