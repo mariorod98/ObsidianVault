@@ -44,6 +44,6 @@ Descarga de imagenes
 - Mostrar el dataset en zenodo y explicar la licencia que hemos escogido
 
 TODO: 
-- [ ] Meter scrapping de ofertas en el dataset
+- [x] Meter scrapping de ofertas en el dataset
 - [ ] Meter reacondicionados con selenium, no funcionan con page
-- [ ] Meter descarga de imagenes en el scrapping
+- [x] Meter descarga de imagenes en el scrapping
