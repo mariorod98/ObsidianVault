@@ -1,34 +1,12 @@
-*El equipo de informática os entrega los datos para entrenar MediFutur. Provienen de tres fuentes diferentes: el historial antiguo en papel digitalizado (OCR), el actual sistema digital y datos de wearables (relojes inteligentes) cedidos por pacientes.*
+Buenas compañeros, me excuso yo también por el retraso en mi respuesta. 
+Me parece que tenemos bastante bien definido el plan de acción en 3 fases, de la más directa e inmediata hacia el mantenimiento a futuro.
 
-*Al echar un primer vistazo, veis que los nombres están escritos en formatos diferentes ("Apellido, Nombre" vs. "Nombre Apellido"), hay campos vacíos en las edades y los wearables tienen datos duplicados. El jefe de cardiología tiene prisa por empezar las pruebas.*
+Creo que lo único que queda es definir más concretamente el sistema de IA Explicable propuesto por @Gonzalo Sánchez López. Hay dos  consideraciones a tener en cuenta, definidas en (Pita Lozano, 2025):
+- Requerimos de un sistema que sea capaz de dar varios niveles de **interpretabilidad**. Por un lado, que muestre qué variables del dataset han tenido más peso en la toma de decisión para que así el médico pueda identificar qué se ha tenido en cuenta y determine si es correcta la asunción o no. Por el otro lado, necesitamos una explicación más granular para nuestro equipo que nos permita trazar el proceso de razonamiento desde el input hasta el output.
+- Sin embargo, la interpretabilidad tiene un coste. Generalmente, **a mayor interpretabilidad menor precisión** tendrá el algoritmo, ya que un modelo explicable está más restringido y es, por lo tanto, menos precisa. ¿Cuánta precisión estamos dispuestos a perder por tener un algoritmo más entendible?
 
-Buenas equipo,
+**Propuesta**
+Propongo, durante la fase 2 de nuestro plan, implementar la IA Explicable mediante método *post-hoc*, debido a la complejidad de nuestro sistema. Concretamente, 
 
-Por resumir todas las propuestas de este reto...
-
-
-
-Respondiendo a las preguntas del reto:
-**¿Qué acciones priorizaríais ante esta situación?**
-1. Detener la ingesta de datos para poder definir un plan de mantenimiento adecuado y arreglar las inconsistencias entre las distintas fuentes de datos @Jessica Denise Sommer
-2. Este proceso estará definido por las siguientes etapas @ Santiago Raymond Llorens:
-	- **Identificar los responsables del proceso**: quien se encargará de cada subetapa de la limpieza y quién será responsable y coordinador del proceso.
-	- **Definir un protocolo de calidad del dato**: Especificar qué estándares debe cumplir. Podemos
-	- **Monitorizar la calidad del dato**:  Deberíamos garantizar que el dato mantiene estos estandares de calidad y que no surgen nuevas incompatibilidades al entrar nuevos datos. Para esto, creo que estaria bien tener unos indicadores de calidad, que sean cuantificables y se puedan evaluar a lo largo del tiempo.
-	- **Informar**: Mantener actualizado a todo el equipo sobre la calidad del dato y las posibles mejoras implementadas, estado del monitoreo, etc.
-**¿Qué decisiones tomaríais y cuál sería el resultado esperado del reto?**
-
-
-
-
-
-
-Buenas equipo.
-
-Respecto a la gobernanza del dato, me sumo a las propuestas de @José Rodríguez Sojo, @Iker Rodrigo Serrato Soteno y @José Rodríguez Sojo. Creo que es un programa de mantenimiento de la calidad del dato muy bien definido.
-
-Más allá de la calidad del dato, creo deberíamos hablar también sobre otros aspectos del programa de gobierno del dato, aunque sea para plantear el diseño inicial de este programa.
-
-En mi opinión, lo más importante es la necesidad de definir los **datos maestros** de nuestro sistema y de asegurar que su ciclo de vida es adecuado. Actualmente, los datos con los que trabajamos se encuentran en diferentes silos que nos dificulta trabajar con ellos. Desde el punto de vista de la gestión de datos maestros (CITA CICLO DE VIDA), deberíamos evitar la existencia de estos silos y centralizar todos los datos en un único data warehouse. De esta manera es más fácil asegurar su calidad y controlar su ciclo de vida y seguridad.
-
-Como ya vamos a realizar el proceso de limpieza y de unificación de los datos para los que ya hay existentes, creo que deberíamos extender esto hacia un pipeline que, al recibir datos en estos silos, de forma automática los preprocese y almacene en el data warehouse. A futuro, puede ser interesante eliminar completamente los silos y que los datos captados se almacenen directamente en el data warehouse.
+[1] Pita Lozano, A. (2025). _Ética en la ciencia de datos_. Universitat Oberta de Catalunya (UOC).
+[2] IBM (s.f.)¿Qué es la IA explicable? https://www.ibm.com/es-es/think/topics/explainable-ai
