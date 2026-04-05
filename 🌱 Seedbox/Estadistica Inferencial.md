@@ -35,7 +35,7 @@ El desarrollo del test de hipótesis se realiza por refutación. Consiste en bus
 **Contraste de hipótesis de una muestra**.  
 
 **Contraste de hipótesis de dos muestras independientes**. 
-¿El peso al nacer de los niños es significativamente diferente al peso de las niñas?
+¿El peso al nacer de los niños es significativamente diferente al peso de las niñas? 
 
 ## Condiciones de la estadística diferencial
 1. Una muestra representativa del conjunto global.
