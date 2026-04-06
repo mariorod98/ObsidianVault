@@ -88,6 +88,45 @@ Aquí, se pregunta por la variabilidad del atributo en dos muestras independient
 - Step 3. Collect some data.
 - Step 4. Fit a model to the data and compute a test statistic.
 
+## Caso de uso
+### 1. Formular pregunta de investigación
+**Pregunta de investigación:** ¿Duermen los adolescentes más de 7 horas diarias en promedio?
+
+
+### 2. Definir hipótesis nula y alternativa
+**Hipótesis nula:** $H_0:\mu=7$
+**Hipótesis alternativa:** $H_1:\mu>7$
+
+### 3. Recoger mediciones de la muestra
+Cálculo de la media, tamaño muestra y desviación típica.
+$\overline{x}=7.37$
+$s=0.82$
+$n=35$
+
+### 4. Hacer estadístico de contraste
+Para este caso en particular, se aplica el test de una muestra sobre la media **asumiendo que la población sigue una distribución normal**, con varianza desconocida.
+
+- El test es unilateral por la derecha, ya que la hipótesis alternativa es *mayor que*.
+- Varianza desconocida porque no sabemos la varianza de la población.
+- Asumimos que la población sigue una distribución normal debido al **teorema del límite central**.
+
+Puesto que no conocemos la varianza, la debemos estimar a partir de la desviación típica. Por ello, bajo la hipótesis nula $H_0:\mu=7$,  el estadístico de contraste $t_{obs}$ que sigue una distribución t de Student con n-1 grados de libertad:
+
+$t_{ obs}=\dfrac{\overline{x}-\mu_{0}}{\frac{s}{\sqrt{n}}}\sim t_{n-1}$
+
+Trabajaremos con un nivel de confianza del 95% ($\alpha=0.05$)
+
+Hay dos formas de calcular el rechazo de la hipótesis nula: 
+- $t_{obs}>_{1-\alpha}$, es decir, si el valor observado está en la región del 5% mayor que el umbral.
+- $p<\alpha$, es decir, la probabilidad es menor que el nivel de significancia
+
+### 5. Calcular el estadístico de contraste y el valor crítico
+
+$t_{ obs}=\dfrac{\overline{x}-\mu_{0}}{\frac{s}{\sqrt{n}}}=\dfrac{7.37-7}{\frac{0.82}{\sqrt{35}}}=2.693$
+
+$t_{1-\alpha}=qt(1-0.05, df=34)=1.69$
+
+
 ## References
 
 ## Related notes
