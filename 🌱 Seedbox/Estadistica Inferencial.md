@@ -108,7 +108,7 @@ Para este caso en particular, se aplica el test de una muestra sobre la media **
 
 - El test es unilateral por la derecha, ya que la hipótesis alternativa es *mayor que*.
 - Varianza desconocida porque no sabemos la varianza de la población.
-- Asumimos que la población sigue una distribución normal debido al **teorema del límite central**.
+- Asumimos que la población sigue una distribución normal debido al **teorema del límite central**. Al tomar muestras aleatorias de tamaño suficientemente grande ($n>30$), la distribución de las medias *muestrales* tiende a seguir una distribución normal cuya media es la media *poblacional* $\mu$ y desviación estándar $\dfrac{\sigma}{\sqrt{n}}$. Esto permite aplicar métodos estadísticos basados en la normalidad incluso cuando la población original no es normal.
 
 Puesto que no conocemos la varianza, la debemos estimar a partir de la desviación típica. Por ello, bajo la hipótesis nula $H_0:\mu=7$,  el estadístico de contraste $t_{obs}$ que sigue una distribución t de Student con n-1 grados de libertad:
 
@@ -138,10 +138,19 @@ El valor p es la probabilidad de que, asumiendo que H0 sea cierta, observemos va
 
 $t_{ obs}=\dfrac{\overline{x}-\mu_{0}}{\frac{s}{\sqrt{n}}}=\dfrac{7.37-7}{\frac{0.82}{\sqrt{35}}}=2.693$
 
-$p=pt(tobs, df=n-1, lower.tail=FALSE)=pt(2.693,df=34,lower.tail=FALSE)=0.00545$
+$p=pt(tobs, df=n-1, lower.tail=FALSE)=pt(2.693,df=34,lower.tail=FALSE)=0.00545$, usamos lower.tail=FALSE para que calcule solo el área a la derecha del valor observado.
 
-Se cumple que $p<\alpha$
+Se cumple que $p<\alpha$, por lo tanto se rechaza la hipótesis nula.
 
+### 6.  Interpretar los resultados
+Comparando el valor observado con el valor crítico, se rechaza la hipótesis nula puesto que $t_{obs}=2,693>1.69$
+
+A partir del valor $p$, se rechaza la hipótesis nula puesto que el valor $p=0.0545<0.05$.
+
+### 7. Responder la pregunta de investigación
+Con un nivel de confianza del 95%, se concluye que existe evidencia estadística significativa de que la media poblacional de horas de sueño en los adolescentes es mayor que 7 horas diarias.
+
+Se concluye que existe evidencia estadísticamente significativa de que la media poblacional de horas de sueño en los adolescentes es mayor que 7 horas diarias ($p<0.01$).
 
 
 ## References
