@@ -23,9 +23,25 @@ mujeres españolas en 2020 es diferente de 3110 gramos.
 
 El desarrollo del test de hipótesis se realiza por refutación. Consiste en buscar si hay evidencia suficiente ([[nivel de confianza]]) para rechazar la hipótesis nula.
 
-### Tipos de contraste
-- Contraste bilateral
-- Contraste unilateral 
+### Hipótesis nula e hipótesis alternativa
+A partir de la pregunta de investigación, debemos definir dos hipótesis. Nuestro test estadístico nos informará sobre qué hipótesis escogeremos para responder a la pregunta.
+
+La **hipótesis nula**, $H_0$, es la hipótesis de partida. Debe recoger el hecho que queramos someter a prueba.
+
+La **hipótesis alternativa**, $H_1$, es la que se ofrece como alternativa a la nula. Representa que se ha producido un cambio con respecto a la situación descrita en la hipótesis nula.
+
+La hipótesis alternativa puede ser de dos tipos:
+- **Hipótesis bilateral**. Si el parámetro es diferente de la hipótesis nula. 
+- **Hipótesis unilateral**. Si solo se compara una dirección.
+
+> [!Ejemplo]
+> **Pregunta de investigación:**  ¿La media de edad de las personas que sobrevivieron en el Titanic es igual que la media de edad de las personas que no sobrevivieron?
+> 
+> **Hipótesis nula:** La media de las personas que sobrevivieron en el Titanic es igual que la media de las que no sobrevivieron. $H_0: \mu_{survived} = \mu_{not\_survived}$
+> 
+> **Hipótesis alternativa bilateral:** La media de las personas que sobrevivieron en el Titanic es distinta de las que no sobrevivieron. $H_1: \mu_{survived} \ne \mu_{not\_survived}$
+> 
+> **Hipótesis unilateral** La media de las personas que sobrevivieron en el Titanic es mayor que la media de las que no sobrevivieron.  $H_1: \mu_{survived} > \mu_{not\_survived}$
 
 ## Tipos de test
 - **Paramétricos**
@@ -33,15 +49,31 @@ El desarrollo del test de hipótesis se realiza por refutación. Consiste en bus
 
 ## Tipos de preguntas
 **Contraste de hipótesis de una muestra**.  
+*¿El peso al nacer de hijos de mujeres de nacionalidad española es diferente a 3110 gramos?*
+
+Una única muestra de la que se quiere saber si un atributo tiene un valor específico. 
 
 **Contraste de hipótesis de dos muestras independientes**. 
-¿El peso al nacer de los niños es significativamente diferente al peso de las niñas? 
+*¿El peso al nacer de los niños es significativamente diferente al peso de las niñas?* 
+
+Tenemos la muestra niños y la muestra niñas. Son independientes porque se es niño o niña. Se compara el mismo atributo de ambos. En este caso, es un contraste bilateral.
+
+**Contraste de hipótesis de dos muestras independientes sobre la varianza**. 
+*¿El peso al nacer de los niños varía igual que el peso de las niñas?*
+
+Aquí, se pregunta por la variabilidad del atributo en dos muestras independientes.
+
+**Test sobre la proporción**
+*¿La proporción de niños es igual a la proporción de niñas?*
+
+**Test sobre la proporción de dos muestras independientes**
+*La proporción de niñas nacidos en la población, ¿Es la misma en España que en Francia?*
 
 ## Condiciones de la estadística diferencial
 1. Una muestra representativa del conjunto global.
 2. Un [[nivel de confianza]] a partir del que podemos afirmar que la hipótesis NO es falsa.
 
-## Pasos apra realizar un test estadístico
+## Pasos para realizar un test estadístico
 1. Formular la pregunta de investigación.
 2. Recoger una muestra representativa de nacimientos.
 3. Formular la hipótesis nula y alternativa.
