@@ -117,14 +117,31 @@ $t_{ obs}=\dfrac{\overline{x}-\mu_{0}}{\frac{s}{\sqrt{n}}}\sim t_{n-1}$
 Trabajaremos con un nivel de confianza del 95% ($\alpha=0.05$)
 
 Hay dos formas de calcular el rechazo de la hipótesis nula: 
-- $t_{obs}>_{1-\alpha}$, es decir, si el valor observado está en la región del 5% mayor que el umbral.
+- $t_{obs}>t_{1-\alpha}$, es decir, si el valor observado está en la región del 5% mayor que el umbral.
 - $p<\alpha$, es decir, la probabilidad es menor que el nivel de significancia
 
-### 5. Calcular el estadístico de contraste y el valor crítico
+### 5.1. Calcular el estadístico de contraste y el valor crítico
 
 $t_{ obs}=\dfrac{\overline{x}-\mu_{0}}{\frac{s}{\sqrt{n}}}=\dfrac{7.37-7}{\frac{0.82}{\sqrt{35}}}=2.693$
 
-$t_{1-\alpha}=qt(1-0.05, df=34)=1.69$
+$t_{1-\alpha}=qt(1-0.05, df=34)=1.69$, valor crítico (área a la izquierda del valor umbral 95%)
+
+Se cumple $t_{obs}>t_{1-\alpha}$
+
+Explicación:
+Si la hipótesis nula fuese cierta, lo normal sería encontrar valores alrededor del valor central de esta hipótesis nula (en nuestro caso, 7). Si encontramos valores suficientemente grandes, podemos concluir que esta hipótesis nula no sea cierta. Para ello nos basamos en el nivel de confianza (y significancia).
+
+Como el valor observado es mayor que el crítico, podemos rechazar la hipótesis nula.
+
+### 5.2. Calcular el estadístico de contraste y el valor p
+El valor p es la probabilidad de que, asumiendo que H0 sea cierta, observemos valores iguales o más extremos que t_obs. Si esta probabilidad es inferior a alfa, entonces podemos rechazar H0.
+
+$t_{ obs}=\dfrac{\overline{x}-\mu_{0}}{\frac{s}{\sqrt{n}}}=\dfrac{7.37-7}{\frac{0.82}{\sqrt{35}}}=2.693$
+
+$p=pt(tobs, df=n-1, lower.tail=FALSE)=pt(2.693,df=34,lower.tail=FALSE)=0.00545$
+
+Se cumple que $p<\alpha$
+
 
 
 ## References
