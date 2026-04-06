@@ -82,6 +82,12 @@ Aquí, se pregunta por la variabilidad del atributo en dos muestras independient
 6. Una vez aplicado el test, se concluye sobre el rechazo o no de la hipótesis nula.
 7. Se da respuesta a la pregunta de investigación formulada.
 
+## The process of null hypothesis testing
+- Step 1. Formulate a hypothesis of interest
+- Step 2. Speify the [[null and alternative hypotheses]].
+- Step 3. Collect some data.
+- Step 4. Fit a model to the data and compute a test statistic.
+
 ## References
 
 ## Related notes
