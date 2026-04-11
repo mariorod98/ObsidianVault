@@ -3,7 +3,7 @@
   "translucency": false,
   "baseFontSize": 17,
   "enabledCssSnippets": [
-    "file-explorer-no-line-wrap"
+    "latex"
   ],
   "textFontFamily": "",
   "interfaceFontFamily": "",

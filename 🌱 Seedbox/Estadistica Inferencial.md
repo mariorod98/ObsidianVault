@@ -1,6 +1,6 @@
 ---
 created: 2026-04-05
-last updated: 2026-04-05
+last updated: 2026-04-11
 ---
 
 up::
@@ -84,11 +84,11 @@ Aquí, se pregunta por la variabilidad del atributo en dos muestras independient
 
 ## The process of null hypothesis testing
 - Step 1. Formulate a hypothesis of interest
-- Step 2. Speify the [[null and alternative hypotheses]].
+- Step 2. Specify the [[null and alternative hypotheses]].
 - Step 3. Collect some data.
 - Step 4. Fit a model to the data and compute a test statistic.
 
-## Caso de uso
+## Caso de uso: Contraste de una muestra.
 ### 1. Formular pregunta de investigación
 **Pregunta de investigación:** ¿Duermen los adolescentes más de 7 horas diarias en promedio?
 
@@ -152,6 +152,69 @@ Con un nivel de confianza del 95%, se concluye que existe evidencia estadística
 
 Se concluye que existe evidencia estadísticamente significativa de que la media poblacional de horas de sueño en los adolescentes es mayor que 7 horas diarias ($p<0.01$).
 
+
+
+## Caso de uso: Contraste de dos muestras.
+### 1. Formular la pregunta o hipótesis de investigación
+¿las mujeres duermen un promedio de horas diarias diferente a las de los hombres?
+
+### 2. Escribir las hipótesis estadísticas
+$H_0:\mu_1 = \mu_2$
+$H_1:\mu_1 \neq \mu_2$
+
+### 3. Recoger y medir los datos de la muestra
+$\overline{x_1}=7.38$   /   $\overline{x_2}=7.71$ 
+$s_1=0.84$   /   $s_2=0.83$
+$n_1=35$   /   $n_2=33$
+
+### 4. Estadístico de contraste
+Test (bilateral, dada la hipótesis alternativa) sobre la media **de dos muestras independientes** asumiendo que las poblaciones siguen una distribución normal  con varianzas desconocidas (iguales).
+
+Asumimos que las poblaciones siguen una distribución normal aplicando el Teorema del Límite Central, qu
+
+Bajo la hipótesis nula, el estadístico de contraste $t_{obs}$ sigue una distribución t de Student con $n_1 + n_2 - 2$ grados de libertad:
+
+$t_{ obs}=\dfrac{\overline{x_1}-\overline{x_2}}{s\sqrt{\frac{1}{n_1}+\frac{1}{n_2}}}\sim t_{n_1+n_2-2}$
+
+$S=\sqrt{\frac{(n_1-1)s^2_1+(n_2-1)s^2_2}{n_1+n_2-2}}$
+
+donde $S$ es el valor de varianza común.
+
+### 5. Calcular el estadístico de contraste y el valor crítico
+Hipótesis alternativa: $H_1:\mu_1 \neq \mu_2$
+
+Rechazo de la hipótesis nula si:
+$|t_{obs}|>t_{1-\frac{\alpha}{2}}$
+$p<\alpha$
+
+![[Pasted image 20260411132130.png]]
+
+$t_{obs}=-1.66$
+$df=n_1+n_2-2=66$
+
+Nivel de confianza: 95%
+Nivel de significancia: $\alpha=0.05$
+
+$t_{1-\frac{\alpha}{2}}=1.997$
+$t_{\frac{\alpha}{2}}=-1.997$
+
+No se cumple $|t_{obs}|>t_{1-\frac{\alpha}{2}}$. $t_{obs}$ está en la zona de aceptación. ==No se puede rechazar la hipótesis nula.==
+
+
+$p=pt(abs(-1.66), df=66, lower.tail=FALSE) * 2=0.102$
+No se cumple que $p< \alpha$, por lo que ==no se puede rechazar la hipótesis nula==.
+
+### 6. Interpretar los resultados.
+Comparando el valor observado con el valor crítico, no se puede rechazar la hipótses nula puesto que $|t_{bos}|=1.66$ está en la zona de aceptación (valor crítico 1.997).
+
+A partir del valor $p$, no se puede rechazar la hipótesis nula puesto que el valor $p=0.102$ no es menor que 0.05.
+
+### 7. Responder la pregunta de investigación
+Con un nivel de confianza de 95%, no se puede concluir que las horas de sueño promedio de mujeres y hombres sean diferentes.
+
+O
+
+No se ha encontrado evidencia suficiente para concluir que las horas de sueño promedio entre mujeres y hombres sean diferentes ($p=0.102$).
 
 ## References
 
