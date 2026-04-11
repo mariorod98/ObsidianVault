@@ -170,7 +170,9 @@ $n_1=35$   /   $n_2=33$
 ### 4. Estadístico de contraste
 Test (bilateral, dada la hipótesis alternativa) sobre la media **de dos muestras independientes** asumiendo que las poblaciones siguen una distribución normal  con varianzas desconocidas (iguales).
 
-Asumimos que las poblaciones siguen una distribución normal aplicando el Teorema del Límite Central, qu
+Asumimos que las poblaciones siguen una distribución normal aplicando el Teorema del Límite Central. Puesto que el tamaño de la población es suficientemente grande (n>30) podemos asumir que la distribución de las medias muestrales tiende a seguir una distribución normal. Esto nos permite aplicar métodos estadísticos basados en la normalidad incluso cuando la población no sigue esa distribución.
+
+Respecto a las varianzas poblacionales desconocidas. Podemos estimar las varianzas poblacionales a partir de las varianzas muestrales y, por tanto, aplicar la distribución t de Student. Hay que realizar un test de contraste para saber si las varianzas son iguales o diferentes.
 
 Bajo la hipótesis nula, el estadístico de contraste $t_{obs}$ sigue una distribución t de Student con $n_1 + n_2 - 2$ grados de libertad:
 
