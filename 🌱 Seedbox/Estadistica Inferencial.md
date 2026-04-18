@@ -41,7 +41,7 @@ La hipótesis alternativa puede ser de dos tipos:
 > 
 > **Hipótesis alternativa bilateral:** La media de las personas que sobrevivieron en el Titanic es distinta de las que no sobrevivieron. $H_1: \mu_{survived} \ne \mu_{not\_survived}$
 > 
-> **Hipótesis unilateral** La media de las personas que sobrevivieron en el Titanic es mayor que la media de las que no sobrevivieron.  $H_1: \mu_{survived} > \mu_{not\_survived}$
+> **Hipótesis unilateral hacia la izquierda** La media de las personas que sobrevivieron en el Titanic es mayor que la media de las que no sobrevivieron.  $H_1: \mu_{survived} > \mu_{not\_survived}$
 
 ## Tipos de test
 - **Paramétricos**
