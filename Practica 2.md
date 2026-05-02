@@ -4,9 +4,9 @@
 Tienen que contener variedad de datos numéricos y categóricos, actualmente no tenemos suficientes datos numéricos. 
 
 Propongo obtener el siguiente dataset:
-- Nombre
-- Tipo (sobremesa, portatil) : cualitativo
-- Marca : cualitativo
+- Nombre : string
+- Tipo (sobremesa, portátil) : factor
+- Marca : factor
 - Número de cores CPU : numérico entero
 - Frecuencia CPU (MHz): numérico real
 - Número de cores GPU: numérico entero
@@ -26,6 +26,14 @@ Propongo obtener el siguiente dataset:
 Esto además nos dará muchos más datos con los que trabajar.
 
 ## Análisis
+Primero tendríamos que realizar un análisis descriptivo de los datos para guiar los análisis que deberíamos hacer después. PERO, podemos presuponer que vamos a hacer análisis de este tipo o similares:
+
 ### Modelo supervisado
+Predicción del coste según specs específicos mediante una regresión lineal múltiple o un Rnadom Forest Regressor.
+
 ### Modelo no supervisado
+Clusterización de los ordenadores por "perfiles de uso" o detección de anomalías de precio.
+
 ### Contraste de hipótesis
+**¿Son los portátiles significativamente más caros que los sobremesa?**
+**¿Son los ordenadores de x marca más caros que los de y marca?**
