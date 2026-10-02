@@ -91,6 +91,11 @@ my_columns = ["my_column1", "my_column2"]
 dataframe[my_columns]
 ```
 
+**Subsetting by removing columns**
+```python
+df_subset = df.drop(columns=['columnA', 'columnB'])
+```
+
 **Conditional subsetting**
 Returns only the rows that satisfies the condition. This will return all the columns, that you can then subset again.
 ``` python
