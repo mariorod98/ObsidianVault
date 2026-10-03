@@ -53,7 +53,7 @@ min 18.000000 2.000000
 max 77.000000 74.000000
 ```
 
-To obtain the columns and values of the table as lists, use `values` and `columns`
+To obtain the columns and values of the table as lists, use `values` and `columns`.
 ```python
 print(df.values)
 
@@ -67,6 +67,7 @@ array([['Bella', 'Labrador', 'Brown', 56, 24, '2013-07-01'],
 dtype=object)
 ```
 
+`columns` returns a list with the columns names.
 ```python
 print(df.columns)
 
