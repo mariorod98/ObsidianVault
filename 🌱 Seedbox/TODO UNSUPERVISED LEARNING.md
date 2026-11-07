@@ -11,3 +11,4 @@
 - related to pandas, how to display a histogram of values
 - related to pandas, how to clean nulls
 - related to pandas, how to clean duplicates
+- How to plot the contents of a dataframe (`df.plot(kind='bar')`)
