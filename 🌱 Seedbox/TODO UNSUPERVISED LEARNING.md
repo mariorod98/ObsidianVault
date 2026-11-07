@@ -13,3 +13,5 @@
 - related to pandas, how to clean duplicates
 - How to plot the contents of a dataframe (`df.plot(kind='bar')`)
 - what are the different types of normalization? L1, L2 and Linf?
+- how to create a dataframe from a list or np.array?
+- how to load a dataframe from a file
